@@ -30,5 +30,5 @@ jobs:
           GIST_ID: "https://gist.github.com/ipiggyzhu/e3087a630a6d23438ca062244cfd6971"
         run: |
           # 使用 gh 来编辑 Gist
-          gh gist edit $GIST_ID surge-final.conf --filename "my-surge-config.conf"
+          gh gist edit $GIST_ID surge-final.conf --filename "surge-config.conf"
           echo "✅ Config uploaded to Gist."
