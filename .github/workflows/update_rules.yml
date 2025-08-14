@@ -1,0 +1,97 @@
+name: 2. Aggregate Final Rules (after the exection of the convert.yml)
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["1. Convert Upstream Rules (7:30 AM)"] 
+    types:
+      - completed
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 赋予写入权限
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # 明确 checkout 触发这次运行的那个 commit
+          ref: ${{ github.event.workflow_run.head_sha }} 
+
+      - name: Aggregate, filter, and generate rule lists
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: |
+          set -e # 如果任何命令失败，则立即退出脚本
+
+          # --- 目标：生成 ad-rules.list ---
+          echo "--- Processing ad-rules.list ---"
+
+          touch Loon/manual/allow-list.txt
+          touch Loon/manual/reject-rules.txt
+          sed -i 's/\r$//' Loon/manual/allow-list.txt
+          echo "Cleaned up allow-list.txt line endings."
+
+          echo "Step 2: Aggregating all sources..."
+          (
+            cat Loon/generated/converted-ad-rules.list
+            cat Loon/manual/reject-rules.txt
+            curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/PCDN.list"
+            curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/MyBlockAds.list"
+            curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/RejectAd.list"
+            curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/AdRules.list"
+            curl -sL "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list"
+          ) > temp-aggregated.list
+
+          echo "Step 3: Applying allow-list for EXACT LINE removal..."
+          grep -v -x -F -f Loon/manual/allow-list.txt temp-aggregated.list > temp-filtered.list
+
+          echo "Step 4: Finalizing ad-rules.list..."
+          (
+            echo "! Title: My Custom Ad Rules (Aggregated)"
+            echo "! Author: $GITHUB_USER"
+            echo "! Last Updated: $(date -u --iso-8601=seconds)"
+            echo "! Homepage: https://github.com/$GITHUB_USER/${{ github.event.repository.name }}"
+            echo ""
+            cat temp-filtered.list
+          ) | grep -vE '^!|^#|^$' | sort -u > Loon/ad-rules.list
+
+          rm temp-aggregated.list temp-filtered.list
+          echo "✅ ad-rules.list generated successfully."
+
+          # --- direct-rules.list 部分 ---
+          echo "--- Processing direct-rules.list ---"
+          (
+            echo "! Title: My Custom Direct Rules (Aggregated)"
+            echo "! Author: $GITHUB_USER"
+            echo "! Last Updated: $(date -u --iso-8601=seconds)"
+            echo "! Homepage: https://github.com/$GITHUB_USER/${{ github.event.repository.name }}"
+            echo ""
+            (
+              curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/Apple.list"
+              curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/Media-Direct"
+              curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/Media-Proxy.list"
+              curl -sL "https://raw.githubusercontent.com/sooyaaabo/KeleeOne/Loon/Rule/ChinaMax.list"
+              curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/Lan"
+              curl -sL "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/CN_REGION"
+            ) | grep -vE '^!|^#|^$' | sort -u
+          ) > Loon/direct-rules.list
+           echo "✅ direct-rules.list generated successfully."
+
+      - name: Commit and Push final lists
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          git add Loon/ad-rules.list Loon/direct-rules.list
+          
+          if ! git diff --staged --quiet; then
+            git commit -m "feat(rules): 自动更新聚合规则列表"
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "Changes detected and pushed to the repository."
+          else
+            echo "No changes in final rules. Nothing to push."
+          fi
