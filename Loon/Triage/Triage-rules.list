@@ -1,0 +1,17 @@
+! Title: My Custom Triage Rules
+! Description: 精细化分流的规则列表
+! Author: ipiggyzhu
+! Last Updated: 2025-08-09
+
+# --- Sub-Store ---
+DOMAIN-SUFFIX,sub.store
+DOMAIN-SUFFIX,v1.mk
+DOMAIN-SUFFIX,dler.io
+
+# --- Mojie (魔戒) ---
+DOMAIN-SUFFIX,mojie.app
+DOMAIN-SUFFIX,mojie.me
+DOMAIN-SUFFIX,mojie.io
+
+# --- id001 ---
+DOMAIN-SUFFIX,id001.me
