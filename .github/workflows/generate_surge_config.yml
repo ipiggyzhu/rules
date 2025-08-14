@@ -1,0 +1,34 @@
+name: Generate Personalized Surge Config
+
+on:
+  # 这个工作流只能手动触发
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Personalized Config
+        id: generate_file
+        run: |
+          # 读取模板文件内容
+          template=$(cat Surge/surge.conf)
+          # 执行替换，将占位符替换成存在 Secrets 里的真实链接
+          # 使用双引号是为了防止链接中的特殊字符导致错误
+          final_config="${template//__SUBSCRIPTION_LINK_PLACEHOLDER__/"${{ secrets.SURGE_SUBSCRIPTION_URL }}"}"
+          # 将最终内容写入一个临时文件
+          echo "$final_config" > surge-final.conf
+          echo "✅ Personalized config generated."
+
+      - name: Upload to Gist
+        env:
+          # 注入我们需要的密钥和 Gist ID
+          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: "https://gist.github.com/ipiggyzhu/e3087a630a6d23438ca062244cfd6971"
+        run: |
+          # 使用 gh 来编辑 Gist
+          gh gist edit $GIST_ID surge-final.conf --filename "my-surge-config.conf"
+          echo "✅ Config uploaded to Gist."
