@@ -94,5 +94,5 @@ jobs:
             echo "Changes detected and pushed to the repository."
           else
             echo "No changes in final rules. Nothing to push."
-
           fi
+
