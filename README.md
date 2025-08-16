@@ -21,13 +21,13 @@
 
 ### 广告拦截规则
 
-- Loon: https://cdn.jsdelivr.net/gh/ipiggyzhu/loon_rules@main/Loon/ad-rules.txt
-- QuantumultX: https://cdn.jsdelivr.net/gh/ipiggyzhu/loon_rules@main/QuantumultX/ad-rules.txt
+- Loon: https://cdn.jsdelivr.net/gh/ipiggyzhu/loon_rules@main/Loon/ad-rules.list
+- QuantumultX: https://cdn.jsdelivr.net/gh/ipiggyzhu/loon_rules@main/QuantumultX/ad-rules.list
 
 ### 国内直连规则
 
-- Loon: https://cdn.jsdelivr.net/gh/ipiggyzhu/loon_rules@main/Loon/direct-rules.txt
-- QuantumultX: https://cdn.jsdelivr.net/gh/ipiggyzhu/loon_rules@main/QuantumultX/direct-rules.txt
+- Loon: https://cdn.jsdelivr.net/gh/ipiggyzhu/loon_rules@main/Loon/direct-rules.list
+- QuantumultX: https://cdn.jsdelivr.net/gh/ipiggyzhu/loon_rules@main/QuantumultX/direct-rules.list
 
 ---
 
