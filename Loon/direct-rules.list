@@ -1,7 +1,6 @@
-! Title: My Custom Direct Rules (Aggregated)
-! Author: ipiggyzhu
-! Last Updated: 2025-08-15T23:46:03+00:00
-! Homepage: https://github.com/ipiggyzhu/rules
+! Title: Loon Direct Rules (Aggregated)
+! Description: Generated from multiple sources. Do not edit manually.
+! Last Updated: 2025-08-16T13:17:59Z
 
 DOMAIN, 041.bndmpsjx.com
 DOMAIN, 1-fss24-s0.streamhoster.com
@@ -35,7 +34,7 @@ DOMAIN, app-analytics-services.com
 DOMAIN, app-measurement-cn.com
 DOMAIN, app-measurement.com
 DOMAIN, app-site-association.cdn-apple.com //通用链接的关联域
-DOMAIN, app-site-association.networking.apple//通用链接的关联域404: Not Found# 影视播放规则(代理)
+DOMAIN, app-site-association.networking.apple//通用链接的关联域
 DOMAIN, appldnld.apple.com //iOS、iPadOS 和 watchOS 更新
 DOMAIN, appldnld.apple.com //蜂窝网络运营商捆绑包更新
 DOMAIN, appldnld.apple.com.edgesuite.net //蜂窝网络运营商捆绑包更新
@@ -106779,7 +106778,7 @@ DOMAIN-SUFFIX, xp61.com
 DOMAIN-SUFFIX, xp811.com
 DOMAIN-SUFFIX, xp9365.com
 DOMAIN-SUFFIX, xp94.com
-DOMAIN-SUFFIX, xpanpan.site# 引用链接: https://rule.kelee.one/Loon/ChinaMax.lsr
+DOMAIN-SUFFIX, xpanpan.site
 DOMAIN-SUFFIX, xpaper.com
 DOMAIN-SUFFIX, xpaper.net
 DOMAIN-SUFFIX, xpccdn.com
@@ -118735,6 +118734,7 @@ DOMAIN-SUFFIX, zzzyy.com
 DOMAIN-SUFFIX, zzzyyy.com
 DOMAIN-SUFFIX, zzzzaaaa.com
 DOMAIN-SUFFIX, zzzzzz.me
+GEOIP, cn
 IP-ASN, 132203, no-resolve
 IP-CIDR, 0.0.0.0/32, no-resolve
 IP-CIDR, 1.0.1.0/24, no-resolve
@@ -138723,7 +138723,7 @@ IP-CIDR6, ::ffff:60.171.183.161/128, no-resolve
 IP-CIDR6, ::ffff:60.171.183.186/128, no-resolve
 IP-CIDR6, ::ffff:60.171.183.98/128, no-resolve
 IP-CIDR6, fc00::/7, no-resolve
-IP-CIDR6, fe80::/10, no-resolveGEOIP, cn
+IP-CIDR6, fe80::/10, no-resolve
 USER-AGENT, %E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 USER-AGENT, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
 USER-AGENT, %E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
