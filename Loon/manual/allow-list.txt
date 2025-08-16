@@ -1,5 +1,0 @@
-# 白名单，防止域名被误封
-# author: ippiggyzhu
-bing.com
-DOMAIN-SUFFIX,bing.com,cn.bing.net
-DOMAIN-SUFFIX,youtube.com
