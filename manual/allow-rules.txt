@@ -1,0 +1,9 @@
+# 允许自添加放行域名，防止误封等规则
+# author: ipiggy
+# date: 2025-08-02
+
+--- bing ---
+bing.com
+
+--- youtube ---
+youtube.com
