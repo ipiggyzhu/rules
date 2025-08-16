@@ -45,20 +45,16 @@ def fetch_raw_rules(urls):
 
 def format_for_loon(raw_rules):
     """为Loon格式化规则。Loon通常可以直接使用DOMAIN-SUFFIX等。"""
-    # 在这里，我们假设原始规则大部分兼容Loon，所以不做大的改动
     return raw_rules
 
 def format_for_quantumultx(raw_rules):
     """为QuantumultX格式化规则。"""
     formatted_rules = []
     for rule in raw_rules:
-        # 示例：将 DOMAIN-SUFFIX 转换为 HOST-SUFFIX
         if 'DOMAIN-SUFFIX' in rule:
             formatted_rules.append(rule.replace('DOMAIN-SUFFIX', 'HOST-SUFFIX'))
-        # 示例：将 DOMAIN-KEYWORD 转换为 HOST-KEYWORD
         elif 'DOMAIN-KEYWORD' in rule:
             formatted_rules.append(rule.replace('DOMAIN-KEYWORD', 'HOST-KEYWORD'))
-        # 其他类型的规则可以保留或根据需要转换
         else:
             formatted_rules.append(rule)
     return formatted_rules
@@ -66,11 +62,8 @@ def format_for_quantumultx(raw_rules):
 def write_rules_to_file(filepath, rules, title):
     """将规则列表写入文件，并添加文件头。"""
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    # 获取当前UTC时间
     now_utc = datetime.datetime.now(datetime.timezone.utc)
-    # 格式化为ISO 8601格式
     timestamp = now_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
-
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f"! Title: {title}\n")
         f.write(f"! Description: Generated from multiple sources. Do not edit manually.\n")
@@ -106,51 +99,44 @@ def fetch_manual_allow_rules(filepath):
 
 if __name__ == "__main__":
     print("--- Starting Unified Rule Conversion ---")
-
-    # 1. 获取统一的广告和直连规则
     print("\nFetching master rule lists...")
     master_ad_rules = sorted(list(fetch_raw_rules(AD_RULES_URLS)))
     master_direct_rules = sorted(list(fetch_raw_rules(DIRECT_RULES_URLS)))
-    # 读取manual黑名单并合并到广告规则
     manual_reject_path = os.path.join("manual", "reject-rules.txt")
     manual_reject_rules = fetch_manual_reject_rules(manual_reject_path)
     master_ad_rules = sorted(list(set(master_ad_rules) | set(manual_reject_rules)))
-    # 读取manual白名单并从广告规则中排除
     manual_allow_path = os.path.join("manual", "allow-rules.txt")
     manual_allow_rules = fetch_manual_allow_rules(manual_allow_path)
     master_ad_rules = sorted(list(set(master_ad_rules) - set(manual_allow_rules)))
     print(f"Found {len(master_ad_rules)} unique ad rules and {len(master_direct_rules)} unique direct rules after exact deduplication and allowlist exclusion.")
 
-    # 2. 为Loon生成规则文件
-    print("\n--- Generating Rules for Loon ---")
+    # 生成Loon .list文件
+    print("\n--- Generating .list Rules for Loon ---")
     loon_ad_rules = format_for_loon(master_ad_rules)
     write_rules_to_file(
-        os.path.join(LOON_OUTPUT_DIR, "ad-rules.txt"), 
+        os.path.join(LOON_OUTPUT_DIR, "ad-rules.list"), 
         loon_ad_rules, 
         "Loon Ad Rules (Aggregated)"
     )
-    
     loon_direct_rules = format_for_loon(master_direct_rules)
     write_rules_to_file(
-        os.path.join(LOON_OUTPUT_DIR, "direct-rules.txt"),
+        os.path.join(LOON_OUTPUT_DIR, "direct-rules.list"),
         loon_direct_rules,
         "Loon Direct Rules (Aggregated)"
     )
 
-    # 3. 为QuantumultX生成规则文件
-    print("\n--- Generating Rules for QuantumultX ---")
+    # 生成QuantumultX .list文件
+    print("\n--- Generating .list Rules for QuantumultX ---")
     q_ad_rules = format_for_quantumultx(master_ad_rules)
     write_rules_to_file(
-        os.path.join(QUANTUMULTX_OUTPUT_DIR, "ad-rules.txt"),
+        os.path.join(QUANTUMULTX_OUTPUT_DIR, "ad-rules.list"),
         q_ad_rules,
         "QuantumultX Ad Rules (Aggregated)"
     )
-    
     q_direct_rules = format_for_quantumultx(master_direct_rules)
     write_rules_to_file(
-        os.path.join(QUANTUMULTX_OUTPUT_DIR, "direct-rules.txt"),
+        os.path.join(QUANTUMULTX_OUTPUT_DIR, "direct-rules.list"),
         q_direct_rules,
         "QuantumultX Direct Rules (Aggregated)"
     )
-
     print("\n--- Unified Rule Conversion Finished ---")
