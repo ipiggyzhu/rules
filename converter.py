@@ -51,24 +51,32 @@ def format_for_quantumultx(raw_rules):
     """为QuantumultX格式化规则，并进行严格的格式清理。"""
     formatted_rules = []
     for rule in raw_rules:
-        # 移除规则中可能存在的注释、策略等附加信息（即逗号之后的内容）
-        clean_rule = rule.split(',')[0].strip()
-        
-        # 根据规则类型进行转换
-        if 'DOMAIN-SUFFIX' in clean_rule:
-            formatted_rules.append(clean_rule.replace('DOMAIN-SUFFIX', 'HOST-SUFFIX'))
-        elif 'DOMAIN-KEYWORD' in clean_rule:
-            formatted_rules.append(clean_rule.replace('DOMAIN-KEYWORD', 'HOST-KEYWORD'))
-        elif 'IP-CIDR' in clean_rule:
-            # QuantumultX直接支持IP-CIDR，但需确保格式纯净
-            formatted_rules.append(clean_rule)
-        elif 'DOMAIN' in clean_rule: # 捕获普通的DOMAIN规则
-            formatted_rules.append(clean_rule.replace('DOMAIN', 'HOST'))
+        parts = [p.strip() for p in rule.split(',')]
+        if not parts:
+            continue
+
+        rule_type = parts[0].upper()
+        rule_value = parts[1] if len(parts) > 1 else ''
+
+        if not rule_value: 
+            continue
+
+        if rule_type == 'DOMAIN-SUFFIX':
+            formatted_rules.append(f'HOST-SUFFIX,{rule_value}')
+        elif rule_type == 'DOMAIN-KEYWORD':
+            formatted_rules.append(f'HOST-KEYWORD,{rule_value}')
+        elif rule_type == 'DOMAIN':
+            formatted_rules.append(f'HOST,{rule_value}')
+        elif rule_type == 'IP-CIDR':
+            # 验证IP-CIDR格式
+            if '/' in rule_value and '.' in rule_value:
+                formatted_rules.append(f'IP-CIDR,{rule_value}')
+        # 其他规则类型，如果QuantumultX支持，则直接添加
+        # 例如 USER-AGENT, URL-REGEX 等
+        # 如果不确定，可以添加一个默认的大小写转换或直接保留
         else:
-            # 对于不确定或不兼容的规则，可以选择跳过或进行默认处理
-            # 这里我们选择保留原始纯净规则，因为有些可能是受支持的
-            if clean_rule:
-                formatted_rules.append(clean_rule)
+            # 保留原始格式，但确保类型和值之间只有一个逗号
+            formatted_rules.append(f'{rule_type},{rule_value}')
                 
     return formatted_rules
 
