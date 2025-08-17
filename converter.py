@@ -48,15 +48,28 @@ def format_for_loon(raw_rules):
     return raw_rules
 
 def format_for_quantumultx(raw_rules):
-    """为QuantumultX格式化规则。"""
+    """为QuantumultX格式化规则，并进行严格的格式清理。"""
     formatted_rules = []
     for rule in raw_rules:
-        if 'DOMAIN-SUFFIX' in rule:
-            formatted_rules.append(rule.replace('DOMAIN-SUFFIX', 'HOST-SUFFIX'))
-        elif 'DOMAIN-KEYWORD' in rule:
-            formatted_rules.append(rule.replace('DOMAIN-KEYWORD', 'HOST-KEYWORD'))
+        # 移除规则中可能存在的注释、策略等附加信息（即逗号之后的内容）
+        clean_rule = rule.split(',')[0].strip()
+        
+        # 根据规则类型进行转换
+        if 'DOMAIN-SUFFIX' in clean_rule:
+            formatted_rules.append(clean_rule.replace('DOMAIN-SUFFIX', 'HOST-SUFFIX'))
+        elif 'DOMAIN-KEYWORD' in clean_rule:
+            formatted_rules.append(clean_rule.replace('DOMAIN-KEYWORD', 'HOST-KEYWORD'))
+        elif 'IP-CIDR' in clean_rule:
+            # QuantumultX直接支持IP-CIDR，但需确保格式纯净
+            formatted_rules.append(clean_rule)
+        elif 'DOMAIN' in clean_rule: # 捕获普通的DOMAIN规则
+            formatted_rules.append(clean_rule.replace('DOMAIN', 'HOST'))
         else:
-            formatted_rules.append(rule)
+            # 对于不确定或不兼容的规则，可以选择跳过或进行默认处理
+            # 这里我们选择保留原始纯净规则，因为有些可能是受支持的
+            if clean_rule:
+                formatted_rules.append(clean_rule)
+                
     return formatted_rules
 
 def write_rules_to_file(filepath, rules, title):
