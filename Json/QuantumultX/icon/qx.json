@@ -1,46 +1,47 @@
 {
-  "name": "ipiggyzhu's Icons",
-  "description": "Custom icon set by ipiggyzhu",
-  "icons": [
-    {
-      "name": "ChatGPT",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ChatGPT.png"
-    },
-    {
-      "name": "Claude", 
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Claude.png"
-    },
-    {
-      "name": "Kimi",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Kimi.png"
-    },
-    {
-      "name": "Netflix",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Netflix.png"
-    },
-    {
-      "name": "YouTube",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YouTube.png"
-    },
-    {
-      "name": "Bilibili",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Bilibili.png"
-    },
-    {
-      "name": "Spotify",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Spotify.png"
-    },
-    {
-      "name": "Telegram",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Telegram.png"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/GitHub.png"
-    },
-    {
-      "name": "Google",
-      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Google.png"
-    }
-  ]
+    "name": "ipiggyzhu's Icons",
+    "description": "Custom icon set by ipiggyzhu",
+    "time": "2025-08-17",
+    "icons": [
+        {
+            "name": "ChatGPT",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ChatGPT.png"
+        },
+        {
+            "name": "Claude",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Claude.png"
+        },
+        {
+            "name": "Kimi",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Kimi.png"
+        },
+        {
+            "name": "Netflix",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Netflix.png"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YouTube.png"
+        },
+        {
+            "name": "Bilibili",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Bilibili.png"
+        },
+        {
+            "name": "Spotify",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Spotify.png"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Telegram.png"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/GitHub.png"
+        },
+        {
+            "name": "Google",
+            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Google.png"
+        }
+    ]
 }
