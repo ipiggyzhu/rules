@@ -65,9 +65,9 @@ def write_rules_to_file(filepath, rules, title):
     now_utc = datetime.datetime.now(datetime.timezone.utc)
     timestamp = now_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
     with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(f"! Title: {title}\n")
-        f.write(f"! Description: Generated from multiple sources. Do not edit manually.\n")
-        f.write(f"! Last Updated: {timestamp}\n")
+        f.write(f"# Title: {title}\n")
+        f.write(f"# Description: Generated from multiple sources. Do not edit manually.\n")
+        f.write(f"# Last Updated: {timestamp}\n")
         f.write("\n")
         for rule in rules:
             f.write(f"{rule}\n")
