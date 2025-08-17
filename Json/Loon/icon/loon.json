@@ -1,1082 +1,1082 @@
 {
-    "name": "ipiggyzhu's Icons",
+    "name": "App Icons",
+    "description": "应用图标合集",
     "icons": [
         {
             "name": "1.1.1.1",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/1.1.1.1.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/1.1.1.1.png"
         },
         {
             "name": "12306",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/12306.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/12306.png"
         },
         {
             "name": "123NetWorkDisk",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/123NetWorkDisk.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/123NetWorkDisk.png"
         },
         {
             "name": "1919",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/1919.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/1919.png"
         },
         {
             "name": "360SmartCamera",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/360SmartCamera.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/360SmartCamera.png"
         },
         {
             "name": "51Job",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/51Job.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/51Job.png"
         },
         {
             "name": "555DY",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/555DY.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/555DY.png"
         },
         {
             "name": "91160",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/91160.png"
-        },
-        {
-            "name": "Adobe_Creative_Cloud",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Adobe_Creative_Cloud.png"
-        },
-        {
-            "name": "Agenda",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Agenda.png"
-        },
-        {
-            "name": "Aiinquiry",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Aiinquiry.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/91160.png"
         },
         {
             "name": "AIWanJuan",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/AIWanJuan.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AIWanJuan.png"
+        },
+        {
+            "name": "Adobe_Creative_Cloud",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Adobe_Creative_Cloud.png"
+        },
+        {
+            "name": "Agenda",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Agenda.png"
+        },
+        {
+            "name": "Aiinquiry",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Aiinquiry.png"
         },
         {
             "name": "AliPay",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/AliPay.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliPay.png"
         },
         {
             "name": "AliYunDrive",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/AliYunDrive.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png"
         },
         {
             "name": "Amap",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Amap.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Amap.png"
         },
         {
             "name": "AnyVideoBox",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/AnyVideoBox.png"
-        },
-        {
-            "name": "AppleWeather",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/AppleWeather.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AnyVideoBox.png"
         },
         {
             "name": "AppRaven",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/AppRaven.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AppRaven.png"
+        },
+        {
+            "name": "AppleWeather",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AppleWeather.png"
         },
         {
             "name": "Asspp",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Asspp.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Asspp.png"
         },
         {
             "name": "Audiomack",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Audiomack.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Audiomack.png"
         },
         {
             "name": "AutoHome",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/AutoHome.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AutoHome.png"
         },
         {
             "name": "BabyTree",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BabyTree.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BabyTree.png"
         },
         {
             "name": "BaiCiZhan",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BaiCiZhan.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BaiCiZhan.png"
         },
         {
             "name": "Baidu",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Baidu.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Baidu.png"
         },
         {
             "name": "BaiduMap",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BaiduMap.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BaiduMap.png"
         },
         {
             "name": "BaiduNetDisk",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BaiduNetDisk.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BaiduNetDisk.png"
         },
         {
             "name": "BaiduPhoto",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BaiduPhoto.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BaiduPhoto.png"
         },
         {
             "name": "Baidu_input_method",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Baidu_input_method.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Baidu_input_method.png"
         },
         {
             "name": "Bcy",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Bcy.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Bcy.png"
         },
         {
             "name": "Beike",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Beike.png"
-        },
-        {
-            "name": "Bilibili",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Bilibili.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Beike.png"
         },
         {
             "name": "BiliComic",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BiliComic.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BiliComic.png"
+        },
+        {
+            "name": "Bilibili",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Bilibili.png"
         },
         {
             "name": "Bing",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Bing.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Bing.png"
         },
         {
             "name": "BitqiuPan",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BitqiuPan.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BitqiuPan.png"
         },
         {
             "name": "Bixin",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Bixin.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Bixin.png"
         },
         {
             "name": "Bluesky",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Bluesky.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Bluesky.png"
         },
         {
             "name": "BodianMusic",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BodianMusic.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BodianMusic.png"
         },
         {
             "name": "BooHee",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/BooHee.png"
-        },
-        {
-            "name": "Cainiao",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Cainiao.png"
-        },
-        {
-            "name": "CaixinMedia",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/CaixinMedia.png"
-        },
-        {
-            "name": "CatEarFM",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/CatEarFM.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BooHee.png"
         },
         {
             "name": "CCLive",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/CCLive.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CCLive.png"
+        },
+        {
+            "name": "Cainiao",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Cainiao.png"
+        },
+        {
+            "name": "CaixinMedia",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CaixinMedia.png"
+        },
+        {
+            "name": "CatEarFM",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CatEarFM.png"
         },
         {
             "name": "Changba",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Changba.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Changba.png"
         },
         {
             "name": "ChatGPT",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ChatGPT.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChatGPT.png"
         },
         {
             "name": "ChengFenMiao",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ChengFenMiao.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChengFenMiao.png"
         },
         {
             "name": "ChinaMobile",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ChinaMobile.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChinaMobile.png"
         },
         {
             "name": "ChinaTetlcom",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ChinaTetlcom.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChinaTetlcom.png"
         },
         {
             "name": "ChinaUnicom",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ChinaUnicom.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChinaUnicom.png"
         },
         {
             "name": "Claude",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Claude.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Claude.png"
         },
         {
             "name": "ColorfulClouds",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ColorfulClouds.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ColorfulClouds.png"
         },
         {
             "name": "ColorfulCloudsPro",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ColorfulCloudsPro.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ColorfulCloudsPro.png"
         },
         {
             "name": "CoolApk",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/CoolApk.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CoolApk.png"
         },
         {
             "name": "CosmosPodcast",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/CosmosPodcast.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CosmosPodcast.png"
         },
         {
             "name": "Ctrip",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Ctrip.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Ctrip.png"
         },
         {
             "name": "Cubox",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Cubox.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Cubox.png"
         },
         {
             "name": "Daily",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Daily.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Daily.png"
         },
         {
             "name": "Darkroom",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Darkroom.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Darkroom.png"
         },
         {
             "name": "Dazn",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Dazn.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Dazn.png"
         },
         {
             "name": "DeepL",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/DeepL.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/DeepL.png"
         },
         {
             "name": "DeepSeek",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/DeepSeek.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/DeepSeek.png"
         },
         {
             "name": "DiDi",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/DiDi.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/DiDi.png"
         },
         {
             "name": "DingdongMaicai",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/DingdongMaicai.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/DingdongMaicai.png"
         },
         {
             "name": "Discord",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Discord.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Discord.png"
         },
         {
             "name": "Discovery+",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Discovery+.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Discovery+.png"
         },
         {
             "name": "Disney+",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Disney+.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Disney+.png"
         },
         {
             "name": "Dlabel",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Dlabel.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Dlabel.png"
         },
         {
             "name": "Documents",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Documents.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Documents.png"
         },
         {
             "name": "DouBan",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/DouBan.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/DouBan.png"
         },
         {
             "name": "Douyu",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Douyu.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Douyu.png"
         },
         {
             "name": "Drafts",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Drafts.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Drafts.png"
         },
         {
             "name": "DragonRead",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/DragonRead.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/DragonRead.png"
         },
         {
             "name": "DubbingShow",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/DubbingShow.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/DubbingShow.png"
         },
         {
             "name": "DuiTang",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/DuiTang.png"
-        },
-        {
-            "name": "eleme",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/eleme.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/DuiTang.png"
         },
         {
             "name": "Elk",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Elk.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Elk.png"
         },
         {
             "name": "Emby",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Emby.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Emby.png"
         },
         {
             "name": "Enpass_Password_Manager",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Enpass_Password_Manager.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Enpass_Password_Manager.png"
         },
         {
             "name": "EtouchEcalendar",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/EtouchEcalendar.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/EtouchEcalendar.png"
         },
         {
             "name": "FC_Box",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/FC_Box.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/FC_Box.png"
         },
         {
             "name": "FeeyoVeryZhunLITE",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/FeeyoVeryZhunLITE.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/FeeyoVeryZhunLITE.png"
         },
         {
             "name": "FenBi",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/FenBi.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/FenBi.png"
         },
         {
             "name": "FenxiangLife",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/FenxiangLife.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/FenxiangLife.png"
         },
         {
             "name": "Fileball",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Fileball.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Fileball.png"
         },
         {
             "name": "Filen",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Filen.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Filen.png"
         },
         {
             "name": "FleaMarket",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/FleaMarket.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/FleaMarket.png"
         },
         {
             "name": "FlyerTea",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/FlyerTea.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/FlyerTea.png"
         },
         {
             "name": "FollowRSS",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/FollowRSS.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/FollowRSS.png"
         },
         {
             "name": "GaoDing",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/GaoDing.png"
-        },
-        {
-            "name": "giffgaff",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/giffgaff.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/GaoDing.png"
         },
         {
             "name": "GitHub",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/GitHub.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/GitHub.png"
         },
         {
             "name": "Google",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Google.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Google.png"
         },
         {
             "name": "GoogleGemini",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/GoogleGemini.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/GoogleGemini.png"
         },
         {
             "name": "Grok",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Grok.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Grok.png"
         },
         {
             "name": "Grow",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Grow.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Grow.png"
         },
         {
             "name": "GuideRank",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/GuideRank.png"
-        },
-        {
-            "name": "HanXiaoQuan",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/HanXiaoQuan.png"
-        },
-        {
-            "name": "HappyDays",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/HappyDays.png"
-        },
-        {
-            "name": "Himalaya",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Himalaya.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/GuideRank.png"
         },
         {
             "name": "HMJC",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/HMJC.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/HMJC.png"
         },
         {
             "name": "HUPU",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/HUPU.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/HUPU.png"
+        },
+        {
+            "name": "HanXiaoQuan",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/HanXiaoQuan.png"
+        },
+        {
+            "name": "HappyDays",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/HappyDays.png"
+        },
+        {
+            "name": "Himalaya",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Himalaya.png"
         },
         {
             "name": "Hypnotist",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Hypnotist.png"
-        },
-        {
-            "name": "i4Assistant",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/i4Assistant.png"
-        },
-        {
-            "name": "iMaiCai",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/iMaiCai.png"
-        },
-        {
-            "name": "Instagram",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Instagram.png"
-        },
-        {
-            "name": "Instapaper",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Instapaper.png"
-        },
-        {
-            "name": "iQiYi_Video",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/iQiYi_Video.png"
-        },
-        {
-            "name": "iReaderDejian",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/iReaderDejian.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Hypnotist.png"
         },
         {
             "name": "IThome",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/IThome.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/IThome.png"
         },
         {
-            "name": "JavaScriptConverter",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/JavaScriptConverter.png"
+            "name": "Instagram",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Instagram.png"
+        },
+        {
+            "name": "Instapaper",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Instapaper.png"
         },
         {
             "name": "JD",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/JD.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/JD.png"
         },
         {
             "name": "JDJinRong",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/JDJinRong.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/JDJinRong.png"
+        },
+        {
+            "name": "JavaScriptConverter",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/JavaScriptConverter.png"
         },
         {
             "name": "JiaKaoBaoDian",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/JiaKaoBaoDian.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/JiaKaoBaoDian.png"
         },
         {
             "name": "JiaXiaoDrive",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/JiaXiaoDrive.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/JiaXiaoDrive.png"
         },
         {
             "name": "Jump",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Jump.png"
-        },
-        {
-            "name": "KebidaDushu",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KebidaDushu.png"
-        },
-        {
-            "name": "Keep",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Keep.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Jump.png"
         },
         {
             "name": "KGRing",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KGRing.png"
-        },
-        {
-            "name": "Kimi",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Kimi.png"
-        },
-        {
-            "name": "KingdeeMyMoney",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KingdeeMyMoney.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KGRing.png"
         },
         {
             "name": "KOOK",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KOOK.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KOOK.png"
         },
         {
-            "name": "KuaiDi100",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KuaiDi100.png"
+            "name": "KebidaDushu",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KebidaDushu.png"
         },
         {
-            "name": "KuaiDuiZuoYe",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KuaiDuiZuoYe.png"
+            "name": "Keep",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Keep.png"
         },
         {
-            "name": "KuaiKanComic",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KuaiKanComic.png"
+            "name": "Kimi",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Kimi.png"
         },
         {
-            "name": "KuaiShou",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KuaiShou.png"
+            "name": "KingdeeMyMoney",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KingdeeMyMoney.png"
         },
         {
             "name": "KuGou",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KuGou.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KuGou.png"
+        },
+        {
+            "name": "KuaiDi100",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KuaiDi100.png"
+        },
+        {
+            "name": "KuaiDuiZuoYe",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KuaiDuiZuoYe.png"
+        },
+        {
+            "name": "KuaiKanComic",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KuaiKanComic.png"
+        },
+        {
+            "name": "KuaiShou",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KuaiShou.png"
         },
         {
             "name": "Kuwo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Kuwo.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Kuwo.png"
         },
         {
             "name": "KwaiVideoeditor",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/KwaiVideoeditor.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/KwaiVideoeditor.png"
         },
         {
             "name": "LazyAudio",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/LazyAudio.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/LazyAudio.png"
         },
         {
             "name": "Line",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Line.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Line.png"
         },
         {
             "name": "Loon",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Loon.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Loon.png"
         },
         {
             "name": "LuckinCoffee",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/LuckinCoffee.png"
-        },
-        {
-            "name": "MaFengWo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MaFengWo.png"
-        },
-        {
-            "name": "MailMaster",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MailMaster.png"
-        },
-        {
-            "name": "MaiMai",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MaiMai.png"
-        },
-        {
-            "name": "Mango_TV",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Mango_TV.png"
-        },
-        {
-            "name": "MeetYou",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MeetYou.png"
-        },
-        {
-            "name": "MeiShiJie",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MeiShiJie.png"
-        },
-        {
-            "name": "MeiTu",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MeiTu.png"
-        },
-        {
-            "name": "MeiTuanItakeaway",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MeiTuanItakeaway.png"
-        },
-        {
-            "name": "MeituMYXJ",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MeituMYXJ.png"
-        },
-        {
-            "name": "MiaoRead",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MiaoRead.png"
-        },
-        {
-            "name": "MicrosoftCopilot",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MicrosoftCopilot.png"
-        },
-        {
-            "name": "MiHome",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MiHome.png"
-        },
-        {
-            "name": "MistralAI",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MistralAI.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/LuckinCoffee.png"
         },
         {
             "name": "MKZ",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MKZ.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MKZ.png"
         },
         {
-            "name": "mobileClouds",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/mobileClouds.png"
+            "name": "MaFengWo",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MaFengWo.png"
+        },
+        {
+            "name": "MaiMai",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MaiMai.png"
+        },
+        {
+            "name": "MailMaster",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MailMaster.png"
+        },
+        {
+            "name": "Mango_TV",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Mango_TV.png"
+        },
+        {
+            "name": "MeetYou",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MeetYou.png"
+        },
+        {
+            "name": "MeiShiJie",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MeiShiJie.png"
+        },
+        {
+            "name": "MeiTu",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MeiTu.png"
+        },
+        {
+            "name": "MeiTuanItakeaway",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MeiTuanItakeaway.png"
+        },
+        {
+            "name": "MeituMYXJ",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MeituMYXJ.png"
+        },
+        {
+            "name": "MiHome",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MiHome.png"
+        },
+        {
+            "name": "MiaoRead",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MiaoRead.png"
+        },
+        {
+            "name": "MicrosoftCopilot",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MicrosoftCopilot.png"
+        },
+        {
+            "name": "MistralAI",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MistralAI.png"
         },
         {
             "name": "MojiWeather",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/MojiWeather.png"
-        },
-        {
-            "name": "NeteaseCloudMusic",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/NeteaseCloudMusic.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/MojiWeather.png"
         },
         {
             "name": "NetEaseGodlike",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/NetEaseGodlike.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/NetEaseGodlike.png"
+        },
+        {
+            "name": "NeteaseCloudMusic",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/NeteaseCloudMusic.png"
         },
         {
             "name": "NeteaseNews",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/NeteaseNews.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/NeteaseNews.png"
         },
         {
             "name": "Netflix",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Netflix.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Netflix.png"
         },
         {
             "name": "Nicegram",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Nicegram.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Nicegram.png"
         },
         {
             "name": "Nike",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Nike.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Nike.png"
         },
         {
             "name": "Notability",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Notability.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Notability.png"
         },
         {
             "name": "NovelFM",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/NovelFM.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/NovelFM.png"
         },
         {
             "name": "OKX",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/OKX.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/OKX.png"
         },
         {
             "name": "OneClickCutout",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/OneClickCutout.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/OneClickCutout.png"
         },
         {
             "name": "OneKey",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/OneKey.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/OneKey.png"
         },
         {
             "name": "OraySunlogin",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/OraySunlogin.png"
-        },
-        {
-            "name": "Paramount+",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Paramount+.png"
-        },
-        {
-            "name": "PayPal",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PayPal.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/OraySunlogin.png"
         },
         {
             "name": "PDF_Expert",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PDF_Expert.png"
-        },
-        {
-            "name": "PhoenixVideo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PhoenixVideo.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PDF_Expert.png"
         },
         {
             "name": "PICC_Insurance",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PICC_Insurance.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PICC_Insurance.png"
         },
         {
-            "name": "Picsart",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Picsart.png"
+            "name": "Paramount+",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Paramount+.png"
         },
         {
-            "name": "PikPak",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PikPak.png"
+            "name": "PayPal",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PayPal.png"
         },
         {
-            "name": "PinDuoDuo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PinDuoDuo.png"
+            "name": "PhoenixVideo",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PhoenixVideo.png"
         },
         {
             "name": "PiPiXia",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PiPiXia.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PiPiXia.png"
+        },
+        {
+            "name": "Picsart",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Picsart.png"
+        },
+        {
+            "name": "PikPak",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PikPak.png"
+        },
+        {
+            "name": "PinDuoDuo",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PinDuoDuo.png"
         },
         {
             "name": "PrimeVideo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PrimeVideo.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PrimeVideo.png"
         },
         {
             "name": "ProCamera",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ProCamera.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ProCamera.png"
         },
         {
             "name": "ProtonCalendar",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ProtonCalendar.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ProtonCalendar.png"
         },
         {
             "name": "ProtonDrive",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ProtonDrive.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ProtonDrive.png"
         },
         {
             "name": "ProtonMail",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ProtonMail.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ProtonMail.png"
         },
         {
             "name": "ProtonPass",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ProtonPass.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ProtonPass.png"
         },
         {
             "name": "ProtonVPN",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ProtonVPN.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ProtonVPN.png"
         },
         {
             "name": "PuPuMall",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/PuPuMall.png"
-        },
-        {
-            "name": "QiDian",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/QiDian.png"
-        },
-        {
-            "name": "QiXinBao",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/QiXinBao.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PuPuMall.png"
         },
         {
             "name": "QQ",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/QQ.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/QQ.png"
         },
         {
             "name": "QQKSong",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/QQKSong.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/QQKSong.png"
         },
         {
             "name": "QQMusic",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/QQMusic.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/QQMusic.png"
+        },
+        {
+            "name": "QiDian",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/QiDian.png"
+        },
+        {
+            "name": "QiXinBao",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/QiXinBao.png"
         },
         {
             "name": "QtingFM",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/QtingFM.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/QtingFM.png"
         },
         {
             "name": "QuarkBrowser",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/QuarkBrowser.png"
-        },
-        {
-            "name": "Reddit",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Reddit.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/QuarkBrowser.png"
         },
         {
             "name": "RedPaper",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/RedPaper.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/RedPaper.png"
+        },
+        {
+            "name": "Reddit",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Reddit.png"
         },
         {
             "name": "ReelShort",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ReelShort.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ReelShort.png"
         },
         {
             "name": "RiskBird",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/RiskBird.png"
-        },
-        {
-            "name": "Safari",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Safari.png"
-        },
-        {
-            "name": "SafetyHome",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SafetyHome.png"
-        },
-        {
-            "name": "Scanner_Pro",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Scanner_Pro.png"
-        },
-        {
-            "name": "SearchPicture",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SearchPicture.png"
-        },
-        {
-            "name": "SeasunJX3",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SeasunJX3.png"
-        },
-        {
-            "name": "SevenCat",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SevenCat.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/RiskBird.png"
         },
         {
             "name": "SF-Express",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SF-Express.png"
-        },
-        {
-            "name": "ShopKeeperAdmin",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ShopKeeperAdmin.png"
-        },
-        {
-            "name": "ShouYinTongMerchant",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ShouYinTongMerchant.png"
-        },
-        {
-            "name": "ShuQiCenterReader",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ShuQiCenterReader.png"
-        },
-        {
-            "name": "Signal",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Signal.png"
-        },
-        {
-            "name": "smzdm",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/smzdm.png"
-        },
-        {
-            "name": "Snowball",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Snowball.png"
-        },
-        {
-            "name": "SnowCamera",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SnowCamera.png"
-        },
-        {
-            "name": "SodaMusic",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SodaMusic.png"
-        },
-        {
-            "name": "SouguMyBus",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SouguMyBus.png"
-        },
-        {
-            "name": "Soul",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Soul.png"
-        },
-        {
-            "name": "Spark",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Spark.png"
-        },
-        {
-            "name": "Spotify",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Spotify.png"
-        },
-        {
-            "name": "Stay",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Stay.png"
-        },
-        {
-            "name": "SuZhouCitizenCard",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SuZhouCitizenCard.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SF-Express.png"
         },
         {
             "name": "SZMetro",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/SZMetro.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SZMetro.png"
         },
         {
-            "name": "Talkatone",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Talkatone.png"
+            "name": "Safari",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Safari.png"
         },
         {
-            "name": "Taobao",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Taobao.png"
+            "name": "SafetyHome",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SafetyHome.png"
         },
         {
-            "name": "TaoPiaoPiao",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TaoPiaoPiao.png"
+            "name": "Scanner_Pro",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Scanner_Pro.png"
         },
         {
-            "name": "TapTap",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TapTap.png"
+            "name": "SearchPicture",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SearchPicture.png"
         },
         {
-            "name": "Telegram",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Telegram.png"
+            "name": "SeasunJX3",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SeasunJX3.png"
         },
         {
-            "name": "TencentComic",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TencentComic.png"
+            "name": "SevenCat",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SevenCat.png"
         },
         {
-            "name": "Tencent_Video",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Tencent_Video.png"
+            "name": "ShopKeeperAdmin",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ShopKeeperAdmin.png"
         },
         {
-            "name": "TestFlight",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TestFlight.png"
+            "name": "ShouYinTongMerchant",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ShouYinTongMerchant.png"
         },
         {
-            "name": "Tieba",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Tieba.png"
+            "name": "ShuQiCenterReader",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ShuQiCenterReader.png"
         },
         {
-            "name": "TikTok",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TikTok.png"
+            "name": "Signal",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Signal.png"
         },
         {
-            "name": "TongYi",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TongYi.png"
+            "name": "SnowCamera",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SnowCamera.png"
         },
         {
-            "name": "TubeMax",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TubeMax.png"
+            "name": "Snowball",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Snowball.png"
+        },
+        {
+            "name": "SodaMusic",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SodaMusic.png"
+        },
+        {
+            "name": "SouguMyBus",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SouguMyBus.png"
+        },
+        {
+            "name": "Soul",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Soul.png"
+        },
+        {
+            "name": "Spark",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Spark.png"
+        },
+        {
+            "name": "Spotify",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Spotify.png"
+        },
+        {
+            "name": "Stay",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Stay.png"
+        },
+        {
+            "name": "SuZhouCitizenCard",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SuZhouCitizenCard.png"
         },
         {
             "name": "TV_Assistant",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TV_Assistant.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TV_Assistant.png"
         },
         {
             "name": "TXDocs",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/TXDocs.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TXDocs.png"
+        },
+        {
+            "name": "Talkatone",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Talkatone.png"
+        },
+        {
+            "name": "TaoPiaoPiao",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TaoPiaoPiao.png"
+        },
+        {
+            "name": "Taobao",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Taobao.png"
+        },
+        {
+            "name": "TapTap",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TapTap.png"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Telegram.png"
+        },
+        {
+            "name": "TencentComic",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TencentComic.png"
+        },
+        {
+            "name": "Tencent_Video",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Tencent_Video.png"
+        },
+        {
+            "name": "TestFlight",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TestFlight.png"
+        },
+        {
+            "name": "Tieba",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Tieba.png"
+        },
+        {
+            "name": "TikTok",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TikTok.png"
+        },
+        {
+            "name": "TongYi",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TongYi.png"
+        },
+        {
+            "name": "TubeMax",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/TubeMax.png"
         },
         {
             "name": "Uki",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Uki.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Uki.png"
         },
         {
             "name": "Umetrip",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Umetrip.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Umetrip.png"
         },
         {
             "name": "UnionPay",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/UnionPay.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/UnionPay.png"
         },
         {
             "name": "UnnooQuan",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/UnnooQuan.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/UnnooQuan.png"
         },
         {
             "name": "UpNote",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/UpNote.png"
-        },
-        {
-            "name": "VideoGo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/VideoGo.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/UpNote.png"
         },
         {
             "name": "VVebo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/VVebo.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/VVebo.png"
         },
         {
-            "name": "WaCaiJiZhang",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/WaCaiJiZhang.png"
-        },
-        {
-            "name": "Weibo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Weibo.png"
-        },
-        {
-            "name": "Weibo_intl",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Weibo_intl.png"
-        },
-        {
-            "name": "Weixin",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Weixin.png"
-        },
-        {
-            "name": "WeixinMiniPrograms",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/WeixinMiniPrograms.png"
-        },
-        {
-            "name": "WindInfo",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/WindInfo.png"
+            "name": "VideoGo",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/VideoGo.png"
         },
         {
             "name": "WPForum",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/WPForum.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WPForum.png"
         },
         {
             "name": "WPS",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/WPS.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WPS.png"
         },
         {
             "name": "WPS_Documents",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/WPS_Documents.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WPS_Documents.png"
+        },
+        {
+            "name": "WaCaiJiZhang",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WaCaiJiZhang.png"
+        },
+        {
+            "name": "Weibo",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Weibo.png"
+        },
+        {
+            "name": "Weibo_intl",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Weibo_intl.png"
+        },
+        {
+            "name": "Weixin",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Weixin.png"
+        },
+        {
+            "name": "WeixinMiniPrograms",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WeixinMiniPrograms.png"
+        },
+        {
+            "name": "WindInfo",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WindInfo.png"
         },
         {
             "name": "WukongBrowser",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/WukongBrowser.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WukongBrowser.png"
         },
         {
             "name": "WutaCamera",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/WutaCamera.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WutaCamera.png"
         },
         {
             "name": "X",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/X.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/X.png"
         },
         {
             "name": "XFuse",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/XFuse.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/XFuse.png"
         },
         {
             "name": "XiaChuFang",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/XiaChuFang.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/XiaChuFang.png"
         },
         {
             "name": "XiaoCan",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/XiaoCan.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/XiaoCan.png"
         },
         {
             "name": "XiaoHeiHe",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/XiaoHeiHe.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/XiaoHeiHe.png"
         },
         {
             "name": "XiaomiSpeaker",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/XiaomiSpeaker.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/XiaomiSpeaker.png"
         },
         {
             "name": "Xmind",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Xmind.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Xmind.png"
         },
         {
             "name": "XunLei",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/XunLei.png"
-        },
-        {
-            "name": "YangShiPin",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YangShiPin.png"
-        },
-        {
-            "name": "Yealico",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Yealico.png"
-        },
-        {
-            "name": "Yitian",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Yitian.png"
-        },
-        {
-            "name": "YoudaoDict",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YoudaoDict.png"
-        },
-        {
-            "name": "YoudaoNote",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YoudaoNote.png"
-        },
-        {
-            "name": "YoudaoTrans",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YoudaoTrans.png"
-        },
-        {
-            "name": "YouKu_Video",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YouKu_Video.png"
-        },
-        {
-            "name": "YouTube",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YouTube.png"
-        },
-        {
-            "name": "YouTubeMusic",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YouTubeMusic.png"
-        },
-        {
-            "name": "YueDanBa",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YueDanBa.png"
-        },
-        {
-            "name": "Yueyou",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Yueyou.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/XunLei.png"
         },
         {
             "name": "YY_Voice",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/YY_Voice.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YY_Voice.png"
+        },
+        {
+            "name": "YangShiPin",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YangShiPin.png"
+        },
+        {
+            "name": "Yealico",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Yealico.png"
+        },
+        {
+            "name": "Yitian",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Yitian.png"
+        },
+        {
+            "name": "YouKu_Video",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YouKu_Video.png"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YouTube.png"
+        },
+        {
+            "name": "YouTubeMusic",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YouTubeMusic.png"
+        },
+        {
+            "name": "YoudaoDict",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YoudaoDict.png"
+        },
+        {
+            "name": "YoudaoNote",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YoudaoNote.png"
+        },
+        {
+            "name": "YoudaoTrans",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YoudaoTrans.png"
+        },
+        {
+            "name": "YueDanBa",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YueDanBa.png"
+        },
+        {
+            "name": "Yueyou",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Yueyou.png"
         },
         {
             "name": "ZAKER",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ZAKER.png"
-        },
-        {
-            "name": "Zhibo8",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Zhibo8.png"
-        },
-        {
-            "name": "Zhihu",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/Zhihu.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ZAKER.png"
         },
         {
             "name": "ZhiLianZhaoPin",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ZhiLianZhaoPin.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ZhiLianZhaoPin.png"
         },
         {
             "name": "ZhiPuChatGLM",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ZhiPuChatGLM.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ZhiPuChatGLM.png"
+        },
+        {
+            "name": "Zhibo8",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Zhibo8.png"
+        },
+        {
+            "name": "Zhihu",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Zhihu.png"
         },
         {
             "name": "ZhuanZhuan",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ZhuanZhuan.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ZhuanZhuan.png"
         },
         {
             "name": "ZongHeng",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ZongHeng.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ZongHeng.png"
         },
         {
             "name": "ZuiYou",
-            "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/AllIcon/icon/ZuiYou.png"
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ZuiYou.png"
+        },
+        {
+            "name": "eleme",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/eleme.png"
+        },
+        {
+            "name": "giffgaff",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/giffgaff.png"
+        },
+        {
+            "name": "i4Assistant",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/i4Assistant.png"
+        },
+        {
+            "name": "iMaiCai",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/iMaiCai.png"
+        },
+        {
+            "name": "iQiYi_Video",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/iQiYi_Video.png"
+        },
+        {
+            "name": "iReaderDejian",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/iReaderDejian.png"
+        },
+        {
+            "name": "mobileClouds",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/mobileClouds.png"
+        },
+        {
+            "name": "smzdm",
+            "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/smzdm.png"
         }
-    ],
-	"description": "by ipiggyzhu"
+    ]
 }
