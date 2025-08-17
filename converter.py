@@ -9,7 +9,8 @@ AD_RULES_URLS = [
     "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/PCDN.list",
     "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/MyBlockAds.list",
     "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/RejectAd.list",
-    "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/AdRules.list"
+    "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Rule/AdRules.list",
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf"
 ]
 
 DIRECT_RULES_URLS = [
