@@ -1,0 +1,5 @@
+# 排除误需要直连的规则
+tiktoknewaccount.com
+tiktokrow-cdn.com
+TikTok*
+pornhub.com

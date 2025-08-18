@@ -117,6 +117,17 @@ def fetch_manual_allow_rules(filepath):
                     allow_rules.add(line)
     return sorted(list(allow_rules))
 
+def fetch_exclude_rules(filepath):
+    """从本地manual/exclude-rules.txt读取要排除的域名，返回域名列表。"""
+    exclude_rules = set()
+    if os.path.exists(filepath):
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith(('#', '!', ';')):
+                    exclude_rules.add(line)
+    return sorted(list(exclude_rules))
+
 # --- 主逻辑 ---
 
 if __name__ == "__main__":
@@ -130,6 +141,13 @@ if __name__ == "__main__":
     manual_allow_path = os.path.join("manual", "allow-rules.txt")
     manual_allow_rules = fetch_manual_allow_rules(manual_allow_path)
     master_ad_rules = sorted(list(set(master_ad_rules) - set(manual_allow_rules)))
+
+    # 读取排除规则并从直连规则中移除
+    exclude_rules_path = os.path.join("manual", "exclude-rules.txt")
+    exclude_rules = fetch_exclude_rules(exclude_rules_path)
+    if exclude_rules:
+        master_direct_rules = [rule for rule in master_direct_rules if rule.split(',')[-1].strip() not in exclude_rules]
+
     print(f"Found {len(master_ad_rules)} unique ad rules and {len(master_direct_rules)} unique direct rules after exact deduplication and allowlist exclusion.")
 
     # 生成Loon .list文件
