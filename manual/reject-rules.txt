@@ -642,3 +642,6 @@ defaultts.tc.qq.com
 120.232.6.158
 ltscsy.qq.com
 ugccsy.qq.com
+
+# 以下为屏蔽的色情网址
+pornhub.com
