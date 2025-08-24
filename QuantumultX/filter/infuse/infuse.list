@@ -1,0 +1,23 @@
+# Infuse - Metadata, Artwork, and Syncing Services
+
+# The Movie Database (TMDb) - 元数据和图像核心
+DOMAIN-SUFFIX, themoviedb.org
+DOMAIN-SUFFIX, tmdb.org
+
+# The TVDB - 电视剧元数据核心
+DOMAIN-SUFFIX, thetvdb.com
+
+# Fanart.tv - 高质量艺术图
+DOMAIN-SUFFIX, fanart.tv
+
+# Trakt.tv - 同步观看历史和进度
+DOMAIN-SUFFIX, trakt.tv
+
+# OpenSubtitles - 字幕搜索和下载
+DOMAIN-SUFFIX, opensubtitles.org
+
+# TVmaze - 补充电视剧数据
+DOMAIN-SUFFIX, tvmaze.com
+
+# Blu-ray.com - 蓝光光盘信息
+DOMAIN-SUFFIX, blu-ray.com
