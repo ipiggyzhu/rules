@@ -1,6 +1,6 @@
 # Title: QuantumultX Direct Rules (Aggregated)
 # Description: Generated from multiple sources. Do not edit manually.
-# Last Updated: 2025-08-27T03:13:27Z
+# Last Updated: 2025-08-28T03:14:10Z
 
 HOST,041.bndmpsjx.com
 HOST,1-fss24-s0.streamhoster.com
@@ -19,6 +19,7 @@ HOST,a.xttv.top
 HOST,abclive2-lh.akamaihd.net
 HOST,account.apple.com //“设置”和“系统偏好设置”中的 Apple ID 认证
 HOST,admob-cn.com
+HOST,afcs.dell.com
 HOST,aka-amd-njpwworld-hls-enlive.akamaized.net
 HOST,albert.apple.com //设备激活
 HOST,alibaba.cdn.steampipe.steamcontent.com
@@ -72,6 +73,7 @@ HOST,cgntv-glive.ofsdelivery.net
 HOST,channellive.leshantv.net
 HOST,clickserve.cc-dt.com
 HOST,client.amplifi.com
+HOST,clientperipherals.dell.com
 HOST,cn.download.nvidia.com
 HOST,cn.widevine.com
 HOST,configuration.apple.com //Rosetta 2 更新
@@ -79,27 +81,40 @@ HOST,cpro.baidustatic.com
 HOST,crl.pki.goog
 HOST,crls.pki.goog
 HOST,cssubmissions.apple.com //供“反馈助理”用来上传文件
+HOST,customization-cdn.dell.com
 HOST,d9af5a60.edmonst.net
 HOST,dartsearch-cn.net
+HOST,dds.dell.com
 HOST,deviceenrollment.apple.com //DEP 暂时注册
 HOST,deviceservices-external.apple.com
+HOST,dl.dell.com
 HOST,doubleclick-cn.net
 HOST,doubleclick.net
 HOST,download.jetbrains.com
 HOST,download.qatp1.net
 HOST,e1.vdowowza.vip.hk1.tvb.com
+HOST,ea2cn-dev-outlet.dell.com
+HOST,ea2cn-prod-outlet.dell.com
+HOST,ea2cn-staging-outlet.dell.com
 HOST,edge.music-choice-play-chaina1.top.comcast.net
 HOST,emoi-cncdn.bing.com
 HOST,f24hls-i.akamaihd.net
 HOST,fash1043.cloudycdn.services
 HOST,fba.apple.com //供“反馈助理”用来归档和查看反馈
+HOST,fcs.dell.com
 HOST,file.mb.leshantv.net
 HOST,flv.drs.tv.yatv.tv
 HOST,fm901.cityfm.tw
 HOST,fm929.cityfm.tw
 HOST,fm971.cityfm.tw
 HOST,fm983.cityfm.tw
+HOST,fta.dell.com
+HOST,ftaapj.dell.com
+HOST,ftaemea.dell.com
+HOST,ftasitapj.dell.com
 HOST,gayotv.net
+HOST,gbxgateway-dev.dell.com
+HOST,gbxgateway.dell.com
 HOST,gdmf.apple.com //供 MDM 服务器用来识别使用“被管理的软件更新”的设备有哪些可用的软件更新
 HOST,gdmf.apple.com //软件更新目录
 HOST,gg.apple.com //iOS、iPadOS、Apple tvOS、watchOS 和 macOS 更新
@@ -233,15 +248,20 @@ HOST,rthklive1-lh.akamaihd.net
 HOST,rthklive2-lh.akamaihd.net
 HOST,rtvcdn.com.au
 HOST,scanservice1.qcpp1.net
+HOST,scene7-cdn.dell.com
 HOST,sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net
 HOST,seb.sason.top
 HOST,service.urchin.com
 HOST,setup.icloud.com //需要在共享 iPad 上使用管理式 Apple ID 登录
+HOST,si.cdn.dell.com
 HOST,silverlight.dlservice.microsoft.com
 HOST,skl.apple.com //macOS 更新
 HOST,slive.ytn.co.kr
 HOST,slupdate.dlservice.microsoft.com
+HOST,sm.dell.com
 HOST,sms.imagetasks.com
+HOST,snp.cdn.dell.com
+HOST,snpi.dell.com
 HOST,sohucao.duapp.com
 HOST,sq-device.apple.com //eSIM 激活
 HOST,staging-controlbe.floonet.goog
@@ -265,6 +285,7 @@ HOST,stream01.dqtv123.com
 HOST,stream1.shopch.jp
 HOST,stream2.cprnetwork.org
 HOST,streamipcf.akamaized.net
+HOST,supportassist.dell.com
 HOST,surface.downloads.prss.microsoft.com
 HOST,swcdn.apple.com //macOS 更新
 HOST,swdist.apple.com //macOS 更新
@@ -304,6 +325,7 @@ HOST,wowza.montevideo.com.uy
 HOST,wowza.ner.gov.tw
 HOST,wpc.124ce.sigmacdn.net
 HOST,wuwm.streamguys1.com
+HOST,www-csb.dell.com
 HOST,www.cbsnews.com
 HOST,www.destinationurl.com
 HOST,www.filmon.com
@@ -25723,7 +25745,6 @@ HOST-SUFFIX,copcsc.org
 HOST-SUFFIX,copl.com.hk
 HOST-SUFFIX,copperalliance.asia
 HOST-SUFFIX,copperhome.net
-HOST-SUFFIX,copy-manga.com
 HOST-SUFFIX,copyedu.com
 HOST-SUFFIX,copyfuture.com
 HOST-SUFFIX,copyswisswatches.com
@@ -29221,6 +29242,7 @@ HOST-SUFFIX,delixi.com
 HOST-SUFFIX,delixidrive.com
 HOST-SUFFIX,deliyun.com
 HOST-SUFFIX,dell-alw.com
+HOST-SUFFIX,dell-brand.com
 HOST-SUFFIX,dell027.com
 HOST-SUFFIX,dellecs.com
 HOST-SUFFIX,dellemc-solution.com
@@ -37190,6 +37212,7 @@ HOST-SUFFIX,funcrea.com
 HOST-SUFFIX,functionads.com
 HOST-SUFFIX,functionaltextilesshanghai.com
 HOST-SUFFIX,functioncool.com
+HOST-SUFFIX,functiongraph.run
 HOST-SUFFIX,fund001.com
 HOST-SUFFIX,fundebug.com
 HOST-SUFFIX,fundebug.net
@@ -67935,9 +67958,7 @@ HOST-SUFFIX,manfen.net
 HOST-SUFFIX,manfen5.com
 HOST-SUFFIX,manfred-auto.com
 HOST-SUFFIX,manfrottoclub.com
-HOST-SUFFIX,mangacopy.com
 HOST-SUFFIX,mangafuna.xyz
-HOST-SUFFIX,mangafunb.fun
 HOST-SUFFIX,manganesenanhai.com
 HOST-SUFFIX,mangg.com
 HOST-SUFFIX,mangguo.com
@@ -77378,6 +77399,7 @@ HOST-SUFFIX,plateno.cc
 HOST-SUFFIX,plateno.com
 HOST-SUFFIX,platenogroup.com
 HOST-SUFFIX,platform-cn.com
+HOST-SUFFIX,platform.dell.com
 HOST-SUFFIX,platinum-traveller.com
 HOST-SUFFIX,platinumchina.com
 HOST-SUFFIX,play-analytics.com
@@ -82291,6 +82313,7 @@ HOST-SUFFIX,roaing.com
 HOST-SUFFIX,robam.com
 HOST-SUFFIX,robei.com
 HOST-SUFFIX,roboeyeai.com
+HOST-SUFFIX,robomaster.com
 HOST-SUFFIX,roboo.com
 HOST-SUFFIX,robook.com
 HOST-SUFFIX,robopeak.net
@@ -102923,7 +102946,6 @@ HOST-SUFFIX,www-76244.com
 HOST-SUFFIX,www.adobe.com
 HOST-SUFFIX,www.cg
 HOST-SUFFIX,www.com.my
-HOST-SUFFIX,www.dell-brand.com
 HOST-SUFFIX,www.dell.com
 HOST-SUFFIX,www.djivideos.com
 HOST-SUFFIX,www.gov.mo
@@ -110641,7 +110663,6 @@ HOST-SUFFIX,ymlt.net
 HOST-SUFFIX,ymlt.vip
 HOST-SUFFIX,ymm56.com
 HOST-SUFFIX,ymmfa.com
-HOST-SUFFIX,ymmobi.com
 HOST-SUFFIX,ymnsdk.com
 HOST-SUFFIX,ymoxuan.com
 HOST-SUFFIX,ympc88.com
@@ -122420,10 +122441,6 @@ IP-CIDR,154.72.47.0/24
 IP-CIDR,154.8.128.0/17
 IP-CIDR,154.8.48.0/20
 IP-CIDR,154.89.32.0/20
-IP-CIDR,154.89.49.0/24
-IP-CIDR,154.89.50.0/23
-IP-CIDR,154.89.52.0/22
-IP-CIDR,154.89.56.0/21
 IP-CIDR,154.91.158.0/23
 IP-CIDR,155.102.0.0/16
 IP-CIDR,155.117.164.0/24
@@ -122642,6 +122659,7 @@ IP-CIDR,161.248.92.0/23
 IP-CIDR,161.49.5.7/32
 IP-CIDR,162.105.0.0/16
 IP-CIDR,162.14.0.0/16
+IP-CIDR,162.141.4.0/24
 IP-CIDR,162.62.240.0/23
 IP-CIDR,162.62.242.0/24
 IP-CIDR,163.0.0.0/16
@@ -122918,9 +122936,6 @@ IP-CIDR,175.185.0.0/16
 IP-CIDR,175.186.0.0/15
 IP-CIDR,175.188.0.0/14
 IP-CIDR,175.24.0.0/14
-IP-CIDR,175.29.107.0/24
-IP-CIDR,175.29.108.0/24
-IP-CIDR,175.29.110.0/23
 IP-CIDR,175.30.0.0/15
 IP-CIDR,175.42.0.0/15
 IP-CIDR,175.44.0.0/16
@@ -137352,7 +137367,6 @@ IP-CIDR6,2a06:3603::/32
 IP-CIDR6,2a06:3604::/30
 IP-CIDR6,2a06:9f45:1111::/48
 IP-CIDR6,2a06:9f81:4600::/43
-IP-CIDR6,2a06:9f81:4620::/44
 IP-CIDR6,2a06:9f81:4640::/44
 IP-CIDR6,2a06:9f81:4660::/44
 IP-CIDR6,2a06:a005:1c40::/44
@@ -138751,6 +138765,7 @@ IP-CIDR6,2a14:67c1:b105::/48
 IP-CIDR6,2a14:67c1:b107::/48
 IP-CIDR6,2a14:67c1:b130::/46
 IP-CIDR6,2a14:67c1:b134::/47
+IP-CIDR6,2a14:67c1:b140::/48
 IP-CIDR6,2a14:67c1:b4a1::/48
 IP-CIDR6,2a14:67c1:b4a2::/48
 IP-CIDR6,2a14:67c1:b4a6::/48
@@ -138805,6 +138820,7 @@ IP-CIDR6,2a14:7581:bc2::/48
 IP-CIDR6,2a14:7581:bcd::/48
 IP-CIDR6,2a14:7581:bff::/48
 IP-CIDR6,2a14:7581:ffb::/48
+IP-CIDR6,2a14:7583:f201::/48
 IP-CIDR6,2a14:7583:f203::/48
 IP-CIDR6,2a14:7584::/36
 IP-CIDR6,2a14:7c0:4a01::/48
