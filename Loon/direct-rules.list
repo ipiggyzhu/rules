@@ -1,6 +1,6 @@
 # Title: Loon Direct Rules (Aggregated)
 # Description: Generated from multiple sources. Do not edit manually.
-# Last Updated: 2025-09-04T01:36:51Z
+# Last Updated: 2025-09-05T01:39:00Z
 
 GEOIP, cn
 IP-CIDR, 10.0.0.0/8, no-resolve
