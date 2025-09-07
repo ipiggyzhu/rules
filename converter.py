@@ -5,27 +5,20 @@ import datetime
 # --- 配置 ---
 # 统一的规则来源
 AD_RULES_URLS = [
-    # 1. Blackmatrix7 维护的综合广告规则
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
-    # 2. anti-AD 项目维护的广告规则
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-loon.txt",
-    # 3. Cats-Team 维护的去广告规则
     "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf",
-    # 4. 专门用于屏蔽 PCDN 的规则 (防止国内应用滥用带宽)
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PCDN/PCDN.list"
 ]
 
 DIRECT_RULES_URLS = [
-    # 1. Apple 服务：确保 App Store, iCloud, 系统更新等流畅
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMaxNoIP/ChinaMaxNoIP.list",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SteamCN/SteamCN.list",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/PrivateTracker/PrivateTracker.list",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/iCloud/iCloud.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list",
-    # 2. 国内主流网站与服务：最核心的国内域名合集
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Direct/Direct.list",
-    # 3. 国内流媒体服务：Bilibili, iQiyi, Tencent Video 等
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMedia/ChinaMedia.list",
-    # 4. 局域网规则：确保内网设备访问正常
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Lan/Lan.list",
-    # 5. 中国大陆IP段：兜底规则，确保所有指向国内服务器的IP都直连
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaIP/ChinaIP.list"
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Lan/Lan.list"
 ]
 
 # 输出目录
