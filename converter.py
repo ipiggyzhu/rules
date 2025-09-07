@@ -16,16 +16,10 @@ AD_RULES_URLS = [
 ]
 
 DIRECT_RULES_URLS = [
-    # 1. Apple 服务：确保 App Store, iCloud, 系统更新等流畅
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list",
-    # 2. 国内主流网站与服务：最核心的国内域名合集
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Direct/Direct.list",
-    # 3. 国内流媒体服务：Bilibili, iQiyi, Tencent Video 等
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMedia/ChinaMedia.list",
-    # 4. 局域网规则：确保内网设备访问正常
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Lan/Lan.list",
-    # 5. 中国大陆IP段：兜底规则，确保所有指向国内服务器的IP都直连
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaIP/ChinaIP.list"
+    "https://kelee.one/Tool/Loon/Lsr/AppleAccount.lsr",
+    "https://kelee.one/Tool/Loon/Lsr/AppStore.lsr",
+    "https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr",
+    "https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr"
 ]
 
 # 输出目录
