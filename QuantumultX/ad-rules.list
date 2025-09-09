@@ -1,6 +1,6 @@
 # Title: QuantumultX Ad Rules (Aggregated)
 # Description: Generated from multiple sources. Do not edit manually.
-# Last Updated: 2025-09-09T03:16:11Z
+# Last Updated: 2025-09-09T03:23:26Z
 
 HOST,0.code.cotsta.ru
 HOST,00-gov.cn
@@ -38128,8 +38128,6 @@ HOST-SUFFIX,api.zafiraatacado.com
 HOST-SUFFIX,api.zalixmoda.com.br
 HOST-SUFFIX,api.zalmy.com.br
 HOST-SUFFIX,api.zazuke.com
-HOST-SUFFIX,api.zhihu.com/ab/*
-HOST-SUFFIX,api.zhihu.com/ad-style-service
 HOST-SUFFIX,api.zhy333.com
 HOST-SUFFIX,api.zigglir.com
 HOST-SUFFIX,api.zol.com
@@ -187502,7 +187500,6 @@ HOST-SUFFIX,snrcmgqe.com
 HOST-SUFFIX,sns.cuckoonestartstudio.com
 HOST-SUFFIX,sns2.secureforms.mcafee.com
 HOST-SUFFIX,snscf.fr
-HOST-SUFFIX,snscosdownload//reserved/
 HOST-SUFFIX,snsfdmmzpixhn.site
 HOST-SUFFIX,snsjiq.xyz
 HOST-SUFFIX,snsmpttxqwosp.space
@@ -241674,8 +241671,8 @@ URL-REGEX,"^https?:\/\/(?:[^\/]+\.)*p2p[^\/]*douyucdn\.cn"
 URL-REGEX,"^https?:\/\/(?:[^\/]+\.)*p2p[^\/]*qq\.com"
 URL-REGEX,"^https?:\/\/(?:[^\/]+\.)*pcdn[^\/]*biliapi\.net"
 URL-REGEX,"^https?:\/\/(?:[^\/]+\.)*pcdn[^\/]*youku\.com"
-URL-REGEX,\d+/resolve
-URL-REGEX,\d+/sign_d
+URL-REGEX,/\d+/resolve
+URL-REGEX,/\d+/sign_d
 URL-REGEX,^https?:\/\/.+?\.beacon\.qq\.com
 URL-REGEX,^https?:\/\/.+?\.l\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com
