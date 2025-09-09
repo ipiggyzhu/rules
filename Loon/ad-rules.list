@@ -1,6 +1,6 @@
 # Title: Loon Ad Rules (Aggregated)
 # Description: Generated from multiple sources. Do not edit manually.
-# Last Updated: 2025-09-09T03:16:09Z
+# Last Updated: 2025-09-09T03:23:24Z
 
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-rtb.gravite.net
@@ -427,8 +427,6 @@ DOMAIN-SUFFIX,api.myadsget.com
 DOMAIN-SUFFIX,api.revenuads.com
 DOMAIN-SUFFIX,api.wtzw.com
 DOMAIN-SUFFIX,api.yfanads.com
-DOMAIN-SUFFIX,api.zhihu.com/ab/*
-DOMAIN-SUFFIX,api.zhihu.com/ad-style-service
 DOMAIN-SUFFIX,api1.kwaixiaodian.com
 DOMAIN-SUFFIX,api2.kwaixiaodian.com
 DOMAIN-SUFFIX,api5-normal-sinfonlineb.dcarapi.com
@@ -758,7 +756,6 @@ DOMAIN-SUFFIX,sis-ipv6.jpush.cn
 DOMAIN-SUFFIX,sis.jpush.io
 DOMAIN-SUFFIX,smvconf.f.360.cn
 DOMAIN-SUFFIX,snowflake.qq.com
-DOMAIN-SUFFIX,snscosdownload//reserved/
 DOMAIN-SUFFIX,spcsz.cdn.bcebos.com
 DOMAIN-SUFFIX,ssp-sdk-config.uc.cn
 DOMAIN-SUFFIX,ssp.1rtb.com
@@ -1393,8 +1390,8 @@ IP-CIDR,74.117.182.77/32
 IP-CIDR,77.162.125.199/32
 IP-CIDR,78.140.131.214/32
 IP-CIDR,88.42.84.136/32
-URL-REGEX,\d+/resolve
-URL-REGEX,\d+/sign_d
+URL-REGEX,/\d+/resolve
+URL-REGEX,/\d+/sign_d
 URL-REGEX,^https?:\/\/.+?\.beacon\.qq\.com
 URL-REGEX,^https?:\/\/.+?\.l\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com
