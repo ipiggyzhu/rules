@@ -1,6 +1,6 @@
 # Title: QuantumultX Ad Rules (Aggregated)
 # Description: Generated from multiple sources. Do not edit manually.
-# Last Updated: 2025-09-09T03:01:45Z
+# Last Updated: 2025-09-09T03:10:34Z
 
 HOST,0.code.cotsta.ru
 HOST,00-gov.cn
@@ -16750,12 +16750,6 @@ HOST-KEYWORD,-spiky.clevertap-prod.com
 HOST-KEYWORD,-tos.pstatp.com
 HOST-KEYWORD,-tracker.biliapi.net
 HOST-KEYWORD,-txtagstore
-HOST-KEYWORD,.engage.3m.
-HOST-KEYWORD,.estream.
-HOST-KEYWORD,.freecontent.
-HOST-KEYWORD,.net.daraz.
-HOST-KEYWORD,.nimiq.
-HOST-KEYWORD,.zooplus.
 HOST-KEYWORD,112wan
 HOST-KEYWORD,789htbet
 HOST-KEYWORD,XiaoQiang
@@ -16874,6 +16868,8 @@ HOST-KEYWORD,dwtrack
 HOST-KEYWORD,e2wysbacctt1
 HOST-KEYWORD,editor.sm.cn
 HOST-KEYWORD,ems.youku.com
+HOST-KEYWORD,engage.3m.
+HOST-KEYWORD,estream.
 HOST-KEYWORD,exosrv
 HOST-KEYWORD,extlog.snssdk.com
 HOST-KEYWORD,fans.m.tmall.com
@@ -16885,6 +16881,7 @@ HOST-KEYWORD,fc-video.cdn.bcebos.com
 HOST-KEYWORD,fds.api.moji.com
 HOST-KEYWORD,fenxi
 HOST-KEYWORD,flightsy
+HOST-KEYWORD,freecontent.
 HOST-KEYWORD,fzlm
 HOST-KEYWORD,gettate
 HOST-KEYWORD,googleads
@@ -16942,8 +16939,10 @@ HOST-KEYWORD,msg.push.51y5.net
 HOST-KEYWORD,nbcollect.kugou.com
 HOST-KEYWORD,nbcollectretry.kugou.com
 HOST-KEYWORD,nbsdk-baichuan
+HOST-KEYWORD,net.daraz.
 HOST-KEYWORD,news-log.51y5.net
 HOST-KEYWORD,news.51y5.net
+HOST-KEYWORD,nimiq.
 HOST-KEYWORD,nimiqpool
 HOST-KEYWORD,o333o
 HOST-KEYWORD,omgmta
@@ -17036,22 +17035,16 @@ HOST-KEYWORD,xn--2qux23c9ziyrq
 HOST-KEYWORD,xxshuyuan
 HOST-KEYWORD,ynuf.alipay.com
 HOST-KEYWORD,zjtoolbar
+HOST-KEYWORD,zooplus.
 HOST-KEYWORD,zymerget
-HOST-SUFFIX,*-ad-sign.byteimg.com
-HOST-SUFFIX,*-ad-union-sdk.pglstatp-toutiao.com
-HOST-SUFFIX,*-ad.adbkwai.com
-HOST-SUFFIX,*-ad.adkwai.com
-HOST-SUFFIX,*-ad.adukwai.com
-HOST-SUFFIX,*-reading-ad.qznovelvod.com
-HOST-SUFFIX,*.ads.heytapmobi.com
-HOST-SUFFIX,*.applovin.com
-HOST-SUFFIX,*.juicyads.me
-HOST-SUFFIX,*/omts.tc.qq.com
-HOST-SUFFIX,*ad.wtzw.com
-HOST-SUFFIX,*adintl.cn
-HOST-SUFFIX,*pglstatp-toutiao.com
+HOST-SUFFIX,-ad-sign.byteimg.com
+HOST-SUFFIX,-ad-union-sdk.pglstatp-toutiao.com
+HOST-SUFFIX,-ad.adbkwai.com
+HOST-SUFFIX,-ad.adkwai.com
+HOST-SUFFIX,-ad.adukwai.com
 HOST-SUFFIX,-normal-lq.zijieapi.com
-HOST-SUFFIX,.voiceads.cn
+HOST-SUFFIX,-reading-ad.qznovelvod.com
+HOST-SUFFIX,/omts.tc.qq.com
 HOST-SUFFIX,/snscosdownload//reserved/
 HOST-SUFFIX,0.myikas.com
 HOST-SUFFIX,0.net.easyjet.com
@@ -26645,6 +26638,7 @@ HOST-SUFFIX,ad.winrar.com.cn
 HOST-SUFFIX,ad.woman.mynavi.jp
 HOST-SUFFIX,ad.wretch.cc
 HOST-SUFFIX,ad.wrtn.ai
+HOST-SUFFIX,ad.wtzw.com
 HOST-SUFFIX,ad.wurangxian.top
 HOST-SUFFIX,ad.wx.com
 HOST-SUFFIX,ad.wx.com:12638
