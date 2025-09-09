@@ -38,6 +38,12 @@ def fetch_raw_rules(urls):
             print(f"Error fetching {url}: {e}")
     return raw_lines
 
+def clean_rule_value(value):
+    """清洗规则值，移除开头可能存在的非法字符，如 '*' 或 '.'"""
+    if value.startswith(('*', '.')):
+        return value.lstrip('*.')
+    return value
+
 def format_for_loon(raw_rules):
     """为Loon格式化规则，并进行严格的格式清理和统一。"""
     formatted_rules = set()
@@ -46,7 +52,9 @@ def format_for_loon(raw_rules):
         if len(parts) < 2 or not parts[0] or not parts[1]:
             continue
         rule_type = parts[0].upper()
-        rule_value = parts[1]
+        rule_value = clean_rule_value(parts[1]) # 清洗规则值
+        if not rule_value: continue
+
         if rule_type in ('HOST-SUFFIX', 'DOMAIN-SUFFIX'):
             formatted_rules.add(f'DOMAIN-SUFFIX,{rule_value}')
         elif rule_type in ('HOST-KEYWORD', 'DOMAIN-KEYWORD'):
@@ -68,7 +76,9 @@ def format_for_quantumultx(raw_rules):
         if len(parts) < 2 or not parts[0] or not parts[1]:
             continue
         rule_type = parts[0].upper()
-        rule_value = parts[1]
+        rule_value = clean_rule_value(parts[1]) # 清洗规则值
+        if not rule_value: continue
+
         if rule_type in ('DOMAIN-SUFFIX', 'HOST-SUFFIX'):
             formatted_rules.add(f'HOST-SUFFIX,{rule_value}')
         elif rule_type in ('DOMAIN-KEYWORD', 'HOST-KEYWORD'):
@@ -110,17 +120,6 @@ def fetch_manual_reject_rules(filepath):
                         manual_rules.add(line)
     return manual_rules
 
-def fetch_manual_allow_rules(filepath):
-    """从本地manual/allow-rules.txt读取白名单域名，返回域名列表。"""
-    allow_rules = set()
-    if os.path.exists(filepath):
-        with open(filepath, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith(('#', '!', ';', '---')):
-                    allow_rules.add(line)
-    return allow_rules
-
 def fetch_raw_local_rules(filepath):
     """从本地文件逐行读取原始规则，不做任何格式修改。"""
     raw_rules = set()
@@ -134,12 +133,22 @@ def fetch_raw_local_rules(filepath):
         print(f"ℹ️  Info: Raw local rule file not found at {filepath}, skipping.")
     return raw_rules
 
+def fetch_manual_allow_rules(filepath):
+    """从本地manual/allow-rules.txt读取白名单域名，返回域名列表。"""
+    allow_rules = set()
+    if os.path.exists(filepath):
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith(('#', '!', ';', '---')):
+                    allow_rules.add(line)
+    return allow_rules
+
 # --- 主逻辑 ---
 
 if __name__ == "__main__":
     print("--- Starting Separate Rule Aggregation ---")
 
-    # 1. 读取公共的手动规则文件 (一次性读取，供两者使用)
     print("\nFetching common manual rules...")
     manual_reject_path = os.path.join("manual", "reject-rules.txt")
     common_manual_reject_rules = fetch_manual_reject_rules(manual_reject_path)
@@ -147,16 +156,11 @@ if __name__ == "__main__":
     manual_allow_path = os.path.join("manual", "allow-rules.txt")
     common_allow_rules = fetch_manual_allow_rules(manual_allow_path)
 
-    # --- Loon 规则生成流程 ---
     print("\n--- Generating Rules for Loon ---")
-    # 获取 Loon 专用的网络规则
     loon_web_rules = fetch_raw_rules(LOON_AD_RULES_URLS)
-    # 合并公共手动规则
     loon_combined_rules = loon_web_rules | common_manual_reject_rules
-    # 移除白名单
     loon_final_rules = loon_combined_rules - common_allow_rules
     print(f"Found {len(loon_final_rules)} unique rules for Loon.")
-    # 格式化并写入文件
     loon_formatted_rules = format_for_loon(loon_final_rules)
     write_rules_to_file(
         os.path.join(LOON_OUTPUT_DIR, "ad-rules.list"), 
@@ -164,20 +168,18 @@ if __name__ == "__main__":
         "Loon Ad Rules (Aggregated)"
     )
 
-    # --- Quantumult X 规则生成流程 ---
     print("\n--- Generating Rules for QuantumultX ---")
-    # 获取 QX 专用的网络规则
     qx_web_rules = fetch_raw_rules(QUANTUMULTX_AD_RULES_URLS)
-    # 读取manual/reject-rules-back.txt规则，原封不动
+    
     print("Fetching QX-specific 'raw' manual reject rules...")
     manual_back_rules_path = os.path.join("manual", "reject-rules-back.txt")
     qx_specific_manual_rules = fetch_raw_local_rules(manual_back_rules_path)
-    # 合并规则
+    
     qx_combined_rules = qx_web_rules | common_manual_reject_rules | qx_specific_manual_rules
-    # 移除白名单
+    
     qx_final_rules = qx_combined_rules - common_allow_rules
+    
     print(f"Found {len(qx_final_rules)} unique rules for QuantumultX.")
-    # 格式化并写入文件
     qx_formatted_rules = format_for_quantumultx(qx_final_rules)
     write_rules_to_file(
         os.path.join(QUANTUMULTX_OUTPUT_DIR, "ad-rules.list"),
