@@ -1,6 +1,6 @@
 # Title: Loon Ad Rules (Aggregated)
 # Description: Generated from multiple sources. Do not edit manually.
-# Last Updated: 2025-09-09T03:10:33Z
+# Last Updated: 2025-09-09T03:16:09Z
 
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-rtb.gravite.net
@@ -285,8 +285,6 @@ DOMAIN-SUFFIX,-ad.adbkwai.com
 DOMAIN-SUFFIX,-ad.adkwai.com
 DOMAIN-SUFFIX,-ad.adukwai.com
 DOMAIN-SUFFIX,-reading-ad.qznovelvod.com
-DOMAIN-SUFFIX,/omts.tc.qq.com
-DOMAIN-SUFFIX,/snscosdownload//reserved/
 DOMAIN-SUFFIX,120.226.10.195
 DOMAIN-SUFFIX,120.232.58.157
 DOMAIN-SUFFIX,120.232.6.158
@@ -664,6 +662,7 @@ DOMAIN-SUFFIX,notes-analytics-events.apple.com
 DOMAIN-SUFFIX,nsclick.baidu.com
 DOMAIN-SUFFIX,oceanengine.com
 DOMAIN-SUFFIX,oi.rb.qq.com
+DOMAIN-SUFFIX,omts.tc.qq.com
 DOMAIN-SUFFIX,open-set-api.shenshiads.com
 DOMAIN-SUFFIX,open.douyin.com
 DOMAIN-SUFFIX,open.e.kuaishou.cn
@@ -759,6 +758,7 @@ DOMAIN-SUFFIX,sis-ipv6.jpush.cn
 DOMAIN-SUFFIX,sis.jpush.io
 DOMAIN-SUFFIX,smvconf.f.360.cn
 DOMAIN-SUFFIX,snowflake.qq.com
+DOMAIN-SUFFIX,snscosdownload//reserved/
 DOMAIN-SUFFIX,spcsz.cdn.bcebos.com
 DOMAIN-SUFFIX,ssp-sdk-config.uc.cn
 DOMAIN-SUFFIX,ssp.1rtb.com
@@ -1393,8 +1393,8 @@ IP-CIDR,74.117.182.77/32
 IP-CIDR,77.162.125.199/32
 IP-CIDR,78.140.131.214/32
 IP-CIDR,88.42.84.136/32
-URL-REGEX,/\d+/resolve
-URL-REGEX,/\d+/sign_d
+URL-REGEX,\d+/resolve
+URL-REGEX,\d+/sign_d
 URL-REGEX,^https?:\/\/.+?\.beacon\.qq\.com
 URL-REGEX,^https?:\/\/.+?\.l\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com

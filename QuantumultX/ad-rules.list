@@ -1,6 +1,6 @@
 # Title: QuantumultX Ad Rules (Aggregated)
 # Description: Generated from multiple sources. Do not edit manually.
-# Last Updated: 2025-09-09T03:10:34Z
+# Last Updated: 2025-09-09T03:16:11Z
 
 HOST,0.code.cotsta.ru
 HOST,00-gov.cn
@@ -17044,8 +17044,6 @@ HOST-SUFFIX,-ad.adkwai.com
 HOST-SUFFIX,-ad.adukwai.com
 HOST-SUFFIX,-normal-lq.zijieapi.com
 HOST-SUFFIX,-reading-ad.qznovelvod.com
-HOST-SUFFIX,/omts.tc.qq.com
-HOST-SUFFIX,/snscosdownload//reserved/
 HOST-SUFFIX,0.myikas.com
 HOST-SUFFIX,0.net.easyjet.com
 HOST-SUFFIX,0.nextyourcontent.com
@@ -149470,6 +149468,7 @@ HOST-SUFFIX,omtrdc.jobstreet.com.sg
 HOST-SUFFIX,omtrdc.jobstreet.vn
 HOST-SUFFIX,omtrdc.net
 HOST-SUFFIX,omtrns.sstats.q8.dk
+HOST-SUFFIX,omts.tc.qq.com
 HOST-SUFFIX,omukvai.texorabd.com
 HOST-SUFFIX,omuyhfcu.com
 HOST-SUFFIX,omvcilk.com
@@ -187503,6 +187502,7 @@ HOST-SUFFIX,snrcmgqe.com
 HOST-SUFFIX,sns.cuckoonestartstudio.com
 HOST-SUFFIX,sns2.secureforms.mcafee.com
 HOST-SUFFIX,snscf.fr
+HOST-SUFFIX,snscosdownload//reserved/
 HOST-SUFFIX,snsfdmmzpixhn.site
 HOST-SUFFIX,snsjiq.xyz
 HOST-SUFFIX,snsmpttxqwosp.space
@@ -241674,8 +241674,8 @@ URL-REGEX,"^https?:\/\/(?:[^\/]+\.)*p2p[^\/]*douyucdn\.cn"
 URL-REGEX,"^https?:\/\/(?:[^\/]+\.)*p2p[^\/]*qq\.com"
 URL-REGEX,"^https?:\/\/(?:[^\/]+\.)*pcdn[^\/]*biliapi\.net"
 URL-REGEX,"^https?:\/\/(?:[^\/]+\.)*pcdn[^\/]*youku\.com"
-URL-REGEX,/\d+/resolve
-URL-REGEX,/\d+/sign_d
+URL-REGEX,\d+/resolve
+URL-REGEX,\d+/sign_d
 URL-REGEX,^https?:\/\/.+?\.beacon\.qq\.com
 URL-REGEX,^https?:\/\/.+?\.l\.qq\.com
 URL-REGEX,^https?:\/\/\w+\.gdt\.qq\.com
