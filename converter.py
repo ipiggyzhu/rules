@@ -3,12 +3,18 @@ import os
 import datetime
 
 # --- 配置 ---
-# 统一的广告规则来源
-AD_RULES_URLS = [
+# 1. Loon 专用的广告规则来源
+LOON_AD_RULES_URLS = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-loon.txt",
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PCDN/PCDN.list"
+]
+
+# 2. Quantumult X 专用的广告规则来源
+QUANTUMULTX_AD_RULES_URLS = [
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list",
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/PCDN/PCDN.list"
 ]
 
 # 输出目录
@@ -18,33 +24,29 @@ QUANTUMULTX_OUTPUT_DIR = "QuantumultX"
 # --- 函数 ---
 
 def fetch_raw_rules(urls):
-    """从URL列表中获取原始规则行，并进行精确去重。"""
+    """从URL列表中获取原始规则行。"""
     raw_lines = set()
     for url in urls:
         try:
-            response = requests.get(url, timeout=15)
+            response = requests.get(url, timeout=20)
             response.raise_for_status()
             lines = response.text.splitlines()
             for line in lines:
-                # 仅处理有效行
                 if line.strip() and not line.strip().startswith(('!', '#', ';')):
                     raw_lines.add(line.strip())
         except requests.RequestException as e:
             print(f"Error fetching {url}: {e}")
-    return sorted(list(raw_lines))
+    return raw_lines
 
 def format_for_loon(raw_rules):
     """为Loon格式化规则，并进行严格的格式清理和统一。"""
-    formatted_rules = set()  # 使用集合以自动处理转换后的重复项
+    formatted_rules = set()
     for rule in raw_rules:
         parts = [p.strip() for p in rule.split(',')]
         if len(parts) < 2 or not parts[0] or not parts[1]:
             continue
-
         rule_type = parts[0].upper()
         rule_value = parts[1]
-
-        # 将 QX 的 HOST-* 格式和 Loon 的 DOMAIN-* 格式统一为 Loon 标准格式
         if rule_type in ('HOST-SUFFIX', 'DOMAIN-SUFFIX'):
             formatted_rules.add(f'DOMAIN-SUFFIX,{rule_value}')
         elif rule_type in ('HOST-KEYWORD', 'DOMAIN-KEYWORD'):
@@ -52,27 +54,21 @@ def format_for_loon(raw_rules):
         elif rule_type in ('HOST', 'DOMAIN'):
             formatted_rules.add(f'DOMAIN,{rule_value}')
         elif rule_type == 'IP-CIDR':
-            # 验证IP-CIDR格式 (支持IPv4和IPv6)
             if '/' in rule_value and ('.' in rule_value or ':' in rule_value):
                 formatted_rules.add(f'IP-CIDR,{rule_value}')
-        # 保留其他Loon兼容的规则类型
         elif rule_type in ('USER-AGENT', 'URL-REGEX'):
             formatted_rules.add(f'{rule_type},{rule_value}')
-            
     return sorted(list(formatted_rules))
 
 def format_for_quantumultx(raw_rules):
     """为QuantumultX格式化规则，并进行严格的格式清理。"""
-    formatted_rules = set() # 使用集合以自动处理转换后的重复项
+    formatted_rules = set()
     for rule in raw_rules:
         parts = [p.strip() for p in rule.split(',')]
         if len(parts) < 2 or not parts[0] or not parts[1]:
             continue
-
         rule_type = parts[0].upper()
         rule_value = parts[1]
-
-        # 将 Loon 的 DOMAIN-* 格式和 QX 的 HOST-* 格式统一为 QX 标准格式
         if rule_type in ('DOMAIN-SUFFIX', 'HOST-SUFFIX'):
             formatted_rules.add(f'HOST-SUFFIX,{rule_value}')
         elif rule_type in ('DOMAIN-KEYWORD', 'HOST-KEYWORD'):
@@ -80,13 +76,10 @@ def format_for_quantumultx(raw_rules):
         elif rule_type in ('DOMAIN', 'HOST'):
             formatted_rules.add(f'HOST,{rule_value}')
         elif rule_type == 'IP-CIDR':
-            # 验证IP-CIDR格式 (支持IPv4和IPv6)
             if '/' in rule_value and ('.' in rule_value or ':' in rule_value):
                 formatted_rules.add(f'IP-CIDR,{rule_value}')
-        # 保留其他QX兼容的规则类型
         elif rule_type in ('USER-AGENT', 'URL-REGEX'):
             formatted_rules.add(f'{rule_type},{rule_value}')
-                
     return sorted(list(formatted_rules))
 
 def write_rules_to_file(filepath, rules, title):
@@ -104,15 +97,18 @@ def write_rules_to_file(filepath, rules, title):
     print(f"✅ Successfully generated {filepath}")
 
 def fetch_manual_reject_rules(filepath):
-    """从本地manual/reject-rules.txt读取黑名单域名，返回域名列表。"""
+    """从本地manual/reject-rules.txt读取规则，并为纯域名自动添加前缀。"""
     manual_rules = set()
     if os.path.exists(filepath):
         with open(filepath, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
                 if line and not line.startswith(('#', '!', ';')):
-                    manual_rules.add(line)
-    return sorted(list(manual_rules))
+                    if ',' not in line:
+                        manual_rules.add(f'DOMAIN-SUFFIX,{line}')
+                    else:
+                        manual_rules.add(line)
+    return manual_rules
 
 def fetch_manual_allow_rules(filepath):
     """从本地manual/allow-rules.txt读取白名单域名，返回域名列表。"""
@@ -123,45 +119,57 @@ def fetch_manual_allow_rules(filepath):
                 line = line.strip()
                 if line and not line.startswith(('#', '!', ';', '---')):
                     allow_rules.add(line)
-    return sorted(list(allow_rules))
+    return allow_rules
 
 # --- 主逻辑 ---
 
 if __name__ == "__main__":
-    print("--- Starting Ad Rule Aggregation ---")
-    
-    # 1. 获取并合并所有广告规则源
-    print("\nFetching ad rule lists...")
-    master_ad_rules = sorted(list(fetch_raw_rules(AD_RULES_URLS)))
-    
-    # 2. 合并手动添加的黑名单规则
+    print("--- Starting Separate Rule Aggregation ---")
+
+    # 1. 读取公共的手动规则文件 (一次性读取，供两者使用)
+    print("\nFetching common manual rules...")
     manual_reject_path = os.path.join("manual", "reject-rules.txt")
-    manual_reject_rules = fetch_manual_reject_rules(manual_reject_path)
-    master_ad_rules = sorted(list(set(master_ad_rules) | set(manual_reject_rules)))
+    common_manual_reject_rules = fetch_manual_reject_rules(manual_reject_path)
     
-    # 3. 移除手动添加的白名单规则
     manual_allow_path = os.path.join("manual", "allow-rules.txt")
-    manual_allow_rules = fetch_manual_allow_rules(manual_allow_path)
-    master_ad_rules = sorted(list(set(master_ad_rules) - set(manual_allow_rules)))
+    common_allow_rules = fetch_manual_allow_rules(manual_allow_path)
 
-    print(f"Found {len(master_ad_rules)} unique ad rules after deduplication and manual adjustments.")
-
-    # 4. 生成Loon.list文件
-    print("\n--- Generating .list Rules for Loon ---")
-    loon_ad_rules = format_for_loon(master_ad_rules)
+    # --- Loon 规则生成流程 ---
+    print("\n--- Generating Rules for Loon ---")
+    # 获取 Loon 专用的网络规则
+    loon_web_rules = fetch_raw_rules(LOON_AD_RULES_URLS)
+    # 合并公共手动规则
+    loon_combined_rules = loon_web_rules | common_manual_reject_rules
+    # 移除白名单
+    loon_final_rules = loon_combined_rules - common_allow_rules
+    print(f"Found {len(loon_final_rules)} unique rules for Loon.")
+    # 格式化并写入文件
+    loon_formatted_rules = format_for_loon(loon_final_rules)
     write_rules_to_file(
         os.path.join(LOON_OUTPUT_DIR, "ad-rules.list"), 
-        loon_ad_rules, 
+        loon_formatted_rules, 
         "Loon Ad Rules (Aggregated)"
     )
 
-    # 5. 生成QuantumultX.list文件
-    print("\n--- Generating .list Rules for QuantumultX ---")
-    q_ad_rules = format_for_quantumultx(master_ad_rules)
+    # --- Quantumult X 规则生成流程 ---
+    print("\n--- Generating Rules for QuantumultX ---")
+    # 获取 QX 专用的网络规则
+    qx_web_rules = fetch_raw_rules(QUANTUMULTX_AD_RULES_URLS)
+    # 读取manual/reject-rules-back.txt规则，原封不动
+    print("Fetching QX-specific 'raw' manual reject rules...")
+    manual_back_rules_path = os.path.join("manual", "reject-rules-back.txt")
+    qx_specific_manual_rules = fetch_raw_local_rules(manual_back_rules_path)
+    # 合并规则
+    qx_combined_rules = qx_web_rules | common_manual_reject_rules | qx_specific_manual_rules
+    # 移除白名单
+    qx_final_rules = qx_combined_rules - common_allow_rules
+    print(f"Found {len(qx_final_rules)} unique rules for QuantumultX.")
+    # 格式化并写入文件
+    qx_formatted_rules = format_for_quantumultx(qx_final_rules)
     write_rules_to_file(
         os.path.join(QUANTUMULTX_OUTPUT_DIR, "ad-rules.list"),
-        q_ad_rules,
+        qx_formatted_rules,
         "QuantumultX Ad Rules (Aggregated)"
     )
     
-    print("\n--- Ad Rule Aggregation Finished ---")
+    print("\n--- Separate Rule Aggregation Finished ---")
