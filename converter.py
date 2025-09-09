@@ -39,19 +39,27 @@ def fetch_raw_rules(urls):
     return raw_lines
 
 def clean_rule_value(value):
-    """清洗规则值，移除开头可能存在的非法字符，如 '*', '.' 或 '/'"""
-    return value.lstrip('*. /')
+    """清洗规则值，仅移除开头可能存在的非法字符，如 '*'、'/' 或 '.'"""
+    return value.lstrip('*./')
 
 def format_for_loon(raw_rules):
-    """为Loon格式化规则，并进行严格的格式清理和统一。"""
+    """为Loon格式化规则，并丢弃无效的域名规则。"""
     formatted_rules = set()
+    domain_rule_types = ('HOST-SUFFIX', 'DOMAIN-SUFFIX', 'HOST-KEYWORD', 'DOMAIN-KEYWORD', 'HOST', 'DOMAIN')
+    
     for rule in raw_rules:
         parts = [p.strip() for p in rule.split(',')]
         if len(parts) < 2 or not parts[0] or not parts[1]:
             continue
+            
         rule_type = parts[0].upper()
-        rule_value = clean_rule_value(parts[1]) # 清洗规则值
+        rule_value = clean_rule_value(parts[1])
         if not rule_value: continue
+
+        # 如果是域名类规则，但值中包含路径，则丢弃该规则
+        if rule_type in domain_rule_types and '/' in rule_value:
+            print(f"⚠️  Warning (Loon): Discarding invalid domain rule with path: {rule}")
+            continue
 
         if rule_type in ('HOST-SUFFIX', 'DOMAIN-SUFFIX'):
             formatted_rules.add(f'DOMAIN-SUFFIX,{rule_value}')
@@ -63,19 +71,28 @@ def format_for_loon(raw_rules):
             if '/' in rule_value and ('.' in rule_value or ':' in rule_value):
                 formatted_rules.add(f'IP-CIDR,{rule_value}')
         elif rule_type in ('USER-AGENT', 'URL-REGEX'):
-            formatted_rules.add(f'{rule_type},{rule_value}')
+            formatted_rules.add(f'{rule_type},{parts[1]}') # URL-REGEX保留原始值
+            
     return sorted(list(formatted_rules))
 
 def format_for_quantumultx(raw_rules):
-    """为QuantumultX格式化规则，并进行严格的格式清理。"""
+    """为QuantumultX格式化规则，并丢弃无效的域名规则。"""
     formatted_rules = set()
+    domain_rule_types = ('HOST-SUFFIX', 'DOMAIN-SUFFIX', 'HOST-KEYWORD', 'DOMAIN-KEYWORD', 'HOST', 'DOMAIN')
+
     for rule in raw_rules:
         parts = [p.strip() for p in rule.split(',')]
         if len(parts) < 2 or not parts[0] or not parts[1]:
             continue
+            
         rule_type = parts[0].upper()
-        rule_value = clean_rule_value(parts[1]) # 清洗规则值
+        rule_value = clean_rule_value(parts[1])
         if not rule_value: continue
+
+        # 如果是域名类规则，但值中包含路径，则丢弃该规则
+        if rule_type in domain_rule_types and '/' in rule_value:
+            print(f"⚠️  Warning (QX): Discarding invalid domain rule with path: {rule}")
+            continue
 
         if rule_type in ('DOMAIN-SUFFIX', 'HOST-SUFFIX'):
             formatted_rules.add(f'HOST-SUFFIX,{rule_value}')
@@ -87,7 +104,8 @@ def format_for_quantumultx(raw_rules):
             if '/' in rule_value and ('.' in rule_value or ':' in rule_value):
                 formatted_rules.add(f'IP-CIDR,{rule_value}')
         elif rule_type in ('USER-AGENT', 'URL-REGEX'):
-            formatted_rules.add(f'{rule_type},{rule_value}')
+            formatted_rules.add(f'{rule_type},{parts[1]}') # URL-REGEX保留原始值
+            
     return sorted(list(formatted_rules))
 
 def write_rules_to_file(filepath, rules, title):
