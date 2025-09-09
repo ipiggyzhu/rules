@@ -121,6 +121,19 @@ def fetch_manual_allow_rules(filepath):
                     allow_rules.add(line)
     return allow_rules
 
+def fetch_raw_local_rules(filepath):
+    """从本地文件逐行读取原始规则，不做任何格式修改。"""
+    raw_rules = set()
+    if os.path.exists(filepath):
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith(('#', '!', ';')):
+                    raw_rules.add(line)
+    else:
+        print(f"ℹ️  Info: Raw local rule file not found at {filepath}, skipping.")
+    return raw_rules
+
 # --- 主逻辑 ---
 
 if __name__ == "__main__":
