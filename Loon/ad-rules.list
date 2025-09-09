@@ -1,6 +1,6 @@
 # Title: Loon Ad Rules (Aggregated)
 # Description: Generated from multiple sources. Do not edit manually.
-# Last Updated: 2025-09-09T03:01:42Z
+# Last Updated: 2025-09-09T03:10:33Z
 
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-rtb.gravite.net
@@ -8,12 +8,6 @@ DOMAIN-KEYWORD,-s2s.sensic.net
 DOMAIN-KEYWORD,-spiky.clevertap-prod.com
 DOMAIN-KEYWORD,-tracker.biliapi.net
 DOMAIN-KEYWORD,-txtagstore
-DOMAIN-KEYWORD,.engage.3m.
-DOMAIN-KEYWORD,.estream.
-DOMAIN-KEYWORD,.freecontent.
-DOMAIN-KEYWORD,.net.daraz.
-DOMAIN-KEYWORD,.nimiq.
-DOMAIN-KEYWORD,.zooplus.
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com
@@ -125,6 +119,8 @@ DOMAIN-KEYWORD,dwtrack
 DOMAIN-KEYWORD,e2wysbacctt1
 DOMAIN-KEYWORD,editor.sm.cn
 DOMAIN-KEYWORD,ems.youku.com
+DOMAIN-KEYWORD,engage.3m.
+DOMAIN-KEYWORD,estream.
 DOMAIN-KEYWORD,exosrv
 DOMAIN-KEYWORD,extlog.snssdk.com
 DOMAIN-KEYWORD,fans.m.tmall.com
@@ -136,6 +132,7 @@ DOMAIN-KEYWORD,fc-video.cdn.bcebos.com
 DOMAIN-KEYWORD,fds.api.moji.com
 DOMAIN-KEYWORD,fenxi
 DOMAIN-KEYWORD,flightsy
+DOMAIN-KEYWORD,freecontent.
 DOMAIN-KEYWORD,fzlm
 DOMAIN-KEYWORD,gettate
 DOMAIN-KEYWORD,googleads
@@ -191,8 +188,10 @@ DOMAIN-KEYWORD,msg.push.51y5.net
 DOMAIN-KEYWORD,nbcollect.kugou.com
 DOMAIN-KEYWORD,nbcollectretry.kugou.com
 DOMAIN-KEYWORD,nbsdk-baichuan
+DOMAIN-KEYWORD,net.daraz.
 DOMAIN-KEYWORD,news-log.51y5.net
 DOMAIN-KEYWORD,news.51y5.net
+DOMAIN-KEYWORD,nimiq.
 DOMAIN-KEYWORD,nimiqpool
 DOMAIN-KEYWORD,o333o
 DOMAIN-KEYWORD,omgmta
@@ -278,21 +277,15 @@ DOMAIN-KEYWORD,xn--2qux23c9ziyrq
 DOMAIN-KEYWORD,xxshuyuan
 DOMAIN-KEYWORD,ynuf.alipay.com
 DOMAIN-KEYWORD,zjtoolbar
+DOMAIN-KEYWORD,zooplus.
 DOMAIN-KEYWORD,zymerget
-DOMAIN-SUFFIX,*-ad-sign.byteimg.com
-DOMAIN-SUFFIX,*-ad-union-sdk.pglstatp-toutiao.com
-DOMAIN-SUFFIX,*-ad.adbkwai.com
-DOMAIN-SUFFIX,*-ad.adkwai.com
-DOMAIN-SUFFIX,*-ad.adukwai.com
-DOMAIN-SUFFIX,*-reading-ad.qznovelvod.com
-DOMAIN-SUFFIX,*.ads.heytapmobi.com
-DOMAIN-SUFFIX,*.applovin.com
-DOMAIN-SUFFIX,*.juicyads.me
-DOMAIN-SUFFIX,*/omts.tc.qq.com
-DOMAIN-SUFFIX,*ad.wtzw.com
-DOMAIN-SUFFIX,*adintl.cn
-DOMAIN-SUFFIX,*pglstatp-toutiao.com
-DOMAIN-SUFFIX,.voiceads.cn
+DOMAIN-SUFFIX,-ad-sign.byteimg.com
+DOMAIN-SUFFIX,-ad-union-sdk.pglstatp-toutiao.com
+DOMAIN-SUFFIX,-ad.adbkwai.com
+DOMAIN-SUFFIX,-ad.adkwai.com
+DOMAIN-SUFFIX,-ad.adukwai.com
+DOMAIN-SUFFIX,-reading-ad.qznovelvod.com
+DOMAIN-SUFFIX,/omts.tc.qq.com
 DOMAIN-SUFFIX,/snscosdownload//reserved/
 DOMAIN-SUFFIX,120.226.10.195
 DOMAIN-SUFFIX,120.232.58.157
@@ -336,6 +329,7 @@ DOMAIN-SUFFIX,ad.tencentmusic.com
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,ad.us.sinaimg.cn
 DOMAIN-SUFFIX,ad.weixin.qq.com
+DOMAIN-SUFFIX,ad.wtzw.com
 DOMAIN-SUFFIX,ad.wx.com
 DOMAIN-SUFFIX,ad.wx.com:12638
 DOMAIN-SUFFIX,ad.xelements.cn
@@ -347,6 +341,7 @@ DOMAIN-SUFFIX,adashbc.m.taobao.com
 DOMAIN-SUFFIX,adashx.ut.cainiao.com
 DOMAIN-SUFFIX,adcdn6.tencentmusic.com
 DOMAIN-SUFFIX,adimg.uve.weibo.com
+DOMAIN-SUFFIX,adintl.cn
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adlog.vivo.com.cn
 DOMAIN-SUFFIX,admin-app.edifier.com
@@ -368,6 +363,7 @@ DOMAIN-SUFFIX,ads-shopping.shouqianba.com
 DOMAIN-SUFFIX,ads.cup.com.cn
 DOMAIN-SUFFIX,ads.exoclick.com
 DOMAIN-SUFFIX,ads.game.iqiyi.com
+DOMAIN-SUFFIX,ads.heytapmobi.com
 DOMAIN-SUFFIX,ads.log.kafka.top
 DOMAIN-SUFFIX,ads.morefreegame.com
 DOMAIN-SUFFIX,ads.sinaimg.cn
@@ -441,6 +437,7 @@ DOMAIN-SUFFIX,api5-normal-sinfonlineb.dcarapi.com
 DOMAIN-SUFFIX,app-preload.iqiyi.com
 DOMAIN-SUFFIX,appcloud2.zhihu.com
 DOMAIN-SUFFIX,applog.zijieapi.com
+DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,apps.iad.apple.com
 DOMAIN-SUFFIX,appupgrade.vivo.com.cn
 DOMAIN-SUFFIX,as.weixin.qq.com
@@ -604,6 +601,7 @@ DOMAIN-SUFFIX,janapi.jd.com
 DOMAIN-SUFFIX,jiaxiao-awd.kakamobi.cn
 DOMAIN-SUFFIX,jsb.zijieapi.com
 DOMAIN-SUFFIX,jsonatm-wss.broker.tplay.qq.com
+DOMAIN-SUFFIX,juicyads.me
 DOMAIN-SUFFIX,k0ub7yecy34y98z.djvod.ndcimgs.com
 DOMAIN-SUFFIX,kadmimage.biz.weibo.com
 DOMAIN-SUFFIX,kde.qq.com
@@ -697,6 +695,7 @@ DOMAIN-SUFFIX,partner.uc.cn
 DOMAIN-SUFFIX,peplle.cn
 DOMAIN-SUFFIX,pgdt.gtimg.cn
 DOMAIN-SUFFIX,pgdt.ugdtimg.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,pic7.iqiyipic.com
 DOMAIN-SUFFIX,pick.isxyrzo.com
 DOMAIN-SUFFIX,pinner-imgserver.byted.org
@@ -860,6 +859,7 @@ DOMAIN-SUFFIX,view-apple.com
 DOMAIN-SUFFIX,vivotest.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,vod-settings.bytedanceapi.com
 DOMAIN-SUFFIX,vod-settings.volcvod.com
+DOMAIN-SUFFIX,voiceads.cn
 DOMAIN-SUFFIX,volc.bj.ad.track.66mobi.com
 DOMAIN-SUFFIX,vr.gdt.qq.com
 DOMAIN-SUFFIX,w1.gskwai.com
