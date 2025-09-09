@@ -39,10 +39,8 @@ def fetch_raw_rules(urls):
     return raw_lines
 
 def clean_rule_value(value):
-    """清洗规则值，移除开头可能存在的非法字符，如 '*' 或 '.'"""
-    if value.startswith(('*', '.')):
-        return value.lstrip('*.')
-    return value
+    """清洗规则值，移除开头可能存在的非法字符，如 '*', '.' 或 '/'"""
+    return value.lstrip('*. /')
 
 def format_for_loon(raw_rules):
     """为Loon格式化规则，并进行严格的格式清理和统一。"""
