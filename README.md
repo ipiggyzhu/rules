@@ -1,5 +1,5 @@
 # 自用规则自动化仓库
-![更新状态](https://github.com/ipiggyzhu/rules/actions/workflows/convert.yml/badge.svg)
+![更新状态](https://github.com/ipiggyzhu/rules/actions/workflows/convert.yml/badge.svg?branch=main)
 ![最后提交](https://img.shields.io/github/last-commit/ipiggyzhu/rules)
 
 本仓库用于自动聚合、去重并生成适用于 **Loon** 与 **Quantumult X** 的自定义规则文件。
