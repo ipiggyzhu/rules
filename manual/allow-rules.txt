@@ -7,3 +7,11 @@ bing.com
 
 --- youtube ---
 youtube.com
+
+--- qq ---
+snowflake.qq.com
+
+--- 其他 ---
+HOST,66990000.xyz,direct
+HOST,alist.haoizan.com,direct
+HOST,ys.66990000.xyz,direct
