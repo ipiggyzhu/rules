@@ -1,3 +1,9 @@
 # > Talkatone
 HOST-SUFFIX, talkatone.com, Talkatone
 HOST-SUFFIX, t-cdn.net, Talkatone
+Host, relay-sjc-05.tktn.be, Talktone
+Host, relay-sjc-04.tktn.be, Talktone
+Host, xmpp4.tktn.be, Talktone
+Host, relay-sjc-01.tktn.be, Talktone
+Host, api.hcaptcha.com, Talktone
+Host, a1.tktn.be, Talktone
