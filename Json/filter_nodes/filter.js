@@ -1,3 +1,5 @@
+// --- 规则配置区 ---
+
 // 1. 黑名单：包含这些词的条目，100%是垃圾信息，立即排除。
 const blacklistKeywords = [
   '套餐', '到期', '流量', '剩余', '重置', '时间', '官网', '过滤',
@@ -16,7 +18,7 @@ const whitelistKeywords = [
   '专线', 'IPLC', 'IEPL', 'BGP', 'CN2', 'GIA', '游戏', 'Game', '流媒体', 'Streaming', '解锁', '中转', 'Relay', 'Premium', 'Pro', 'VIP'
 ];
 
-// --- 主函数 ---
+// --- 主函数 (无需修改) ---
 function main(proxies) {
   
   const filteredProxies = proxies.filter(proxy => {
