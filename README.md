@@ -1,51 +1,82 @@
-# 自用规则自动化仓库
+# 自用规则仓库
+
 ![更新状态](https://github.com/ipiggyzhu/rules/actions/workflows/update-rules.yml/badge.svg)
-![最后提交](https://img.shields.io/github/last-commit/ipiggyzhu/rules)
 
-本仓库用于自动聚合、去重并生成适用于 **Loon** 与 **Quantumult X** 的自定义规则文件。
+自动聚合生成 **Loon** 和 **Quantumult X** 广告拦截规则。
 
----
+## 订阅链接
 
-## ✨ 主要特性
+### 广告拦截规则
+| 平台 | 链接 |
+|------|------|
+| Loon | `https://raw.githubusercontent.com/ipiggyzhu/rules/main/Loon/ad-rules.list` |
+| Quantumult X | `https://raw.githubusercontent.com/ipiggyzhu/rules/main/QuantumultX/ad-rules.list` |
 
-*   **自动化聚合与更新**
-    *   通过 GitHub Actions 每日定时拉取、去重、合并多个上游规则源。
-    *   确保规则集始终保持最新状态。
+### 直连规则（国内网站）
+| 平台 | 链接 |
+|------|------|
+| Loon | `https://raw.githubusercontent.com/ipiggyzhu/rules/main/Loon/direct-rules.list` |
+| Quantumult X | `https://raw.githubusercontent.com/ipiggyzhu/rules/main/QuantumultX/direct-rules.list` |
 
-*   **多平台支持**
-    *   自动生成为 Loon 和 Quantumult X 两种工具优化过的、标准化的规则文件。
+## 目录结构
 
-*   **精细化手动控制**
-    *   **自定义黑名单**：通过 `manual/reject-rules.txt` 添加您自己的屏蔽规则（支持纯域名自动转换为后缀规则）。
-    *   **自定义白名单**：通过 `manual/allow-rules.txt` 添加需要放行的域名，以修复误杀问题。
-    *   **QX 专属规则**：通过 `manual/reject-rules-back.txt` 添加仅对 Quantumult X 生效的、格式更复杂的规则。
+```
+rules/
+├── sources/              # 【手动编辑】源文件
+│   ├── ad-blacklist.txt  # 广告黑名单（您添加的域名）
+│   └── ad-whitelist.txt  # 白名单（防误杀）
+│
+├── Loon/                 # 【自动生成】Loon 规则
+│   └── ad-rules.list
+│
+├── QuantumultX/          # 【自动生成】QX 规则
+│   ├── ad-rules.list
+│   └── QuantumultX.conf  # 配置文件
+│
+├── icons/                # 图标资源
+│   ├── loon.json
+│   ├── quantumultx.json
+│   └── images/
+│
+└── converter.py          # 规则生成脚本
+```
 
----
+## 使用方法
 
-## 🚀 订阅与使用
+### 添加广告域名
 
-您可以直接在您的 Loon 或 Quantumult X 配置中引用以下链接。链接指向 `main` 分支，会随着每日自动更新而保持最新。
+编辑 `sources/ad-blacklist.txt`，每行一个域名：
 
-### 广告拦截规则 (Ad Rules)
+```
+ad.example.com
+tracker.example.com
+```
 
-*   **For Loon:**
-    ```
-    https://raw.githubusercontent.com/ipiggyzhu/rules/main/Loon/ad-rules.list
-    ```
+### 添加白名单
 
-*   **For Quantumult X:**
-    ```
-    https://raw.githubusercontent.com/ipiggyzhu/rules/main/QuantumultX/ad-rules.list
-    ```
+编辑 `sources/ad-whitelist.txt`，每行一个域名：
 
----
+```
+example.com
+```
 
-## 🛠️ 工作流
+### 本地运行
 
-本仓库的核心工作流由 `.github/workflows/convert.yml` 文件定义，主要执行以下步骤：
+```bash
+pip install requests
+python converter.py
+```
 
-1.  **定时触发**：每日凌晨定时启动。
-2.  **拉取规则**：分别从为 Loon 和 Quantumult X 优选的上游规则列表中拉取最新的规则。
-3.  **合并与去重**：将网络规则与 `manual/` 目录下的手动控制规则进行合并，并利用 `set` 进行高效去重。
-4.  **格式化**：为两个平台分别进行严格的格式校验和标准化处理，确保兼容性。
-5.  **推送更新**：将新生成的规则文件推送回本仓库的 `main` 分支。
+## 上游规则源
+
+### 广告拦截
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) - Advertising + PCDN
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD)
+- [Cats-Team/AdRules](https://github.com/Cats-Team/AdRules)
+
+### 直连规则
+- [blackmatrix7/ios_rule_script - ChinaMax](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMax) - 国内网站直连
+
+## 自动更新
+
+GitHub Actions 每天 UTC 0:00（北京时间 08:00）自动运行。

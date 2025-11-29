@@ -1,0 +1,2554 @@
+{
+  "name": "ipiggyzhu",
+  "description": "by @ipiggyzhu",
+  "icons": [
+    {
+      "name": "lige",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lige.png"
+    },
+    {
+      "name": "Hongkong",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Hongkong.png"
+    },
+    {
+      "name": "Hongkong(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Hongkong(1).png"
+    },
+    {
+      "name": "Hongkong(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Hongkong(2).png"
+    },
+    {
+      "name": "Hongkong(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Hongkong(3).png"
+    },
+    {
+      "name": "chinese",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/chinese.png"
+    },
+    {
+      "name": "taiwan",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/taiwan.png"
+    },
+    {
+      "name": "taiwan(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/taiwan(1).png"
+    },
+    {
+      "name": "taiwan(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/taiwan(2).png"
+    },
+    {
+      "name": "taiwan(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/taiwan(3).png"
+    },
+    {
+      "name": "taiwan(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/taiwan(4).png"
+    },
+    {
+      "name": "Macao",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Macao.png"
+    },
+    {
+      "name": "Macao(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Macao(1).png"
+    },
+    {
+      "name": "Korea",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Korea.png"
+    },
+    {
+      "name": "Korea(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Korea(1).png"
+    },
+    {
+      "name": "Korea(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Korea(2).png"
+    },
+    {
+      "name": "singapore(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/singapore(2).png"
+    },
+    {
+      "name": "singapore(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/singapore(1).png"
+    },
+    {
+      "name": "singapore",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/singapore.png"
+    },
+    {
+      "name": "Japan",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Japan.png"
+    },
+    {
+      "name": "Japan(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Japan(1).png"
+    },
+    {
+      "name": "Japan(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Japan(2).png"
+    },
+    {
+      "name": "zl-icon-jp-flag",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zl-icon-jp-flag.png"
+    },
+    {
+      "name": "US",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/US.png"
+    },
+    {
+      "name": "US(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/US(1).png"
+    },
+    {
+      "name": "US(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/US(2).png"
+    },
+    {
+      "name": "Spain",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Spain.png"
+    },
+    {
+      "name": "Spain(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Spain(2).png"
+    },
+    {
+      "name": "Poland",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Poland.png"
+    },
+    {
+      "name": "Poland(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Poland(2).png"
+    },
+    {
+      "name": "Poland(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Poland(3).png"
+    },
+    {
+      "name": "India(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/India(2).png"
+    },
+    {
+      "name": "India(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/India(1).png"
+    },
+    {
+      "name": "India",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/India.png"
+    },
+    {
+      "name": "Argentina(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Argentina(2).png"
+    },
+    {
+      "name": "Argentina(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Argentina(1).png"
+    },
+    {
+      "name": "Argentina",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Argentina.png"
+    },
+    {
+      "name": "Australia",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Australia.png"
+    },
+    {
+      "name": "Australia(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Australia(1).png"
+    },
+    {
+      "name": "Australia(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Australia(2).png"
+    },
+    {
+      "name": "Netherlands",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Netherlands.png"
+    },
+    {
+      "name": "Netherlands(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Netherlands(1).png"
+    },
+    {
+      "name": "NorthKorea",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NorthKorea.png"
+    },
+    {
+      "name": "NorthKorea(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NorthKorea(1).png"
+    },
+    {
+      "name": "NorthKorea(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NorthKorea(2).png"
+    },
+    {
+      "name": "Germany",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Germany.png"
+    },
+    {
+      "name": "Germany(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Germany(1).png"
+    },
+    {
+      "name": "Germany(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Germany(2).png"
+    },
+    {
+      "name": "Turkey",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Turkey.png"
+    },
+    {
+      "name": "Turkey(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Turkey(1).png"
+    },
+    {
+      "name": "Turkey(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Turkey(2).png"
+    },
+    {
+      "name": "Thailand",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Thailand.png"
+    },
+    {
+      "name": "Thailand(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Thailand(1).png"
+    },
+    {
+      "name": "Thailand(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Thailand(2).png"
+    },
+    {
+      "name": "UnitedKingdom",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/UnitedKingdom.png"
+    },
+    {
+      "name": "UnitedKingdom(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/UnitedKingdom(1).png"
+    },
+    {
+      "name": "UnitedKingdom(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/UnitedKingdom(2).png"
+    },
+    {
+      "name": "FederalRepublicofNigeria",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/FederalRepublicofNigeria.png"
+    },
+    {
+      "name": "FederalRepublicofNigeria(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/FederalRepublicofNigeria(1).png"
+    },
+    {
+      "name": "Malaysia",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Malaysia.png"
+    },
+    {
+      "name": "Russia",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Russia.png"
+    },
+    {
+      "name": "Russia(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Russia(1).png"
+    },
+    {
+      "name": "Russia(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Russia(2).png"
+    },
+    {
+      "name": "EuropeanUnion",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/EuropeanUnion.png"
+    },
+    {
+      "name": "EuropeanUnion(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/EuropeanUnion(1).png"
+    },
+    {
+      "name": "EuropeanUnion(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/EuropeanUnion(2).png"
+    },
+    {
+      "name": "Brasil",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Brasil.png"
+    },
+    {
+      "name": "Brasil(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Brasil(1).png"
+    },
+    {
+      "name": "Brasil(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Brasil(2).png"
+    },
+    {
+      "name": "Loon",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon.png"
+    },
+    {
+      "name": "Loon(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon(1).png"
+    },
+    {
+      "name": "Loon(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon(2).png"
+    },
+    {
+      "name": "Loon(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon(3).png"
+    },
+    {
+      "name": "Loon(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon(4).png"
+    },
+    {
+      "name": "Loon(5)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon(5).png"
+    },
+    {
+      "name": "Loon(6)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon(6).png"
+    },
+    {
+      "name": "Loon(7)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon(7).png"
+    },
+    {
+      "name": "Loon(8)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Loon(8).png"
+    },
+    {
+      "name": "Surge(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(1).png"
+    },
+    {
+      "name": "Surge(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(2).png"
+    },
+    {
+      "name": "Surge(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(3).png"
+    },
+    {
+      "name": "Surge(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(4).png"
+    },
+    {
+      "name": "Surge(5)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(5).png"
+    },
+    {
+      "name": "Surge(6)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(6).png"
+    },
+    {
+      "name": "Surge(7)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(7).png"
+    },
+    {
+      "name": "Surge(14)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(14).png"
+    },
+    {
+      "name": "Surge(8)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(8).png"
+    },
+    {
+      "name": "Surge(9)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(9).png"
+    },
+    {
+      "name": "Surge(10)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(10).png"
+    },
+    {
+      "name": "Surge(11)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(11).png"
+    },
+    {
+      "name": "Surge(12)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(12).png"
+    },
+    {
+      "name": "Surge(13)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(13).png"
+    },
+    {
+      "name": "Surge(15)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Surge(15).png"
+    },
+    {
+      "name": "quanx",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/quanx.png"
+    },
+    {
+      "name": "singbox",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/singbox.png"
+    },
+    {
+      "name": "Egern",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Egern.png"
+    },
+    {
+      "name": "chinamobilemcloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/chinamobilemcloud.png"
+    },
+    {
+      "name": "189",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/189.png"
+    },
+    {
+      "name": "chinaunicomcloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/chinaunicomcloud.png"
+    },
+    {
+      "name": "123",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/123.png"
+    },
+    {
+      "name": "115",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/115.png"
+    },
+    {
+      "name": "quark",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/quark.png"
+    },
+    {
+      "name": "alicloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/alicloud.png"
+    },
+    {
+      "name": "alidrive",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/alidrive.png"
+    },
+    {
+      "name": "baidunetdisk",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/baidunetdisk.png"
+    },
+    {
+      "name": "baidunetdisk(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/baidunetdisk(1).png"
+    },
+    {
+      "name": "alist",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/alist.png"
+    },
+    {
+      "name": "alist(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/alist(1).png"
+    },
+    {
+      "name": "OpenList",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/OpenList.png"
+    },
+    {
+      "name": "jellyfin",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/jellyfin.png"
+    },
+    {
+      "name": "clouddrive2",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/clouddrive2.png"
+    },
+    {
+      "name": "duogo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/duolingo.png"
+    },
+    {
+      "name": "duogo(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/duolingo(1).png"
+    },
+    {
+      "name": "12306",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/12306.png"
+    },
+    {
+      "name": "12306(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/12306(1).png"
+    },
+    {
+      "name": "weibo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/weibo.png"
+    },
+    {
+      "name": "weibo(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/weibo(1).png"
+    },
+    {
+      "name": "bilibili",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bilibili.png"
+    },
+    {
+      "name": "bilibili(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bilibili(1).png"
+    },
+    {
+      "name": "bilibili(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bilibili(2).png"
+    },
+    {
+      "name": "bilibili(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bilibili(3).png"
+    },
+    {
+      "name": "bilibili(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bilibili(4).png"
+    },
+    {
+      "name": "apple",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/apple.png"
+    },
+    {
+      "name": "apple(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/apple(1).png"
+    },
+    {
+      "name": "AppStore",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AppStore.png"
+    },
+    {
+      "name": "AppStore(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AppStore(1).png"
+    },
+    {
+      "name": "AppStore(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AppStore(2).png"
+    },
+    {
+      "name": "applefitness+",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/applefitness+.png"
+    },
+    {
+      "name": "AppleIntelligence",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AppleIntelligence.png"
+    },
+    {
+      "name": "testflight",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/testflight.png"
+    },
+    {
+      "name": "testflight(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/testflight(1).png"
+    },
+    {
+      "name": "AppleTV",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AppleTV.png"
+    },
+    {
+      "name": "ApplePodcasts",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ApplePodcasts.png"
+    },
+    {
+      "name": "ApplePodcasts(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ApplePodcasts(1).png"
+    },
+    {
+      "name": "speedtest",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/speedtest.png"
+    },
+    {
+      "name": "speedtest(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/speedtest(1).png"
+    },
+    {
+      "name": "speedtest(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/speedtest(2).png"
+    },
+    {
+      "name": "speedtest(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/speedtest(3).png"
+    },
+    {
+      "name": "microsoft",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/microsoft.png"
+    },
+    {
+      "name": "microsoft(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/microsoft(1).png"
+    },
+    {
+      "name": "microsoft(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/microsoft(2).png"
+    },
+    {
+      "name": "teams",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/teams.png"
+    },
+    {
+      "name": "wyy",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wyy.png"
+    },
+    {
+      "name": "wyy(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wyy(1).png"
+    },
+    {
+      "name": "kugou",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/kugou.png"
+    },
+    {
+      "name": "steam",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/steam.png"
+    },
+    {
+      "name": "steam(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/steam(1).png"
+    },
+    {
+      "name": "EA",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/EA.png"
+    },
+    {
+      "name": "dianxin",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dianxin.png"
+    },
+    {
+      "name": "dianxin(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dianxin(1).png"
+    },
+    {
+      "name": "yidong",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yidong.png"
+    },
+    {
+      "name": "yidong(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yidong(1).png"
+    },
+    {
+      "name": "liantong",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/liantong.png"
+    },
+    {
+      "name": "liantong(0)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/liantong(0).png"
+    },
+    {
+      "name": "ChinaBroadcastNetwork",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ChinaBroadcastNetwork.png"
+    },
+    {
+      "name": "meituan",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/meituan.png"
+    },
+    {
+      "name": "meituan(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/meituan(1).png"
+    },
+    {
+      "name": "pipixia",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/pipixia.png"
+    },
+    {
+      "name": "pipixia(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/pipixia(1).png"
+    },
+    {
+      "name": "zuiyou",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zuiyou.png"
+    },
+    {
+      "name": "xiaohongshu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiaohongshu.png"
+    },
+    {
+      "name": "xiaohongshu(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiaohongshu(1).png"
+    },
+    {
+      "name": "soul",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/soul.png"
+    },
+    {
+      "name": "jianying",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/jianying.png"
+    },
+    {
+      "name": "pikpak",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/pikpak.png"
+    },
+    {
+      "name": "aqiyi",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/aqiyi.png"
+    },
+    {
+      "name": "aiqiyi(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/aiqiyi(1).png"
+    },
+    {
+      "name": "mangguotv",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mangguotv.png"
+    },
+    {
+      "name": "mangguotv(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mangguotv(1).png"
+    },
+    {
+      "name": "baidutieba",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/baidutieba.png"
+    },
+    {
+      "name": "baidutieba(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/baidutieba(1).png"
+    },
+    {
+      "name": "baidutieba(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/baidutieba(2).png"
+    },
+    {
+      "name": "Tencent",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Tencent.png"
+    },
+    {
+      "name": "jingdong",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/jingdong.png"
+    },
+    {
+      "name": "jingdong(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/jingdong(1).png"
+    },
+    {
+      "name": "jingdong(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/jingdong(2).png"
+    },
+    {
+      "name": "taobao",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/taobao.png"
+    },
+    {
+      "name": "taobao(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/taobao(1).png"
+    },
+    {
+      "name": "pinduoduo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/pinduoduo.png"
+    },
+    {
+      "name": "alipay",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/alipay.png"
+    },
+    {
+      "name": "wechat",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wechat.png"
+    },
+    {
+      "name": "wechat(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wechat(1).png"
+    },
+    {
+      "name": "TMDB",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TMDB.png"
+    },
+    {
+      "name": "vidhub",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/vidhub.png"
+    },
+    {
+      "name": "yybx",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yybx.png"
+    },
+    {
+      "name": "fileball",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/fileball.png"
+    },
+    {
+      "name": "infuse",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/infuse.png"
+    },
+    {
+      "name": "hamhub",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/hamhub.png"
+    },
+    {
+      "name": "senplayer",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/senplayer.png"
+    },
+    {
+      "name": "forward",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/forward.png"
+    },
+    {
+      "name": "forward(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/forward(1).png"
+    },
+    {
+      "name": "reflix",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/reflix.png"
+    },
+    {
+      "name": "xiaohuanRodelPlayer",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiaohuanRodelPlayer.png"
+    },
+    {
+      "name": "keep",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/keep.png"
+    },
+    {
+      "name": "zhihu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zhihu.png"
+    },
+    {
+      "name": "tt",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/tt.png"
+    },
+    {
+      "name": "tt(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/tt(1).png"
+    },
+    {
+      "name": "zuimeibizhi",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zuimeibizhi.png"
+    },
+    {
+      "name": "hanxiaoquan",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/hanxiaoquan.png"
+    },
+    {
+      "name": "migushipin",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/migushipin.png"
+    },
+    {
+      "name": "nike",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/nike.png"
+    },
+    {
+      "name": "shunfeng",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shunfeng.png"
+    },
+    {
+      "name": "lanrentingshu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lanrentingshu.png"
+    },
+    {
+      "name": "qq",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/qq.png"
+    },
+    {
+      "name": "qq(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/qq(1).png"
+    },
+    {
+      "name": "qq(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/qq(2).png"
+    },
+    {
+      "name": "qidian",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/qidian.png"
+    },
+    {
+      "name": "qidian(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/qidian(1).png"
+    },
+    {
+      "name": "kuancoolapk",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/kuancoolapk.png"
+    },
+    {
+      "name": "kuancoolapk(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/kuancoolapk(1).png"
+    },
+    {
+      "name": "Vista",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Vista.png"
+    },
+    {
+      "name": "kuaishou",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/kuaishou.png"
+    },
+    {
+      "name": "goodnotes",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/goodnotes.png"
+    },
+    {
+      "name": "deepseek",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/deepseek.png"
+    },
+    {
+      "name": "wangshangguowang",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wangshangguowang.png"
+    },
+    {
+      "name": "waixingren",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/waixingren.png"
+    },
+    {
+      "name": "52pojie",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/52pojie.png"
+    },
+    {
+      "name": "jiuhaochuxing",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/jiuhaochuxing.png"
+    },
+    {
+      "name": "fanqiexiaoshuo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/fanqiexiaoshuo.png"
+    },
+    {
+      "name": "yiqidazhong",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yiqidazhong.png"
+    },
+    {
+      "name": "xiechenglvxing",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiechenglvxing.png"
+    },
+    {
+      "name": "xiechenglvxing(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiechenglvxing(1).png"
+    },
+    {
+      "name": "zhangshangshenghuo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zhangshangshenghuo.png"
+    },
+    {
+      "name": "zhangshangshenghuo(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zhangshangshenghuo(1).png"
+    },
+    {
+      "name": "fengxingshipin",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/fengxingshipin.png"
+    },
+    {
+      "name": "DJmusic",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/DJmusic.png"
+    },
+    {
+      "name": "leshishipin",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/leshishipin.png"
+    },
+    {
+      "name": "feiniufnOS",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/feiniufnOS.png"
+    },
+    {
+      "name": "feiniufnOS(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/feiniufnOS(1).png"
+    },
+    {
+      "name": "tiktok",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/tiktok.png"
+    },
+    {
+      "name": "tiktok(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/tiktok(1).png"
+    },
+    {
+      "name": "tiktok(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/tiktok((2).png"
+    },
+    {
+      "name": "chatgpt(balck)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/chatgpt(balck).png"
+    },
+    {
+      "name": "chatgpt(white)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/chatgpt(white).png"
+    },
+    {
+      "name": "chatgpt(white1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/chatgpt(white1).png"
+    },
+    {
+      "name": "ChatGPT-green",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ChatGPT-green.png"
+    },
+    {
+      "name": "chatgpt4.0",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/chatgpt4.0.png"
+    },
+    {
+      "name": "claude",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/claude.png"
+    },
+    {
+      "name": "Copilot",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Copilot.png"
+    },
+    {
+      "name": "Copilot(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Copilot(1).png"
+    },
+    {
+      "name": "gemini",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/gemini.png"
+    },
+    {
+      "name": "gemini(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/gemini(1).png"
+    },
+    {
+      "name": "grok",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/grok.png"
+    },
+    {
+      "name": "onedrive",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/OneDrive.png"
+    },
+    {
+      "name": "youtube",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/youtube.png"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Youtube.png"
+    },
+    {
+      "name": "youtube(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/youtube(1).png"
+    },
+    {
+      "name": "youtube(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/youtube(2).png"
+    },
+    {
+      "name": "youtube(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/youtube(3).png"
+    },
+    {
+      "name": "netflix",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/netflix.png"
+    },
+    {
+      "name": "netflix(red)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/netflix(red).png"
+    },
+    {
+      "name": "netflix(old)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/netflix(old).png"
+    },
+    {
+      "name": "disney(blue)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/disney(blue).png"
+    },
+    {
+      "name": "disney(black)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/disney(black).png"
+    },
+    {
+      "name": "HBO",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/HBO.png"
+    },
+    {
+      "name": "max",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/max.png"
+    },
+    {
+      "name": "max(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/max(1).png"
+    },
+    {
+      "name": "max(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/max(2).png"
+    },
+    {
+      "name": "PrimeVideo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/PrimeVideo.png"
+    },
+    {
+      "name": "telegram",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/telegram.png"
+    },
+    {
+      "name": "telegram(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/telegram(1).png"
+    },
+    {
+      "name": "telegram(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/telegram(2).png"
+    },
+    {
+      "name": "telegram(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/telegram(3).png"
+    },
+    {
+      "name": "telegram(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/telegram(4).png"
+    },
+    {
+      "name": "telegram(blue1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/telegram(blue1).png"
+    },
+    {
+      "name": "Telegrampremium",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Telegrampremium.png"
+    },
+    {
+      "name": "Telegrampremium(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Telegrampremium(1).png"
+    },
+    {
+      "name": "Swiftgram(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(1).png"
+    },
+    {
+      "name": "Swiftgram(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(2).png"
+    },
+    {
+      "name": "Swiftgram(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(3).png"
+    },
+    {
+      "name": "Swiftgram(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(4).png"
+    },
+    {
+      "name": "Swiftgram(5)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(5).png"
+    },
+    {
+      "name": "Swiftgram(6)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(6).png"
+    },
+    {
+      "name": "Swiftgram(7)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(7).png"
+    },
+    {
+      "name": "Swiftgram(8)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(8).png"
+    },
+    {
+      "name": "Swiftgram(9)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(9).png"
+    },
+    {
+      "name": "Swiftgram(10)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(10).png"
+    },
+    {
+      "name": "Swiftgram(11)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(11).png"
+    },
+    {
+      "name": "Swiftgram(12)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(12).png"
+    },
+    {
+      "name": "Swiftgram(13)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(13).png"
+    },
+    {
+      "name": "Swiftgram(14)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(14).png"
+    },
+    {
+      "name": "Swiftgram(15)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(15).png"
+    },
+    {
+      "name": "Swiftgram(16)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram(16).png"
+    },
+    {
+      "name": "spotify",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/spotify.png"
+    },
+    {
+      "name": "spotify(green)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/spotify(green).png"
+    },
+    {
+      "name": "spotify(green)(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/spotify(green)(1).png"
+    },
+    {
+      "name": "twitter",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/twitter.png"
+    },
+    {
+      "name": "twitter(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/twitter(1).png"
+    },
+    {
+      "name": "twitter(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/twitter(2).png"
+    },
+    {
+      "name": "twitter(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/twitter(3).png"
+    },
+    {
+      "name": "google",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/google.png"
+    },
+    {
+      "name": "google(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/google(1).png"
+    },
+    {
+      "name": "google(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/google(2).png"
+    },
+    {
+      "name": "Googlemap",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Googlemap.png"
+    },
+    {
+      "name": "GooglePlay",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/GooglePlay.png"
+    },
+    {
+      "name": "Googlevoice",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Googlevoice.png"
+    },
+    {
+      "name": "Googlevoice(black1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Googlevoice(black1).png"
+    },
+    {
+      "name": "GoogleScholar",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/GoogleScholar.png"
+    },
+    {
+      "name": "paypal",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/paypal.png"
+    },
+    {
+      "name": "paypal(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/paypal(1).png"
+    },
+    {
+      "name": "social-paypal",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/social-paypal.png"
+    },
+    {
+      "name": "instagram",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/instagram.png"
+    },
+    {
+      "name": "instagram(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/instagram(1).png"
+    },
+    {
+      "name": "instagram(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/instagram(2).png"
+    },
+    {
+      "name": "facebook",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/facebook.png"
+    },
+    {
+      "name": "facebook(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/facebook(1).png"
+    },
+    {
+      "name": "facebook(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/facebook(2).png"
+    },
+    {
+      "name": "bing",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bing.png"
+    },
+    {
+      "name": "bing(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bing(1).png"
+    },
+    {
+      "name": "bing(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bing(2).png"
+    },
+    {
+      "name": "bing(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bing(3).png"
+    },
+    {
+      "name": "bian",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bian.png"
+    },
+    {
+      "name": "okx",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/okx.png"
+    },
+    {
+      "name": "okx(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/okx(1).png"
+    },
+    {
+      "name": "gateio",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/gateio.png"
+    },
+    {
+      "name": "twitch",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/twitch.png"
+    },
+    {
+      "name": "twitch(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/twitch(1).png"
+    },
+    {
+      "name": "whatsapp",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/whatsapp.png"
+    },
+    {
+      "name": "whatsapp(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/whatsapp(1).png"
+    },
+    {
+      "name": "whatsapp(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/whatsapp(2).png"
+    },
+    {
+      "name": "discord",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/discord.png"
+    },
+    {
+      "name": "discord(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/discord(1).png"
+    },
+    {
+      "name": "discord(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/discord(2).png"
+    },
+    {
+      "name": "discord(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/discord(3).png"
+    },
+    {
+      "name": "bbc",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bbc.png"
+    },
+    {
+      "name": "bbc(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bbc(1).png"
+    },
+    {
+      "name": "bbc(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bbc(3).png"
+    },
+    {
+      "name": "meta",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/meta.png"
+    },
+    {
+      "name": "github(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/github(1).png"
+    },
+    {
+      "name": "emby",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/emby.png"
+    },
+    {
+      "name": "emby(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/emby(1).png"
+    },
+    {
+      "name": "vsco",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/vsco.png"
+    },
+    {
+      "name": "wikipedia",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wikipedia.png"
+    },
+    {
+      "name": "reddit",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/reddit.png"
+    },
+    {
+      "name": "reddit(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/reddit(1).png"
+    },
+    {
+      "name": "bahamute",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bahamute.png"
+    },
+    {
+      "name": "nowplayer",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/nowplayer.png"
+    },
+    {
+      "name": "sub",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/sub.png"
+    },
+    {
+      "name": "sub(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/sub(1).png"
+    },
+    {
+      "name": "fan",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/fan.png"
+    },
+    {
+      "name": "omofun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/omofun.png"
+    },
+    {
+      "name": "dropbox",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dropbox.png"
+    },
+    {
+      "name": "dropbox(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dropbox(1).png"
+    },
+    {
+      "name": "Threads",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Threads.png"
+    },
+    {
+      "name": "BlueskySocial",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/BlueskySocial.png"
+    },
+    {
+      "name": "BlueskySocial(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/BlueskySocial(1).png"
+    },
+    {
+      "name": "redotpay",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/redotpay.png"
+    },
+    {
+      "name": "talkatone",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/talkatone.png"
+    },
+    {
+      "name": "bybit",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bybit.png"
+    },
+    {
+      "name": "Notion",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Notion.png"
+    },
+    {
+      "name": "smoothrase",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/smoothrase.png"
+    },
+    {
+      "name": "OtterLife",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/OtterLife.png"
+    },
+    {
+      "name": "TouchRetouch",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TouchRetouch.png"
+    },
+    {
+      "name": "pixiv",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/pixiv.png"
+    },
+    {
+      "name": "pixiv(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/pixiv(1).png"
+    },
+    {
+      "name": "pixiv(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/pixiv(2).png"
+    },
+    {
+      "name": "Perplexity",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Perplexity.png"
+    },
+    {
+      "name": "mega",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mega.png"
+    },
+    {
+      "name": "TVBAnywhere",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TVBAnywhere.png"
+    },
+    {
+      "name": "AbemaTV",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AbemaTV.png"
+    },
+    {
+      "name": "mihomo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mihomo.png"
+    },
+    {
+      "name": "Swiftgram",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Swiftgram.png"
+    },
+    {
+      "name": "Bitcoin",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Bitcoin.png"
+    },
+    {
+      "name": "bitget",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bitget.png"
+    },
+    {
+      "name": "Adobe",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobe.png"
+    },
+    {
+      "name": "Adobe(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobe(1).png"
+    },
+    {
+      "name": "Adobecreativecloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobecreativecloud.png"
+    },
+    {
+      "name": "Adobeanimate",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobeanimate.png"
+    },
+    {
+      "name": "Adobeaftereffects",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobeaftereffects.png"
+    },
+    {
+      "name": "Adobeillustrator",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobeillustrator.png"
+    },
+    {
+      "name": "Adobeaudition",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobeaudition.png"
+    },
+    {
+      "name": "Adobeincopy",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobeincopy.png"
+    },
+    {
+      "name": "Adobelightroomclassic",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobelightroomclassic.png"
+    },
+    {
+      "name": "Adobepremiere",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobepremiere.png"
+    },
+    {
+      "name": "Adobephotoshop",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobephotoshop.png"
+    },
+    {
+      "name": "Adobeindesign",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Adobeindesign.png"
+    },
+    {
+      "name": "AdobeMediaEncoder",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AdobeMediaEncoder.png"
+    },
+    {
+      "name": "AdobeXD",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AdobeXD.png"
+    },
+    {
+      "name": "Firefox",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Firefox.png"
+    },
+    {
+      "name": "ProtonMail",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ProtonMail.png"
+    },
+    {
+      "name": "roblox",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/roblox.png"
+    },
+    {
+      "name": "exhentai",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/exhentai.png"
+    },
+    {
+      "name": "kakaotalk",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/kakaotalk.png"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/linkedin.png"
+    },
+    {
+      "name": "proxmox",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/proxmox.png"
+    },
+    {
+      "name": "Sharon",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Sharon.png"
+    },
+    {
+      "name": "mexc",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mexc.png"
+    },
+    {
+      "name": "zoomearth",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zoomearth.png"
+    },
+    {
+      "name": "tmobile",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/tmobile.png"
+    },
+    {
+      "name": "quanqiu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/quanqiu.png"
+    },
+    {
+      "name": "quanqiu(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/quanqiu(1).png"
+    },
+    {
+      "name": "quanqiu(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/quanqiu(2).png"
+    },
+    {
+      "name": "quanqiu(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/quanqiu(3).png"
+    },
+    {
+      "name": "ad",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ad.png"
+    },
+    {
+      "name": "ad(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ad(2).png"
+    },
+    {
+      "name": "ad(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ad(3).png"
+    },
+    {
+      "name": "ad(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ad(4).png"
+    },
+    {
+      "name": "ad(5)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ad(5).png"
+    },
+    {
+      "name": "ad(6)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ad(6).png"
+    },
+    {
+      "name": "ad(7)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ad(7).png"
+    },
+    {
+      "name": "direct",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/direct.png"
+    },
+    {
+      "name": "direct(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/direct(1).png"
+    },
+    {
+      "name": "direct(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/direct(2).png"
+    },
+    {
+      "name": "blacklist",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/blacklist.png"
+    },
+    {
+      "name": "blacklist(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/blacklist(1).png"
+    },
+    {
+      "name": "lightning",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lightning.png"
+    },
+    {
+      "name": "lightning(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lightning(1).png"
+    },
+    {
+      "name": "lightning(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lightning(2).png"
+    },
+    {
+      "name": "lightning(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lightning(3).png"
+    },
+    {
+      "name": "lightning(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lightning(4).png"
+    },
+    {
+      "name": "lightning(5)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lightning(5).png"
+    },
+    {
+      "name": "game",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/game.png"
+    },
+    {
+      "name": "game(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/game(1).png"
+    },
+    {
+      "name": "game(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/game(2).png"
+    },
+    {
+      "name": "game(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/game(3).png"
+    },
+    {
+      "name": "rocket",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/rocket.png"
+    },
+    {
+      "name": "rocket(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/rocket(1).png"
+    },
+    {
+      "name": "rocket(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/rocket(2).png"
+    },
+    {
+      "name": "rocket(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/rocket(3).png"
+    },
+    {
+      "name": "mail",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mail.png"
+    },
+    {
+      "name": "mail(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mail(1).png"
+    },
+    {
+      "name": "mail(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mail(2).png"
+    },
+    {
+      "name": "mail(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mail(3).png"
+    },
+    {
+      "name": "ip",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ip.png"
+    },
+    {
+      "name": "play",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/play.png"
+    },
+    {
+      "name": "play(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/play(1).png"
+    },
+    {
+      "name": "play(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/play(2).png"
+    },
+    {
+      "name": "home",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/home.png"
+    },
+    {
+      "name": "home(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/home(1).png"
+    },
+    {
+      "name": "home(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/home(2).png"
+    },
+    {
+      "name": "yu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yu.png"
+    },
+    {
+      "name": "yu(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yu(1).png"
+    },
+    {
+      "name": "yu(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yu(2).png"
+    },
+    {
+      "name": "zhuanyi",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zhuanyi.png"
+    },
+    {
+      "name": "zhuanyi(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zhuanyi(1).png"
+    },
+    {
+      "name": "zhuanyi(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zhuanyi(2).png"
+    },
+    {
+      "name": "zhuanyi(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zhuanyi(3).png"
+    },
+    {
+      "name": "zhuanyi(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/zhuanyi(4).png"
+    },
+    {
+      "name": "NAS",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NAS.png"
+    },
+    {
+      "name": "NAS(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NAS(1).png"
+    },
+    {
+      "name": "NAS(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NAS(2).png"
+    },
+    {
+      "name": "jichang",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/jichang.png"
+    },
+    {
+      "name": "atomlantis",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/atomlantis.png"
+    },
+    {
+      "name": "mesl",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mesl.png"
+    },
+    {
+      "name": "mesl(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mesl(2).png"
+    },
+    {
+      "name": "mesl(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mesl(3).png"
+    },
+    {
+      "name": "Nexitally",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Nexitally.png"
+    },
+    {
+      "name": "Nexitally(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Nexitally(1).png"
+    },
+    {
+      "name": "Kuromis0",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Kuromis0.png"
+    },
+    {
+      "name": "Kuromis",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Kuromis.png"
+    },
+    {
+      "name": "ytoo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ytoo.png"
+    },
+    {
+      "name": "TKV",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TKV.png"
+    },
+    {
+      "name": "TKV(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TKV(1).png"
+    },
+    {
+      "name": "TAG",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TAG.png"
+    },
+    {
+      "name": "FlowerCloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/FlowerCloud.png"
+    },
+    {
+      "name": "AmyTelecom",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AmyTelecom.png"
+    },
+    {
+      "name": "ImmTelecom",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ImmTelecom.png"
+    },
+    {
+      "name": "westdata",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/westdata.png"
+    },
+    {
+      "name": "westdata(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/westdata(1).png"
+    },
+    {
+      "name": "sensortower",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/sensortower.png"
+    },
+    {
+      "name": "ctc",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ctc.png"
+    },
+    {
+      "name": "syn",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/syn.png"
+    },
+    {
+      "name": "duck",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/duck.png"
+    },
+    {
+      "name": "duck(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/duck(1).png"
+    },
+    {
+      "name": "niceduck",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/niceduck.png"
+    },
+    {
+      "name": "niceduck(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/niceduck(1).png"
+    },
+    {
+      "name": "xiaoxiong",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiaoxiong.png"
+    },
+    {
+      "name": "xiaoxiong(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiaoxiong(1).png"
+    },
+    {
+      "name": "ouo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ouo.png"
+    },
+    {
+      "name": "aca",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/aca.png"
+    },
+    {
+      "name": "sifangcai",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/sifangcai.png"
+    },
+    {
+      "name": "hela",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/hela.png"
+    },
+    {
+      "name": "CherrynetWork2",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/CherrynetWork2.png"
+    },
+    {
+      "name": "Drunk",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Drunk.png"
+    },
+    {
+      "name": "misakaF",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/misakaF.png"
+    },
+    {
+      "name": "SYN",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/SYN.png"
+    },
+    {
+      "name": "yutu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yutu.png"
+    },
+    {
+      "name": "naiu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/naiu.png"
+    },
+    {
+      "name": "naiu(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/naiu(1).png"
+    },
+    {
+      "name": "shutiao",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shutiao.png"
+    },
+    {
+      "name": "shutiao(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shutiao(1).png"
+    },
+    {
+      "name": "dog",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dog.png"
+    },
+    {
+      "name": "dog(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dog(1).png"
+    },
+    {
+      "name": "dog(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dog(2).png"
+    },
+    {
+      "name": "vv",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/vv.png"
+    },
+    {
+      "name": "yeshayun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yeshayun.png"
+    },
+    {
+      "name": "yeshayun(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yeshayun(1).png"
+    },
+    {
+      "name": "yeshayun(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yeshayun(2).png"
+    },
+    {
+      "name": "yeshayun(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yeshayun(3).png"
+    },
+    {
+      "name": "fengling(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/fengling(1).png"
+    },
+    {
+      "name": "fengling(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/fengling(2).png"
+    },
+    {
+      "name": "fengling(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/fengling(3).png"
+    },
+    {
+      "name": "fengling",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/fengling.png"
+    },
+    {
+      "name": "shouhou",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shouhou.png"
+    },
+    {
+      "name": "shouhou(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shouhou(1).png"
+    },
+    {
+      "name": "shouhou(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shouhou(2).png"
+    },
+    {
+      "name": "shouhou(3)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shouhou(3).png"
+    },
+    {
+      "name": "shouhou(4)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shouhou(4).png"
+    },
+    {
+      "name": "shouhou(5)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shouhou(5).png"
+    },
+    {
+      "name": "daishu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/daishu.png"
+    },
+    {
+      "name": "error",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/error.png"
+    },
+    {
+      "name": "98k",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/98k.png"
+    },
+    {
+      "name": "nfsq",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/nfsq.png"
+    },
+    {
+      "name": "riolu_notice",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/riolu_notice.png"
+    },
+    {
+      "name": "youf",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/youf.png"
+    },
+    {
+      "name": "swift",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/swift.png"
+    },
+    {
+      "name": "dpdp",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dpdp.png"
+    },
+    {
+      "name": "yunzhiyi",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yunzhiyi.png"
+    },
+    {
+      "name": "hneko",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/hneko.png"
+    },
+    {
+      "name": "vmssrNotice",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/vmssrNotice.png"
+    },
+    {
+      "name": "xiaofeixiang",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiaofeixiang.png"
+    },
+    {
+      "name": "AladdinLottery",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AladdinLottery.png"
+    },
+    {
+      "name": "AladdinLottery(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AladdinLottery(1).png"
+    },
+    {
+      "name": "tesla",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/tesla.png"
+    },
+    {
+      "name": "egg",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/egg.png"
+    },
+    {
+      "name": "egg(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/egg(1).png"
+    },
+    {
+      "name": "TNET",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TNET.png"
+    },
+    {
+      "name": "TNET(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TNET(1).png"
+    },
+    {
+      "name": "suya",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/suya.png"
+    },
+    {
+      "name": "miaomiaoyun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/miaomiaoyun.png"
+    },
+    {
+      "name": "Linkeless",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Linkeless.png"
+    },
+    {
+      "name": "Linkeless(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Linkeless(1).png"
+    },
+    {
+      "name": "Redapricot",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Redapricot.png"
+    },
+    {
+      "name": "Redapricot(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Redapricot(1).png"
+    },
+    {
+      "name": "yushe",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yushe.png"
+    },
+    {
+      "name": "bishi",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bishi.png"
+    },
+    {
+      "name": "yolo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yolo.png"
+    },
+    {
+      "name": "yolo(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yolo(1).png"
+    },
+    {
+      "name": "wanda",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wanda.png"
+    },
+    {
+      "name": "wanda(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wanda(1).png"
+    },
+    {
+      "name": "elegant",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/elegant.png"
+    },
+    {
+      "name": "NetLove",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NetLove.png"
+    },
+    {
+      "name": "NetLove(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NetLove(1).png"
+    },
+    {
+      "name": "HALOCHANEL",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/HALOCHANEL.png"
+    },
+    {
+      "name": "JIASU",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/JIASU.png"
+    },
+    {
+      "name": "netgoldstar",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/netgoldstar.png"
+    },
+    {
+      "name": "Film",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Film.png"
+    },
+    {
+      "name": "Film(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Film(1).png"
+    },
+    {
+      "name": "Fancynetwork",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Fancynetwork.png"
+    },
+    {
+      "name": "Fancynetwork(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Fancynetwork(1).png"
+    },
+    {
+      "name": "M5",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/M5.png"
+    },
+    {
+      "name": "Nanyun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Nanyun.png"
+    },
+    {
+      "name": "NutBit",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NutBit.png"
+    },
+    {
+      "name": "NutBit(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NutBit(1).png"
+    },
+    {
+      "name": "NutBit(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NutBit(2).png"
+    },
+    {
+      "name": "ESNC",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ESNC.png"
+    },
+    {
+      "name": "ssrdog",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ssrdog.png"
+    },
+    {
+      "name": "XXAI",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/XXAI.png"
+    },
+    {
+      "name": "NieRCloud1",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NieRCloud1.png"
+    },
+    {
+      "name": "NieRCloud2",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NieRCloud2.png"
+    },
+    {
+      "name": "MagicCloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/MagicCloud.png"
+    },
+    {
+      "name": "SpaceK",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/SpaceK.png"
+    },
+    {
+      "name": "speedcatc",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/speedcatc.png"
+    },
+    {
+      "name": "speedcatc(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/speedcatc(1).png"
+    },
+    {
+      "name": "flowcast666",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/flowcast666.png"
+    },
+    {
+      "name": "HKBEUP",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/HKBEUP.png"
+    },
+    {
+      "name": "HKBEUP(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/HKBEUP(1).png"
+    },
+    {
+      "name": "mojie(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mojie(1).png"
+    },
+    {
+      "name": "Starshine_CLOUD",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Starshine_CLOUD.png"
+    },
+    {
+      "name": "Starshine_CLOUD(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Starshine_CLOUD(1).png"
+    },
+    {
+      "name": "maoxiong",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/maoxiong.png"
+    },
+    {
+      "name": "DegYax",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/DegYax.png"
+    },
+    {
+      "name": "dlg365",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/dlg365.png"
+    },
+    {
+      "name": "FacMata",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/FacMata.png"
+    },
+    {
+      "name": "FacMata(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/FacMata(1).png"
+    },
+    {
+      "name": "RecMata",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/RecMata.png"
+    },
+    {
+      "name": "PokerCloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/PokerCloud.png"
+    },
+    {
+      "name": "rrgg_inc",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/rrgg_inc.png"
+    },
+    {
+      "name": "yuyanyun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yuyanyun.png"
+    },
+    {
+      "name": "SevenXue(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/SevenXue(1).png"
+    },
+    {
+      "name": "SevenXue",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/SevenXue.png"
+    },
+    {
+      "name": "ykkcloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ykkcloud.png"
+    },
+    {
+      "name": "taoqitu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/taoqitu.png"
+    },
+    {
+      "name": "SaturDay",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/SaturDay.png"
+    },
+    {
+      "name": "SaturDay(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/SaturDay(1).png"
+    },
+    {
+      "name": "SaturDay(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/SaturDay(2).png"
+    },
+    {
+      "name": "ClashGOU",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ClashGOU.png"
+    },
+    {
+      "name": "llgjc",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/llgjc.png"
+    },
+    {
+      "name": "aifun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/aifun.png"
+    },
+    {
+      "name": "okanc(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/okanc(1).png"
+    },
+    {
+      "name": "okanc",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/okanc.png"
+    },
+    {
+      "name": "ssone",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ssone.png"
+    },
+    {
+      "name": "mitce",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/mitce.png"
+    },
+    {
+      "name": "sukiaira",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/sukiaira.png"
+    },
+    {
+      "name": "feitu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/feitu.png"
+    },
+    {
+      "name": "luyuyun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/luyuyun.png"
+    },
+    {
+      "name": "TIRN",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/TIRN.png"
+    },
+    {
+      "name": "YepNotice",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/YepNotice.png"
+    },
+    {
+      "name": "DlerCloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/DlerCloud.png"
+    },
+    {
+      "name": "DlerCloud(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/DlerCloud(1).png"
+    },
+    {
+      "name": "AnrunNetwork",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AnrunNetwork.png"
+    },
+    {
+      "name": "69yun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/69yun.png"
+    },
+    {
+      "name": "69yun(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/69yun(1).png"
+    },
+    {
+      "name": "Alphaio",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Alphaio.png"
+    },
+    {
+      "name": "ash",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ash.png"
+    },
+    {
+      "name": "ash(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ash(1).png"
+    },
+    {
+      "name": "bluetile",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/bluetile.png"
+    },
+    {
+      "name": "epub",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/epub.png"
+    },
+    {
+      "name": "BKCLOUD",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/BKCLOUD.png"
+    },
+    {
+      "name": "Arcline",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Arcline.png"
+    },
+    {
+      "name": "ofonet",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ofonet.png"
+    },
+    {
+      "name": "NEX",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/NEX.png"
+    },
+    {
+      "name": "homocloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/homocloud.png"
+    },
+    {
+      "name": "yztcloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yztcloud.png"
+    },
+    {
+      "name": "peiqian",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/peiqian.png"
+    },
+    {
+      "name": "BestTelecom",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/BestTelecom.png"
+    },
+    {
+      "name": "milkcat",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/milkcat.png"
+    },
+    {
+      "name": "shenluo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/shenluo.png"
+    },
+    {
+      "name": "hongxingyun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/hongxingyun.png"
+    },
+    {
+      "name": "qingfengyun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/qingfengyun.png"
+    },
+    {
+      "name": "Nuts",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Nuts.png"
+    },
+    {
+      "name": "Sausage",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Sausage.png"
+    },
+    {
+      "name": "AiDeer",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/AiDeer.png"
+    },
+    {
+      "name": "SakuraCat",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/SakuraCat.png"
+    },
+    {
+      "name": "ViKinglinks",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ViKinglinks.png"
+    },
+    {
+      "name": "Vikinglinks(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Vikinglinks(1).png"
+    },
+    {
+      "name": "Vikinglinks(2)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Vikinglinks(2).png"
+    },
+    {
+      "name": "yawang",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yawang.png"
+    },
+    {
+      "name": "luckin",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/luckin.png"
+    },
+    {
+      "name": "wuyouyun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wuyouyun.png"
+    },
+    {
+      "name": "wuyouyun(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/wuyouyun(1).png"
+    },
+    {
+      "name": "teasmoke",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/teasmoke.png"
+    },
+    {
+      "name": "yiyuanjichang",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/yiyuanjichang.png"
+    },
+    {
+      "name": "iNetS",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/iNetS.png"
+    },
+    {
+      "name": "Edge-X",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Edge-X.png"
+    },
+    {
+      "name": "cloudfisher",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/cloudfisher.png"
+    },
+    {
+      "name": "cloudfisher(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/cloudfisher(1).png"
+    },
+    {
+      "name": "Nerwo",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Nerwo.png"
+    },
+    {
+      "name": "jiux",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/jiux.png"
+    },
+    {
+      "name": "lzymtzpd",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/lzymtzpd.png"
+    },
+    {
+      "name": "ikuuu",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/ikuuu.png"
+    },
+    {
+      "name": "linkcube",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/linkcube.png"
+    },
+    {
+      "name": "liangxinyun",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/liangxinyun.png"
+    },
+    {
+      "name": "Lray",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/Lray.png"
+    },
+    {
+      "name": "akkcloud",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/akkcloud.png"
+    },
+    {
+      "name": "xiaoyi",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiaoyi.png"
+    },
+    {
+      "name": "xiaoyi(1)",
+      "url": "https://raw.githubusercontent.com/ipiggyzhu/rules/main/icons/images/xiaoyi(1).png"
+    }
+  ]
+}

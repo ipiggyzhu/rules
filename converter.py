@@ -2,205 +2,232 @@ import requests
 import os
 import datetime
 
-# --- 配置 ---
-# 1. Loon 专用的广告规则来源
+# ============================================================================
+# 配置
+# ============================================================================
+
+# Loon 广告规则上游源
 LOON_AD_RULES_URLS = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-loon.txt",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PCDN/PCDN.list"
+    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 ]
 
-# 2. Quantumult X 专用的广告规则来源
+# Quantumult X 广告规则上游源
 QUANTUMULTX_AD_RULES_URLS = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list",
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/PCDN/PCDN.list"
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf"
 ]
 
-# 输出目录
-LOON_OUTPUT_DIR = "Loon"
-QUANTUMULTX_OUTPUT_DIR = "QuantumultX"
+# Loon 直连规则上游源
+LOON_DIRECT_RULES_URLS = [
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list"
+]
 
-# --- 函数 ---
+# Quantumult X 直连规则上游源
+QUANTUMULTX_DIRECT_RULES_URLS = [
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list"
+]
 
-def fetch_raw_rules(urls):
-    """从URL列表中获取原始规则行。"""
-    raw_lines = set()
+# 路径配置
+SOURCES_DIR = "sources"
+BLACKLIST_FILE = os.path.join(SOURCES_DIR, "ad-blacklist.txt")
+WHITELIST_FILE = os.path.join(SOURCES_DIR, "ad-whitelist.txt")
+
+LOON_AD_OUTPUT = os.path.join("Loon", "ad-rules.list")
+LOON_DIRECT_OUTPUT = os.path.join("Loon", "direct-rules.list")
+QUANTUMULTX_AD_OUTPUT = os.path.join("QuantumultX", "ad-rules.list")
+QUANTUMULTX_DIRECT_OUTPUT = os.path.join("QuantumultX", "direct-rules.list")
+
+# ============================================================================
+# 函数
+# ============================================================================
+
+def fetch_rules_from_urls(urls):
+    """从多个URL获取规则"""
+    rules = set()
     for url in urls:
         try:
-            response = requests.get(url, timeout=20)
+            print(f"  📥 {url}")
+            response = requests.get(url, timeout=30)
             response.raise_for_status()
-            lines = response.text.splitlines()
-            for line in lines:
-                if line.strip() and not line.strip().startswith(('!', '#', ';')):
-                    raw_lines.add(line.strip())
+            for line in response.text.splitlines():
+                line = line.strip()
+                if line and not line.startswith(('!', '#', ';')):
+                    rules.add(line)
+            print(f"     获取 {len(response.text.splitlines())} 行")
         except requests.RequestException as e:
-            print(f"Error fetching {url}: {e}")
-    return raw_lines
+            print(f"  ❌ 失败: {e}")
+    return rules
+
+
+def load_local_rules(filepath, auto_prefix=True):
+    """加载本地规则文件"""
+    rules = set()
+    if not os.path.exists(filepath):
+        return rules
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith(('#', '!', ';', '---')):
+                if auto_prefix and ',' not in line:
+                    rules.add(f'DOMAIN-SUFFIX,{line}')
+                else:
+                    rules.add(line)
+    return rules
+
+
+def load_whitelist(filepath):
+    """加载白名单（纯域名）"""
+    domains = set()
+    if not os.path.exists(filepath):
+        return domains
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith(('#', '!', ';', '---')):
+                domains.add(line)
+    return domains
+
 
 def clean_rule_value(value):
-    """清洗规则值，仅移除开头可能存在的非法字符，如 '*'、'/' 或 '.'"""
+    """清理规则值"""
     return value.lstrip('*./')
 
-def format_for_loon(raw_rules):
-    """为Loon格式化规则，并丢弃无效的域名规则。"""
-    formatted_rules = set()
-    domain_rule_types = ('HOST-SUFFIX', 'DOMAIN-SUFFIX', 'HOST-KEYWORD', 'DOMAIN-KEYWORD', 'HOST', 'DOMAIN')
-    
-    for rule in raw_rules:
+
+def format_for_loon(rules):
+    """格式化为 Loon 格式"""
+    formatted = set()
+    domain_types = ('HOST-SUFFIX', 'DOMAIN-SUFFIX', 'HOST-KEYWORD', 'DOMAIN-KEYWORD', 'HOST', 'DOMAIN')
+
+    for rule in rules:
         parts = [p.strip() for p in rule.split(',')]
-        if len(parts) < 2 or not parts[0] or not parts[1]:
+        if len(parts) < 2:
             continue
-            
+
         rule_type = parts[0].upper()
         rule_value = clean_rule_value(parts[1])
-        if not rule_value: continue
+        if not rule_value:
+            continue
 
-        # 如果是域名类规则，但值中包含路径，则丢弃该规则
-        if rule_type in domain_rule_types and '/' in rule_value:
-            print(f"⚠️  Warning (Loon): Discarding invalid domain rule with path: {rule}")
+        if rule_type in domain_types and '/' in rule_value:
             continue
 
         if rule_type in ('HOST-SUFFIX', 'DOMAIN-SUFFIX'):
-            formatted_rules.add(f'DOMAIN-SUFFIX,{rule_value}')
+            formatted.add(f'DOMAIN-SUFFIX,{rule_value}')
         elif rule_type in ('HOST-KEYWORD', 'DOMAIN-KEYWORD'):
-            formatted_rules.add(f'DOMAIN-KEYWORD,{rule_value}')
+            formatted.add(f'DOMAIN-KEYWORD,{rule_value}')
         elif rule_type in ('HOST', 'DOMAIN'):
-            formatted_rules.add(f'DOMAIN,{rule_value}')
-        elif rule_type == 'IP-CIDR':
-            if '/' in rule_value and ('.' in rule_value or ':' in rule_value):
-                formatted_rules.add(f'IP-CIDR,{rule_value}')
+            formatted.add(f'DOMAIN,{rule_value}')
+        elif rule_type == 'IP-CIDR' and '/' in rule_value:
+            formatted.add(f'IP-CIDR,{rule_value}')
+        elif rule_type == 'IP-CIDR6' and '/' in rule_value:
+            formatted.add(f'IP-CIDR6,{rule_value}')
         elif rule_type in ('USER-AGENT', 'URL-REGEX'):
-            formatted_rules.add(f'{rule_type},{parts[1]}') # URL-REGEX保留原始值
-            
-    return sorted(list(formatted_rules))
+            formatted.add(f'{rule_type},{parts[1]}')
 
-def format_for_quantumultx(raw_rules):
-    """为QuantumultX格式化规则，并丢弃无效的域名规则。"""
-    formatted_rules = set()
-    domain_rule_types = ('HOST-SUFFIX', 'DOMAIN-SUFFIX', 'HOST-KEYWORD', 'DOMAIN-KEYWORD', 'HOST', 'DOMAIN')
+    return sorted(formatted)
 
-    for rule in raw_rules:
+
+def format_for_quantumultx(rules):
+    """格式化为 Quantumult X 格式"""
+    formatted = set()
+    domain_types = ('HOST-SUFFIX', 'DOMAIN-SUFFIX', 'HOST-KEYWORD', 'DOMAIN-KEYWORD', 'HOST', 'DOMAIN')
+
+    for rule in rules:
         parts = [p.strip() for p in rule.split(',')]
-        if len(parts) < 2 or not parts[0] or not parts[1]:
+        if len(parts) < 2:
             continue
-            
+
         rule_type = parts[0].upper()
         rule_value = clean_rule_value(parts[1])
-        if not rule_value: continue
+        if not rule_value:
+            continue
 
-        # 如果是域名类规则，但值中包含路径，则丢弃该规则
-        if rule_type in domain_rule_types and '/' in rule_value:
-            print(f"⚠️  Warning (QX): Discarding invalid domain rule with path: {rule}")
+        if rule_type in domain_types and '/' in rule_value:
             continue
 
         if rule_type in ('DOMAIN-SUFFIX', 'HOST-SUFFIX'):
-            formatted_rules.add(f'HOST-SUFFIX,{rule_value}')
+            formatted.add(f'HOST-SUFFIX,{rule_value}')
         elif rule_type in ('DOMAIN-KEYWORD', 'HOST-KEYWORD'):
-            formatted_rules.add(f'HOST-KEYWORD,{rule_value}')
+            formatted.add(f'HOST-KEYWORD,{rule_value}')
         elif rule_type in ('DOMAIN', 'HOST'):
-            formatted_rules.add(f'HOST,{rule_value}')
-        elif rule_type == 'IP-CIDR':
-            if '/' in rule_value and ('.' in rule_value or ':' in rule_value):
-                formatted_rules.add(f'IP-CIDR,{rule_value}')
+            formatted.add(f'HOST,{rule_value}')
+        elif rule_type == 'IP-CIDR' and '/' in rule_value:
+            formatted.add(f'IP-CIDR,{rule_value}')
+        elif rule_type == 'IP-CIDR6' and '/' in rule_value:
+            formatted.add(f'IP-CIDR6,{rule_value}')
         elif rule_type in ('USER-AGENT', 'URL-REGEX'):
-            formatted_rules.add(f'{rule_type},{parts[1]}') # URL-REGEX保留原始值
-            
-    return sorted(list(formatted_rules))
+            formatted.add(f'{rule_type},{parts[1]}')
 
-def write_rules_to_file(filepath, rules, title):
-    """将规则列表写入文件，并添加文件头。"""
+    return sorted(formatted)
+
+
+def write_rules(filepath, rules, title):
+    """写入规则文件"""
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    now_utc = datetime.datetime.now(datetime.timezone.utc)
-    timestamp = now_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
+    timestamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f"# Title: {title}\n")
-        f.write(f"# Description: Generated from multiple sources. Do not edit manually.\n")
-        f.write(f"# Last Updated: {timestamp}\n")
-        f.write("\n")
+        f.write(f"# Description: Auto-generated. Do not edit manually.\n")
+        f.write(f"# Updated: {timestamp}\n")
+        f.write(f"# Total: {len(rules)}\n\n")
         for rule in rules:
             f.write(f"{rule}\n")
-    print(f"✅ Successfully generated {filepath}")
 
-def fetch_manual_reject_rules(filepath):
-    """从本地manual/reject-rules.txt读取规则，并为纯域名自动添加前缀。"""
-    manual_rules = set()
-    if os.path.exists(filepath):
-        with open(filepath, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith(('#', '!', ';')):
-                    if ',' not in line:
-                        manual_rules.add(f'DOMAIN-SUFFIX,{line}')
-                    else:
-                        manual_rules.add(line)
-    return manual_rules
+    print(f"  ✅ {filepath} ({len(rules)} 条规则)")
 
-def fetch_raw_local_rules(filepath):
-    """从本地文件逐行读取原始规则，不做任何格式修改。"""
-    raw_rules = set()
-    if os.path.exists(filepath):
-        with open(filepath, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith(('#', '!', ';')):
-                    raw_rules.add(line)
-    else:
-        print(f"ℹ️  Info: Raw local rule file not found at {filepath}, skipping.")
-    return raw_rules
 
-def fetch_manual_allow_rules(filepath):
-    """从本地manual/allow-rules.txt读取白名单域名，返回域名列表。"""
-    allow_rules = set()
-    if os.path.exists(filepath):
-        with open(filepath, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith(('#', '!', ';', '---')):
-                    allow_rules.add(line)
-    return allow_rules
-
-# --- 主逻辑 ---
+# ============================================================================
+# 主程序
+# ============================================================================
 
 if __name__ == "__main__":
-    print("--- Starting Separate Rule Aggregation ---")
+    print("=" * 60)
+    print("🚀 规则聚合脚本")
+    print("=" * 60)
 
-    print("\nFetching common manual rules...")
-    manual_reject_path = os.path.join("manual", "reject-rules.txt")
-    common_manual_reject_rules = fetch_manual_reject_rules(manual_reject_path)
-    
-    manual_allow_path = os.path.join("manual", "allow-rules.txt")
-    common_allow_rules = fetch_manual_allow_rules(manual_allow_path)
+    # 加载本地源文件
+    print("\n📂 加载本地源文件...")
+    blacklist = load_local_rules(BLACKLIST_FILE)
+    whitelist = load_whitelist(WHITELIST_FILE)
+    print(f"  黑名单: {len(blacklist)} 条")
+    print(f"  白名单: {len(whitelist)} 条")
 
-    print("\n--- Generating Rules for Loon ---")
-    loon_web_rules = fetch_raw_rules(LOON_AD_RULES_URLS)
-    loon_combined_rules = loon_web_rules | common_manual_reject_rules
-    loon_final_rules = loon_combined_rules - common_allow_rules
-    print(f"Found {len(loon_final_rules)} unique rules for Loon.")
-    loon_formatted_rules = format_for_loon(loon_final_rules)
-    write_rules_to_file(
-        os.path.join(LOON_OUTPUT_DIR, "ad-rules.list"), 
-        loon_formatted_rules, 
-        "Loon Ad Rules (Aggregated)"
-    )
+    # ========== 广告规则 ==========
 
-    print("\n--- Generating Rules for QuantumultX ---")
-    qx_web_rules = fetch_raw_rules(QUANTUMULTX_AD_RULES_URLS)
-    
-    print("Fetching QX-specific 'raw' manual reject rules...")
-    manual_back_rules_path = os.path.join("manual", "reject-rules-back.txt")
-    qx_specific_manual_rules = fetch_raw_local_rules(manual_back_rules_path)
-    
-    qx_combined_rules = qx_web_rules | common_manual_reject_rules | qx_specific_manual_rules
-    
-    qx_final_rules = qx_combined_rules - common_allow_rules
-    
-    print(f"Found {len(qx_final_rules)} unique rules for QuantumultX.")
-    qx_formatted_rules = format_for_quantumultx(qx_final_rules)
-    write_rules_to_file(
-        os.path.join(QUANTUMULTX_OUTPUT_DIR, "ad-rules.list"),
-        qx_formatted_rules,
-        "QuantumultX Ad Rules (Aggregated)"
-    )
-    
-    print("\n--- Separate Rule Aggregation Finished ---")
+    # 生成 Loon 广告规则
+    print("\n🍎 生成 Loon 广告规则...")
+    loon_ad_upstream = fetch_rules_from_urls(LOON_AD_RULES_URLS)
+    loon_ad_combined = loon_ad_upstream | blacklist
+    loon_ad_filtered = loon_ad_combined - whitelist
+    loon_ad_final = format_for_loon(loon_ad_filtered)
+    write_rules(LOON_AD_OUTPUT, loon_ad_final, "Loon Ad Rules")
+
+    # 生成 Quantumult X 广告规则
+    print("\n🔷 生成 Quantumult X 广告规则...")
+    qx_ad_upstream = fetch_rules_from_urls(QUANTUMULTX_AD_RULES_URLS)
+    qx_ad_combined = qx_ad_upstream | blacklist
+    qx_ad_filtered = qx_ad_combined - whitelist
+    qx_ad_final = format_for_quantumultx(qx_ad_filtered)
+    write_rules(QUANTUMULTX_AD_OUTPUT, qx_ad_final, "QuantumultX Ad Rules")
+
+    # ========== 直连规则 ==========
+
+    # 生成 Loon 直连规则
+    print("\n🍎 生成 Loon 直连规则...")
+    loon_direct_upstream = fetch_rules_from_urls(LOON_DIRECT_RULES_URLS)
+    loon_direct_final = format_for_loon(loon_direct_upstream)
+    write_rules(LOON_DIRECT_OUTPUT, loon_direct_final, "Loon Direct Rules")
+
+    # 生成 Quantumult X 直连规则
+    print("\n🔷 生成 Quantumult X 直连规则...")
+    qx_direct_upstream = fetch_rules_from_urls(QUANTUMULTX_DIRECT_RULES_URLS)
+    qx_direct_final = format_for_quantumultx(qx_direct_upstream)
+    write_rules(QUANTUMULTX_DIRECT_OUTPUT, qx_direct_final, "QuantumultX Direct Rules")
+
+    print("\n" + "=" * 60)
+    print("✅ 完成!")
+    print("=" * 60)
