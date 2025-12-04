@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2025-12-03T01:49:27Z
-# Total: 125902
+# Updated: 2025-12-04T01:50:25Z
+# Total: 125901
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -121607,7 +121607,6 @@ IP-CIDR,163.61.63.0/24
 IP-CIDR,164.52.0.0/17
 IP-CIDR,165.101.122.0/23
 IP-CIDR,165.101.70.0/23
-IP-CIDR,165.101.94.0/24
 IP-CIDR,165.154.100.0/22
 IP-CIDR,165.154.104.0/21
 IP-CIDR,165.154.112.0/20
