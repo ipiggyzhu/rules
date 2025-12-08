@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2025-12-07T01:59:09Z
-# Total: 125901
+# Updated: 2025-12-08T01:51:34Z
+# Total: 125877
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -10047,7 +10047,6 @@ HOST-SUFFIX,aestheticbutler.xyz
 HOST-SUFFIX,aesucai.com
 HOST-SUFFIX,aevit.xyz
 HOST-SUFFIX,aexpec.com
-HOST-SUFFIX,af-south-1.myhuaweicloud.com
 HOST-SUFFIX,af122.com
 HOST-SUFFIX,af36.com
 HOST-SUFFIX,af360.com
@@ -12274,9 +12273,6 @@ HOST-SUFFIX,aoyunque.com
 HOST-SUFFIX,aozhanls.com
 HOST-SUFFIX,aozhougoufang.com
 HOST-SUFFIX,ap-china.com
-HOST-SUFFIX,ap-southeast-1.myhuaweicloud.com
-HOST-SUFFIX,ap-southeast-2.myhuaweicloud.com
-HOST-SUFFIX,ap-southeast-3.myhuaweicloud.com
 HOST-SUFFIX,ap1983.com
 HOST-SUFFIX,ap4r.com
 HOST-SUFFIX,ap88.com
@@ -12561,7 +12557,6 @@ HOST-SUFFIX,aqumon.com
 HOST-SUFFIX,aqviwv.com
 HOST-SUFFIX,aqvx8mcr392mv7.com
 HOST-SUFFIX,aqxx.org
-HOST-SUFFIX,aqyad.com
 HOST-SUFFIX,aqyqqy.com
 HOST-SUFFIX,aqyun.com
 HOST-SUFFIX,aqyzm.com
@@ -23315,7 +23310,6 @@ HOST-SUFFIX,cllk.net
 HOST-SUFFIX,clloz.com
 HOST-SUFFIX,clmpg.com
 HOST-SUFFIX,clngaa.com
-HOST-SUFFIX,cloooud.com
 HOST-SUFFIX,cloopen.com
 HOST-SUFFIX,cloopen.net
 HOST-SUFFIX,cloopm.com
@@ -23758,8 +23752,6 @@ HOST-SUFFIX,cn-chenguang.com
 HOST-SUFFIX,cn-chx.com
 HOST-SUFFIX,cn-comfort.com
 HOST-SUFFIX,cn-cr.com
-HOST-SUFFIX,cn-east-2.myhuaweicloud.com
-HOST-SUFFIX,cn-east-3.myhuaweicloud.com
 HOST-SUFFIX,cn-elite.com
 HOST-SUFFIX,cn-em.com
 HOST-SUFFIX,cn-ferment.com
@@ -23783,14 +23775,6 @@ HOST-SUFFIX,cn-mingda.com
 HOST-SUFFIX,cn-msedge.net
 HOST-SUFFIX,cn-mw.com
 HOST-SUFFIX,cn-natural.com
-HOST-SUFFIX,cn-north-1.myhuaweicloud.com
-HOST-SUFFIX,cn-north-2.myhuaweicloud.com
-HOST-SUFFIX,cn-north-3.myhuaweicloud.com
-HOST-SUFFIX,cn-north-4.myhuaweicloud.com
-HOST-SUFFIX,cn-north-5.myhuaweicloud.com
-HOST-SUFFIX,cn-north-6.myhuaweicloud.com
-HOST-SUFFIX,cn-north-9.myhuaweicloud.com
-HOST-SUFFIX,cn-northeast-1.myhuaweicloud.com
 HOST-SUFFIX,cn-only.com
 HOST-SUFFIX,cn-psy.com
 HOST-SUFFIX,cn-railway.net
@@ -23801,10 +23785,6 @@ HOST-SUFFIX,cn-school.com
 HOST-SUFFIX,cn-sdf.com
 HOST-SUFFIX,cn-shine.com
 HOST-SUFFIX,cn-soft.com
-HOST-SUFFIX,cn-south-1.myhuaweicloud.com
-HOST-SUFFIX,cn-south-2.myhuaweicloud.com
-HOST-SUFFIX,cn-south-4.myhuaweicloud.com
-HOST-SUFFIX,cn-southwest-2.myhuaweicloud.com
 HOST-SUFFIX,cn-tf.com
 HOST-SUFFIX,cn-tom.com
 HOST-SUFFIX,cn-truck.com
@@ -33653,7 +33633,6 @@ HOST-SUFFIX,etz927.com
 HOST-SUFFIX,etzj.net
 HOST-SUFFIX,etzqw.com
 HOST-SUFFIX,etzzy.com
-HOST-SUFFIX,eu-west-0.myhuaweicloud.com
 HOST-SUFFIX,eu4cn.com
 HOST-SUFFIX,eub-inc.com
 HOST-SUFFIX,euci-software.com
@@ -61893,8 +61872,6 @@ HOST-SUFFIX,l99.com
 HOST-SUFFIX,la-bbs.net
 HOST-SUFFIX,la-chinata.hk
 HOST-SUFFIX,la-mo.com
-HOST-SUFFIX,la-north-2.myhuaweicloud.com
-HOST-SUFFIX,la-south-2.myhuaweicloud.com
 HOST-SUFFIX,la-technology.com
 HOST-SUFFIX,la31.com
 HOST-SUFFIX,laawoo.com
@@ -66501,6 +66478,7 @@ HOST-SUFFIX,m-edu.com
 HOST-SUFFIX,m-finder.com
 HOST-SUFFIX,m-hero.com
 HOST-SUFFIX,m-rainbow.com
+HOST-SUFFIX,m-team.cc
 HOST-SUFFIX,m.travelzoo.com
 HOST-SUFFIX,m1.run
 HOST-SUFFIX,m123.com
@@ -70400,6 +70378,7 @@ HOST-SUFFIX,myhuaweicloud-custom.com
 HOST-SUFFIX,myhuaweicloud-date.com
 HOST-SUFFIX,myhuaweicloud-koodrive.com
 HOST-SUFFIX,myhuaweicloud-obs.com
+HOST-SUFFIX,myhuaweicloud.com
 HOST-SUFFIX,myhuilv.com
 HOST-SUFFIX,myhwcdn.com
 HOST-SUFFIX,myhwcloudlive.com
@@ -70702,7 +70681,6 @@ HOST-SUFFIX,n63.com
 HOST-SUFFIX,n802.com
 HOST-SUFFIX,n8soft.com
 HOST-SUFFIX,n9z.net
-HOST-SUFFIX,na-mexico-1.myhuaweicloud.com
 HOST-SUFFIX,na.ci
 HOST-SUFFIX,naaln.com
 HOST-SUFFIX,nabluemedia.com
@@ -76178,7 +76156,6 @@ HOST-SUFFIX,pki.plus
 HOST-SUFFIX,pkm360.com
 HOST-SUFFIX,pkma.cc
 HOST-SUFFIX,pko123.com
-HOST-SUFFIX,pkoplink.com
 HOST-SUFFIX,pkpky.com
 HOST-SUFFIX,pkpmjc.com
 HOST-SUFFIX,pkpmsoft.com
@@ -81569,7 +81546,6 @@ HOST-SUFFIX,rtxuc.com
 HOST-SUFFIX,rtyhfg.com
 HOST-SUFFIX,rtyxpt.com
 HOST-SUFFIX,rtyy.com
-HOST-SUFFIX,ru-northwest-2.myhuaweicloud.com
 HOST-SUFFIX,ru5sq.com
 HOST-SUFFIX,rua93.online
 HOST-SUFFIX,ruan.cloud
@@ -82027,7 +82003,6 @@ HOST-SUFFIX,s95r.com
 HOST-SUFFIX,s98s2.com
 HOST-SUFFIX,s9hospital.com
 HOST-SUFFIX,s9yun.com
-HOST-SUFFIX,sa-brazil-1.myhuaweicloud.com
 HOST-SUFFIX,sa-ec.com
 HOST-SUFFIX,sa-log.com
 HOST-SUFFIX,sa-tencentclb.cloud
@@ -125448,6 +125423,7 @@ IP-CIDR,45.149.16.0/22
 IP-CIDR,45.151.47.0/24
 IP-CIDR,45.152.24.0/22
 IP-CIDR,45.154.244.0/24
+IP-CIDR,45.157.88.0/24
 IP-CIDR,45.192.21.0/24
 IP-CIDR,45.195.6.0/24
 IP-CIDR,45.202.209.0/24
