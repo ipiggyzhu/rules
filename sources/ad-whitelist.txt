@@ -1,17 +1,16 @@
-# 允许自添加放行域名，防止误封等规则
-# author: ipiggy
-# date: 2025-08-02
+# 白名单 - 防止误封的域名
+# 格式：每行一个域名（支持子域名自动匹配）
+# 例如：添加 example.com 会同时放行 *.example.com
 
---- bing ---
+# 搜索引擎
 bing.com
 
---- youtube ---
+# 视频网站
 youtube.com
 
---- qq ---
+# 腾讯
 snowflake.qq.com
 
---- 其他 ---
-HOST,66990000.xyz,direct
-HOST,alist.haoizan.com,direct
-HOST,ys.66990000.xyz,direct
+# 个人域名
+66990000.xyz
+alist.haoizan.com
