@@ -26,19 +26,68 @@ jobs:
           pip install requests
 
       - name: Run converter script
+        id: converter
         run: python converter.py
 
       - name: Commit and Push changes
+        id: commit
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
           if ! git diff --staged --quiet; then
-            git commit -m "feat(rules): 自动更新Loon和QuantumultX规则"
+            SUMMARY="${{ steps.converter.outputs.summary }}"
+            if [ -z "$SUMMARY" ]; then
+              SUMMARY="自动更新规则"
+            fi
+            git commit -m "feat(rules): $SUMMARY"
             git pull --rebase origin main
             git push origin HEAD:main
+            echo "changes=true" >> $GITHUB_OUTPUT
             echo "Changes detected and pushed to the repository."
           else
+            echo "changes=false" >> $GITHUB_OUTPUT
             echo "No changes in final rules. Nothing to push."
           fi
 
+      - name: Send Telegram notification (Success)
+        if: success() && steps.commit.outputs.changes == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            SUMMARY="${{ steps.converter.outputs.summary }}"
+            HAS_FAILED="${{ steps.converter.outputs.has_failed }}"
+            FAILED_COUNT="${{ steps.converter.outputs.failed_count }}"
+            DEDUP_COUNT="${{ steps.converter.outputs.dedup_count }}"
+
+            MESSAGE="✅ *规则更新成功*%0A%0A"
+            MESSAGE+="📊 *统计:* ${SUMMARY}%0A"
+            MESSAGE+="🔄 *去重:* ${DEDUP_COUNT} 条"
+
+            if [ "$HAS_FAILED" = "true" ]; then
+              MESSAGE+="%0A⚠️ *警告:* ${FAILED_COUNT} 个上游源获取失败"
+            fi
+
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -d chat_id="${TELEGRAM_CHAT_ID}" \
+              -d text="${MESSAGE}" \
+              -d parse_mode="Markdown"
+          fi
+
+      - name: Send Telegram notification (Failure)
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            MESSAGE="❌ *规则更新失败*%0A%0A"
+            MESSAGE+="🔗 [查看日志](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -d chat_id="${TELEGRAM_CHAT_ID}" \
+              -d text="${MESSAGE}" \
+              -d parse_mode="Markdown"
+          fi
