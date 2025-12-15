@@ -57,23 +57,32 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
-            SUMMARY="${{ steps.converter.outputs.summary }}"
+            LOON_AD_COUNT="${{ steps.converter.outputs.loon_ad_count }}"
+            LOON_DIRECT_COUNT="${{ steps.converter.outputs.loon_direct_count }}"
+            QX_AD_COUNT="${{ steps.converter.outputs.qx_ad_count }}"
+            QX_DIRECT_COUNT="${{ steps.converter.outputs.qx_direct_count }}"
             HAS_FAILED="${{ steps.converter.outputs.has_failed }}"
             FAILED_COUNT="${{ steps.converter.outputs.failed_count }}"
             DEDUP_COUNT="${{ steps.converter.outputs.dedup_count }}"
 
-            MESSAGE="✅ *规则更新成功*%0A%0A"
-            MESSAGE+="📊 *统计:* ${SUMMARY}%0A"
-            MESSAGE+="🔄 *去重:* ${DEDUP_COUNT} 条"
+            MESSAGE="✅ 规则更新成功%0A%0A"
+            MESSAGE+="📊 统计:%0A"
+            MESSAGE+="  • Loon 规则: ad-rules: ${LOON_AD_COUNT} 条    direct-rules: ${LOON_DIRECT_COUNT} 条%0A"
+            MESSAGE+="  • QuantumultX 规则: ad-rules: ${QX_AD_COUNT} 条    direct-rules: ${QX_DIRECT_COUNT} 条%0A"
+            MESSAGE+="🔄 去重: ${DEDUP_COUNT} 条"
 
-            if [ "$HAS_FAILED" = "true" ]; then
-              MESSAGE+="%0A⚠️ *警告:* ${FAILED_COUNT} 个上游源获取失败"
+            if [ "$HAS_FAILED" = "true" ] && [ -f "failed_sources.txt" ]; then
+              MESSAGE+="%0A%0A⚠️ 警告: ${FAILED_COUNT} 个上游源获取失败%0A%0A"
+              MESSAGE+="失效的上游源:%0A"
+              while IFS= read -r url; do
+                MESSAGE+="  • ${url}%0A"
+              done < failed_sources.txt
             fi
 
             curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
               -d chat_id="${TELEGRAM_CHAT_ID}" \
               -d text="${MESSAGE}" \
-              -d parse_mode="Markdown"
+              -d parse_mode="HTML"
           fi
 
       - name: Send Telegram notification (Failure)

@@ -480,6 +480,12 @@ if __name__ == "__main__":
     summary = generate_summary()
     print(f"\n📝 摘要: {summary}")
 
+    # 保存失效的上游源到文件供 Telegram 通知使用
+    if stats.failed_sources:
+        with open("failed_sources.txt", "w", encoding="utf-8") as f:
+            for url in stats.failed_sources:
+                f.write(f"{url}\n")
+
     # 写入环境变量文件（供 GitHub Actions 读取）
     github_output = os.environ.get('GITHUB_OUTPUT')
     if github_output:
@@ -490,6 +496,11 @@ if __name__ == "__main__":
             f.write(f"has_failed={'true' if stats.failed_sources else 'false'}\n")
             f.write(f"failed_count={len(stats.failed_sources)}\n")
             f.write(f"dedup_count={total_dedup}\n")
+            # 添加各个规则文件的数量
+            f.write(f"loon_ad_count={stats.final_counts.get(LOON_AD_OUTPUT, 0)}\n")
+            f.write(f"loon_direct_count={stats.final_counts.get(LOON_DIRECT_OUTPUT, 0)}\n")
+            f.write(f"qx_ad_count={stats.final_counts.get(QUANTUMULTX_AD_OUTPUT, 0)}\n")
+            f.write(f"qx_direct_count={stats.final_counts.get(QUANTUMULTX_DIRECT_OUTPUT, 0)}\n")
 
     print("\n" + "=" * 60)
     print("✅ 完成!")
