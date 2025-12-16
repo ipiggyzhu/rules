@@ -1,7 +1,7 @@
 # Title: Loon Ad Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2025-12-15T01:57:25Z
-# Total: 178138
+# Updated: 2025-12-16T01:54:11Z
+# Total: 178139
 
 DOMAIN,118.89.204.198
 DOMAIN,25e87c0802f91cf8cgg.6uzxtlv.cn
@@ -594,6 +594,7 @@ DOMAIN-KEYWORD,insights-collector.
 DOMAIN-KEYWORD,insurance.lianwifi.com
 DOMAIN-KEYWORD,ios-log.
 DOMAIN-KEYWORD,ioslog.
+DOMAIN-KEYWORD,itabelog
 DOMAIN-KEYWORD,jads
 DOMAIN-KEYWORD,js.union-wifi.com
 DOMAIN-KEYWORD,jshosting
