@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2025-12-17T01:49:37Z
-# Total: 126163
+# Updated: 2025-12-18T01:50:03Z
+# Total: 126172
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -26691,6 +26691,7 @@ HOST-SUFFIX,ctans.com
 HOST-SUFFIX,ctaoci.com
 HOST-SUFFIX,ctaweb.org
 HOST-SUFFIX,ctb50.com
+HOST-SUFFIX,ctbcdn.com
 HOST-SUFFIX,ctbcleasing.com
 HOST-SUFFIX,ctbjia888.com
 HOST-SUFFIX,ctbpsp.com
@@ -26703,6 +26704,7 @@ HOST-SUFFIX,ctcai.com
 HOST-SUFFIX,ctcdn.com
 HOST-SUFFIX,ctcdn.net
 HOST-SUFFIX,ctcdn.org
+HOST-SUFFIX,ctcdnov.net
 HOST-SUFFIX,ctce8.com
 HOST-SUFFIX,ctcefive.com
 HOST-SUFFIX,ctcloudmeeting.com
@@ -26716,6 +26718,7 @@ HOST-SUFFIX,ctcsz.com
 HOST-SUFFIX,ctcwri.org
 HOST-SUFFIX,ctcxzgs.com
 HOST-SUFFIX,ctdatacare.com
+HOST-SUFFIX,ctdcdn.com
 HOST-SUFFIX,ctdcn.com
 HOST-SUFFIX,ctdisk.com
 HOST-SUFFIX,ctdns.net
@@ -26744,6 +26747,7 @@ HOST-SUFFIX,ctfo.com
 HOST-SUFFIX,ctftools.com
 HOST-SUFFIX,ctfund.com
 HOST-SUFFIX,ctgapp.com
+HOST-SUFFIX,ctgcdn.com
 HOST-SUFFIX,ctghealthy.com
 HOST-SUFFIX,ctghr.com
 HOST-SUFFIX,ctghro.com
@@ -26796,9 +26800,11 @@ HOST-SUFFIX,ctocio.com
 HOST-SUFFIX,ctoclub.com
 HOST-SUFFIX,ctongonline.com
 HOST-SUFFIX,ctoutiao.com
+HOST-SUFFIX,ctovcdn.com
 HOST-SUFFIX,ctpdd.com
 HOST-SUFFIX,ctracer.net
 HOST-SUFFIX,ctrcw.net
+HOST-SUFFIX,ctrender.com
 HOST-SUFFIX,ctrip-ttd.hk
 HOST-SUFFIX,ctrip.co.id
 HOST-SUFFIX,ctrip.co.kr
@@ -26845,6 +26851,7 @@ HOST-SUFFIX,ctxcdn.com
 HOST-SUFFIX,ctxcdn.net
 HOST-SUFFIX,ctxcollect.com
 HOST-SUFFIX,ctxcpa.com
+HOST-SUFFIX,ctxirang.com
 HOST-SUFFIX,cty9.com
 HOST-SUFFIX,ctycdn.com
 HOST-SUFFIX,ctycdn.net
@@ -26855,6 +26862,9 @@ HOST-SUFFIX,ctyun.net
 HOST-SUFFIX,ctyun.online
 HOST-SUFFIX,ctyuncdn.com
 HOST-SUFFIX,ctyuncdn.net
+HOST-SUFFIX,ctyuninner.com
+HOST-SUFFIX,ctyunwaf.com
+HOST-SUFFIX,ctyunwaf1.com
 HOST-SUFFIX,ctzb.com
 HOST-SUFFIX,ctzcdn.com
 HOST-SUFFIX,ctzcdn.net
@@ -121511,7 +121521,6 @@ IP-CIDR,153.36.0.0/15,no-resolve
 IP-CIDR,153.99.0.0/16,no-resolve
 IP-CIDR,154.17.148.0/24,no-resolve
 IP-CIDR,154.18.7.194/32,no-resolve
-IP-CIDR,154.19.43.0/24,no-resolve
 IP-CIDR,154.19.64.0/20,no-resolve
 IP-CIDR,154.19.80.0/22,no-resolve
 IP-CIDR,154.19.84.0/26,no-resolve
@@ -121545,7 +121554,6 @@ IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
 IP-CIDR,155.117.164.0/24,no-resolve
-IP-CIDR,155.117.188.0/24,no-resolve
 IP-CIDR,155.126.176.0/23,no-resolve
 IP-CIDR,156.107.107.147/32,no-resolve
 IP-CIDR,156.107.107.152/29,no-resolve
@@ -121797,6 +121805,8 @@ IP-CIDR,163.223.178.0/23,no-resolve
 IP-CIDR,163.227.40.0/23,no-resolve
 IP-CIDR,163.228.0.0/16,no-resolve
 IP-CIDR,163.244.246.0/24,no-resolve
+IP-CIDR,163.253.0.0/24,no-resolve
+IP-CIDR,163.253.3.0/24,no-resolve
 IP-CIDR,163.47.4.0/22,no-resolve
 IP-CIDR,163.53.0.0/20,no-resolve
 IP-CIDR,163.53.128.0/21,no-resolve
@@ -124987,7 +124997,6 @@ IP-CIDR,3.5.214.0/23,no-resolve
 IP-CIDR,31.42.125.0/24,no-resolve
 IP-CIDR,31.42.183.48/32,no-resolve
 IP-CIDR,31.56.66.0/24,no-resolve
-IP-CIDR,31.57.10.0/24,no-resolve
 IP-CIDR,31.57.248.0/24,no-resolve
 IP-CIDR,35.71.107.0/24,no-resolve
 IP-CIDR,36.0.0.0/22,no-resolve
