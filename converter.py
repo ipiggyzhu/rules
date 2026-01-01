@@ -11,9 +11,7 @@ import json
 # Loon 广告规则上游源
 LOON_AD_RULES_URLS = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt",
-    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Loon.list",
-    "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Loon/Adblock4limbo_surge.list"
+    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 ]
 
 # Quantumult X 广告规则上游源
