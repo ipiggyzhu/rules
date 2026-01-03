@@ -29,7 +29,8 @@ LOON_DIRECT_RULES_URLS = [
 
 # Quantumult X 直连规则上游源
 QUANTUMULTX_DIRECT_RULES_URLS = [
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list"
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list",
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax_No_IPv6.list
 ]
 
 # 路径配置
