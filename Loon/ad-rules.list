@@ -1,7 +1,7 @@
 # Title: Loon Ad Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-01-06T01:56:52Z
-# Total: 99944
+# Updated: 2026-01-07T01:56:38Z
+# Total: 99945
 
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-rtb.gravite.net
@@ -8449,7 +8449,6 @@ DOMAIN-SUFFIX,ali-pro-origin-pull.kwai.net.iberostar.com
 DOMAIN-SUFFIX,ali-pro-pull.kwai.net.iberostar.com
 DOMAIN-SUFFIX,ali8.alinea.fr
 DOMAIN-SUFFIX,alia-iso.com
-DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alias.cloud-marketing.dimensiondata.com
 DOMAIN-SUFFIX,aliasanvil.com
 DOMAIN-SUFFIX,aliasfoot.com
@@ -17173,6 +17172,7 @@ DOMAIN-SUFFIX,cdn.wuyou.ca
 DOMAIN-SUFFIX,cdn.xbcpcn.com
 DOMAIN-SUFFIX,cdn.xiaoduoai.com
 DOMAIN-SUFFIX,cdn.yld.is
+DOMAIN-SUFFIX,cdn.ynuf.aliapp.org
 DOMAIN-SUFFIX,cdn0.mobmore.com
 DOMAIN-SUFFIX,cdn1.crispadvertising.com
 DOMAIN-SUFFIX,cdn1.lbesec.com
@@ -89734,6 +89734,7 @@ DOMAIN-SUFFIX,umbel.com
 DOMAIN-SUFFIX,umbkhpryixebl.space
 DOMAIN-SUFFIX,umbrella6.top
 DOMAIN-SUFFIX,umc.danuoyi.alicdn.com
+DOMAIN-SUFFIX,umdc.aliapp.org
 DOMAIN-SUFFIX,umdlbn.globetrotter.de
 DOMAIN-SUFFIX,umdpva.gakumado.mynavi.jp
 DOMAIN-SUFFIX,umdwwuasqcdar.online
