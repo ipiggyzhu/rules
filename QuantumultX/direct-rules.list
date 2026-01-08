@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-01-07T01:56:42Z
-# Total: 124087
+# Updated: 2026-01-08T01:56:58Z
+# Total: 124090
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -19767,6 +19767,7 @@ HOST-SUFFIX,cf69.com
 HOST-SUFFIX,cfachina.org
 HOST-SUFFIX,cfanlost.com
 HOST-SUFFIX,cfbond.com
+HOST-SUFFIX,cfc108.com
 HOST-SUFFIX,cfc365.com
 HOST-SUFFIX,cfca-c.org
 HOST-SUFFIX,cfccd.com
@@ -116145,6 +116146,7 @@ IP-CIDR,103.123.208.0/21,no-resolve
 IP-CIDR,103.123.4.0/22,no-resolve
 IP-CIDR,103.123.56.0/22,no-resolve
 IP-CIDR,103.123.88.0/21,no-resolve
+IP-CIDR,103.124.182.0/23,no-resolve
 IP-CIDR,103.124.212.0/22,no-resolve
 IP-CIDR,103.124.216.0/22,no-resolve
 IP-CIDR,103.124.24.0/22,no-resolve
@@ -118052,13 +118054,14 @@ IP-CIDR,103.99.56.0/21,no-resolve
 IP-CIDR,103.99.76.0/22,no-resolve
 IP-CIDR,104.109.129.153/32,no-resolve
 IP-CIDR,104.166.103.0/24,no-resolve
+IP-CIDR,104.167.17.0/24,no-resolve
 IP-CIDR,104.167.18.0/23,no-resolve
 IP-CIDR,104.167.20.0/22,no-resolve
 IP-CIDR,104.167.24.0/21,no-resolve
 IP-CIDR,104.192.108.0/23,no-resolve
 IP-CIDR,104.192.110.0/24,no-resolve
 IP-CIDR,104.192.83.64/32,no-resolve
-IP-CIDR,104.192.94.0/24,no-resolve
+IP-CIDR,104.192.94.0/23,no-resolve
 IP-CIDR,104.193.88.244/32,no-resolve
 IP-CIDR,104.207.33.0/28,no-resolve
 IP-CIDR,104.207.33.128/25,no-resolve
@@ -123979,7 +123982,7 @@ IP-CIDR,74.119.193.32/27,no-resolve
 IP-CIDR,74.119.193.4/30,no-resolve
 IP-CIDR,74.119.193.64/26,no-resolve
 IP-CIDR,74.119.193.8/29,no-resolve
-IP-CIDR,74.122.24.0/23,no-resolve
+IP-CIDR,74.122.24.0/22,no-resolve
 IP-CIDR,74.125.16.64/26,no-resolve
 IP-CIDR,74.63.27.0/24,no-resolve
 IP-CIDR,74.80.115.0/24,no-resolve
