@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-01-11T02:06:41Z
-# Total: 124095
+# Updated: 2026-01-12T02:03:05Z
+# Total: 124101
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -68163,6 +68163,7 @@ HOST-SUFFIX,moboplayer.com
 HOST-SUFFIX,mobotap.com
 HOST-SUFFIX,mobring.co
 HOST-SUFFIX,mobrtb.com
+HOST-SUFFIX,mobsdks.com
 HOST-SUFFIX,mobsurl.com
 HOST-SUFFIX,mobtou.com
 HOST-SUFFIX,mobvoi.com
@@ -81453,6 +81454,7 @@ HOST-SUFFIX,school51.com
 HOST-SUFFIX,school888.com
 HOST-SUFFIX,schoolinweb.com
 HOST-SUFFIX,schoolpi.net
+HOST-SUFFIX,schoopia.com
 HOST-SUFFIX,schstv.com
 HOST-SUFFIX,scht.cc
 HOST-SUFFIX,schwarzeni.com
@@ -92655,6 +92657,7 @@ HOST-SUFFIX,tongxiong.com
 HOST-SUFFIX,tongxue.com
 HOST-SUFFIX,tongxue365.com
 HOST-SUFFIX,tongxue8.com
+HOST-SUFFIX,tongxuepie.com
 HOST-SUFFIX,tongyangship.com
 HOST-SUFFIX,tongyaoplay.com
 HOST-SUFFIX,tongyavisa.com
@@ -119130,8 +119133,7 @@ IP-CIDR,128.1.62.200/31,no-resolve
 IP-CIDR,128.107.24.0/23,no-resolve
 IP-CIDR,128.108.0.0/16,no-resolve
 IP-CIDR,128.177.173.46/32,no-resolve
-IP-CIDR,128.254.240.0/23,no-resolve
-IP-CIDR,128.254.242.0/24,no-resolve
+IP-CIDR,128.254.240.0/22,no-resolve
 IP-CIDR,129.204.0.0/16,no-resolve
 IP-CIDR,129.211.0.0/16,no-resolve
 IP-CIDR,129.223.254.0/24,no-resolve
@@ -119466,6 +119468,10 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
+IP-CIDR,154.83.158.0/24,no-resolve
+IP-CIDR,154.83.187.0/24,no-resolve
+IP-CIDR,154.83.211.0/24,no-resolve
+IP-CIDR,154.83.247.0/24,no-resolve
 IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
