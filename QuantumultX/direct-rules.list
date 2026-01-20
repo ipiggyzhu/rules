@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-01-19T02:03:32Z
-# Total: 123865
+# Updated: 2026-01-20T01:58:17Z
+# Total: 123876
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -7970,6 +7970,7 @@ HOST-SUFFIX,880you.com
 HOST-SUFFIX,88106.com
 HOST-SUFFIX,88116008.com
 HOST-SUFFIX,8811777.com
+HOST-SUFFIX,881812c.com
 HOST-SUFFIX,8821.com
 HOST-SUFFIX,8825.com
 HOST-SUFFIX,88303887.com
@@ -8715,6 +8716,7 @@ HOST-SUFFIX,96225.com
 HOST-SUFFIX,962360.com
 HOST-SUFFIX,962518.com
 HOST-SUFFIX,962600.com
+HOST-SUFFIX,96262.com
 HOST-SUFFIX,96335.com
 HOST-SUFFIX,96355.com
 HOST-SUFFIX,96369.net
@@ -35869,6 +35871,7 @@ HOST-SUFFIX,fubonplastic.com
 HOST-SUFFIX,fuca-china.com
 HOST-SUFFIX,fucantec.com
 HOST-SUFFIX,fuchaipower.com
+HOST-SUFFIX,fuchaoqun.com
 HOST-SUFFIX,fuchen33.com
 HOST-SUFFIX,fuchengshicai.com
 HOST-SUFFIX,fuchuangyu.com
@@ -46644,6 +46647,7 @@ HOST-SUFFIX,hlbcks.com
 HOST-SUFFIX,hlbe365.com
 HOST-SUFFIX,hlbeixiu.com
 HOST-SUFFIX,hlbeixiu.net
+HOST-SUFFIX,hlbf.net
 HOST-SUFFIX,hlblz.com
 HOST-SUFFIX,hlbn.cc
 HOST-SUFFIX,hlbryy.com
@@ -67342,6 +67346,7 @@ HOST-SUFFIX,miit-icdc.org
 HOST-SUFFIX,miit-kjcg.com
 HOST-SUFFIX,mij.cc
 HOST-SUFFIX,mijewelries.com
+HOST-SUFFIX,miji8.com
 HOST-SUFFIX,mijia.tech
 HOST-SUFFIX,mijian360.com
 HOST-SUFFIX,mijiannet.com
@@ -70398,7 +70403,6 @@ HOST-SUFFIX,nfdx.net
 HOST-SUFFIX,nffq.net
 HOST-SUFFIX,nffund.com
 HOST-SUFFIX,nfgjhr.com
-HOST-SUFFIX,nfksjkfs.com
 HOST-SUFFIX,nflchina.com
 HOST-SUFFIX,nflsxl.com
 HOST-SUFFIX,nfmedia.com
@@ -72152,6 +72156,7 @@ HOST-SUFFIX,nuomicikoi.com
 HOST-SUFFIX,nuomili.com
 HOST-SUFFIX,nuomiphp.com
 HOST-SUFFIX,nuomisi.com
+HOST-SUFFIX,nuona.com
 HOST-SUFFIX,nuonuo.com
 HOST-SUFFIX,nuoshell.com
 HOST-SUFFIX,nuoshou2023.com
@@ -82996,6 +83001,7 @@ HOST-SUFFIX,shanheyule.com
 HOST-SUFFIX,shanhs.com
 HOST-SUFFIX,shanhu188.com
 HOST-SUFFIX,shanhu99.com
+HOST-SUFFIX,shanhuijiangtang.com
 HOST-SUFFIX,shanhuu.com
 HOST-SUFFIX,shanjianzhan.com
 HOST-SUFFIX,shanjinqh.com
@@ -87179,6 +87185,7 @@ HOST-SUFFIX,starbaysoft.com
 HOST-SUFFIX,starcharge.com
 HOST-SUFFIX,stardata360.com
 HOST-SUFFIX,starde.net
+HOST-SUFFIX,stardict.net
 HOST-SUFFIX,stardict.org
 HOST-SUFFIX,stardoctor.com
 HOST-SUFFIX,stards.com
@@ -97904,6 +97911,7 @@ HOST-SUFFIX,wenfenggroup.com
 HOST-SUFFIX,wengbi.com
 HOST-SUFFIX,wengegroup.com
 HOST-SUFFIX,wengem.com
+HOST-SUFFIX,wengkui.com
 HOST-SUFFIX,wengmeiling.com
 HOST-SUFFIX,wenguang.com
 HOST-SUFFIX,wenguangta.com
@@ -120245,6 +120253,8 @@ IP-CIDR,202.22.248.0/21,no-resolve
 IP-CIDR,202.27.12.0/24,no-resolve
 IP-CIDR,202.27.136.0/23,no-resolve
 IP-CIDR,202.27.14.0/24,no-resolve
+IP-CIDR,202.28.194.0/24,no-resolve
+IP-CIDR,202.29.12.0/24,no-resolve
 IP-CIDR,202.3.128.0/23,no-resolve
 IP-CIDR,202.30.124.0/24,no-resolve
 IP-CIDR,202.36.226.0/24,no-resolve
@@ -123740,6 +123750,7 @@ IP-CIDR,69.230.192.0/18,no-resolve
 IP-CIDR,69.231.128.0/18,no-resolve
 IP-CIDR,69.234.192.0/18,no-resolve
 IP-CIDR,69.235.128.0/18,no-resolve
+IP-CIDR,69.33.13.0/24,no-resolve
 IP-CIDR,69.85.93.0/24,no-resolve
 IP-CIDR,71.131.192.0/18,no-resolve
 IP-CIDR,71.132.0.0/18,no-resolve
