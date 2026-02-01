@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-01-31T02:11:12Z
-# Total: 124665
+# Updated: 2026-02-01T02:41:37Z
+# Total: 124661
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -5438,7 +5438,6 @@ HOST-SUFFIX,51864.com
 HOST-SUFFIX,51870.com
 HOST-SUFFIX,5187g.com
 HOST-SUFFIX,5188.com
-HOST-SUFFIX,518ad.com
 HOST-SUFFIX,518doc.com
 HOST-SUFFIX,518h48fwg6.com
 HOST-SUFFIX,518yp.com
@@ -9993,7 +9992,6 @@ HOST-SUFFIX,acmsearch.com
 HOST-SUFFIX,acmturc.com
 HOST-SUFFIX,acnow.net
 HOST-SUFFIX,aco-musical.com
-HOST-SUFFIX,acobt.tech
 HOST-SUFFIX,acofork.com
 HOST-SUFFIX,acoloo.com
 HOST-SUFFIX,acoolread.com
@@ -12770,6 +12768,7 @@ HOST-SUFFIX,aqumon.com
 HOST-SUFFIX,aqviwv.com
 HOST-SUFFIX,aqvx8mcr392mv7.com
 HOST-SUFFIX,aqxx.org
+HOST-SUFFIX,aqyad.com
 HOST-SUFFIX,aqyqqy.com
 HOST-SUFFIX,aqyun.com
 HOST-SUFFIX,aqyzm.com
@@ -23410,6 +23409,7 @@ HOST-SUFFIX,cllk.net
 HOST-SUFFIX,clloz.com
 HOST-SUFFIX,clmpg.com
 HOST-SUFFIX,clngaa.com
+HOST-SUFFIX,cloooud.com
 HOST-SUFFIX,cloopen.com
 HOST-SUFFIX,cloopen.net
 HOST-SUFFIX,cloopm.com
@@ -30218,7 +30218,6 @@ HOST-SUFFIX,dnzh.org
 HOST-SUFFIX,dnzhuti.com
 HOST-SUFFIX,dnzjds.com
 HOST-SUFFIX,dnzp.com
-HOST-SUFFIX,do-global.com
 HOST-SUFFIX,do-won.com
 HOST-SUFFIX,do123.net
 HOST-SUFFIX,do1618.com
@@ -59919,7 +59918,6 @@ HOST-SUFFIX,kiaic.com
 HOST-SUFFIX,kiana.love
 HOST-SUFFIX,kiapmyf.xyz
 HOST-SUFFIX,kibinggroup.com
-HOST-SUFFIX,kickoffo.site
 HOST-SUFFIX,kicontech.com
 HOST-SUFFIX,kid17.com
 HOST-SUFFIX,kiddopal.com
@@ -67055,6 +67053,7 @@ HOST-SUFFIX,medlinker.net
 HOST-SUFFIX,medme.net
 HOST-SUFFIX,medmeeting.org
 HOST-SUFFIX,mednovogroup.com
+HOST-SUFFIX,medproad.com
 HOST-SUFFIX,medrc.net
 HOST-SUFFIX,medreading.com
 HOST-SUFFIX,medris-china.com
@@ -70129,7 +70128,6 @@ HOST-SUFFIX,n3sd.com
 HOST-SUFFIX,n459.com
 HOST-SUFFIX,n5w.com
 HOST-SUFFIX,n63.com
-HOST-SUFFIX,n69.com
 HOST-SUFFIX,n802.com
 HOST-SUFFIX,n8soft.com
 HOST-SUFFIX,n9z.net
@@ -75542,6 +75540,7 @@ HOST-SUFFIX,pki.plus
 HOST-SUFFIX,pkm360.com
 HOST-SUFFIX,pkma.cc
 HOST-SUFFIX,pko123.com
+HOST-SUFFIX,pkoplink.com
 HOST-SUFFIX,pkpmjc.com
 HOST-SUFFIX,pkpmsoft.com
 HOST-SUFFIX,pkpuke.com
@@ -81720,7 +81719,6 @@ HOST-SUFFIX,sbc-mcc.com
 HOST-SUFFIX,sbf56.com
 HOST-SUFFIX,sbh15.com
 HOST-SUFFIX,sbhimalayanml.com
-HOST-SUFFIX,sbird.xyz
 HOST-SUFFIX,sbjd88.com
 HOST-SUFFIX,sbjxyq.com
 HOST-SUFFIX,sbk-h5.com
@@ -119731,7 +119729,6 @@ IP-CIDR,13.34.63.0/26,no-resolve
 IP-CIDR,13.34.7.64/26,no-resolve
 IP-CIDR,130.214.218.0/23,no-resolve
 IP-CIDR,130.36.146.0/23,no-resolve
-IP-CIDR,131.221.82.0/24,no-resolve
 IP-CIDR,131.228.96.0/22,no-resolve
 IP-CIDR,131.253.12.0/29,no-resolve
 IP-CIDR,131.253.12.240/29,no-resolve
@@ -121152,6 +121149,7 @@ IP-CIDR,202.6.108.0/24,no-resolve
 IP-CIDR,202.6.110.0/23,no-resolve
 IP-CIDR,202.6.114.0/24,no-resolve
 IP-CIDR,202.6.176.0/20,no-resolve
+IP-CIDR,202.6.202.0/23,no-resolve
 IP-CIDR,202.6.6.0/23,no-resolve
 IP-CIDR,202.6.66.0/23,no-resolve
 IP-CIDR,202.6.72.0/23,no-resolve
@@ -121403,7 +121401,9 @@ IP-CIDR,203.13.227.0/24,no-resolve
 IP-CIDR,203.13.233.0/24,no-resolve
 IP-CIDR,203.13.24.0/24,no-resolve
 IP-CIDR,203.13.44.0/23,no-resolve
-IP-CIDR,203.13.80.0/21,no-resolve
+IP-CIDR,203.13.81.0/24,no-resolve
+IP-CIDR,203.13.82.0/23,no-resolve
+IP-CIDR,203.13.84.0/22,no-resolve
 IP-CIDR,203.13.88.0/23,no-resolve
 IP-CIDR,203.13.92.0/22,no-resolve
 IP-CIDR,203.130.32.0/19,no-resolve
@@ -122207,9 +122207,7 @@ IP-CIDR,203.8.212.0/22,no-resolve
 IP-CIDR,203.8.217.0/24,no-resolve
 IP-CIDR,203.8.220.0/24,no-resolve
 IP-CIDR,203.8.23.0/24,no-resolve
-IP-CIDR,203.8.24.0/23,no-resolve
-IP-CIDR,203.8.27.0/24,no-resolve
-IP-CIDR,203.8.28.0/23,no-resolve
+IP-CIDR,203.8.25.0/24,no-resolve
 IP-CIDR,203.8.30.0/24,no-resolve
 IP-CIDR,203.8.70.0/24,no-resolve
 IP-CIDR,203.8.8.0/24,no-resolve
@@ -123553,7 +123551,6 @@ IP-CIDR,38.181.48.0/20,no-resolve
 IP-CIDR,38.196.176.0/24,no-resolve
 IP-CIDR,38.247.24.0/22,no-resolve
 IP-CIDR,38.247.32.0/23,no-resolve
-IP-CIDR,38.247.35.0/24,no-resolve
 IP-CIDR,38.247.36.0/22,no-resolve
 IP-CIDR,38.46.5.0/24,no-resolve
 IP-CIDR,38.46.6.0/24,no-resolve
@@ -124499,9 +124496,8 @@ IP-CIDR,62.234.0.0/16,no-resolve
 IP-CIDR,62.3.6.0/24,no-resolve
 IP-CIDR,62.72.181.0/24,no-resolve
 IP-CIDR,63.140.0.0/24,no-resolve
-IP-CIDR,63.140.13.0/24,no-resolve
 IP-CIDR,63.140.3.0/24,no-resolve
-IP-CIDR,63.140.4.0/22,no-resolve
+IP-CIDR,63.140.4.0/23,no-resolve
 IP-CIDR,63.160.16.128/26,no-resolve
 IP-CIDR,63.162.157.36/32,no-resolve
 IP-CIDR,63.217.81.0/24,no-resolve
