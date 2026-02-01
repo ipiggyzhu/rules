@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-01T02:41:37.959084+00:00",
+  "timestamp": "2026-02-01T04:17:23.031724+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 104467,
@@ -13,20 +13,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 105655,
-    "QX广告规则": 376281,
+    "Loon广告规则": 105654,
+    "QX广告规则": 376280,
     "Loon直连规则": 12652,
     "QX直连规则": 128929
   },
   "after_dedup": {
-    "Loon广告规则": 105499,
-    "QX广告规则": 243803,
+    "Loon广告规则": 105498,
+    "QX广告规则": 243802,
     "Loon直连规则": 12651,
     "QX直连规则": 124661
   },
   "final_counts": {
-    "Loon/ad-rules.list": 105499,
-    "QuantumultX/ad-rules.list": 243803,
+    "Loon/ad-rules.list": 105498,
+    "QuantumultX/ad-rules.list": 243802,
     "Loon/direct-rules.list": 12651,
     "QuantumultX/direct-rules.list": 124661
   }

@@ -204,7 +204,6 @@ crash.163.com
 cs.iadsdk.apple.com
 ctrmi.cn
 d.url.cn
-d3upkyrv5jl3rn.cloudfront.net
 data.ab.qq.com
 datk.anythinktech.com
 default.cn.sz.wagbridge.ad.alibabacorp.com
