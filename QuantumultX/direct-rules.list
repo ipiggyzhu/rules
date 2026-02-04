@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-02-03T02:29:03Z
-# Total: 124708
+# Updated: 2026-02-04T02:23:21Z
+# Total: 124726
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -9030,6 +9030,7 @@ HOST-SUFFIX,9377g.com
 HOST-SUFFIX,9377j.com
 HOST-SUFFIX,9377ja.com
 HOST-SUFFIX,9377z.com
+HOST-SUFFIX,9378.com
 HOST-SUFFIX,93913.com
 HOST-SUFFIX,93966.com
 HOST-SUFFIX,93984.org
@@ -22533,6 +22534,7 @@ HOST-SUFFIX,chmod0777kk.com
 HOST-SUFFIX,chmti.com
 HOST-SUFFIX,chn-cstc.com
 HOST-SUFFIX,chn-das.com
+HOST-SUFFIX,chn-new-9sport.com
 HOST-SUFFIX,chn0769.com
 HOST-SUFFIX,chn112.com
 HOST-SUFFIX,chn168.com
@@ -25420,6 +25422,7 @@ HOST-SUFFIX,cpema.org
 HOST-SUFFIX,cpeol.net
 HOST-SUFFIX,cpepgc.com
 HOST-SUFFIX,cpfia.org
+HOST-SUFFIX,cpfwzs.com
 HOST-SUFFIX,cpg-motor.com
 HOST-SUFFIX,cphfgg.com
 HOST-SUFFIX,cphiic.com
@@ -26376,6 +26379,7 @@ HOST-SUFFIX,cs2-aipn.com
 HOST-SUFFIX,cs27.com
 HOST-SUFFIX,cs2c.com
 HOST-SUFFIX,cs2ccloud.com
+HOST-SUFFIX,cs2pw.com
 HOST-SUFFIX,cs30.net
 HOST-SUFFIX,cs451.com
 HOST-SUFFIX,cs48.com
@@ -28591,6 +28595,7 @@ HOST-SUFFIX,dealsbank.com
 HOST-SUFFIX,dealsmake.com
 HOST-SUFFIX,deansys.com
 HOST-SUFFIX,dear520dear.com
+HOST-SUFFIX,dearclick.com
 HOST-SUFFIX,dearda.com
 HOST-SUFFIX,dearedu.com
 HOST-SUFFIX,dearisland.com
@@ -33831,6 +33836,7 @@ HOST-SUFFIX,excelpx.com
 HOST-SUFFIX,excm.net
 HOST-SUFFIX,exd.design
 HOST-SUFFIX,exdoll.com
+HOST-SUFFIX,exedus.com.co
 HOST-SUFFIX,exeedcars.com
 HOST-SUFFIX,exexm.com
 HOST-SUFFIX,exezhanqun.com
@@ -48254,6 +48260,7 @@ HOST-SUFFIX,hornetcorn.com
 HOST-SUFFIX,horosama.com
 HOST-SUFFIX,horou.com
 HOST-SUFFIX,horphoto.com
+HOST-SUFFIX,horsebrowser.com
 HOST-SUFFIX,horsechinaone.com
 HOST-SUFFIX,horti-expo2019.com
 HOST-SUFFIX,hortor-comic.com
@@ -51379,6 +51386,7 @@ HOST-SUFFIX,ic-king.com
 HOST-SUFFIX,ic-ldo.com
 HOST-SUFFIX,ic-leasing.com
 HOST-SUFFIX,ic-mag.com
+HOST-SUFFIX,ic-spic.com
 HOST-SUFFIX,ic-valley.com
 HOST-SUFFIX,ic001.org
 HOST-SUFFIX,ic2china.com
@@ -61314,6 +61322,7 @@ HOST-SUFFIX,kwaiymx64war5a7f.com
 HOST-SUFFIX,kwaizt.com
 HOST-SUFFIX,kwangfeng.com
 HOST-SUFFIX,kwggroupholdings.com
+HOST-SUFFIX,kwicdn.com
 HOST-SUFFIX,kwimgs.com
 HOST-SUFFIX,kwinbon.com
 HOST-SUFFIX,kwise-log.com
@@ -74356,6 +74365,7 @@ HOST-SUFFIX,paihang360.com
 HOST-SUFFIX,paihang8.com
 HOST-SUFFIX,paihb.com
 HOST-SUFFIX,paihotels.cc
+HOST-SUFFIX,paihuisy.com
 HOST-SUFFIX,paikew.com
 HOST-SUFFIX,paiky.com
 HOST-SUFFIX,paiky.net
@@ -74916,7 +74926,9 @@ HOST-SUFFIX,peiluyou.com
 HOST-SUFFIX,peipusci.com
 HOST-SUFFIX,peise.net
 HOST-SUFFIX,peisebiao.com
+HOST-SUFFIX,peiwan.tv
 HOST-SUFFIX,peiwanlu.com
+HOST-SUFFIX,peiwantv.com
 HOST-SUFFIX,peixianedu.com
 HOST-SUFFIX,peixiang.com
 HOST-SUFFIX,peixinbao.com
@@ -91165,6 +91177,7 @@ HOST-SUFFIX,tdbbj.com
 HOST-SUFFIX,tdchats.us
 HOST-SUFFIX,tdchatvip.us
 HOST-SUFFIX,tdd.la
+HOST-SUFFIX,tdfsm.com
 HOST-SUFFIX,tdgdy.org
 HOST-SUFFIX,tdgod.com
 HOST-SUFFIX,tdiac.com
@@ -94545,6 +94558,7 @@ HOST-SUFFIX,tuziip.com
 HOST-SUFFIX,tv002.com
 HOST-SUFFIX,tv121.com
 HOST-SUFFIX,tv189.com
+HOST-SUFFIX,tv2-zuqiu.com
 HOST-SUFFIX,tv20806.com
 HOST-SUFFIX,tv373.com
 HOST-SUFFIX,tvandnet.com
@@ -102366,6 +102380,7 @@ HOST-SUFFIX,xhysh.com
 HOST-SUFFIX,xhytd.com
 HOST-SUFFIX,xhyun.vip
 HOST-SUFFIX,xhzysg.com
+HOST-SUFFIX,xi-9.com
 HOST-SUFFIX,xi-soft.com
 HOST-SUFFIX,xi.su
 HOST-SUFFIX,xi5jie.com
@@ -109191,6 +109206,7 @@ HOST-SUFFIX,youshenhudong.com
 HOST-SUFFIX,yousheyoujia.com
 HOST-SUFFIX,youshibeike.com
 HOST-SUFFIX,youshifu.com
+HOST-SUFFIX,youshihui.cc
 HOST-SUFFIX,youshikoudai.com
 HOST-SUFFIX,youshixiu.com
 HOST-SUFFIX,youshop01.com
@@ -120040,6 +120056,7 @@ IP-CIDR,150.242.92.0/22,no-resolve
 IP-CIDR,150.242.96.0/22,no-resolve
 IP-CIDR,150.248.0.0/16,no-resolve
 IP-CIDR,150.255.0.0/16,no-resolve
+IP-CIDR,151.158.14.0/23,no-resolve
 IP-CIDR,151.242.10.0/24,no-resolve
 IP-CIDR,151.243.22.0/24,no-resolve
 IP-CIDR,151.243.25.0/24,no-resolve
@@ -122509,6 +122526,7 @@ IP-CIDR,222.128.0.0/12,no-resolve
 IP-CIDR,222.16.0.0/12,no-resolve
 IP-CIDR,222.160.0.0/14,no-resolve
 IP-CIDR,222.166.0.224/27,no-resolve
+IP-CIDR,222.167.244.0/24,no-resolve
 IP-CIDR,222.168.0.0/13,no-resolve
 IP-CIDR,222.176.0.0/12,no-resolve
 IP-CIDR,222.192.0.0/11,no-resolve
