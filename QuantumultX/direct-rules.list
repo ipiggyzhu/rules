@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-02-11T02:38:07Z
-# Total: 124833
+# Updated: 2026-02-12T02:33:00Z
+# Total: 124848
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -28506,6 +28506,7 @@ HOST-SUFFIX,ddcdn.com
 HOST-SUFFIX,ddcheshi.com
 HOST-SUFFIX,ddchong.com
 HOST-SUFFIX,ddcits.com
+HOST-SUFFIX,ddcorp.net
 HOST-SUFFIX,ddcsjw.com
 HOST-SUFFIX,ddcwl.com
 HOST-SUFFIX,ddd-china.com
@@ -28522,6 +28523,7 @@ HOST-SUFFIX,dde-desktop.org
 HOST-SUFFIX,ddedush.com
 HOST-SUFFIX,ddfans.com
 HOST-SUFFIX,ddfchina.com
+HOST-SUFFIX,ddfresh.net
 HOST-SUFFIX,ddfzb.com
 HOST-SUFFIX,ddguanhuai.com
 HOST-SUFFIX,ddhly.com
@@ -28545,7 +28547,9 @@ HOST-SUFFIX,ddkt365.com
 HOST-SUFFIX,ddky.com
 HOST-SUFFIX,ddle.cc
 HOST-SUFFIX,ddlequ.com
+HOST-SUFFIX,ddmaicai.net
 HOST-SUFFIX,ddmap.com
+HOST-SUFFIX,ddmc.mobi
 HOST-SUFFIX,ddmer.com
 HOST-SUFFIX,ddmogo.com
 HOST-SUFFIX,ddnddn.com
@@ -48682,6 +48686,7 @@ HOST-SUFFIX,hrsteelpipe.com
 HOST-SUFFIX,hrtechchina.com
 HOST-SUFFIX,hrtfin.com
 HOST-SUFFIX,hrtn.net
+HOST-SUFFIX,hrtsea.com
 HOST-SUFFIX,hrtx.com
 HOST-SUFFIX,hruikang.com
 HOST-SUFFIX,hrvouge.com
@@ -52539,6 +52544,7 @@ HOST-SUFFIX,imaginde.com
 HOST-SUFFIX,imagineadtech.com
 HOST-SUFFIX,imahui.com
 HOST-SUFFIX,imaibo.net
+HOST-SUFFIX,imaicai.mobi
 HOST-SUFFIX,imaijia.com
 HOST-SUFFIX,imaitu.com
 HOST-SUFFIX,imalljoy.com
@@ -102432,6 +102438,7 @@ HOST-SUFFIX,xhsf.com
 HOST-SUFFIX,xhslink.com
 HOST-SUFFIX,xhslw.com
 HOST-SUFFIX,xhsmlt.com
+HOST-SUFFIX,xhsrcdn.com
 HOST-SUFFIX,xhsrmyy.com
 HOST-SUFFIX,xhsxmt.com
 HOST-SUFFIX,xhsyqx.com
@@ -113149,6 +113156,7 @@ HOST-SUFFIX,zhipianbang.com
 HOST-SUFFIX,zhipianbang.vip
 HOST-SUFFIX,zhipin.com
 HOST-SUFFIX,zhipingke.com
+HOST-SUFFIX,zhipucn.com
 HOST-SUFFIX,zhipuzi.com
 HOST-SUFFIX,zhiqi.info
 HOST-SUFFIX,zhiqiang.org
@@ -120002,6 +120010,7 @@ IP-CIDR,140.205.0.0/16,no-resolve
 IP-CIDR,140.206.0.0/15,no-resolve
 IP-CIDR,140.210.0.0/16,no-resolve
 IP-CIDR,140.224.0.0/16,no-resolve
+IP-CIDR,140.235.12.0/24,no-resolve
 IP-CIDR,140.237.0.0/16,no-resolve
 IP-CIDR,140.240.0.0/16,no-resolve
 IP-CIDR,140.242.223.0/24,no-resolve
@@ -121104,6 +121113,11 @@ IP-CIDR,202.149.224.0/19,no-resolve
 IP-CIDR,202.149.32.0/19,no-resolve
 IP-CIDR,202.150.16.0/20,no-resolve
 IP-CIDR,202.150.192.0/20,no-resolve
+IP-CIDR,202.150.208.0/22,no-resolve
+IP-CIDR,202.150.213.0/24,no-resolve
+IP-CIDR,202.150.214.0/24,no-resolve
+IP-CIDR,202.150.217.0/24,no-resolve
+IP-CIDR,202.150.218.0/23,no-resolve
 IP-CIDR,202.150.224.0/19,no-resolve
 IP-CIDR,202.150.32.0/20,no-resolve
 IP-CIDR,202.150.56.0/22,no-resolve
@@ -124747,6 +124761,7 @@ IP-CIDR,82.152.105.0/24,no-resolve
 IP-CIDR,82.156.0.0/15,no-resolve
 IP-CIDR,82.39.249.0/24,no-resolve
 IP-CIDR,85.12.7.192/28,no-resolve
+IP-CIDR,85.149.220.0/24,no-resolve
 IP-CIDR,85.184.245.0/24,no-resolve
 IP-CIDR,85.209.40.0/22,no-resolve
 IP-CIDR,85.237.205.0/24,no-resolve
