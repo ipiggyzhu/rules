@@ -1,7 +1,7 @@
 # Title: Loon Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-02-23T02:30:54Z
-# Total: 12714
+# Updated: 2026-02-24T02:27:28Z
+# Total: 12735
 
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -2705,6 +2705,10 @@ IP-CIDR,106.56.0.0/13,no-resolve
 IP-CIDR,106.74.0.0/15,no-resolve
 IP-CIDR,106.8.0.0/15,no-resolve
 IP-CIDR,106.80.0.0/12,no-resolve
+IP-CIDR,107.148.240.0/21,no-resolve
+IP-CIDR,107.148.248.0/24,no-resolve
+IP-CIDR,107.148.250.0/23,no-resolve
+IP-CIDR,107.148.252.0/23,no-resolve
 IP-CIDR,107.150.125.199/32,no-resolve
 IP-CIDR,107.151.212.0/24,no-resolve
 IP-CIDR,107.153.91.0/24,no-resolve
@@ -2830,8 +2834,17 @@ IP-CIDR,113.130.96.0/20,no-resolve
 IP-CIDR,113.132.0.0/14,no-resolve
 IP-CIDR,113.136.0.0/13,no-resolve
 IP-CIDR,113.16.0.0/15,no-resolve
-IP-CIDR,113.160.96.0/20,no-resolve
 IP-CIDR,113.18.0.0/16,no-resolve
+IP-CIDR,113.185.128.0/20,no-resolve
+IP-CIDR,113.185.240.0/20,no-resolve
+IP-CIDR,113.185.80.0/20,no-resolve
+IP-CIDR,113.185.96.0/19,no-resolve
+IP-CIDR,113.186.144.0/20,no-resolve
+IP-CIDR,113.188.112.0/20,no-resolve
+IP-CIDR,113.190.16.0/20,no-resolve
+IP-CIDR,113.190.48.0/20,no-resolve
+IP-CIDR,113.190.64.0/20,no-resolve
+IP-CIDR,113.190.96.0/20,no-resolve
 IP-CIDR,113.192.40.0/23,no-resolve
 IP-CIDR,113.192.56.0/23,no-resolve
 IP-CIDR,113.192.62.0/23,no-resolve
@@ -3760,6 +3773,7 @@ IP-CIDR,154.19.85.0/24,no-resolve
 IP-CIDR,154.19.86.0/23,no-resolve
 IP-CIDR,154.19.88.0/21,no-resolve
 IP-CIDR,154.19.96.0/19,no-resolve
+IP-CIDR,154.197.128.0/17,no-resolve
 IP-CIDR,154.208.140.0/22,no-resolve
 IP-CIDR,154.208.144.0/20,no-resolve
 IP-CIDR,154.208.160.0/21,no-resolve
@@ -3798,6 +3812,7 @@ IP-CIDR,156.109.34.0/31,no-resolve
 IP-CIDR,156.109.34.3/32,no-resolve
 IP-CIDR,156.109.34.4/30,no-resolve
 IP-CIDR,156.154.62.0/23,no-resolve
+IP-CIDR,156.224.128.0/17,no-resolve
 IP-CIDR,156.227.239.0/24,no-resolve
 IP-CIDR,156.230.11.0/24,no-resolve
 IP-CIDR,156.231.163.0/24,no-resolve
@@ -4287,6 +4302,7 @@ IP-CIDR,176.56.38.0/24,no-resolve
 IP-CIDR,177.20.208.58/32,no-resolve
 IP-CIDR,178.219.5.0/24,no-resolve
 IP-CIDR,178.236.232.0/24,no-resolve
+IP-CIDR,178.236.38.0/23,no-resolve
 IP-CIDR,178.253.239.0/24,no-resolve
 IP-CIDR,18.166.207.110/32,no-resolve
 IP-CIDR,18.166.37.238/32,no-resolve
@@ -12364,10 +12380,13 @@ IP-CIDR6,2a0f:1cc5:603::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:645::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:661::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:662::/48,no-resolve
+IP-CIDR6,2a0f:1cc5:690::/48,no-resolve
+IP-CIDR6,2a0f:1cc5:6a0::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:900::/40,no-resolve
 IP-CIDR6,2a0f:1cc5:e50::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:ef5::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:f00::/45,no-resolve
+IP-CIDR6,2a0f:1cc5:f08::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:fff::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:ffff::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:b110::/47,no-resolve
@@ -12562,6 +12581,7 @@ IP-CIDR6,2a14:7580:d800::/39,no-resolve
 IP-CIDR6,2a14:7580:df00::/40,no-resolve
 IP-CIDR6,2a14:7580:e610::/44,no-resolve
 IP-CIDR6,2a14:7580:ee0f::/48,no-resolve
+IP-CIDR6,2a14:7580:fa20::/44,no-resolve
 IP-CIDR6,2a14:7580:fe00::/40,no-resolve
 IP-CIDR6,2a14:7580:ffe4::/48,no-resolve
 IP-CIDR6,2a14:7580:fff4::/48,no-resolve
@@ -12571,6 +12591,7 @@ IP-CIDR6,2a14:7581:3011::/48,no-resolve
 IP-CIDR6,2a14:7581:30b6::/48,no-resolve
 IP-CIDR6,2a14:7581:3100::/40,no-resolve
 IP-CIDR6,2a14:7581:381a::/48,no-resolve
+IP-CIDR6,2a14:7581:9999::/48,no-resolve
 IP-CIDR6,2a14:7581:b12::/47,no-resolve
 IP-CIDR6,2a14:7581:b14::/48,no-resolve
 IP-CIDR6,2a14:7581:b20::/46,no-resolve
@@ -12608,7 +12629,7 @@ IP-CIDR6,2a14:7586:6103::/48,no-resolve
 IP-CIDR6,2a14:7586:6105::/48,no-resolve
 IP-CIDR6,2a14:7586:6106::/47,no-resolve
 IP-CIDR6,2a14:7c0:5103::/48,no-resolve
-IP-CIDR6,2a14:7dc0:510::/48,no-resolve
+IP-CIDR6,2a14:7dc0:510::/47,no-resolve
 IP-CIDR6,2a14:7dc0:515::/48,no-resolve
 IP-CIDR6,2a14:7dc0:516::/47,no-resolve
 IP-CIDR6,2a14:7dc0:520::/47,no-resolve

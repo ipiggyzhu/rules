@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-02-23T02:30:55.080177+00:00",
+  "timestamp": "2026-02-24T02:27:29.991151+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 105946,
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 237317,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 171767,
+    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 105945,
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 237826,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 172471,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 909,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12715,
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list": 129168,
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax_No_IPv6.list": 124875
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12736,
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list": 129255,
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax_No_IPv6.list": 124957
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 107133,
-    "QX广告规则": 410899,
-    "Loon直连规则": 12715,
-    "QX直连规则": 129168
+    "Loon广告规则": 107132,
+    "QX广告规则": 412112,
+    "Loon直连规则": 12736,
+    "QX直连规则": 129255
   },
   "after_dedup": {
-    "Loon广告规则": 106977,
-    "QX广告规则": 254132,
-    "Loon直连规则": 12714,
-    "QX直连规则": 124873
+    "Loon广告规则": 106976,
+    "QX广告规则": 257552,
+    "Loon直连规则": 12735,
+    "QX直连规则": 124955
   },
   "final_counts": {
-    "Loon/ad-rules.list": 106977,
-    "QuantumultX/ad-rules.list": 254132,
-    "Loon/direct-rules.list": 12714,
-    "QuantumultX/direct-rules.list": 124873
+    "Loon/ad-rules.list": 106976,
+    "QuantumultX/ad-rules.list": 257552,
+    "Loon/direct-rules.list": 12735,
+    "QuantumultX/direct-rules.list": 124955
   }
 }
