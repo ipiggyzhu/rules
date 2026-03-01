@@ -291,7 +291,6 @@ is-lq.snssdk.com
 isecure.vivo.com.cn
 isrpt-in.gdt.qq.com
 isrpt-vn.gdt.qq.com
-iyes.youku.com
 janapi.jd.com
 jiaxiao-awd.kakamobi.cn
 jsb.zijieapi.com
@@ -513,7 +512,6 @@ v5-novelapp.fqnovelvod.com
 vali-g1.cp31.ott.cibntv.net
 valipl.cp31.ott.cibntv.net
 vas-lf-x.snssdk.com
-vcode-od.vivo.com.cn
 vcs.zijieapi.com
 vdn5-1.vzuu.com
 vdn5.vzuu.com
@@ -561,7 +559,6 @@ ykad-data.youku.com
 yktd.m.cn.miaozhen.com
 ywab.reader.qq.com
 z6.cnzz.com
-zhcm.gocdna.cn
 zixun.imtt.qq.com
 zlink.toutiao.com
 zt.gifshow.com
