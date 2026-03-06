@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-03-05T02:25:05Z
-# Total: 125780
+# Updated: 2026-03-06T02:23:33Z
+# Total: 125782
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -2569,6 +2569,7 @@ HOST-SUFFIX,17207.com
 HOST-SUFFIX,17293879b10261.beer
 HOST-SUFFIX,172haoka.vip
 HOST-SUFFIX,172l.com
+HOST-SUFFIX,172mix.com
 HOST-SUFFIX,172tt.com
 HOST-SUFFIX,172xiaoyuan.com
 HOST-SUFFIX,173.com
@@ -59204,6 +59205,7 @@ HOST-SUFFIX,juziseo.com
 HOST-SUFFIX,juziss.com
 HOST-SUFFIX,juzistore.com
 HOST-SUFFIX,juzisy.com
+HOST-SUFFIX,juziwulian.com
 HOST-SUFFIX,juzix.io
 HOST-SUFFIX,juzizhoutou.net
 HOST-SUFFIX,juzone.cc
