@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-03-25T02:31:23Z
-# Total: 126846
+# Updated: 2026-03-26T02:38:18Z
+# Total: 126847
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -119094,6 +119094,7 @@ IP-CIDR,103.150.214.0/23,no-resolve
 IP-CIDR,103.150.216.0/23,no-resolve
 IP-CIDR,103.150.24.0/23,no-resolve
 IP-CIDR,103.150.244.0/23,no-resolve
+IP-CIDR,103.150.37.0/24,no-resolve
 IP-CIDR,103.150.66.0/23,no-resolve
 IP-CIDR,103.150.72.0/23,no-resolve
 IP-CIDR,103.151.138.0/23,no-resolve
@@ -119110,7 +119111,7 @@ IP-CIDR,103.152.112.0/23,no-resolve
 IP-CIDR,103.152.120.0/22,no-resolve
 IP-CIDR,103.152.132.0/23,no-resolve
 IP-CIDR,103.152.14.0/23,no-resolve
-IP-CIDR,103.152.151.0/24,no-resolve
+IP-CIDR,103.152.150.0/23,no-resolve
 IP-CIDR,103.152.152.0/23,no-resolve
 IP-CIDR,103.152.168.0/22,no-resolve
 IP-CIDR,103.152.186.0/23,no-resolve
@@ -121127,7 +121128,6 @@ IP-CIDR,106.56.0.0/13,no-resolve
 IP-CIDR,106.74.0.0/15,no-resolve
 IP-CIDR,106.8.0.0/15,no-resolve
 IP-CIDR,106.80.0.0/12,no-resolve
-IP-CIDR,107.148.240.0/21,no-resolve
 IP-CIDR,107.150.125.199/32,no-resolve
 IP-CIDR,107.151.212.0/24,no-resolve
 IP-CIDR,107.153.91.0/24,no-resolve
@@ -124627,6 +124627,7 @@ IP-CIDR,222.128.0.0/12,no-resolve
 IP-CIDR,222.16.0.0/12,no-resolve
 IP-CIDR,222.160.0.0/14,no-resolve
 IP-CIDR,222.166.0.0/20,no-resolve
+IP-CIDR,222.166.240.0/20,no-resolve
 IP-CIDR,222.168.0.0/13,no-resolve
 IP-CIDR,222.176.0.0/12,no-resolve
 IP-CIDR,222.192.0.0/11,no-resolve
@@ -124659,7 +124660,7 @@ IP-CIDR,223.254.0.0/16,no-resolve
 IP-CIDR,223.255.0.0/17,no-resolve
 IP-CIDR,223.255.236.0/22,no-resolve
 IP-CIDR,223.255.252.0/23,no-resolve
-IP-CIDR,223.26.1.0/24,no-resolve
+IP-CIDR,223.26.0.0/23,no-resolve
 IP-CIDR,223.27.184.0/22,no-resolve
 IP-CIDR,223.29.208.0/22,no-resolve
 IP-CIDR,223.29.252.0/22,no-resolve
