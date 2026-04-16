@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-04-15T02:47:42Z
-# Total: 126819
+# Updated: 2026-04-16T02:54:32Z
+# Total: 126833
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -11892,6 +11892,7 @@ HOST-SUFFIX,ailuntan.com
 HOST-SUFFIX,ailvxing.com
 HOST-SUFFIX,aim-ec.com
 HOST-SUFFIX,aimaker.space
+HOST-SUFFIX,aimap.com
 HOST-SUFFIX,aimatech.com
 HOST-SUFFIX,aimatrix.ai
 HOST-SUFFIX,aimcx.com
@@ -17584,6 +17585,7 @@ HOST-SUFFIX,bjfpw.com
 HOST-SUFFIX,bjfqy.com
 HOST-SUFFIX,bjfriendshiphotel.com
 HOST-SUFFIX,bjfsali.com
+HOST-SUFFIX,bjftfy.com
 HOST-SUFFIX,bjfzst.com
 HOST-SUFFIX,bjgas.com
 HOST-SUFFIX,bjgasgh.com
@@ -21488,6 +21490,7 @@ HOST-SUFFIX,cetcssi.com
 HOST-SUFFIX,cetgps.com
 HOST-SUFFIX,cethik.com
 HOST-SUFFIX,cetkmh.com
+HOST-SUFFIX,cetsteam.com
 HOST-SUFFIX,cetzig.com
 HOST-SUFFIX,ceultimate.com
 HOST-SUFFIX,ceve-market.org
@@ -35202,6 +35205,7 @@ HOST-SUFFIX,evotrue.com
 HOST-SUFFIX,evpartner.com
 HOST-SUFFIX,evpowergroup.com
 HOST-SUFFIX,evtcn.com
+HOST-SUFFIX,evtrust.com
 HOST-SUFFIX,evzhidao.com
 HOST-SUFFIX,evznl.org
 HOST-SUFFIX,evzs.com
@@ -37141,6 +37145,7 @@ HOST-SUFFIX,fjzzct.com
 HOST-SUFFIX,fk100.com
 HOST-SUFFIX,fkask.net
 HOST-SUFFIX,fkblog.org
+HOST-SUFFIX,fkbuff.com
 HOST-SUFFIX,fkcaijing.com
 HOST-SUFFIX,fkdex.com
 HOST-SUFFIX,fkdmg.com
@@ -38822,6 +38827,7 @@ HOST-SUFFIX,gangqinpu.com
 HOST-SUFFIX,gangqinxiansheng.com
 HOST-SUFFIX,gangshenglian.com
 HOST-SUFFIX,gangtise.com
+HOST-SUFFIX,gangwan.com
 HOST-SUFFIX,gangyu.org
 HOST-SUFFIX,gangyuan.com
 HOST-SUFFIX,ganhao.vip
@@ -48600,6 +48606,7 @@ HOST-SUFFIX,hivi.com
 HOST-SUFFIX,hivictor.net
 HOST-SUFFIX,hiwafer.com
 HOST-SUFFIX,hiwaysemi.com
+HOST-SUFFIX,hiwayslaw.com
 HOST-SUFFIX,hiwbb.com
 HOST-SUFFIX,hiwechats.com
 HOST-SUFFIX,hiweixiu.com
@@ -60358,6 +60365,7 @@ HOST-SUFFIX,jxxdf.com
 HOST-SUFFIX,jxxdxy.com
 HOST-SUFFIX,jxxhdn.com
 HOST-SUFFIX,jxxhsd.com
+HOST-SUFFIX,jxxinzhe.com
 HOST-SUFFIX,jxxnyqc.com
 HOST-SUFFIX,jxxs.net
 HOST-SUFFIX,jxycqy.com
@@ -64169,6 +64177,7 @@ HOST-SUFFIX,leiboyiqi.com
 HOST-SUFFIX,leidacj.com
 HOST-SUFFIX,leidianip.com
 HOST-SUFFIX,leigod.com
+HOST-SUFFIX,leigodjsq.com
 HOST-SUFFIX,leihetg.com
 HOST-SUFFIX,leihuo.net
 HOST-SUFFIX,leijue.net
@@ -73854,6 +73863,7 @@ HOST-SUFFIX,nnbbrn.com
 HOST-SUFFIX,nnbdfyy.com
 HOST-SUFFIX,nnbnutritionchina.com
 HOST-SUFFIX,nnboao.com
+HOST-SUFFIX,nnbooster.com
 HOST-SUFFIX,nnboyi.com
 HOST-SUFFIX,nnbsjyk.com
 HOST-SUFFIX,nnbtl.com
@@ -93471,6 +93481,7 @@ HOST-SUFFIX,tencentcloudbase.net
 HOST-SUFFIX,tencentcloudclub.com
 HOST-SUFFIX,tencentcloudcore.com
 HOST-SUFFIX,tencentcloudcr.com
+HOST-SUFFIX,tencentcloudcs.com
 HOST-SUFFIX,tencentcloudga.com
 HOST-SUFFIX,tencentcloudga001.com
 HOST-SUFFIX,tencentcloudga001.net
@@ -99364,6 +99375,7 @@ HOST-SUFFIX,waibao123.com
 HOST-SUFFIX,waibao12333.com
 HOST-SUFFIX,waibaodashi.com
 HOST-SUFFIX,waibou.com
+HOST-SUFFIX,waifushangcheng.com
 HOST-SUFFIX,waig8.com
 HOST-SUFFIX,waigamer.com
 HOST-SUFFIX,waigf.com
@@ -122536,7 +122548,6 @@ IP-CIDR,168.159.156.0/23,no-resolve
 IP-CIDR,168.159.158.0/24,no-resolve
 IP-CIDR,168.160.0.0/16,no-resolve
 IP-CIDR,168.230.0.0/24,no-resolve
-IP-CIDR,168.235.241.0/24,no-resolve
 IP-CIDR,17.127.128.0/23,no-resolve
 IP-CIDR,17.127.130.0/24,no-resolve
 IP-CIDR,17.235.160.0/20,no-resolve
@@ -126501,6 +126512,9 @@ IP-CIDR,49.128.2.0/23,no-resolve
 IP-CIDR,49.128.4.0/22,no-resolve
 IP-CIDR,49.140.0.0/15,no-resolve
 IP-CIDR,49.152.0.0/14,no-resolve
+IP-CIDR,49.159.132.0/22,no-resolve
+IP-CIDR,49.159.64.0/24,no-resolve
+IP-CIDR,49.159.67.0/24,no-resolve
 IP-CIDR,49.208.0.0/14,no-resolve
 IP-CIDR,49.220.0.0/14,no-resolve
 IP-CIDR,49.232.0.0/14,no-resolve
