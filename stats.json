@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-16T02:54:32.987246+00:00",
+  "timestamp": "2026-04-17T02:50:18.272941+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 107827,
+    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 108455,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 256181,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 185237,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 185518,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 911,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12355,
@@ -13,20 +13,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 109012,
-    "QX广告规则": 443233,
+    "Loon广告规则": 109640,
+    "QX广告规则": 443514,
     "Loon直连规则": 12355,
     "QX直连规则": 130883
   },
   "after_dedup": {
-    "Loon广告规则": 108856,
-    "QX广告规则": 273321,
+    "Loon广告规则": 109484,
+    "QX广告规则": 273602,
     "Loon直连规则": 12354,
     "QX直连规则": 126833
   },
   "final_counts": {
-    "Loon/ad-rules.list": 108856,
-    "QuantumultX/ad-rules.list": 273321,
+    "Loon/ad-rules.list": 109484,
+    "QuantumultX/ad-rules.list": 273602,
     "Loon/direct-rules.list": 12354,
     "QuantumultX/direct-rules.list": 126833
   }
