@@ -1,7 +1,7 @@
 # Title: Loon Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-04-19T02:57:10Z
-# Total: 12353
+# Updated: 2026-04-20T02:57:17Z
+# Total: 12355
 
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -12126,6 +12126,7 @@ IP-CIDR6,2a0f:1cc5:1d11::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1d14::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1f::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:2510::/44,no-resolve
+IP-CIDR6,2a0f:1cc5:2520::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:2600::/40,no-resolve
 IP-CIDR6,2a0f:1cc5:2d01::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:2d03::/48,no-resolve
@@ -12229,6 +12230,7 @@ IP-CIDR6,2a14:67c1:b588::/47,no-resolve
 IP-CIDR6,2a14:67c1:b590::/48,no-resolve
 IP-CIDR6,2a14:67c1:b5e0::/44,no-resolve
 IP-CIDR6,2a14:67c3:30::/44,no-resolve
+IP-CIDR6,2a14:67c3:6668::/45,no-resolve
 IP-CIDR6,2a14:67c3:888::/48,no-resolve
 IP-CIDR6,2a14:7580:740::/44,no-resolve
 IP-CIDR6,2a14:7580:fffa::/48,no-resolve
