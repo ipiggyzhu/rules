@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-04-22T02:49:46Z
-# Total: 127516
+# Updated: 2026-04-22T15:30:00Z
+# Total: 127514
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -127463,9 +127463,6 @@ USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
-USER-AGENT,*QIYI*
-USER-AGENT,*Vainglory*
-USER-AGENT,*bili*
 USER-AGENT,AcFun*
 USER-AGENT,AdBlock*
 USER-AGENT,Best%20Trace*
@@ -127495,6 +127492,7 @@ USER-AGENT,TIM*
 USER-AGENT,TeamViewer*
 USER-AGENT,TencentMidasConnect*
 USER-AGENT,TikTok*
+USER-AGENT,Vainglory*
 USER-AGENT,WeChat*
 USER-AGENT,WebTorrent*
 USER-AGENT,YYeTs*
