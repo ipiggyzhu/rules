@@ -1,26 +1,34 @@
-import requests
-import os
 import datetime
-import time
+import ipaddress
 import json
+import os
+import time
+
+import requests
 
 # ============================================================================
 # 配置
 # ============================================================================
 
+# 单主名单策略：优先低误杀，再用安全补充拓宽覆盖
+COMMON_AD_RULES_URLS = [
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt",
+]
+
 # Loon 广告规则上游源
 LOON_AD_RULES_URLS = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
-]
+    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt",
+] + COMMON_AD_RULES_URLS
 
 # Quantumult X 广告规则上游源
 QUANTUMULTX_AD_RULES_URLS = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list",
     "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list",
-    "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list"
-]
+    "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list",
+] + COMMON_AD_RULES_URLS
 
 # Loon 直连规则上游源
 LOON_DIRECT_RULES_URLS = [
@@ -38,10 +46,10 @@ SOURCES_DIR = "sources"
 BLACKLIST_FILE = os.path.join(SOURCES_DIR, "ad-blacklist.txt")
 WHITELIST_FILE = os.path.join(SOURCES_DIR, "ad-whitelist.txt")
 
-LOON_AD_OUTPUT = os.path.join("Loon", "ad-rules.list")
-LOON_DIRECT_OUTPUT = os.path.join("Loon", "direct-rules.list")
-QUANTUMULTX_AD_OUTPUT = os.path.join("QuantumultX", "ad-rules.list")
-QUANTUMULTX_DIRECT_OUTPUT = os.path.join("QuantumultX", "direct-rules.list")
+LOON_AD_OUTPUT = "Loon/ad-rules.list"
+LOON_DIRECT_OUTPUT = "Loon/direct-rules.list"
+QUANTUMULTX_AD_OUTPUT = "QuantumultX/ad-rules.list"
+QUANTUMULTX_DIRECT_OUTPUT = "QuantumultX/direct-rules.list"
 
 # 统计报告文件
 STATS_FILE = "stats.json"
@@ -49,6 +57,35 @@ STATS_FILE = "stats.json"
 # 重试配置
 MAX_RETRIES = 3
 RETRY_DELAY = 2  # 秒
+REQUEST_TIMEOUT = 60  # 秒
+
+SUPPORTED_RULE_TYPES = {
+    "DOMAIN-SUFFIX",
+    "HOST-SUFFIX",
+    "DOMAIN-KEYWORD",
+    "HOST-KEYWORD",
+    "DOMAIN",
+    "HOST",
+    "IP-CIDR",
+    "IP-CIDR6",
+    "USER-AGENT",
+    "URL-REGEX",
+}
+
+LOCAL_HOSTS = {
+    "localhost",
+    "localhost.localdomain",
+    "local",
+    "broadcasthost",
+    "ip6-localhost",
+    "ip6-loopback",
+    "ip6-localnet",
+    "ip6-mcastprefix",
+    "ip6-allnodes",
+    "ip6-allrouters",
+}
+
+FETCH_CACHE = {}  # {url: (rules, count)}
 
 # ============================================================================
 # 统计类
@@ -161,7 +198,7 @@ def fetch_with_retry(url, max_retries=MAX_RETRIES):
     """带重试机制的请求"""
     for attempt in range(max_retries):
         try:
-            response = requests.get(url, timeout=30)
+            response = requests.get(url, timeout=REQUEST_TIMEOUT)
             response.raise_for_status()
             return response
         except requests.RequestException as e:
@@ -173,19 +210,94 @@ def fetch_with_retry(url, max_retries=MAX_RETRIES):
     return None
 
 
+def is_ip_address(value):
+    """检查是否为合法 IP 地址"""
+    try:
+        ipaddress.ip_address(value)
+        return True
+    except ValueError:
+        return False
+
+
+def is_domain_like(value):
+    """检查是否像一个可用的域名"""
+    candidate = clean_rule_value(value).strip().lower().rstrip(".")
+    if not candidate or "." not in candidate or is_ip_address(candidate):
+        return False
+
+    invalid_chars = {",", "/", "\\", ":", "@", '"', "'", "(", ")", "[", "]", "{", "}", "="}
+    if any(ch.isspace() for ch in candidate) or any(ch in invalid_chars for ch in candidate):
+        return False
+
+    return all(ch.isalnum() or ch in {"-", ".", "_"} for ch in candidate)
+
+
+def extract_rules_from_line(line):
+    """把常见源格式统一提取为内部规则格式"""
+    raw_line = line.strip()
+    if not raw_line or raw_line.startswith(("!", "#", ";", "[")):
+        return []
+
+    comma_parts = [part.strip() for part in raw_line.split(",")]
+    if len(comma_parts) >= 2:
+        rule_type = comma_parts[0].upper()
+        if rule_type in SUPPORTED_RULE_TYPES:
+            rule_value = clean_rule_value(comma_parts[1])
+            if rule_value:
+                return [f"{rule_type},{rule_value}"]
+
+    dnsmasq_prefixes = ("address=/", "server=/", "local=/")
+    for prefix in dnsmasq_prefixes:
+        if raw_line.startswith(prefix):
+            candidate = raw_line[len(prefix):].split("/", 1)[0].strip()
+            if is_domain_like(candidate):
+                return [f"DOMAIN-SUFFIX,{clean_rule_value(candidate)}"]
+            return []
+
+    content = raw_line.split("#", 1)[0].strip()
+    if not content:
+        return []
+
+    host_parts = content.split()
+    if len(host_parts) >= 2 and is_ip_address(host_parts[0]):
+        rules = []
+        for hostname in host_parts[1:]:
+            normalized = clean_rule_value(hostname).lower().rstrip(".")
+            if normalized in LOCAL_HOSTS or not is_domain_like(normalized):
+                continue
+            rules.append(f"DOMAIN-SUFFIX,{normalized}")
+        return rules
+
+    if is_domain_like(content):
+        return [f"DOMAIN-SUFFIX,{clean_rule_value(content).lower().rstrip('.')}"]
+
+    return []
+
+
 def fetch_rules_from_urls(urls):
     """从多个URL获取规则"""
     rules = set()
     for url in urls:
         try:
             print(f"  📥 {url.split('/')[-1][:50]}")
+            if url in FETCH_CACHE:
+                cached_rules, count = FETCH_CACHE[url]
+                rules.update(cached_rules)
+                print(f"     ♻️ 复用缓存 {count} 条规则")
+                stats.add_source(url, count, success=True)
+                continue
+
             response = fetch_with_retry(url)
+            extracted_rule_set = set()
             count = 0
             for line in response.text.splitlines():
-                line = line.strip()
-                if line and not line.startswith(('!', '#', ';', '[')):
-                    rules.add(line)
-                    count += 1
+                extracted_rules = extract_rules_from_line(line)
+                if extracted_rules:
+                    extracted_rule_set.update(extracted_rules)
+                    count += len(extracted_rules)
+
+            FETCH_CACHE[url] = (extracted_rule_set, count)
+            rules.update(extracted_rule_set)
             print(f"     ✅ 获取 {count} 条规则")
             stats.add_source(url, count, success=True)
         except requests.RequestException as e:
@@ -411,7 +523,7 @@ def generate_summary():
                 change = f" (+{d})"
             elif d < 0:
                 change = f" ({d})"
-        lines.append(f"{os.path.basename(output_file)}: {count}{change}")
+        lines.append(f"{output_file}: {count}{change}")
 
     return " | ".join(lines)
 
