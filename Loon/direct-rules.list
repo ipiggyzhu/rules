@@ -1,6 +1,6 @@
 # Title: Loon Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-04-22T15:29:58Z
+# Updated: 2026-04-24T04:55:44Z
 # Total: 12359
 
 DOMAIN-KEYWORD,alicdn
@@ -3636,6 +3636,8 @@ IP-CIDR,148.253.56.0/24,no-resolve
 IP-CIDR,148.70.0.0/16,no-resolve
 IP-CIDR,149.11.64.232/29,no-resolve
 IP-CIDR,149.129.0.0/16,no-resolve
+IP-CIDR,149.134.148.0/24,no-resolve
+IP-CIDR,149.134.152.0/24,no-resolve
 IP-CIDR,149.14.156.96/29,no-resolve
 IP-CIDR,149.41.0.0/16,no-resolve
 IP-CIDR,149.6.36.20/32,no-resolve
@@ -5973,6 +5975,7 @@ IP-CIDR,205.198.19.0/24,no-resolve
 IP-CIDR,205.204.96.0/19,no-resolve
 IP-CIDR,205.234.238.46/32,no-resolve
 IP-CIDR,205.252.239.0/24,no-resolve
+IP-CIDR,206.109.75.0/24,no-resolve
 IP-CIDR,206.232.68.0/22,no-resolve
 IP-CIDR,206.232.72.0/22,no-resolve
 IP-CIDR,207.254.180.0/24,no-resolve
@@ -7985,9 +7988,6 @@ IP-CIDR,49.128.2.0/23,no-resolve
 IP-CIDR,49.128.4.0/22,no-resolve
 IP-CIDR,49.140.0.0/15,no-resolve
 IP-CIDR,49.152.0.0/14,no-resolve
-IP-CIDR,49.159.132.0/22,no-resolve
-IP-CIDR,49.159.64.0/24,no-resolve
-IP-CIDR,49.159.67.0/24,no-resolve
 IP-CIDR,49.208.0.0/14,no-resolve
 IP-CIDR,49.220.0.0/14,no-resolve
 IP-CIDR,49.232.0.0/14,no-resolve
@@ -8986,6 +8986,7 @@ IP-CIDR6,2402:2b80::/32,no-resolve
 IP-CIDR6,2402:2bc0::/32,no-resolve
 IP-CIDR6,2402:2d00::/32,no-resolve
 IP-CIDR6,2402:2d80::/32,no-resolve
+IP-CIDR6,2402:2e60::/39,no-resolve
 IP-CIDR6,2402:2e80::/32,no-resolve
 IP-CIDR6,2402:2f40::/32,no-resolve
 IP-CIDR6,2402:3040::/32,no-resolve
@@ -12120,17 +12121,16 @@ IP-CIDR6,2a0e:ec05:4800::/41,no-resolve
 IP-CIDR6,2a0e:ec05:79c0::/42,no-resolve
 IP-CIDR6,2a0e:ec05:7a00::/40,no-resolve
 IP-CIDR6,2a0e:ec05:7b00::/42,no-resolve
+IP-CIDR6,2a0f:1cc5:10::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:110::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:130::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:140::/44,no-resolve
-IP-CIDR6,2a0f:1cc5:14::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:1c00::/47,no-resolve
 IP-CIDR6,2a0f:1cc5:1c02::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1c30::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1cc0::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1d10::/47,no-resolve
 IP-CIDR6,2a0f:1cc5:1d14::/48,no-resolve
-IP-CIDR6,2a0f:1cc5:1f::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:2510::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:2520::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:2600::/40,no-resolve
