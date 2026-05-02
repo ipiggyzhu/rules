@@ -1,8 +1,55 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-05-02T02:56:23Z
-# Total: 124725
+# Updated: 2026-05-02T09:57:10Z
+# Total: 124774
 
+HOST-SUFFIX,wechatpay.cn
+HOST-SUFFIX,qpic.cn
+HOST-SUFFIX,qlogo.cn
+HOST-SUFFIX,dingtalkcdn.com
+HOST-SUFFIX,uc.cn
+HOST-SUFFIX,ucbrowser.com
+HOST-SUFFIX,quark.cn
+HOST-SUFFIX,myquark.cn
+HOST-SUFFIX,bytecdn.cn
+HOST-SUFFIX,sina.com.cn
+HOST-SUFFIX,sina.cn
+HOST-SUFFIX,sinaimg.cn
+HOST-SUFFIX,sinajs.cn
+HOST-SUFFIX,xiaohongshu.cn
+HOST-SUFFIX,meituanimg.com
+HOST-SUFFIX,12306.cn
+HOST-SUFFIX,china-railway.com.cn
+HOST-SUFFIX,mifile.cn
+HOST-SUFFIX,flyme.cn
+HOST-SUFFIX,mhycdn.com
+HOST-SUFFIX,hoyoverse.com
+HOST-SUFFIX,hoyolab.com
+HOST-SUFFIX,taptap.cn
+HOST-SUFFIX,kggimg.com
+HOST-SUFFIX,kuwo.cn
+HOST-SUFFIX,kuwo.com
+HOST-SUFFIX,kuwoimg.com
+HOST-SUFFIX,wps.cn
+HOST-SUFFIX,wpscdn.cn
+HOST-SUFFIX,kdocs.cn
+HOST-SUFFIX,thepaper.cn
+HOST-SUFFIX,guancha.cn
+HOST-SUFFIX,coze.cn
+HOST-SUFFIX,modelscope.cn
+HOST-SUFFIX,moonshot.cn
+HOST-SUFFIX,chatglm.cn
+HOST-SUFFIX,bigmodel.cn
+HOST-SUFFIX,zhipuai.cn
+HOST-SUFFIX,minimax.io
+HOST-SUFFIX,stepfun.com
+HOST-SUFFIX,01.ai
+HOST-SUFFIX,metaso.cn
+HOST-SUFFIX,n.cn
+HOST-SUFFIX,360.cn
+HOST-SUFFIX,xfyun.cn
+HOST-SUFFIX,sensecore.cn
+HOST-SUFFIX,tiangong-china.com
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
 HOST,156zy.suyunbo.tv
@@ -54387,6 +54434,7 @@ HOST-SUFFIX,ismisv.com
 HOST-SUFFIX,ismsms.org
 HOST-SUFFIX,ismx8.com
 HOST-SUFFIX,isnnapp.com
+HOST-SUFFIX,isnssdk.com
 HOST-SUFFIX,isnsz.com
 HOST-SUFFIX,iso-est.com
 HOST-SUFFIX,iso-iso9000.com
@@ -87429,6 +87477,7 @@ HOST-SUFFIX,snsfun.com
 HOST-SUFFIX,snsii.com
 HOST-SUFFIX,snsnb.com
 HOST-SUFFIX,snsqw.com
+HOST-SUFFIX,snssdk.com
 HOST-SUFFIX,snsyhg.com
 HOST-SUFFIX,snsyx.com
 HOST-SUFFIX,sntba.com

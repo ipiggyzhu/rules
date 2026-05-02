@@ -45,6 +45,7 @@ QUANTUMULTX_DIRECT_RULES_URLS = [
 SOURCES_DIR = "sources"
 BLACKLIST_FILE = os.path.join(SOURCES_DIR, "ad-blacklist.txt")
 WHITELIST_FILE = os.path.join(SOURCES_DIR, "ad-whitelist.txt")
+DIRECTLIST_FILE = os.path.join(SOURCES_DIR, "direct-rules.txt")
 
 LOON_AD_OUTPUT = "Loon/ad-rules.list"
 LOON_DIRECT_OUTPUT = "Loon/direct-rules.list"
@@ -541,8 +542,10 @@ if __name__ == "__main__":
     print("\n📂 加载本地源文件...")
     blacklist = load_local_rules(BLACKLIST_FILE)
     whitelist = load_whitelist(WHITELIST_FILE)
+    directlist = load_local_rules(DIRECTLIST_FILE)
     print(f"  黑名单: {len(blacklist)} 条")
     print(f"  白名单: {len(whitelist)} 条")
+    print(f"  直连规则: {len(directlist)} 条")
 
     # ========== 广告规则 ==========
 
@@ -570,15 +573,17 @@ if __name__ == "__main__":
     # 生成 Loon 直连规则
     print("\n🍎 生成 Loon 直连规则...")
     loon_direct_upstream = fetch_rules_from_urls(LOON_DIRECT_RULES_URLS)
-    loon_direct_final = format_for_loon(loon_direct_upstream)
-    stats.set_dedup_stats("Loon直连规则", len(loon_direct_upstream), len(loon_direct_final))
+    loon_direct_combined = loon_direct_upstream | directlist
+    loon_direct_final = format_for_loon(loon_direct_combined)
+    stats.set_dedup_stats("Loon直连规则", len(loon_direct_combined), len(loon_direct_final))
     write_rules(LOON_DIRECT_OUTPUT, loon_direct_final, "Loon Direct Rules")
 
     # 生成 Quantumult X 直连规则
     print("\n🔷 生成 Quantumult X 直连规则...")
     qx_direct_upstream = fetch_rules_from_urls(QUANTUMULTX_DIRECT_RULES_URLS)
-    qx_direct_final = format_for_quantumultx(qx_direct_upstream)
-    stats.set_dedup_stats("QX直连规则", len(qx_direct_upstream), len(qx_direct_final))
+    qx_direct_combined = qx_direct_upstream | directlist
+    qx_direct_final = format_for_quantumultx(qx_direct_combined)
+    stats.set_dedup_stats("QX直连规则", len(qx_direct_combined), len(qx_direct_final))
     write_rules(QUANTUMULTX_DIRECT_OUTPUT, qx_direct_final, "QuantumultX Direct Rules")
 
     # 打印统计报告
