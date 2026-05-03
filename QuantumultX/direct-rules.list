@@ -1,55 +1,8 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-05-02T09:57:10Z
-# Total: 124774
+# Updated: 2026-05-03T03:32:46Z
+# Total: 124740
 
-HOST-SUFFIX,wechatpay.cn
-HOST-SUFFIX,qpic.cn
-HOST-SUFFIX,qlogo.cn
-HOST-SUFFIX,dingtalkcdn.com
-HOST-SUFFIX,uc.cn
-HOST-SUFFIX,ucbrowser.com
-HOST-SUFFIX,quark.cn
-HOST-SUFFIX,myquark.cn
-HOST-SUFFIX,bytecdn.cn
-HOST-SUFFIX,sina.com.cn
-HOST-SUFFIX,sina.cn
-HOST-SUFFIX,sinaimg.cn
-HOST-SUFFIX,sinajs.cn
-HOST-SUFFIX,xiaohongshu.cn
-HOST-SUFFIX,meituanimg.com
-HOST-SUFFIX,12306.cn
-HOST-SUFFIX,china-railway.com.cn
-HOST-SUFFIX,mifile.cn
-HOST-SUFFIX,flyme.cn
-HOST-SUFFIX,mhycdn.com
-HOST-SUFFIX,hoyoverse.com
-HOST-SUFFIX,hoyolab.com
-HOST-SUFFIX,taptap.cn
-HOST-SUFFIX,kggimg.com
-HOST-SUFFIX,kuwo.cn
-HOST-SUFFIX,kuwo.com
-HOST-SUFFIX,kuwoimg.com
-HOST-SUFFIX,wps.cn
-HOST-SUFFIX,wpscdn.cn
-HOST-SUFFIX,kdocs.cn
-HOST-SUFFIX,thepaper.cn
-HOST-SUFFIX,guancha.cn
-HOST-SUFFIX,coze.cn
-HOST-SUFFIX,modelscope.cn
-HOST-SUFFIX,moonshot.cn
-HOST-SUFFIX,chatglm.cn
-HOST-SUFFIX,bigmodel.cn
-HOST-SUFFIX,zhipuai.cn
-HOST-SUFFIX,minimax.io
-HOST-SUFFIX,stepfun.com
-HOST-SUFFIX,01.ai
-HOST-SUFFIX,metaso.cn
-HOST-SUFFIX,n.cn
-HOST-SUFFIX,360.cn
-HOST-SUFFIX,xfyun.cn
-HOST-SUFFIX,sensecore.cn
-HOST-SUFFIX,tiangong-china.com
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
 HOST,156zy.suyunbo.tv
@@ -510,6 +463,7 @@ HOST-SUFFIX,00wv.com
 HOST-SUFFIX,00xu.com
 HOST-SUFFIX,00y9334535.com
 HOST-SUFFIX,01-cf.com
+HOST-SUFFIX,01.ai
 HOST-SUFFIX,010.cc
 HOST-SUFFIX,010123456.com
 HOST-SUFFIX,010155.net
@@ -30705,6 +30659,7 @@ HOST-SUFFIX,dingtalent.com
 HOST-SUFFIX,dingtalk.com
 HOST-SUFFIX,dingtalk.net
 HOST-SUFFIX,dingtalkapps.com
+HOST-SUFFIX,dingtalkcdn.com
 HOST-SUFFIX,dingtalkcloud.com
 HOST-SUFFIX,dingteam.com
 HOST-SUFFIX,dingtoo.com
@@ -49357,6 +49312,8 @@ HOST-SUFFIX,hoyi-tech.com
 HOST-SUFFIX,hoyibox.xyz
 HOST-SUFFIX,hoyip.com
 HOST-SUFFIX,hoyo.link
+HOST-SUFFIX,hoyolab.com
+HOST-SUFFIX,hoyoverse.com
 HOST-SUFFIX,hozest.com
 HOST-SUFFIX,hozin.com
 HOST-SUFFIX,hozonauto.com
@@ -60729,6 +60686,7 @@ HOST-SUFFIX,kfzimg.com
 HOST-SUFFIX,kfzls.com
 HOST-SUFFIX,kg-power.com
 HOST-SUFFIX,kg.com
+HOST-SUFFIX,kggimg.com
 HOST-SUFFIX,kghbcn.com
 HOST-SUFFIX,kgimg.com
 HOST-SUFFIX,kgipr.com
@@ -62025,6 +61983,8 @@ HOST-SUFFIX,kuwanapp.com
 HOST-SUFFIX,kuwanbang.com
 HOST-SUFFIX,kuwanjitar.com
 HOST-SUFFIX,kuwen.net
+HOST-SUFFIX,kuwo.com
+HOST-SUFFIX,kuwoimg.com
 HOST-SUFFIX,kuwuu.com
 HOST-SUFFIX,kuwwz.com
 HOST-SUFFIX,kuxi100.com
@@ -68057,6 +68017,7 @@ HOST-SUFFIX,meitu.net
 HOST-SUFFIX,meituaccount.com
 HOST-SUFFIX,meituan.com
 HOST-SUFFIX,meituan.net
+HOST-SUFFIX,meituanimg.com
 HOST-SUFFIX,meitubase.com
 HOST-SUFFIX,meitubeauty.com
 HOST-SUFFIX,meitubf.com
@@ -68467,6 +68428,7 @@ HOST-SUFFIX,mhwmm.com
 HOST-SUFFIX,mhwy2.com
 HOST-SUFFIX,mhxk.com
 HOST-SUFFIX,mhxzhkl.com
+HOST-SUFFIX,mhycdn.com
 HOST-SUFFIX,mhystatic.com
 HOST-SUFFIX,mhyun.net
 HOST-SUFFIX,mhzd.cc
@@ -68976,6 +68938,7 @@ HOST-SUFFIX,minihaowan.com
 HOST-SUFFIX,miniluck.com
 HOST-SUFFIX,minimaituan.com
 HOST-SUFFIX,minimax.chat
+HOST-SUFFIX,minimax.io
 HOST-SUFFIX,minimaxi.com
 HOST-SUFFIX,mining120.com
 HOST-SUFFIX,mininglamp.com
@@ -88611,6 +88574,7 @@ HOST-SUFFIX,stemceltech.com
 HOST-SUFFIX,step-by-step.tech
 HOST-SUFFIX,step-motor.com
 HOST-SUFFIX,stepelectric.com
+HOST-SUFFIX,stepfun.com
 HOST-SUFFIX,stepsigriner.com
 HOST-SUFFIX,stereorise.com
 HOST-SUFFIX,steriguardmed.com
@@ -92668,6 +92632,7 @@ HOST-SUFFIX,tianfusoftwarepark.com
 HOST-SUFFIX,tiangaicha.com
 HOST-SUFFIX,tiangang.com
 HOST-SUFFIX,tiangen.com
+HOST-SUFFIX,tiangong-china.com
 HOST-SUFFIX,tiangou.xyz
 HOST-SUFFIX,tianhai.info
 HOST-SUFFIX,tianhai2002.com
@@ -95501,6 +95466,7 @@ HOST-SUFFIX,ucany.net
 HOST-SUFFIX,ucarinc.com
 HOST-SUFFIX,ucassc.com
 HOST-SUFFIX,ucb6.com
+HOST-SUFFIX,ucbrowser.com
 HOST-SUFFIX,ucbug.com
 HOST-SUFFIX,uccastore.com
 HOST-SUFFIX,uccbikes.com
