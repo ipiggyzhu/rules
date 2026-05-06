@@ -1,6 +1,6 @@
 # Title: Loon Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-05-05T02:57:18Z
+# Updated: 2026-05-06T03:28:03Z
 # Total: 12567
 
 DOMAIN-KEYWORD,alicdn
@@ -1058,7 +1058,6 @@ IP-CIDR,103.180.108.0/23,no-resolve
 IP-CIDR,103.180.226.0/23,no-resolve
 IP-CIDR,103.181.164.0/23,no-resolve
 IP-CIDR,103.181.234.0/23,no-resolve
-IP-CIDR,103.182.96.0/23,no-resolve
 IP-CIDR,103.183.122.0/23,no-resolve
 IP-CIDR,103.183.124.0/23,no-resolve
 IP-CIDR,103.183.26.0/23,no-resolve
@@ -3520,6 +3519,7 @@ IP-CIDR,123.253.164.0/22,no-resolve
 IP-CIDR,123.253.168.0/21,no-resolve
 IP-CIDR,123.253.176.0/20,no-resolve
 IP-CIDR,123.253.192.0/21,no-resolve
+IP-CIDR,123.253.226.0/24,no-resolve
 IP-CIDR,123.253.24.0/21,no-resolve
 IP-CIDR,123.253.240.0/22,no-resolve
 IP-CIDR,123.253.245.0/24,no-resolve
@@ -3839,8 +3839,6 @@ IP-CIDR,148.253.56.0/24,no-resolve
 IP-CIDR,148.70.0.0/16,no-resolve
 IP-CIDR,149.11.64.232/29,no-resolve
 IP-CIDR,149.129.0.0/16,no-resolve
-IP-CIDR,149.134.148.0/24,no-resolve
-IP-CIDR,149.134.152.0/24,no-resolve
 IP-CIDR,149.14.156.96/29,no-resolve
 IP-CIDR,149.41.0.0/16,no-resolve
 IP-CIDR,149.6.36.20/32,no-resolve
@@ -4182,6 +4180,7 @@ IP-CIDR,163.177.0.0/16,no-resolve
 IP-CIDR,163.179.0.0/16,no-resolve
 IP-CIDR,163.181.0.0/16,no-resolve
 IP-CIDR,163.204.0.0/16,no-resolve
+IP-CIDR,163.223.173.0/24,no-resolve
 IP-CIDR,163.223.72.0/23,no-resolve
 IP-CIDR,163.227.40.0/23,no-resolve
 IP-CIDR,163.228.0.0/16,no-resolve
@@ -12439,11 +12438,12 @@ IP-CIDR6,2a14:67c1:b530::/44,no-resolve
 IP-CIDR6,2a14:67c1:b561::/48,no-resolve
 IP-CIDR6,2a14:67c1:b563::/48,no-resolve
 IP-CIDR6,2a14:67c1:b578::/48,no-resolve
-IP-CIDR6,2a14:67c1:b586::/48,no-resolve
+IP-CIDR6,2a14:67c1:b586::/47,no-resolve
 IP-CIDR6,2a14:67c1:b588::/47,no-resolve
 IP-CIDR6,2a14:67c1:b590::/48,no-resolve
 IP-CIDR6,2a14:67c1:b599::/48,no-resolve
 IP-CIDR6,2a14:67c1:b5e0::/44,no-resolve
+IP-CIDR6,2a14:67c2:519::/48,no-resolve
 IP-CIDR6,2a14:67c3:1100::/47,no-resolve
 IP-CIDR6,2a14:67c3:30::/44,no-resolve
 IP-CIDR6,2a14:67c3:6668::/45,no-resolve
