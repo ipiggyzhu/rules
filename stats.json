@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-08T03:25:09.573717+00:00",
+  "timestamp": "2026-05-09T03:23:27.762909+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 106077,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 327280,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 328614,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 328922,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 300773,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 259585,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 182355,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 182578,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 911,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12412,
@@ -15,20 +15,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 641731,
-    "QX广告规则": 965875,
+    "Loon广告规则": 615784,
+    "QX广告规则": 940028,
     "Loon直连规则": 12647,
     "QX直连规则": 123257
   },
   "after_dedup": {
-    "Loon广告规则": 633662,
-    "QX广告规则": 779722,
+    "Loon广告规则": 607542,
+    "QX广告规则": 753758,
     "Loon直连规则": 12613,
     "QX直连规则": 123035
   },
   "final_counts": {
-    "Loon/ad-rules.list": 633662,
-    "QuantumultX/ad-rules.list": 779722,
+    "Loon/ad-rules.list": 607542,
+    "QuantumultX/ad-rules.list": 753758,
     "Loon/direct-rules.list": 12613,
     "QuantumultX/direct-rules.list": 123035
   }
