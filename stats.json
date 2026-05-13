@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-12T03:33:25.493063+00:00",
+  "timestamp": "2026-05-13T03:41:02.039801+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 106457,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 405197,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 326293,
+    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 106456,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 405391,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 330222,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 259266,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 183181,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 183413,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 911,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12408,
@@ -15,20 +15,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 674190,
-    "QX广告规则": 998259,
+    "Loon广告规则": 677013,
+    "QX广告规则": 1001107,
     "Loon直连规则": 12643,
     "QX直连规则": 122463
   },
   "after_dedup": {
-    "Loon广告规则": 663574,
-    "QX广告规则": 808591,
+    "Loon广告规则": 666537,
+    "QX广告规则": 811547,
     "Loon直连规则": 12609,
     "QX直连规则": 122241
   },
   "final_counts": {
-    "Loon/ad-rules.list": 663574,
-    "QuantumultX/ad-rules.list": 808591,
+    "Loon/ad-rules.list": 666537,
+    "QuantumultX/ad-rules.list": 811547,
     "Loon/direct-rules.list": 12609,
     "QuantumultX/direct-rules.list": 122241
   }
