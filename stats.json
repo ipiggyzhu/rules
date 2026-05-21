@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-20T03:52:09.381349+00:00",
+  "timestamp": "2026-05-21T04:00:34.838426+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 105658,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 405930,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 321499,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 406350,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 319883,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 260926,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 181578,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 181717,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 911,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12413,
@@ -15,20 +15,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 666451,
-    "QX广告规则": 991477,
+    "Loon广告规则": 664189,
+    "QX广告规则": 989311,
     "Loon直连规则": 12648,
     "QX直连规则": 122263
   },
   "after_dedup": {
-    "Loon广告规则": 656586,
-    "QX广告规则": 803556,
+    "Loon广告规则": 654663,
+    "QX广告规则": 801888,
     "Loon直连规则": 12614,
     "QX直连规则": 122041
   },
   "final_counts": {
-    "Loon/ad-rules.list": 656586,
-    "QuantumultX/ad-rules.list": 803556,
+    "Loon/ad-rules.list": 654663,
+    "QuantumultX/ad-rules.list": 801888,
     "Loon/direct-rules.list": 12614,
     "QuantumultX/direct-rules.list": 122041
   }
