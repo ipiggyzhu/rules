@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-05-21T04:00:34Z
-# Total: 122041
+# Updated: 2026-05-22T03:56:28Z
+# Total: 122024
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -76,7 +76,6 @@ HOST,docs.microsoft.com
 HOST,doubleclick-cn.net
 HOST,doubleclick.net
 HOST,download.jetbrains.com
-HOST,download.qatp1.net
 HOST,e1.vdowowza.vip.hk1.tvb.com
 HOST,ea2cn-dev-outlet.dell.com
 HOST,ea2cn-prod-outlet.dell.com
@@ -187,7 +186,6 @@ HOST,mediaprima.rastream.com
 HOST,menu-static.gog-statics.com
 HOST,mgugaklive.nowcdn.co.kr
 HOST,mobile.ccdntech.com
-HOST,monitoring.qpdp1.net
 HOST,movie.mcas.jp
 HOST,n18.rcs.revma.com
 HOST,necgokr2-724.acs.wecandeo.com
@@ -210,11 +208,7 @@ HOST,prod-controlbe.floonet.goog
 HOST,prod-databe.floonet.goog
 HOST,prod.databe.floonet.goog
 HOST,productcard.gog-statics.com
-HOST,qagpublic.qatp1.net
-HOST,qgadmin.qcpp1.net
 HOST,qqlivepull.seedata.top
-HOST,qualysapi.qatp1.net
-HOST,qualysguard.qpdp1.net
 HOST,recaptcha-cn.net
 HOST,recaptcha.net
 HOST,redirector.bdn.dev
@@ -231,7 +225,6 @@ HOST,rmtv24hweblive-lh.akamaihd.net
 HOST,rthklive1-lh.akamaihd.net
 HOST,rthklive2-lh.akamaihd.net
 HOST,rtvcdn.com.au
-HOST,scanservice1.qcpp1.net
 HOST,scene7-cdn.dell.com
 HOST,sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net
 HOST,seb.sason.top
@@ -269,7 +262,6 @@ HOST,stream2.cprnetwork.org
 HOST,streamipcf.akamaized.net
 HOST,supportassist.dell.com
 HOST,surface.downloads.prss.microsoft.com
-HOST,test.gbugs-qa.chromium.org
 HOST,time.xtracloud.net
 HOST,tl.gscm.tv
 HOST,tp.louisvuitton.com
@@ -307,7 +299,6 @@ HOST,www.recaptcha.net
 HOST,www.soundvideostar.com
 HOST,www.szmgiptv.com
 HOST,www4-static.gog-statics.com
-HOST,xn--flw351e.com
 HOST,xtratime.qcomgeo2.com
 HOST,youku.cdn2-youku.com
 HOST,zb.dehua.tv
@@ -2009,6 +2000,7 @@ HOST-SUFFIX,1231818.com
 HOST-SUFFIX,123242.com
 HOST-SUFFIX,123245.com
 HOST-SUFFIX,123254.com
+HOST-SUFFIX,123278.com
 HOST-SUFFIX,123294.com
 HOST-SUFFIX,123295.com
 HOST-SUFFIX,12333.com
@@ -4106,6 +4098,7 @@ HOST-SUFFIX,3323399.com
 HOST-SUFFIX,332831.com
 HOST-SUFFIX,333-555.com
 HOST-SUFFIX,333.com
+HOST-SUFFIX,3331.com
 HOST-SUFFIX,33315.com
 HOST-SUFFIX,333232.xyz
 HOST-SUFFIX,333333.com
@@ -5123,7 +5116,6 @@ HOST-SUFFIX,411au.com
 HOST-SUFFIX,4132c3c4011021.beer
 HOST-SUFFIX,413cd5ac210291.beer
 HOST-SUFFIX,413xkyd.com
-HOST-SUFFIX,414500.net
 HOST-SUFFIX,416548ebbf96c1b9.com
 HOST-SUFFIX,41739b0aa10301.beer
 HOST-SUFFIX,417628.org
@@ -7693,7 +7685,6 @@ HOST-SUFFIX,6868shop.com
 HOST-SUFFIX,6868yx.com
 HOST-SUFFIX,68716871.com
 HOST-SUFFIX,68792999.com
-HOST-SUFFIX,688539.com
 HOST-SUFFIX,6887cc57c10251.beer
 HOST-SUFFIX,6888.tv
 HOST-SUFFIX,688dns.com
@@ -11792,7 +11783,6 @@ HOST-SUFFIX,aizgtc.com
 HOST-SUFFIX,aizhan.com
 HOST-SUFFIX,aizhanzhe.com
 HOST-SUFFIX,aizhengli.com
-HOST-SUFFIX,aizhet.com
 HOST-SUFFIX,aizhibo.net
 HOST-SUFFIX,aizhugong.com
 HOST-SUFFIX,aizools.com
@@ -12762,6 +12752,7 @@ HOST-SUFFIX,ant-cloud.net
 HOST-SUFFIX,ant-financial.com
 HOST-SUFFIX,ant-open.com
 HOST-SUFFIX,anta.com
+HOST-SUFFIX,antafu.com
 HOST-SUFFIX,antaiib.com
 HOST-SUFFIX,antairui.net
 HOST-SUFFIX,antangbusiness.com
@@ -12903,7 +12894,6 @@ HOST-SUFFIX,anzhitan.com
 HOST-SUFFIX,anzhixun.com
 HOST-SUFFIX,anzhuauto.com
 HOST-SUFFIX,anzhuo.com
-HOST-SUFFIX,anzhuo.me
 HOST-SUFFIX,anzhuoapk.com
 HOST-SUFFIX,anzhuoe.com
 HOST-SUFFIX,anzhuoshouzhuan.com
@@ -16183,6 +16173,7 @@ HOST-SUFFIX,bhshtksp.com
 HOST-SUFFIX,bhshunhui.com
 HOST-SUFFIX,bhshyy.com
 HOST-SUFFIX,bhsr.com
+HOST-SUFFIX,bhsun.com
 HOST-SUFFIX,bhszyyy.com
 HOST-SUFFIX,bhtv.cc
 HOST-SUFFIX,bhuitong.com
@@ -17342,7 +17333,6 @@ HOST-SUFFIX,bjzmdlsxs.com
 HOST-SUFFIX,bjzmkm.com
 HOST-SUFFIX,bjzmqj.com
 HOST-SUFFIX,bjznkq.net
-HOST-SUFFIX,bjznnt.com
 HOST-SUFFIX,bjzph.com
 HOST-SUFFIX,bjzqw.com
 HOST-SUFFIX,bjzrzc.com
@@ -17512,7 +17502,6 @@ HOST-SUFFIX,blue-skylandscape.com
 HOST-SUFFIX,blue-zero.com
 HOST-SUFFIX,blue0123.com
 HOST-SUFFIX,bluearchive-cn.com
-HOST-SUFFIX,bluebellalingerie.com
 HOST-SUFFIX,bluebellls.com
 HOST-SUFFIX,bluebirdme.com
 HOST-SUFFIX,blueboxasia.com
@@ -19461,7 +19450,6 @@ HOST-SUFFIX,cardniudai.com
 HOST-SUFFIX,cardplus.work
 HOST-SUFFIX,cardqu.com
 HOST-SUFFIX,cardyang.com
-HOST-SUFFIX,care-challenge.com
 HOST-SUFFIX,care110.com
 HOST-SUFFIX,caredear.com
 HOST-SUFFIX,careduka.com
@@ -20985,7 +20973,6 @@ HOST-SUFFIX,chaincar.com
 HOST-SUFFIX,chaincatcher.com
 HOST-SUFFIX,chaindd.com
 HOST-SUFFIX,chainedbox.com
-HOST-SUFFIX,chainhd.com
 HOST-SUFFIX,chainknow.com
 HOST-SUFFIX,chainlinkpcp.com
 HOST-SUFFIX,chainlinkwork.com
@@ -21624,7 +21611,6 @@ HOST-SUFFIX,chghouse.org
 HOST-SUFFIX,chgi.net
 HOST-SUFFIX,chgie.com
 HOST-SUFFIX,chglmp.com
-HOST-SUFFIX,chgreenway.com
 HOST-SUFFIX,chgry.com
 HOST-SUFFIX,chgzfls.com
 HOST-SUFFIX,chhqtest.com
@@ -21798,7 +21784,6 @@ HOST-SUFFIX,china-j.com
 HOST-SUFFIX,china-jianan.com
 HOST-SUFFIX,china-jinlong.com
 HOST-SUFFIX,china-jit.com
-HOST-SUFFIX,china-jlt.com
 HOST-SUFFIX,china-jm.org
 HOST-SUFFIX,china-jxcf.com
 HOST-SUFFIX,china-kaidiwt.com
@@ -23182,7 +23167,6 @@ HOST-SUFFIX,chuanyuanbang.com
 HOST-SUFFIX,chuanyuapp.com
 HOST-SUFFIX,chuanzhen.com
 HOST-SUFFIX,chuapp.com
-HOST-SUFFIX,chuban.cc
 HOST-SUFFIX,chubanyun.me
 HOST-SUFFIX,chubaohui.com
 HOST-SUFFIX,chucheng.wiki
@@ -23201,7 +23185,6 @@ HOST-SUFFIX,chuimg.com
 HOST-SUFFIX,chuinet.com
 HOST-SUFFIX,chuisax.com
 HOST-SUFFIX,chuishen.xyz
-HOST-SUFFIX,chuixue.com
 HOST-SUFFIX,chuiyue.com
 HOST-SUFFIX,chujian.xyz
 HOST-SUFFIX,chujing-electric.com
@@ -31051,7 +31034,6 @@ HOST-SUFFIX,dpdpt-prtra.cfd
 HOST-SUFFIX,dper.com
 HOST-SUFFIX,dpfile.com
 HOST-SUFFIX,dpgz.com
-HOST-SUFFIX,dpifloor.com
 HOST-SUFFIX,dpin100.com
 HOST-SUFFIX,dpkyz.com
 HOST-SUFFIX,dplor.com
@@ -31681,7 +31663,6 @@ HOST-SUFFIX,dwjkgl.com
 HOST-SUFFIX,dwjpwf.com
 HOST-SUFFIX,dwjxz.com
 HOST-SUFFIX,dwmoniqi.com
-HOST-SUFFIX,dwoke.com
 HOST-SUFFIX,dwq.com
 HOST-SUFFIX,dwsedu.com
 HOST-SUFFIX,dwsgases.com
@@ -34251,7 +34232,6 @@ HOST-SUFFIX,ezhangdan.com
 HOST-SUFFIX,ezhangu.com
 HOST-SUFFIX,ezhayan.com
 HOST-SUFFIX,ezhicai.com
-HOST-SUFFIX,ezhijiantuoluo.com
 HOST-SUFFIX,ezhiwan.com
 HOST-SUFFIX,ezhou.com
 HOST-SUFFIX,ezhousetech.com
@@ -42747,7 +42727,6 @@ HOST-SUFFIX,gxtonghui.com
 HOST-SUFFIX,gxtongji.com
 HOST-SUFFIX,gxtongzhu.com
 HOST-SUFFIX,gxtopart.com
-HOST-SUFFIX,gxtp2021.com
 HOST-SUFFIX,gxtrwhy.com
 HOST-SUFFIX,gxtskq.com
 HOST-SUFFIX,gxtslr.com
@@ -45181,7 +45160,6 @@ HOST-SUFFIX,hbjir.com
 HOST-SUFFIX,hbjjrb.com
 HOST-SUFFIX,hbjk114.com
 HOST-SUFFIX,hbjkjt.com
-HOST-SUFFIX,hbjmcjjt.com
 HOST-SUFFIX,hbjmyljs.com
 HOST-SUFFIX,hbjob88.com
 HOST-SUFFIX,hbjomay.com
@@ -47376,7 +47354,6 @@ HOST-SUFFIX,hnlantian.com
 HOST-SUFFIX,hnlat.com
 HOST-SUFFIX,hnlawyer.org
 HOST-SUFFIX,hnlbdl.com
-HOST-SUFFIX,hnleisu.com
 HOST-SUFFIX,hnlens.com
 HOST-SUFFIX,hnliangku.com
 HOST-SUFFIX,hnlipu.com
@@ -47886,7 +47863,6 @@ HOST-SUFFIX,hongyantruck.com
 HOST-SUFFIX,hongyaomall.com
 HOST-SUFFIX,hongyawang.com
 HOST-SUFFIX,hongyejixie.com
-HOST-SUFFIX,hongyewuyang.com
 HOST-SUFFIX,hongyi5.com
 HOST-SUFFIX,hongyimarine.com
 HOST-SUFFIX,hongyirong.com
@@ -48167,6 +48143,7 @@ HOST-SUFFIX,hpc.cloud
 HOST-SUFFIX,hpcang.com
 HOST-SUFFIX,hpccake.com
 HOST-SUFFIX,hpccube.com
+HOST-SUFFIX,hpconnected.com
 HOST-SUFFIX,hpculturegroup.com
 HOST-SUFFIX,hpearx.com
 HOST-SUFFIX,hpepea.com
@@ -48664,7 +48641,6 @@ HOST-SUFFIX,huachang-alu.com
 HOST-SUFFIX,huachengenjoy.com
 HOST-SUFFIX,huachengjx.com
 HOST-SUFFIX,huachenholdings.com
-HOST-SUFFIX,huachenit.com
 HOST-SUFFIX,huachenyuanyang.com
 HOST-SUFFIX,huachuangroup.net
 HOST-SUFFIX,huaco908.com
@@ -50758,6 +50734,7 @@ HOST-SUFFIX,hzzkj.net
 HOST-SUFFIX,hzzp.com
 HOST-SUFFIX,hzzpko3186.vip
 HOST-SUFFIX,hzzqzc.com
+HOST-SUFFIX,hzzred.com
 HOST-SUFFIX,hzzrmc.com
 HOST-SUFFIX,hzzsfs.com
 HOST-SUFFIX,hzzsxh.com
@@ -51829,6 +51806,7 @@ HOST-SUFFIX,ihtcboy.com
 HOST-SUFFIX,ihtmlcss.com
 HOST-SUFFIX,ihuaben.com
 HOST-SUFFIX,ihuan.me
+HOST-SUFFIX,ihuandu.com
 HOST-SUFFIX,ihuang.org
 HOST-SUFFIX,ihuanling.com
 HOST-SUFFIX,ihuanque.com
@@ -54382,7 +54360,6 @@ HOST-SUFFIX,jg91.com
 HOST-SUFFIX,jgcarbide.com
 HOST-SUFFIX,jgchat.net
 HOST-SUFFIX,jgcjjt.com
-HOST-SUFFIX,jgdq.org
 HOST-SUFFIX,jgdun.com
 HOST-SUFFIX,jgdx.com
 HOST-SUFFIX,jgew3d.com
@@ -54990,6 +54967,7 @@ HOST-SUFFIX,jidouauto.com
 HOST-SUFFIX,jidubook.com
 HOST-SUFFIX,jidujiao.com
 HOST-SUFFIX,jidujiasu.com
+HOST-SUFFIX,jie.ge
 HOST-SUFFIX,jieanjiaotong.com
 HOST-SUFFIX,jiebai.com
 HOST-SUFFIX,jiebanchuyou.com
@@ -55310,6 +55288,7 @@ HOST-SUFFIX,jingdongyouxuan.com
 HOST-SUFFIX,jingdudai.com
 HOST-SUFFIX,jingdukaoyan.com
 HOST-SUFFIX,jingdw.com
+HOST-SUFFIX,jingeshou.com
 HOST-SUFFIX,jingge.com
 HOST-SUFFIX,jinggeng.net
 HOST-SUFFIX,jinggon.com
@@ -55991,6 +55970,7 @@ HOST-SUFFIX,jj00.com
 HOST-SUFFIX,jj0833.com
 HOST-SUFFIX,jj20.com
 HOST-SUFFIX,jj59.com
+HOST-SUFFIX,jj5agame.com
 HOST-SUFFIX,jj831.com
 HOST-SUFFIX,jj99.icu
 HOST-SUFFIX,jjbang.com
@@ -56143,7 +56123,6 @@ HOST-SUFFIX,jkt-tencentclb.cloud
 HOST-SUFFIX,jkt-tencentclb.com
 HOST-SUFFIX,jkt-tencentclb.net
 HOST-SUFFIX,jkt-tencentclb.work
-HOST-SUFFIX,jktcom.com
 HOST-SUFFIX,jktong.com
 HOST-SUFFIX,jktower.com
 HOST-SUFFIX,jkuntp.com
@@ -56459,7 +56438,6 @@ HOST-SUFFIX,jnydgm.com
 HOST-SUFFIX,jnyng.com
 HOST-SUFFIX,jnyyjt.com
 HOST-SUFFIX,jnzhuoxin.com
-HOST-SUFFIX,jnzjzx.net
 HOST-SUFFIX,jnzl.com
 HOST-SUFFIX,jnzongchi.com
 HOST-SUFFIX,jnzx.cc
@@ -56534,7 +56512,6 @@ HOST-SUFFIX,joessem.com
 HOST-SUFFIX,johhan.com
 HOST-SUFFIX,johnlz.com
 HOST-SUFFIX,johnmedia.com
-HOST-SUFFIX,johogames.com
 HOST-SUFFIX,johouse.com
 HOST-SUFFIX,joiest.com
 HOST-SUFFIX,joinchitchat.com
@@ -67836,6 +67813,7 @@ HOST-SUFFIX,modelarts-maas.com
 HOST-SUFFIX,modelevel.com
 HOST-SUFFIX,modelltd.com
 HOST-SUFFIX,modelones.com
+HOST-SUFFIX,modelscope.ai
 HOST-SUFFIX,modelscope.net
 HOST-SUFFIX,modelwhale.com
 HOST-SUFFIX,modeng178.com
@@ -68589,7 +68567,6 @@ HOST-SUFFIX,museradio.net
 HOST-SUFFIX,musestudio.net
 HOST-SUFFIX,musetransfer.com
 HOST-SUFFIX,mushafa.net
-HOST-SUFFIX,music-search.org
 HOST-SUFFIX,music4x.com
 HOST-SUFFIX,musicchina-expo.com
 HOST-SUFFIX,musiccia.com
@@ -69616,7 +69593,6 @@ HOST-SUFFIX,nbvps.net
 HOST-SUFFIX,nbwaf.net
 HOST-SUFFIX,nbwan.net
 HOST-SUFFIX,nbwbw.com
-HOST-SUFFIX,nbweldingtorch.com
 HOST-SUFFIX,nbwelldon.com
 HOST-SUFFIX,nbwetc.com
 HOST-SUFFIX,nbwhg.com
@@ -70680,7 +70656,6 @@ HOST-SUFFIX,njkaifeng.com
 HOST-SUFFIX,njkaiguan.com
 HOST-SUFFIX,njkcsj.com
 HOST-SUFFIX,njkeeryq.com
-HOST-SUFFIX,njkefayuan.com
 HOST-SUFFIX,njkerun.com
 HOST-SUFFIX,njkeystone.com
 HOST-SUFFIX,njkhhb.com
@@ -70959,7 +70934,6 @@ HOST-SUFFIX,nlhszc.com
 HOST-SUFFIX,nliniz.com
 HOST-SUFFIX,nlinkline.com
 HOST-SUFFIX,nlktj.com
-HOST-SUFFIX,nlogn.art
 HOST-SUFFIX,nloop.cc
 HOST-SUFFIX,nlplab.com
 HOST-SUFFIX,nls1853.com
@@ -74773,7 +74747,6 @@ HOST-SUFFIX,potianji.net
 HOST-SUFFIX,potnsik-faastink898.com
 HOST-SUFFIX,potomaccottage.com
 HOST-SUFFIX,potops.com
-HOST-SUFFIX,potplayer.org
 HOST-SUFFIX,potplayercn.com
 HOST-SUFFIX,pouchcontainer.io
 HOST-SUFFIX,pouquiagievu.com
@@ -78016,8 +77989,6 @@ HOST-SUFFIX,qygbet381.vip
 HOST-SUFFIX,qygbet427.vip
 HOST-SUFFIX,qygjyey.com
 HOST-SUFFIX,qyglzz.com
-HOST-SUFFIX,qygvip128.com
-HOST-SUFFIX,qygvip40.com
 HOST-SUFFIX,qyhgsb.com
 HOST-SUFFIX,qyhl.vip
 HOST-SUFFIX,qyhr.org
@@ -78783,7 +78754,6 @@ HOST-SUFFIX,renrenyee.com
 HOST-SUFFIX,renrk.com
 HOST-SUFFIX,renruihr.com
 HOST-SUFFIX,renrunkeji.com
-HOST-SUFFIX,rensa-hanno.com
 HOST-SUFFIX,rensheng123.com
 HOST-SUFFIX,renshouks.com
 HOST-SUFFIX,renshouren.com
@@ -78991,7 +78961,6 @@ HOST-SUFFIX,rightknights.com
 HOST-SUFFIX,rightpaddle.com
 HOST-SUFFIX,rigol.com
 HOST-SUFFIX,rigouwang.com
-HOST-SUFFIX,riitao.com
 HOST-SUFFIX,riji001.com
 HOST-SUFFIX,riji100zi.com
 HOST-SUFFIX,rijigu.com
@@ -80027,6 +79996,7 @@ HOST-SUFFIX,safenext.com
 HOST-SUFFIX,safetyimg.com
 HOST-SUFFIX,safetystatic.com
 HOST-SUFFIX,safetyvod.com
+HOST-SUFFIX,safewk.com
 HOST-SUFFIX,safround.com
 HOST-SUFFIX,sagepub.com
 HOST-SUFFIX,sagewc-exp.com
@@ -81072,7 +81042,6 @@ HOST-SUFFIX,sdglobaltrade.com
 HOST-SUFFIX,sdglql.com
 HOST-SUFFIX,sdgmjiaoyun.com
 HOST-SUFFIX,sdgren.com
-HOST-SUFFIX,sdgsdggg.xyz
 HOST-SUFFIX,sdgsgcjsjt.com
 HOST-SUFFIX,sdgsjc.com
 HOST-SUFFIX,sdgslb.com
@@ -81151,6 +81120,7 @@ HOST-SUFFIX,sdj88.com
 HOST-SUFFIX,sdjcf.com
 HOST-SUFFIX,sdjcsh.com
 HOST-SUFFIX,sdjcw.com
+HOST-SUFFIX,sdjcxxgs.com
 HOST-SUFFIX,sdjiance.com
 HOST-SUFFIX,sdjiankan.com
 HOST-SUFFIX,sdjianmei.com
@@ -88015,6 +87985,7 @@ HOST-SUFFIX,szcw.com
 HOST-SUFFIX,szcwdz.com
 HOST-SUFFIX,szcy-fintech.com
 HOST-SUFFIX,szcy99.com
+HOST-SUFFIX,szcyqg.com
 HOST-SUFFIX,szczjy.com
 HOST-SUFFIX,szczkjgs.com
 HOST-SUFFIX,szdaily.com
@@ -90899,7 +90870,6 @@ HOST-SUFFIX,tingtingfm.com
 HOST-SUFFIX,tingtingwo.com
 HOST-SUFFIX,tingvision.com
 HOST-SUFFIX,tingxi8.com
-HOST-SUFFIX,tingxiangzu.com
 HOST-SUFFIX,tingxiaoyou.com
 HOST-SUFFIX,tingyulou.com
 HOST-SUFFIX,tingyutech.net
@@ -96102,6 +96072,7 @@ HOST-SUFFIX,wcjbb.net
 HOST-SUFFIX,wcjm.org
 HOST-SUFFIX,wclbox.com
 HOST-SUFFIX,wcloud.com
+HOST-SUFFIX,wcloudcdn.com
 HOST-SUFFIX,wcode.net
 HOST-SUFFIX,wcp.hk
 HOST-SUFFIX,wcqjyw.com
@@ -96534,7 +96505,6 @@ HOST-SUFFIX,weimai.com
 HOST-SUFFIX,weimaitu.com
 HOST-SUFFIX,weimaqi.net
 HOST-SUFFIX,weimeigu.net
-HOST-SUFFIX,weimeiyijing.com
 HOST-SUFFIX,weimen.hu
 HOST-SUFFIX,weimi24.com
 HOST-SUFFIX,weimiaocaishang.com
@@ -96711,7 +96681,6 @@ HOST-SUFFIX,weiyunjian.com
 HOST-SUFFIX,weiyuntop.com
 HOST-SUFFIX,weiyunyingxiang.com
 HOST-SUFFIX,weizhanabc.com
-HOST-SUFFIX,weizhangjilu.com
 HOST-SUFFIX,weizhangwang.com
 HOST-SUFFIX,weizhi.com
 HOST-SUFFIX,weizhike.club
@@ -97848,7 +97817,6 @@ HOST-SUFFIX,wisdri.com
 HOST-SUFFIX,wise-iot.com
 HOST-SUFFIX,wise99.com
 HOST-SUFFIX,wiseasy.com
-HOST-SUFFIX,wisebond.net
 HOST-SUFFIX,wisecity.net
 HOST-SUFFIX,wisecotech.com
 HOST-SUFFIX,wisedoo.com
@@ -98552,7 +98520,6 @@ HOST-SUFFIX,wpweixin.com
 HOST-SUFFIX,wpxap.com
 HOST-SUFFIX,wpyou.com
 HOST-SUFFIX,wpzhiku.com
-HOST-SUFFIX,wpzysq.com
 HOST-SUFFIX,wq96f9.com
 HOST-SUFFIX,wqbook.com
 HOST-SUFFIX,wqc.so
@@ -98793,7 +98760,6 @@ HOST-SUFFIX,wubiba.com
 HOST-SUFFIX,wubixuexi.com
 HOST-SUFFIX,wubizi.net
 HOST-SUFFIX,wublock123.com
-HOST-SUFFIX,wubuxianjing.com
 HOST-SUFFIX,wubx.net
 HOST-SUFFIX,wuchenxu.com
 HOST-SUFFIX,wuchou.org
@@ -98911,6 +98877,7 @@ HOST-SUFFIX,wujogroup.com
 HOST-SUFFIX,wujue.com
 HOST-SUFFIX,wukaikai.tech
 HOST-SUFFIX,wukao.com
+HOST-SUFFIX,wukazhifupos.com
 HOST-SUFFIX,wukong.com
 HOST-SUFFIX,wukong.la
 HOST-SUFFIX,wukongbjb.com
@@ -101832,7 +101799,6 @@ HOST-SUFFIX,xiqianyangyi.com
 HOST-SUFFIX,xiqiaoshantour.com
 HOST-SUFFIX,xiqifun.com
 HOST-SUFFIX,xiqinrc.com
-HOST-SUFFIX,xiqkj.com
 HOST-SUFFIX,xiqu.me
 HOST-SUFFIX,xiqu001.com
 HOST-SUFFIX,xiquebo.com
@@ -110337,6 +110303,7 @@ HOST-SUFFIX,zhenyuansoft.com
 HOST-SUFFIX,zhenyunpan.com
 HOST-SUFFIX,zhenzhuchanfu.com
 HOST-SUFFIX,zheshenet.com
+HOST-SUFFIX,zheshouka.com
 HOST-SUFFIX,zhetao.com
 HOST-SUFFIX,zhetian.org
 HOST-SUFFIX,zhetouniu.com
@@ -111572,7 +111539,6 @@ HOST-SUFFIX,ziwufang.com
 HOST-SUFFIX,ziwuyunjiao.com
 HOST-SUFFIX,zixia.com
 HOST-SUFFIX,zixiaomao.com
-HOST-SUFFIX,zixigua.com
 HOST-SUFFIX,zixijiaoshi.com
 HOST-SUFFIX,zixingxinwen.com
 HOST-SUFFIX,zixueguoxue.com
@@ -116102,7 +116068,10 @@ IP-CIDR,104.212.68.151/32,no-resolve
 IP-CIDR,104.212.68.152/32,no-resolve
 IP-CIDR,104.212.68.57/32,no-resolve
 IP-CIDR,104.212.68.58/32,no-resolve
+IP-CIDR,104.219.211.0/24,no-resolve
 IP-CIDR,104.227.65.96/28,no-resolve
+IP-CIDR,104.233.144.0/21,no-resolve
+IP-CIDR,104.233.159.0/24,no-resolve
 IP-CIDR,104.237.80.0/21,no-resolve
 IP-CIDR,104.27.168.0/24,no-resolve
 IP-CIDR,104.28.101.0/27,no-resolve
@@ -116422,6 +116391,9 @@ IP-CIDR,106.56.0.0/13,no-resolve
 IP-CIDR,106.74.0.0/15,no-resolve
 IP-CIDR,106.8.0.0/15,no-resolve
 IP-CIDR,106.80.0.0/12,no-resolve
+IP-CIDR,107.148.150.0/23,no-resolve
+IP-CIDR,107.148.84.0/23,no-resolve
+IP-CIDR,107.149.198.0/23,no-resolve
 IP-CIDR,107.150.125.199/32,no-resolve
 IP-CIDR,107.151.212.0/24,no-resolve
 IP-CIDR,107.153.91.0/24,no-resolve
@@ -118111,6 +118083,8 @@ IP-CIDR,185.78.106.0/24,no-resolve
 IP-CIDR,185.80.200.0/22,no-resolve
 IP-CIDR,185.95.100.0/22,no-resolve
 IP-CIDR,186.155.200.118/32,no-resolve
+IP-CIDR,186.241.120.0/21,no-resolve
+IP-CIDR,186.244.192.0/19,no-resolve
 IP-CIDR,188.131.128.0/17,no-resolve
 IP-CIDR,188.190.1.0/24,no-resolve
 IP-CIDR,188.190.2.0/24,no-resolve
@@ -118146,6 +118120,7 @@ IP-CIDR,192.55.40.0/24,no-resolve
 IP-CIDR,192.55.46.0/23,no-resolve
 IP-CIDR,192.55.68.0/22,no-resolve
 IP-CIDR,192.56.99.0/24,no-resolve
+IP-CIDR,192.74.251.0/24,no-resolve
 IP-CIDR,193.112.0.0/16,no-resolve
 IP-CIDR,193.119.0.0/19,no-resolve
 IP-CIDR,193.17.120.0/22,no-resolve
@@ -119711,6 +119686,7 @@ IP-CIDR,205.252.239.0/24,no-resolve
 IP-CIDR,206.109.75.0/24,no-resolve
 IP-CIDR,206.232.68.0/22,no-resolve
 IP-CIDR,206.232.72.0/22,no-resolve
+IP-CIDR,207.180.22.0/24,no-resolve
 IP-CIDR,207.254.180.0/24,no-resolve
 IP-CIDR,207.68.174.8/29,no-resolve
 IP-CIDR,207.89.21.0/24,no-resolve
@@ -120027,6 +120003,7 @@ IP-CIDR,225.1.8.82/31,no-resolve
 IP-CIDR,225.1.8.84/31,no-resolve
 IP-CIDR,225.1.8.88/31,no-resolve
 IP-CIDR,225.1.8.9/32,no-resolve
+IP-CIDR,23.132.132.0/24,no-resolve
 IP-CIDR,23.158.104.0/25,no-resolve
 IP-CIDR,23.158.104.128/26,no-resolve
 IP-CIDR,23.158.104.192/27,no-resolve
@@ -120937,8 +120914,13 @@ IP-CIDR,38.103.64.26/32,no-resolve
 IP-CIDR,38.105.24.0/24,no-resolve
 IP-CIDR,38.105.26.0/23,no-resolve
 IP-CIDR,38.105.28.0/22,no-resolve
+IP-CIDR,38.12.0.0/19,no-resolve
+IP-CIDR,38.12.32.0/23,no-resolve
+IP-CIDR,38.12.36.0/24,no-resolve
+IP-CIDR,38.12.48.0/21,no-resolve
 IP-CIDR,38.134.56.0/24,no-resolve
 IP-CIDR,38.134.58.0/23,no-resolve
+IP-CIDR,38.14.232.0/21,no-resolve
 IP-CIDR,38.181.0.0/19,no-resolve
 IP-CIDR,38.181.32.0/23,no-resolve
 IP-CIDR,38.181.34.0/24,no-resolve
@@ -120985,6 +120967,7 @@ IP-CIDR,38.47.228.0/22,no-resolve
 IP-CIDR,38.47.232.0/21,no-resolve
 IP-CIDR,38.47.240.0/20,no-resolve
 IP-CIDR,38.54.10.0/32,no-resolve
+IP-CIDR,38.55.128.0/20,no-resolve
 IP-CIDR,38.60.143.0/24,no-resolve
 IP-CIDR,38.60.144.0/23,no-resolve
 IP-CIDR,38.60.214.0/32,no-resolve
