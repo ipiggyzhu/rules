@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-24T03:54:45.381359+00:00",
+  "timestamp": "2026-05-25T04:05:46.048732+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 105923,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 328135,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 307228,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 329288,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 302645,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 260147,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 182292,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 182541,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 911,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12426,
@@ -15,20 +15,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 619216,
-    "QX广告规则": 943822,
+    "Loon广告规则": 616326,
+    "QX广告规则": 940942,
     "Loon直连规则": 12661,
     "QX直连规则": 122237
   },
   "after_dedup": {
-    "Loon广告规则": 611562,
-    "QX广告规则": 757760,
+    "Loon广告规则": 608602,
+    "QX广告规则": 754789,
     "Loon直连规则": 12627,
     "QX直连规则": 122015
   },
   "final_counts": {
-    "Loon/ad-rules.list": 611562,
-    "QuantumultX/ad-rules.list": 757760,
+    "Loon/ad-rules.list": 608602,
+    "QuantumultX/ad-rules.list": 754789,
     "Loon/direct-rules.list": 12627,
     "QuantumultX/direct-rules.list": 122015
   }
