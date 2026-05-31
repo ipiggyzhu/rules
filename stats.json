@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-30T03:40:31.493638+00:00",
+  "timestamp": "2026-05-31T04:07:01.291070+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 106695,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 365405,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 443914,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 495932,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 455176,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 261595,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 183834,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 184152,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 911,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12466,
@@ -15,20 +15,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 730146,
-    "QX广告规则": 1056779,
+    "Loon广告规则": 831810,
+    "QX广告规则": 1158365,
     "Loon直连规则": 12701,
     "QX直连规则": 121959
   },
   "after_dedup": {
-    "Loon广告规则": 719443,
-    "QX广告规则": 865857,
+    "Loon广告规则": 815164,
+    "QX广告规则": 961468,
     "Loon直连规则": 12667,
     "QX直连规则": 121737
   },
   "final_counts": {
-    "Loon/ad-rules.list": 719443,
-    "QuantumultX/ad-rules.list": 865857,
+    "Loon/ad-rules.list": 815164,
+    "QuantumultX/ad-rules.list": 961468,
     "Loon/direct-rules.list": 12667,
     "QuantumultX/direct-rules.list": 121737
   }
