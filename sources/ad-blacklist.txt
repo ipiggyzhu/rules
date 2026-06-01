@@ -67,7 +67,6 @@ ad.weixin.qq.com
 ad.xmmnsd.com
 ad.zijieapi.com
 adash.m.taobao.com
-adash.man.aliyuncs.com
 adashbc.m.taobao.com
 adashx.ut.cainiao.com
 adcdn6.tencentmusic.com
