@@ -1,35 +1,35 @@
 {
-  "timestamp": "2026-06-07T04:12:42.480749+00:00",
+  "timestamp": "2026-06-08T04:17:12.717678+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 105334,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 427410,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 451501,
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 259051,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 180692,
+    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 106021,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 326779,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 453986,
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 259690,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 180992,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 911,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12467,
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list": 121440,
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax_No_IPv6.list": 121440
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12464,
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list": 121373,
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax_No_IPv6.list": 121373
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 802063,
-    "QX广告规则": 1123755,
-    "Loon直连规则": 12702,
-    "QX直连规则": 121675
+    "Loon广告规则": 736152,
+    "QX广告规则": 1058538,
+    "Loon直连规则": 12699,
+    "QX直连规则": 121608
   },
   "after_dedup": {
-    "Loon广告规则": 785322,
-    "QX广告规则": 930256,
-    "Loon直连规则": 12668,
-    "QX直连规则": 121452
+    "Loon广告规则": 725401,
+    "QX广告规则": 870342,
+    "Loon直连规则": 12665,
+    "QX直连规则": 121385
   },
   "final_counts": {
-    "Loon/ad-rules.list": 785322,
-    "QuantumultX/ad-rules.list": 930256,
-    "Loon/direct-rules.list": 12668,
-    "QuantumultX/direct-rules.list": 121452
+    "Loon/ad-rules.list": 725401,
+    "QuantumultX/ad-rules.list": 870342,
+    "Loon/direct-rules.list": 12665,
+    "QuantumultX/direct-rules.list": 121385
   }
 }
