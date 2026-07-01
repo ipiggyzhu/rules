@@ -325,7 +325,6 @@ mediaad.tadu.com
 megadatav7.ultralisk.cn
 mesu.apple.com
 meta.video.iqiyi.com
-metrics-collector.xaidc.com
 mi.gdt.qq.com
 miaozhen.com
 miniapp-ad.cdn.bcebos.com
@@ -539,7 +538,6 @@ www.bayread.com
 www.google-analytics.com
 www.googletagmanager.com
 www.pangolin-dsp-toutiao.com
-www.sugarle.com
 wxa.wxs.qq.com
 wximg.wxs.qq.com
 xlog.jd.com
