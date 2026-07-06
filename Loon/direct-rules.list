@@ -1,7 +1,7 @@
 # Title: Loon Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-07-05T03:40:46Z
-# Total: 12696
+# Updated: 2026-07-06T03:49:40Z
+# Total: 12709
 
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -39,6 +39,7 @@ DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,aliyundrive.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,anquan
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,baichuan-ai.com
 DOMAIN-SUFFIX,baidu
@@ -178,6 +179,8 @@ DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,realme.com
 DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,sensetime.com
+DOMAIN-SUFFIX,shouji
+DOMAIN-SUFFIX,sina
 DOMAIN-SUFFIX,sina.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,so.com
@@ -210,6 +213,7 @@ DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,wang
 DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weibo
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-SUFFIX,wenxiaobai.com
@@ -219,6 +223,7 @@ DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
+DOMAIN-SUFFIX,xihuan
 DOMAIN-SUFFIX,ximalaya.com
 DOMAIN-SUFFIX,xingyeai.com
 DOMAIN-SUFFIX,xmcdn.com
@@ -232,6 +237,7 @@ DOMAIN-SUFFIX,xn--6frz82g
 DOMAIN-SUFFIX,xn--6qq986b3xl
 DOMAIN-SUFFIX,xn--8y0a063a
 DOMAIN-SUFFIX,xn--9et52u
+DOMAIN-SUFFIX,xn--9krt00a
 DOMAIN-SUFFIX,xn--czr694b
 DOMAIN-SUFFIX,xn--czrs0t
 DOMAIN-SUFFIX,xn--czru2d
@@ -259,6 +265,7 @@ DOMAIN-SUFFIX,yodao.com
 DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,yuanshen.com
+DOMAIN-SUFFIX,yun
 DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
@@ -3948,6 +3955,7 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
+IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
@@ -4614,6 +4622,7 @@ IP-CIDR,188.240.211.0/25,no-resolve
 IP-CIDR,188.241.80.0/24,no-resolve
 IP-CIDR,188.65.16.0/22,no-resolve
 IP-CIDR,189.31.222.0/24,no-resolve
+IP-CIDR,189.75.180.0/24,no-resolve
 IP-CIDR,189.75.185.0/24,no-resolve
 IP-CIDR,191.219.18.0/24,no-resolve
 IP-CIDR,191.222.245.0/24,no-resolve
@@ -4716,6 +4725,7 @@ IP-CIDR,20.251.0.0/22,no-resolve
 IP-CIDR,20.253.4.0/24,no-resolve
 IP-CIDR,20.253.89.0/24,no-resolve
 IP-CIDR,20.255.255.0/24,no-resolve
+IP-CIDR,200.102.179.0/24,no-resolve
 IP-CIDR,200.102.180.0/24,no-resolve
 IP-CIDR,201.11.233.0/24,no-resolve
 IP-CIDR,201.14.217.0/24,no-resolve
@@ -8429,6 +8439,7 @@ IP-CIDR,67.199.158.164/30,no-resolve
 IP-CIDR,67.199.159.224/30,no-resolve
 IP-CIDR,67.220.137.144/28,no-resolve
 IP-CIDR,67.220.158.24/29,no-resolve
+IP-CIDR,68.166.209.0/24,no-resolve
 IP-CIDR,68.79.0.0/18,no-resolve
 IP-CIDR,69.107.7.16/29,no-resolve
 IP-CIDR,69.163.104.0/24,no-resolve
@@ -8440,6 +8451,7 @@ IP-CIDR,69.230.192.0/18,no-resolve
 IP-CIDR,69.231.128.0/18,no-resolve
 IP-CIDR,69.234.192.0/18,no-resolve
 IP-CIDR,69.235.128.0/18,no-resolve
+IP-CIDR,69.33.203.0/24,no-resolve
 IP-CIDR,69.85.93.0/24,no-resolve
 IP-CIDR,71.131.192.0/18,no-resolve
 IP-CIDR,71.132.0.0/18,no-resolve
@@ -12449,6 +12461,7 @@ IP-CIDR6,2a0f:1cc5:3222::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:40::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:4508::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:45ff::/48,no-resolve
+IP-CIDR6,2a0f:1cc5:4700::/40,no-resolve
 IP-CIDR6,2a0f:1cc5:600::/47,no-resolve
 IP-CIDR6,2a0f:1cc5:603::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:642::/48,no-resolve
@@ -12512,7 +12525,7 @@ IP-CIDR6,2a12:dd47:db2c::/48,no-resolve
 IP-CIDR6,2a13:1800::/29,no-resolve
 IP-CIDR6,2a13:8b40::/29,no-resolve
 IP-CIDR6,2a13:8c87::/32,no-resolve
-IP-CIDR6,2a13:9500:194::/48,no-resolve
+IP-CIDR6,2a13:9500:194::/47,no-resolve
 IP-CIDR6,2a13:a5c3:d600::/42,no-resolve
 IP-CIDR6,2a13:a5c3:f000::/40,no-resolve
 IP-CIDR6,2a13:a5c3:f1c0::/44,no-resolve

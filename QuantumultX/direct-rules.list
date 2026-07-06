@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-07-05T03:40:47Z
-# Total: 120709
+# Updated: 2026-07-06T03:49:42Z
+# Total: 120720
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -12460,6 +12460,7 @@ HOST-SUFFIX,anqingonline.com
 HOST-SUFFIX,anqingzhiyun.com
 HOST-SUFFIX,anqn.com
 HOST-SUFFIX,anqu.com
+HOST-SUFFIX,anquan
 HOST-SUFFIX,anquan.info
 HOST-SUFFIX,anquanbao.com
 HOST-SUFFIX,anquanjs.com
@@ -32724,7 +32725,6 @@ HOST-SUFFIX,embryform.com
 HOST-SUFFIX,embryochina.com
 HOST-SUFFIX,embsky.com
 HOST-SUFFIX,emby.men
-HOST-SUFFIX,emby.yun
 HOST-SUFFIX,embyvip.org
 HOST-SUFFIX,emcbj.com
 HOST-SUFFIX,emcdir.com
@@ -82416,6 +82416,7 @@ HOST-SUFFIX,shouhuigroup.com
 HOST-SUFFIX,shouhuisoft.com
 HOST-SUFFIX,shouhuojiyun.com
 HOST-SUFFIX,shouhuola.com
+HOST-SUFFIX,shouji
 HOST-SUFFIX,shouji.com
 HOST-SUFFIX,shouji.racing
 HOST-SUFFIX,shouji10086.com
@@ -83320,6 +83321,7 @@ HOST-SUFFIX,simuwang.com
 HOST-SUFFIX,simwe.com
 HOST-SUFFIX,simxhs.com
 HOST-SUFFIX,sin0sites.com
+HOST-SUFFIX,sina
 HOST-SUFFIX,sina-cf.com
 HOST-SUFFIX,sina.com
 HOST-SUFFIX,sina.lt
@@ -95214,6 +95216,7 @@ HOST-SUFFIX,weibanan.com
 HOST-SUFFIX,weibang.vip
 HOST-SUFFIX,weibangong.com
 HOST-SUFFIX,weibanzhushou.com
+HOST-SUFFIX,weibo
 HOST-SUFFIX,weibo.com
 HOST-SUFFIX,weibo.tv
 HOST-SUFFIX,weibocdn.com
@@ -99941,6 +99944,7 @@ HOST-SUFFIX,xihaxueche.com
 HOST-SUFFIX,xihazsww.com
 HOST-SUFFIX,xihegp.com
 HOST-SUFFIX,xiherencai.com
+HOST-SUFFIX,xihuan
 HOST-SUFFIX,xihuan.me
 HOST-SUFFIX,xihusgh.com
 HOST-SUFFIX,xiimoon.com
@@ -101228,6 +101232,7 @@ HOST-SUFFIX,xn--8y0a063a
 HOST-SUFFIX,xn--91-y60d638c.xyz
 HOST-SUFFIX,xn--9et52u
 HOST-SUFFIX,xn--9kr72kqwe.com
+HOST-SUFFIX,xn--9krt00a
 HOST-SUFFIX,xn--9myo55bi8l.com
 HOST-SUFFIX,xn--9pr56vfna007k.com
 HOST-SUFFIX,xn--9pry86bq5ex68c.org
@@ -106531,6 +106536,7 @@ HOST-SUFFIX,yumingguwen.com
 HOST-SUFFIX,yumingyouhui.com
 HOST-SUFFIX,yummy.tech
 HOST-SUFFIX,yumstone.com
+HOST-SUFFIX,yun
 HOST-SUFFIX,yun-ac.com
 HOST-SUFFIX,yun-app.net
 HOST-SUFFIX,yun-dns.com
@@ -116087,6 +116093,7 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
+IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
@@ -116753,6 +116760,7 @@ IP-CIDR,188.240.211.0/25,no-resolve
 IP-CIDR,188.241.80.0/24,no-resolve
 IP-CIDR,188.65.16.0/22,no-resolve
 IP-CIDR,189.31.222.0/24,no-resolve
+IP-CIDR,189.75.180.0/24,no-resolve
 IP-CIDR,189.75.185.0/24,no-resolve
 IP-CIDR,191.219.18.0/24,no-resolve
 IP-CIDR,191.222.245.0/24,no-resolve
@@ -116855,6 +116863,7 @@ IP-CIDR,20.251.0.0/22,no-resolve
 IP-CIDR,20.253.4.0/24,no-resolve
 IP-CIDR,20.253.89.0/24,no-resolve
 IP-CIDR,20.255.255.0/24,no-resolve
+IP-CIDR,200.102.179.0/24,no-resolve
 IP-CIDR,200.102.180.0/24,no-resolve
 IP-CIDR,201.11.233.0/24,no-resolve
 IP-CIDR,201.14.217.0/24,no-resolve
@@ -120568,6 +120577,7 @@ IP-CIDR,67.199.158.164/30,no-resolve
 IP-CIDR,67.199.159.224/30,no-resolve
 IP-CIDR,67.220.137.144/28,no-resolve
 IP-CIDR,67.220.158.24/29,no-resolve
+IP-CIDR,68.166.209.0/24,no-resolve
 IP-CIDR,68.79.0.0/18,no-resolve
 IP-CIDR,69.107.7.16/29,no-resolve
 IP-CIDR,69.163.104.0/24,no-resolve
@@ -120579,6 +120589,7 @@ IP-CIDR,69.230.192.0/18,no-resolve
 IP-CIDR,69.231.128.0/18,no-resolve
 IP-CIDR,69.234.192.0/18,no-resolve
 IP-CIDR,69.235.128.0/18,no-resolve
+IP-CIDR,69.33.203.0/24,no-resolve
 IP-CIDR,69.85.93.0/24,no-resolve
 IP-CIDR,71.131.192.0/18,no-resolve
 IP-CIDR,71.132.0.0/18,no-resolve
