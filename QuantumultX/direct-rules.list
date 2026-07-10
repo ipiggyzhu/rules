@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-07-09T03:33:10Z
-# Total: 120714
+# Updated: 2026-07-10T03:34:44Z
+# Total: 120720
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -91693,6 +91693,7 @@ HOST-SUFFIX,twtstudio.com
 HOST-SUFFIX,twty.vip
 HOST-SUFFIX,twwtn.com
 HOST-SUFFIX,twyuxin.com
+HOST-SUFFIX,twyxh.com
 HOST-SUFFIX,twyxi.com
 HOST-SUFFIX,twz1t32lzy.com
 HOST-SUFFIX,twzilla.com
@@ -111934,6 +111935,7 @@ HOST-SUFFIX,zwzsh.net
 HOST-SUFFIX,zwzyzx.com
 HOST-SUFFIX,zx-tour.com
 HOST-SUFFIX,zx-xcx.com
+HOST-SUFFIX,zx.com
 HOST-SUFFIX,zx0093.com
 HOST-SUFFIX,zx017.com
 HOST-SUFFIX,zx017.net
@@ -116248,6 +116250,7 @@ IP-CIDR,16.12.8.0/24,no-resolve
 IP-CIDR,16.163.30.245/32,no-resolve
 IP-CIDR,16.2.142.0/23,no-resolve
 IP-CIDR,16.2.152.0/23,no-resolve
+IP-CIDR,16.216.12.0/24,no-resolve
 IP-CIDR,160.0.97.240/28,no-resolve
 IP-CIDR,160.187.128.0/23,no-resolve
 IP-CIDR,160.187.223.0/24,no-resolve
@@ -116757,7 +116760,6 @@ IP-CIDR,188.240.211.0/25,no-resolve
 IP-CIDR,188.241.80.0/24,no-resolve
 IP-CIDR,188.65.16.0/22,no-resolve
 IP-CIDR,189.31.222.0/24,no-resolve
-IP-CIDR,189.75.180.0/24,no-resolve
 IP-CIDR,189.75.185.0/24,no-resolve
 IP-CIDR,191.219.18.0/24,no-resolve
 IP-CIDR,191.222.245.0/24,no-resolve
@@ -116860,10 +116862,7 @@ IP-CIDR,20.251.0.0/22,no-resolve
 IP-CIDR,20.253.4.0/24,no-resolve
 IP-CIDR,20.253.89.0/24,no-resolve
 IP-CIDR,20.255.255.0/24,no-resolve
-IP-CIDR,200.102.179.0/24,no-resolve
 IP-CIDR,200.102.180.0/24,no-resolve
-IP-CIDR,201.11.233.0/24,no-resolve
-IP-CIDR,201.14.217.0/24,no-resolve
 IP-CIDR,201.14.219.0/24,no-resolve
 IP-CIDR,202.0.100.0/23,no-resolve
 IP-CIDR,202.0.122.0/23,no-resolve
@@ -117452,6 +117451,7 @@ IP-CIDR,203.12.70.0/23,no-resolve
 IP-CIDR,203.12.87.0/24,no-resolve
 IP-CIDR,203.12.91.0/24,no-resolve
 IP-CIDR,203.12.93.0/24,no-resolve
+IP-CIDR,203.12.95.0/24,no-resolve
 IP-CIDR,203.123.58.0/24,no-resolve
 IP-CIDR,203.128.128.0/24,no-resolve
 IP-CIDR,203.128.224.0/21,no-resolve
@@ -118444,6 +118444,7 @@ IP-CIDR,213.199.169.0/24,no-resolve
 IP-CIDR,213.210.55.0/24,no-resolve
 IP-CIDR,213.255.231.0/24,no-resolve
 IP-CIDR,216.246.39.189/32,no-resolve
+IP-CIDR,216.75.141.0/24,no-resolve
 IP-CIDR,217.146.9.192/28,no-resolve
 IP-CIDR,217.20.164.181/32,no-resolve
 IP-CIDR,217.7.142.0/32,no-resolve
@@ -119612,10 +119613,12 @@ IP-CIDR,38.181.36.0/22,no-resolve
 IP-CIDR,38.181.40.0/21,no-resolve
 IP-CIDR,38.181.48.0/20,no-resolve
 IP-CIDR,38.196.176.0/24,no-resolve
-IP-CIDR,38.247.24.0/22,no-resolve
-IP-CIDR,38.247.32.0/23,no-resolve
+IP-CIDR,38.247.24.0/23,no-resolve
+IP-CIDR,38.247.27.0/24,no-resolve
+IP-CIDR,38.247.32.0/24,no-resolve
 IP-CIDR,38.247.35.0/24,no-resolve
-IP-CIDR,38.247.36.0/22,no-resolve
+IP-CIDR,38.247.36.0/24,no-resolve
+IP-CIDR,38.247.38.0/23,no-resolve
 IP-CIDR,38.47.192.0/20,no-resolve
 IP-CIDR,38.47.208.0/21,no-resolve
 IP-CIDR,38.47.216.0/22,no-resolve
@@ -120078,6 +120081,8 @@ IP-CIDR,43.93.0.0/16,no-resolve
 IP-CIDR,43.94.0.0/15,no-resolve
 IP-CIDR,43.96.0.0/11,no-resolve
 IP-CIDR,44.30.131.0/24,no-resolve
+IP-CIDR,44.30.164.0/24,no-resolve
+IP-CIDR,44.31.212.0/24,no-resolve
 IP-CIDR,44.31.216.0/24,no-resolve
 IP-CIDR,44.31.28.0/24,no-resolve
 IP-CIDR,44.32.191.0/24,no-resolve
@@ -120383,6 +120388,7 @@ IP-CIDR,49.128.4.0/22,no-resolve
 IP-CIDR,49.140.0.0/15,no-resolve
 IP-CIDR,49.152.0.0/14,no-resolve
 IP-CIDR,49.208.0.0/14,no-resolve
+IP-CIDR,49.213.62.0/23,no-resolve
 IP-CIDR,49.220.0.0/14,no-resolve
 IP-CIDR,49.232.0.0/14,no-resolve
 IP-CIDR,49.239.0.0/18,no-resolve
@@ -120591,6 +120597,7 @@ IP-CIDR,71.136.64.0/18,no-resolve
 IP-CIDR,71.137.0.0/18,no-resolve
 IP-CIDR,72.163.240.0/23,no-resolve
 IP-CIDR,72.163.248.0/22,no-resolve
+IP-CIDR,72.244.62.0/24,no-resolve
 IP-CIDR,72.254.0.0/16,no-resolve
 IP-CIDR,74.114.51.0/24,no-resolve
 IP-CIDR,74.119.193.1/32,no-resolve
@@ -120646,7 +120653,6 @@ IP-CIDR,93.115.104.0/24,no-resolve
 IP-CIDR,93.183.14.0/24,no-resolve
 IP-CIDR,93.183.18.0/24,no-resolve
 IP-CIDR,94.191.0.0/17,no-resolve
-IP-CIDR,95.169.164.0/24,no-resolve
 IP-CIDR,96.45.38.79/32,no-resolve
 IP-CIDR,98.124.142.100/30,no-resolve
 IP-CIDR,98.124.142.112/30,no-resolve
