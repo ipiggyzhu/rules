@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-07-13T03:17:16Z
-# Total: 120657
+# Updated: 2026-07-14T02:42:04Z
+# Total: 120665
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -10389,6 +10389,7 @@ HOST-SUFFIX,ad518.com
 HOST-SUFFIX,ad77.com
 HOST-SUFFIX,ad778.com
 HOST-SUFFIX,ada-post.com
+HOST-SUFFIX,adacpp.com
 HOST-SUFFIX,adamahf.com
 HOST-SUFFIX,adamcdn.com
 HOST-SUFFIX,adamcoder.com
@@ -24979,6 +24980,7 @@ HOST-SUFFIX,colocess.com
 HOST-SUFFIX,color-measure.com
 HOST-SUFFIX,color365.com
 HOST-SUFFIX,colorbird.com
+HOST-SUFFIX,colorfulclouds.com
 HOST-SUFFIX,colorfulclouds.net
 HOST-SUFFIX,colorfulltech.net
 HOST-SUFFIX,colorimeter.com
@@ -31104,6 +31106,7 @@ HOST-SUFFIX,duoyewu.com
 HOST-SUFFIX,duoyi.com
 HOST-SUFFIX,duoying.com
 HOST-SUFFIX,duoyinsu.com
+HOST-SUFFIX,duoyiwangluo.com
 HOST-SUFFIX,duoyoumi.com
 HOST-SUFFIX,duozhi.com
 HOST-SUFFIX,duozhuayu.com
@@ -40030,6 +40033,7 @@ HOST-SUFFIX,gter.net
 HOST-SUFFIX,gtetern.com
 HOST-SUFFIX,gtfund.com
 HOST-SUFFIX,gtg56.com
+HOST-SUFFIX,gtgjtrip.com
 HOST-SUFFIX,gtgqw.com
 HOST-SUFFIX,gtgres.com
 HOST-SUFFIX,gtht.com
@@ -58812,6 +58816,7 @@ HOST-SUFFIX,kldhq.com
 HOST-SUFFIX,klhpw.com
 HOST-SUFFIX,klhuyan.com
 HOST-SUFFIX,klicen.com
+HOST-SUFFIX,kling-ai.com
 HOST-SUFFIX,klingai.com
 HOST-SUFFIX,klinlee.com
 HOST-SUFFIX,klisedu.com
@@ -61211,6 +61216,7 @@ HOST-SUFFIX,leyonb.com
 HOST-SUFFIX,leyoo.com
 HOST-SUFFIX,leyoujia.com
 HOST-SUFFIX,leyu.com
+HOST-SUFFIX,leyuansu.com
 HOST-SUFFIX,leyue100.com
 HOST-SUFFIX,leyuglobal.com
 HOST-SUFFIX,leyun365.com
@@ -81475,6 +81481,7 @@ HOST-SUFFIX,sheca.com
 HOST-SUFFIX,shedongyun.com
 HOST-SUFFIX,shedoor.com
 HOST-SUFFIX,shedunews.com
+HOST-SUFFIX,shedunews.net
 HOST-SUFFIX,sheec-tencentclb.cloud
 HOST-SUFFIX,sheec-tencentclb.com
 HOST-SUFFIX,sheec-tencentclb.net
@@ -99543,6 +99550,7 @@ HOST-SUFFIX,xiaomazhixing.com
 HOST-SUFFIX,xiaomei.cc
 HOST-SUFFIX,xiaomeiti.com
 HOST-SUFFIX,xiaomeng1235.com
+HOST-SUFFIX,xiaomengai.com
 HOST-SUFFIX,xiaomi.com
 HOST-SUFFIX,xiaomi.hk
 HOST-SUFFIX,xiaomi.net
@@ -103678,6 +103686,7 @@ HOST-SUFFIX,ygcooler.com
 HOST-SUFFIX,ygct.com
 HOST-SUFFIX,ygdatabase.com
 HOST-SUFFIX,ygdl.com
+HOST-SUFFIX,ygduoyi.com
 HOST-SUFFIX,yge.me
 HOST-SUFFIX,ygeer.com
 HOST-SUFFIX,ygei.com
@@ -111065,6 +111074,7 @@ HOST-SUFFIX,zmshz.com
 HOST-SUFFIX,zmsq.com
 HOST-SUFFIX,zmssh.com
 HOST-SUFFIX,zmtpc.com
+HOST-SUFFIX,zmtqsh.com
 HOST-SUFFIX,zmtquan.com
 HOST-SUFFIX,zmufivehospital.com
 HOST-SUFFIX,zmumu.com
@@ -115816,7 +115826,6 @@ IP-CIDR,14.208.0.0/12,no-resolve
 IP-CIDR,14.241.232.0/21,no-resolve
 IP-CIDR,14.255.16.0/24,no-resolve
 IP-CIDR,14.255.238.0/24,no-resolve
-IP-CIDR,14.255.249.0/24,no-resolve
 IP-CIDR,14.255.254.0/24,no-resolve
 IP-CIDR,140.101.208.0/24,no-resolve
 IP-CIDR,140.143.0.0/16,no-resolve
@@ -116031,7 +116040,6 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
-IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,154.94.50.0/24,no-resolve
@@ -116331,9 +116339,7 @@ IP-CIDR,168.160.0.0/16,no-resolve
 IP-CIDR,168.230.0.0/24,no-resolve
 IP-CIDR,17.127.128.0/23,no-resolve
 IP-CIDR,17.127.130.0/24,no-resolve
-IP-CIDR,17.188.211.0/24,no-resolve
 IP-CIDR,17.235.160.0/20,no-resolve
-IP-CIDR,17.33.144.0/24,no-resolve
 IP-CIDR,17.80.0.0/17,no-resolve
 IP-CIDR,17.80.128.0/18,no-resolve
 IP-CIDR,17.80.192.0/19,no-resolve
@@ -120020,6 +120026,7 @@ IP-CIDR,43.93.0.0/16,no-resolve
 IP-CIDR,43.94.0.0/15,no-resolve
 IP-CIDR,43.96.0.0/11,no-resolve
 IP-CIDR,44.30.164.0/24,no-resolve
+IP-CIDR,44.30.171.0/24,no-resolve
 IP-CIDR,44.31.212.0/24,no-resolve
 IP-CIDR,44.31.216.0/24,no-resolve
 IP-CIDR,44.31.28.0/24,no-resolve
@@ -120578,6 +120585,7 @@ IP-CIDR,87.254.207.0/24,no-resolve
 IP-CIDR,87.76.221.0/24,no-resolve
 IP-CIDR,87.76.222.0/24,no-resolve
 IP-CIDR,89.30.124.160/30,no-resolve
+IP-CIDR,91.132.200.0/23,no-resolve
 IP-CIDR,91.233.17.0/24,no-resolve
 IP-CIDR,91.234.36.0/24,no-resolve
 IP-CIDR,93.113.109.104/29,no-resolve
