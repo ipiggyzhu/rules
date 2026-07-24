@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-07-23T02:56:40Z
-# Total: 120508
+# Updated: 2026-07-24T02:50:52Z
+# Total: 120516
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -19710,6 +19710,7 @@ HOST-SUFFIX,cd-wx.net
 HOST-SUFFIX,cd-zc.com
 HOST-SUFFIX,cd00c44f211031.beer
 HOST-SUFFIX,cd120.com
+HOST-SUFFIX,cd120.info
 HOST-SUFFIX,cd12371.com
 HOST-SUFFIX,cd1958.com
 HOST-SUFFIX,cd20.net
@@ -66875,6 +66876,7 @@ HOST-SUFFIX,moe233.org
 HOST-SUFFIX,moe321.com
 HOST-SUFFIX,moeclub.org
 HOST-SUFFIX,moedot.net
+HOST-SUFFIX,moedu.com
 HOST-SUFFIX,moeelf.com
 HOST-SUFFIX,moefactory.com
 HOST-SUFFIX,moefantasy.com
@@ -90963,6 +90965,7 @@ HOST-SUFFIX,tsingoofoods.com
 HOST-SUFFIX,tsingpost.com
 HOST-SUFFIX,tsingshang.com
 HOST-SUFFIX,tsingtek.com
+HOST-SUFFIX,tsingtengms.com
 HOST-SUFFIX,tsingtoo.com
 HOST-SUFFIX,tsingtuo.com
 HOST-SUFFIX,tsingyangroup.com
@@ -98597,6 +98600,7 @@ HOST-SUFFIX,xcxwo.com
 HOST-SUFFIX,xcxymw.com
 HOST-SUFFIX,xcxzww.com
 HOST-SUFFIX,xcyg.net
+HOST-SUFFIX,xcz.im
 HOST-SUFFIX,xczhmzb.com
 HOST-SUFFIX,xczhsh.com
 HOST-SUFFIX,xczim.com
@@ -114535,6 +114539,7 @@ IP-CIDR,104.212.68.152/32,no-resolve
 IP-CIDR,104.212.68.57/32,no-resolve
 IP-CIDR,104.212.68.58/32,no-resolve
 IP-CIDR,104.227.65.96/28,no-resolve
+IP-CIDR,104.234.10.0/24,no-resolve
 IP-CIDR,104.237.80.0/21,no-resolve
 IP-CIDR,104.27.168.0/24,no-resolve
 IP-CIDR,104.28.101.0/27,no-resolve
@@ -115866,7 +115871,6 @@ IP-CIDR,150.242.96.0/22,no-resolve
 IP-CIDR,150.248.0.0/16,no-resolve
 IP-CIDR,150.255.0.0/16,no-resolve
 IP-CIDR,151.243.189.0/24,no-resolve
-IP-CIDR,151.244.135.0/24,no-resolve
 IP-CIDR,151.246.184.0/24,no-resolve
 IP-CIDR,151.247.148.0/23,no-resolve
 IP-CIDR,151.249.90.0/23,no-resolve
@@ -116602,6 +116606,8 @@ IP-CIDR,192.55.40.0/24,no-resolve
 IP-CIDR,192.55.46.0/23,no-resolve
 IP-CIDR,192.55.68.0/22,no-resolve
 IP-CIDR,192.56.99.0/24,no-resolve
+IP-CIDR,192.6.121.0/24,no-resolve
+IP-CIDR,192.6.159.0/24,no-resolve
 IP-CIDR,192.6.161.0/24,no-resolve
 IP-CIDR,192.6.243.0/24,no-resolve
 IP-CIDR,193.112.0.0/16,no-resolve
@@ -119396,6 +119402,7 @@ IP-CIDR,38.103.64.26/32,no-resolve
 IP-CIDR,38.105.24.0/24,no-resolve
 IP-CIDR,38.105.26.0/23,no-resolve
 IP-CIDR,38.105.28.0/22,no-resolve
+IP-CIDR,38.12.255.0/24,no-resolve
 IP-CIDR,38.134.58.0/23,no-resolve
 IP-CIDR,38.181.0.0/19,no-resolve
 IP-CIDR,38.181.32.0/23,no-resolve
@@ -120420,6 +120427,7 @@ IP-CIDR,82.109.96.0/23,no-resolve
 IP-CIDR,82.110.234.0/23,no-resolve
 IP-CIDR,82.156.0.0/15,no-resolve
 IP-CIDR,82.22.30.0/23,no-resolve
+IP-CIDR,82.38.46.0/23,no-resolve
 IP-CIDR,85.12.7.192/28,no-resolve
 IP-CIDR,85.184.245.0/24,no-resolve
 IP-CIDR,85.209.40.0/22,no-resolve
