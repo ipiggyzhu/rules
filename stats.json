@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-24T02:50:52.631746+00:00",
+  "timestamp": "2026-07-25T02:50:13.291513+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 100731,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 332406,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 474216,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 333495,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 450288,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 260900,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 179307,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 179605,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 903,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12572,
@@ -15,20 +15,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 746673,
-    "QX广告规则": 1074218,
+    "Loon广告规则": 722849,
+    "QX广告规则": 1050505,
     "Loon直连规则": 12807,
     "QX直连规则": 120740
   },
   "after_dedup": {
-    "Loon广告规则": 739572,
-    "QX广告规则": 891692,
+    "Loon广告规则": 715738,
+    "QX广告规则": 867955,
     "Loon直连规则": 12773,
     "QX直连规则": 120516
   },
   "final_counts": {
-    "Loon/ad-rules.list": 739572,
-    "QuantumultX/ad-rules.list": 891692,
+    "Loon/ad-rules.list": 715738,
+    "QuantumultX/ad-rules.list": 867955,
     "Loon/direct-rules.list": 12773,
     "QuantumultX/direct-rules.list": 120516
   }
