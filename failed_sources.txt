@@ -1,2 +1,2 @@
-https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Loon.list
-https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Loon/Adblock4limbo_surge.list
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt
