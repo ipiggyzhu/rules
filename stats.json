@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-14T02:07:07.193305+00:00",
+  "timestamp": "2026-08-15T01:20:59.975891+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 100363,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 265801,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 442583,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 266474,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 390296,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 258229,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 175310,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 175608,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 903,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12575,
@@ -15,20 +15,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 636297,
-    "QX广告规则": 957268,
+    "Loon广告规则": 594828,
+    "QX广告规则": 916190,
     "Loon直连规则": 12810,
     "QX直连规则": 120192
   },
   "after_dedup": {
-    "Loon广告规则": 629379,
-    "QX广告规则": 778414,
+    "Loon广告规则": 588139,
+    "QX广告规则": 738765,
     "Loon直连规则": 12776,
     "QX直连规则": 119968
   },
   "final_counts": {
-    "Loon/ad-rules.list": 629379,
-    "QuantumultX/ad-rules.list": 778414,
+    "Loon/ad-rules.list": 588139,
+    "QuantumultX/ad-rules.list": 738765,
     "Loon/direct-rules.list": 12776,
     "QuantumultX/direct-rules.list": 119968
   }
