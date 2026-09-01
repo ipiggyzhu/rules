@@ -1,7 +1,7 @@
 # Title: Loon Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-08-31T04:27:17Z
-# Total: 12786
+# Updated: 2026-09-01T04:10:29Z
+# Total: 12785
 
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -4630,6 +4630,7 @@ IP-CIDR,185.109.236.0/24,no-resolve
 IP-CIDR,185.175.100.0/22,no-resolve
 IP-CIDR,185.183.84.0/24,no-resolve
 IP-CIDR,185.188.32.0/22,no-resolve
+IP-CIDR,185.192.56.0/22,no-resolve
 IP-CIDR,185.194.148.0/24,no-resolve
 IP-CIDR,185.196.210.68/30,no-resolve
 IP-CIDR,185.196.211.68/30,no-resolve
@@ -6250,6 +6251,7 @@ IP-CIDR,205.198.19.0/24,no-resolve
 IP-CIDR,205.204.96.0/19,no-resolve
 IP-CIDR,205.234.238.46/32,no-resolve
 IP-CIDR,205.252.239.0/24,no-resolve
+IP-CIDR,206.109.70.0/23,no-resolve
 IP-CIDR,206.109.75.0/24,no-resolve
 IP-CIDR,206.232.68.0/22,no-resolve
 IP-CIDR,206.232.72.0/22,no-resolve
@@ -10734,7 +10736,7 @@ IP-CIDR6,2406:840:808::/45,no-resolve
 IP-CIDR6,2406:840:80::/41,no-resolve
 IP-CIDR6,2406:840:810::/44,no-resolve
 IP-CIDR6,2406:840:820::/43,no-resolve
-IP-CIDR6,2406:840:840::/48,no-resolve
+IP-CIDR6,2406:840:840::/47,no-resolve
 IP-CIDR6,2406:840:843::/48,no-resolve
 IP-CIDR6,2406:840:844::/46,no-resolve
 IP-CIDR6,2406:840:848::/45,no-resolve
@@ -10752,10 +10754,7 @@ IP-CIDR6,2406:840:8a0::/43,no-resolve
 IP-CIDR6,2406:840:8c0::/42,no-resolve
 IP-CIDR6,2406:840:9000::/37,no-resolve
 IP-CIDR6,2406:840:900::/40,no-resolve
-IP-CIDR6,2406:840:9800::/42,no-resolve
-IP-CIDR6,2406:840:9850::/44,no-resolve
-IP-CIDR6,2406:840:9860::/43,no-resolve
-IP-CIDR6,2406:840:9880::/41,no-resolve
+IP-CIDR6,2406:840:9800::/40,no-resolve
 IP-CIDR6,2406:840:9900::/41,no-resolve
 IP-CIDR6,2406:840:9981::/48,no-resolve
 IP-CIDR6,2406:840:9982::/47,no-resolve
