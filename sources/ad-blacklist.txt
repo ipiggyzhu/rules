@@ -264,7 +264,6 @@ h-adashx4bc.ut.taobao.com
 h5.gdt.qq.com
 hijack.baidu.com
 httpkafka.unityads.unity3d.com
-https-apple.com
 huichuan.sm.cn
 i-hl.snssdk.com
 iad.apple.com
@@ -358,7 +357,6 @@ open.e.kuaishou.com
 open.kuaishouzt.com
 open.kwaizt.com
 opencollective.com
-openlog.cashcatads.com
 optimus-ads-ykx.amap.com
 orbit.jd.com
 ossgw.alicdn.com
