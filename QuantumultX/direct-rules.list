@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-09-09T03:44:51Z
-# Total: 119653
+# Updated: 2026-09-10T03:42:35Z
+# Total: 119654
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -105207,6 +105207,7 @@ HOST-SUFFIX,yuano.cc
 HOST-SUFFIX,yuanpanguoji.com
 HOST-SUFFIX,yuanqiao.net
 HOST-SUFFIX,yuanqiao.pw
+HOST-SUFFIX,yuanqidesk.com
 HOST-SUFFIX,yuanqilt.com
 HOST-SUFFIX,yuanqingsh.com
 HOST-SUFFIX,yuanqisenlin.com
