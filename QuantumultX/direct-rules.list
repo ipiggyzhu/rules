@@ -1,6 +1,6 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-09-11T03:40:15Z
+# Updated: 2026-09-12T03:44:03Z
 # Total: 119654
 
 HOST,1-fss24-s0.streamhoster.com
@@ -114825,6 +114825,7 @@ IP-CIDR,14.192.76.0/22,no-resolve
 IP-CIDR,14.196.0.0/15,no-resolve
 IP-CIDR,14.204.0.0/15,no-resolve
 IP-CIDR,14.208.0.0/12,no-resolve
+IP-CIDR,14.238.34.0/24,no-resolve
 IP-CIDR,14.255.16.0/24,no-resolve
 IP-CIDR,14.255.238.0/24,no-resolve
 IP-CIDR,14.255.249.0/24,no-resolve
@@ -118555,7 +118556,6 @@ IP-CIDR,38.102.234.0/23,no-resolve
 IP-CIDR,38.103.64.26/32,no-resolve
 IP-CIDR,38.105.24.0/21,no-resolve
 IP-CIDR,38.12.255.0/24,no-resolve
-IP-CIDR,38.134.56.0/24,no-resolve
 IP-CIDR,38.134.58.0/23,no-resolve
 IP-CIDR,38.181.0.0/19,no-resolve
 IP-CIDR,38.181.32.0/23,no-resolve
