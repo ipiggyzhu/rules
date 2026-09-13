@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-12T03:44:03.066640+00:00",
+  "timestamp": "2026-09-13T03:52:06.184165+00:00",
   "source_stats": {
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list": 781,
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt": 98861,
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 245135,
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 661382,
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt": 245277,
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium.txt": 685816,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list": 281257,
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 197464,
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list": 197803,
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-QuantumultX.list": 952,
     "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/Adblock4limbo.list": 543,
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list": 12596,
@@ -15,20 +15,20 @@
   },
   "failed_sources": [],
   "before_dedup": {
-    "Loon广告规则": 866124,
-    "QX广告规则": 1233295,
+    "Loon广告规则": 890651,
+    "QX广告规则": 1257931,
     "Loon直连规则": 12831,
     "QX直连规则": 119878
   },
   "after_dedup": {
-    "Loon广告规则": 859619,
-    "QX广告规则": 1034904,
+    "Loon广告规则": 884180,
+    "QX广告规则": 1059642,
     "Loon直连规则": 12797,
     "QX直连规则": 119654
   },
   "final_counts": {
-    "Loon/ad-rules.list": 859619,
-    "QuantumultX/ad-rules.list": 1034904,
+    "Loon/ad-rules.list": 884180,
+    "QuantumultX/ad-rules.list": 1059642,
     "Loon/direct-rules.list": 12797,
     "QuantumultX/direct-rules.list": 119654
   }
