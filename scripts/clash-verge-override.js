@@ -415,30 +415,21 @@ const proxyGroupsConfig = [
 // ============================================================
 // 多订阅合并
 // ============================================================
+// 注意: 订阅链接内含 token，等同于账号凭据，切勿提交到公开仓库。
+// 请在本地填入自己的订阅地址后再使用，或改为从环境变量/本地未跟踪文件读取。
 const proxyProviders = {
-  // 在这里添加你的机场订阅
-  "zhuiyun": {
-    "type": "http",
-    "url": "https://midxswez.haawx.com/api/v1/clienFPBngt80pFn1?token=REDACTED_TOKEN",
-    "interval": 86400,
-    "proxy": "🔰 模式选择",
-    "health-check": {
-      "enable": true,
-      "url": "https://www.google.com/generate_204",
-      "interval": 300
-    }
-  },
-  "llgic": {
-    "type": "http",
-    "url": "https://drfytjmjhggnrgergergergerg6c.xyz/api/v1/client/subscribe?token=REDACTED_TOKEN",
-    "interval": 86400,
-    "proxy": "🔰 模式选择",
-    "health-check": {
-      "enable": true,
-      "url": "https://www.google.com/generate_204",
-      "interval": 300
-    }
-  }
+  // 在这里添加你的机场订阅，示例:
+  // "myProvider": {
+  //   "type": "http",
+  //   "url": "https://example.com/api/v1/client/subscribe?token=YOUR_TOKEN_HERE",
+  //   "interval": 86400,
+  //   "proxy": "🔰 模式选择",
+  //   "health-check": {
+  //     "enable": true,
+  //     "url": "https://www.google.com/generate_204",
+  //     "interval": 300
+  //   }
+  // }
 };
 
 // ============================================================

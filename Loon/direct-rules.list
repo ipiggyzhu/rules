@@ -1,7 +1,7 @@
 # Title: Loon Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-09-22T03:56:26Z
-# Total: 12796
+# Updated: 2026-09-22T14:34:52Z
+# Total: 12777
 
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -29,25 +29,15 @@ DOMAIN-SUFFIX,4399.com
 DOMAIN-SUFFIX,4399api.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,alibaba
-DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alipan.com
-DOMAIN-SUFFIX,alipay
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,alipayobjects.com
-DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,aliyundrive.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,anquan
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,baichuan-ai.com
-DOMAIN-SUFFIX,baidu
-DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bh3.com
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedance.net
@@ -103,8 +93,6 @@ DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,icbc
 DOMAIN-SUFFIX,ifeng.com
 DOMAIN-SUFFIX,iflytek.com
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,iqoo.com
 DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,ixigua.com
@@ -172,7 +160,6 @@ DOMAIN-SUFFIX,qhres2.com
 DOMAIN-SUFFIX,qhstatic.com
 DOMAIN-SUFFIX,qianwen.com
 DOMAIN-SUFFIX,qingting.fm
-DOMAIN-SUFFIX,qiyi.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qunar.com
 DOMAIN-SUFFIX,qwen.ai
@@ -188,14 +175,11 @@ DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sogoucdn.com
 DOMAIN-SUFFIX,sohu
 DOMAIN-SUFFIX,stepfun.com
-DOMAIN-SUFFIX,taobao
-DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,taptap.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,tiangong-china.com
 DOMAIN-SUFFIX,tmall
-DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tongyi.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,toutiaoapi.com
@@ -213,9 +197,6 @@ DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,wang
 DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,weibo
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-SUFFIX,wenxiaobai.com
 DOMAIN-SUFFIX,xd.com
 DOMAIN-SUFFIX,xhscdn.com

@@ -2,6 +2,7 @@ import datetime
 import ipaddress
 import json
 import os
+import re
 import time
 
 import requests
@@ -378,46 +379,116 @@ def clean_rule_value(value):
     return value.lstrip('*./')
 
 
+SUFFIX_RULE_TYPES = ('DOMAIN-SUFFIX', 'HOST-SUFFIX')
+EXACT_RULE_TYPES = ('DOMAIN', 'HOST')
+KEYWORD_RULE_TYPES = ('DOMAIN-KEYWORD', 'HOST-KEYWORD')
+
+
+def build_keyword_matcher(keywords):
+    """把关键词列表编译成单条正则，避免逐条 substring 比较导致的 O(n*m)"""
+    if not keywords:
+        return None
+    # 按长度排序只为让正则引擎更快命中短关键词，不影响匹配结果
+    alternation = '|'.join(re.escape(keyword) for keyword in sorted(keywords, key=len))
+    return re.compile(alternation)
+
+
 def remove_redundant_rules(rules):
     """
-    移除被父域名覆盖的冗余子域名规则
-    例如：如果存在 DOMAIN-SUFFIX,example.com，则 DOMAIN-SUFFIX,ad.example.com 是多余的
+    移除已被同一文件内更宽规则覆盖的冗余规则。
+
+    每个输出文件只对应单一策略（广告表全是 REJECT，直连表全是 DIRECT），
+    所以合并同类覆盖不会改变任何请求的最终走向，只减少规则条数。
+
+    处理四类冗余：
+    1. 子域名 SUFFIX 被父域名 SUFFIX 覆盖    ad.example.com  <- example.com
+    2. 精确域名被 SUFFIX 覆盖                DOMAIN,a.example.com <- DOMAIN-SUFFIX,example.com
+    3. 域名（精确或 SUFFIX）被 KEYWORD 覆盖  DOMAIN-SUFFIX,ads.example.com <- DOMAIN-KEYWORD,ads
+    4. 长关键词被更短的关键词覆盖            DOMAIN-KEYWORD,adserver <- DOMAIN-KEYWORD,ads
     """
-    # 提取所有 SUFFIX 类型的域名
     suffix_domains = set()
+    keywords = set()
     for rule in rules:
         parts = rule.split(',')
-        if len(parts) >= 2:
-            rule_type = parts[0].upper()
-            if rule_type in ('DOMAIN-SUFFIX', 'HOST-SUFFIX'):
-                suffix_domains.add(parts[1].lower())
+        if len(parts) < 2:
+            continue
+        rule_type = parts[0].upper()
+        rule_value = parts[1].strip().lower()
+        if rule_type in SUFFIX_RULE_TYPES:
+            suffix_domains.add(rule_value)
+        elif rule_type in KEYWORD_RULE_TYPES:
+            keywords.add(rule_value)
 
-    # 找出被覆盖的子域名
-    redundant = set()
-    for domain in suffix_domains:
-        # 检查是否有父域名存在
-        parts = domain.split('.')
-        for i in range(1, len(parts)):
-            parent = '.'.join(parts[i:])
-            if parent in suffix_domains:
-                redundant.add(domain)
-                break
+    # 关键词之间先自我收敛，保留最短的那批，避免用已冗余的关键词去删域名
+    surviving_keywords = set()
+    for keyword in sorted(keywords, key=len):
+        if not any(shorter in keyword for shorter in surviving_keywords):
+            surviving_keywords.add(keyword)
+    keyword_matcher = build_keyword_matcher(surviving_keywords)
 
-    # 过滤掉冗余规则
+    def has_covering_suffix(domain, include_self):
+        labels = domain.split('.')
+        start_index = 0 if include_self else 1
+        for index in range(start_index, len(labels)):
+            if '.'.join(labels[index:]) in suffix_domains:
+                return True
+        return False
+
     filtered = []
-    removed_count = 0
+    removed_by_reason = {
+        'suffix': 0,
+        'exact': 0,
+        'keyword': 0,
+        'keyword_overlap': 0,
+    }
+
     for rule in rules:
         parts = rule.split(',')
-        if len(parts) >= 2:
-            rule_type = parts[0].upper()
-            rule_value = parts[1].lower()
-            if rule_type in ('DOMAIN-SUFFIX', 'HOST-SUFFIX') and rule_value in redundant:
-                removed_count += 1
+        if len(parts) < 2:
+            filtered.append(rule)
+            continue
+
+        rule_type = parts[0].upper()
+        rule_value = parts[1].strip().lower()
+
+        if rule_type in KEYWORD_RULE_TYPES:
+            if rule_value not in surviving_keywords:
+                removed_by_reason['keyword_overlap'] += 1
                 continue
+            filtered.append(rule)
+            continue
+
+        if rule_type in SUFFIX_RULE_TYPES:
+            if has_covering_suffix(rule_value, include_self=False):
+                removed_by_reason['suffix'] += 1
+                continue
+            if keyword_matcher and keyword_matcher.search(rule_value):
+                removed_by_reason['keyword'] += 1
+                continue
+            filtered.append(rule)
+            continue
+
+        if rule_type in EXACT_RULE_TYPES:
+            if has_covering_suffix(rule_value, include_self=True):
+                removed_by_reason['exact'] += 1
+                continue
+            if keyword_matcher and keyword_matcher.search(rule_value):
+                removed_by_reason['keyword'] += 1
+                continue
+            filtered.append(rule)
+            continue
+
         filtered.append(rule)
 
-    if removed_count > 0:
-        print(f"     🧹 移除 {removed_count} 条冗余子域名规则")
+    total_removed = sum(removed_by_reason.values())
+    if total_removed > 0:
+        print(
+            f"     🧹 移除 {total_removed} 条冗余规则 "
+            f"(父域名 {removed_by_reason['suffix']} / "
+            f"精确域名 {removed_by_reason['exact']} / "
+            f"关键词 {removed_by_reason['keyword']} / "
+            f"关键词自身重叠 {removed_by_reason['keyword_overlap']})"
+        )
 
     return filtered
 
@@ -494,6 +565,45 @@ def format_for_quantumultx(rules):
     return result
 
 
+def resolve_cross_list_conflicts(ad_rules, direct_rules):
+    """
+    去掉广告表与直连表中完全相同的规则，保留直连表的那一份。
+
+    这两个表在配置里是两个独立订阅，广告表排在前面，所以同一条规则同时出现时
+    REJECT 会先命中，把整个域名打死。kwai.com 就是这样被误杀的：
+    上游激进名单把它当广告域，而 ChinaMax 把它列为国内直连服务。
+
+    只处理「两表里字面完全一致」的规则。广告子域名挂在直连父域名下面
+    （例如直连 qq.com + 拦截 ad.qq.com）是精细化拦截的正常形态，必须保留。
+    """
+    direct_rule_keys = set()
+    for rule in direct_rules:
+        parts = rule.split(',')
+        if len(parts) >= 2:
+            direct_rule_keys.add((parts[0].upper(), parts[1].strip().lower()))
+
+    kept_rules = []
+    conflicting_values = []
+    for rule in ad_rules:
+        parts = rule.split(',')
+        if len(parts) >= 2:
+            rule_key = (parts[0].upper(), parts[1].strip().lower())
+            if rule_key in direct_rule_keys:
+                conflicting_values.append(parts[1].strip().lower())
+                continue
+        kept_rules.append(rule)
+
+    if conflicting_values:
+        preview = ', '.join(sorted(conflicting_values)[:5])
+        print(
+            f"  ⚖️ 与直连表冲突，从广告表移除 {len(conflicting_values)} 条"
+            f"（保留直连）: {preview}"
+            f"{' ...' if len(conflicting_values) > 5 else ''}"
+        )
+
+    return kept_rules
+
+
 def write_rules(filepath, rules, title):
     """写入规则文件"""
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
@@ -547,15 +657,26 @@ if __name__ == "__main__":
     print(f"  白名单: {len(whitelist)} 条")
     print(f"  直连规则: {len(directlist)} 条")
 
+    # ========== 直连规则 ==========
+    # 先生成直连表，广告表随后要用它来消解冲突。
+
+    # 生成 Loon 直连规则
+    print("\n🍎 生成 Loon 直连规则...")
+    loon_direct_upstream = fetch_rules_from_urls(LOON_DIRECT_RULES_URLS)
+    loon_direct_combined = loon_direct_upstream | directlist
+    loon_direct_final = format_for_loon(loon_direct_combined)
+    stats.set_dedup_stats("Loon直连规则", len(loon_direct_combined), len(loon_direct_final))
+    write_rules(LOON_DIRECT_OUTPUT, loon_direct_final, "Loon Direct Rules")
+
     # ========== 广告规则 ==========
 
     # 生成 Loon 广告规则
     print("\n🍎 生成 Loon 广告规则...")
     loon_ad_upstream = fetch_rules_from_urls(LOON_AD_RULES_URLS)
     loon_ad_combined = loon_ad_upstream | blacklist
-    stats.set_dedup_stats("Loon广告规则", len(loon_ad_combined), len(loon_ad_combined))
     loon_ad_filtered = filter_by_whitelist(loon_ad_combined, whitelist)
     loon_ad_final = format_for_loon(loon_ad_filtered)
+    loon_ad_final = resolve_cross_list_conflicts(loon_ad_final, loon_direct_final)
     stats.set_dedup_stats("Loon广告规则", len(loon_ad_combined), len(loon_ad_final))
     write_rules(LOON_AD_OUTPUT, loon_ad_final, "Loon Ad Rules")
 
@@ -565,18 +686,6 @@ if __name__ == "__main__":
     qx_ad_combined = qx_ad_upstream | blacklist
     qx_ad_filtered = filter_by_whitelist(qx_ad_combined, whitelist)
     qx_ad_final = format_for_quantumultx(qx_ad_filtered)
-    stats.set_dedup_stats("QX广告规则", len(qx_ad_combined), len(qx_ad_final))
-    write_rules(QUANTUMULTX_AD_OUTPUT, qx_ad_final, "QuantumultX Ad Rules")
-
-    # ========== 直连规则 ==========
-
-    # 生成 Loon 直连规则
-    print("\n🍎 生成 Loon 直连规则...")
-    loon_direct_upstream = fetch_rules_from_urls(LOON_DIRECT_RULES_URLS)
-    loon_direct_combined = loon_direct_upstream | directlist
-    loon_direct_final = format_for_loon(loon_direct_combined)
-    stats.set_dedup_stats("Loon直连规则", len(loon_direct_combined), len(loon_direct_final))
-    write_rules(LOON_DIRECT_OUTPUT, loon_direct_final, "Loon Direct Rules")
 
     # 生成 Quantumult X 直连规则
     print("\n🔷 生成 Quantumult X 直连规则...")

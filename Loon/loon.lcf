@@ -1,13 +1,20 @@
 # Loon 手动分流安全配置
-# Date: 2026-04-29 22:18:00
+# Date: 2026-09-22 12:00:00
 # Author: ipiggyzhu
 # Base: iKeLee 手动配置 + 全类型策略组版思路
 #
 # 使用前请把所有 "PHICOMM_5G" 改成你配备透明代理路由器的真实 Wi-Fi SSID。
 # 连接该 SSID 时，Loon 会切到直连，避免在透明代理路由器后出现双重代理。
+#
+# 仍需在 App 内手动确认的两项（配置文件无法表达）：
+# 1.「配置」-「DNS」关闭「查询回落」，否则加密 DNS 失败时会回落明文 UDP DNS。
+# 2. iOS「设置」-「Apple 账户」-「iCloud」关闭「iCloud 私密代理」，
+#    它会把 DNS 与流量另行隧道到 Apple/Cloudflare，完全绕过 Loon。
 
 [General]
-ip-mode=v4-only
+# 官方文档的合法取值为 ipv4-only / dual / ipv4-preferred / ipv6-preferred。
+# 旧模板里的 v4-only 属未文档化写法，这里改用文档值，避免将来被解析成双栈而泄漏 IPv6。
+ip-mode=ipv4-only
 ipv6-vif=off
 sni-sniffing=true
 disable-stun=true
@@ -35,11 +42,13 @@ bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192
 # 如你确认路由器已完整接管 DNS，可按需启用下一行。
 # ssid-trigger="default":rule,"cellular":rule,"PHICOMM_5G":direct
 
-# DNS 防泄漏：不配置 dns-server=system，只启用加密 DNS，并劫持 App 自带 UDP/53 DNS。
-# Loon 加密 DNS 失败时是否回落普通 DNS 还受 App 内 DNS 服务器页面设置影响；请在 App 中关闭普通 DNS 回落。
-doh-server=https://sm2.doh.pub/dns-query,https://doh.360.cn/dns-query
-# 境外网络可改用下一行 Cloudflare + Google。
-# doh-server=https://cloudflare-dns.com/dns-query,https://dns.google/dns-query
+# DNS 防泄漏：不配置 dns-server / dns-server=system，只启用加密 DNS，并劫持 App 自带 UDP/53 DNS。
+# 全部使用 IP 直连型 DoH：域名型 DoH（如 sm2.doh.pub）首次连接需要先用系统 DNS 解析该域名，
+# 这一步 bootstrap 查询是明文且走系统链路的，属于可观测的泄漏点；IP 型 DoH 不存在这个问题。
+# 已实测可用（HTTP 200，DoH wire-format）：1.12.12.12 / 120.53.53.53（腾讯）、223.5.5.5 / 223.6.6.6（阿里）。
+doh-server=https://223.5.5.5/dns-query,https://1.12.12.12/dns-query,https://223.6.6.6/dns-query,https://120.53.53.53/dns-query
+# 境外网络可改用下一行 Cloudflare + Google，同样使用 IP 直连型地址。
+# doh-server=https://1.1.1.1/dns-query,https://8.8.8.8/dns-query
 hijack-dns=*:53
 
 [Proxy]
@@ -60,31 +69,57 @@ hijack-dns=*:53
 
 [Proxy Group]
 # 场景策略：透明代理 Wi-Fi 直连，其他网络交给对应手动策略。
-香港场景=ssid, default=香港手动策略, cellular=香港手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-台湾场景=ssid, default=台湾手动策略, cellular=台湾手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-日本场景=ssid, default=日本手动策略, cellular=日本手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-韩国场景=ssid, default=韩国手动策略, cellular=韩国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-新国场景=ssid, default=新国手动策略, cellular=新国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-美国场景=ssid, default=美国手动策略, cellular=美国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-游戏场景=ssid, default=游戏手动策略, cellular=游戏手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-全球场景=ssid, default=全球手动策略, cellular=全球手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-兜底场景=ssid, default=兜底手动策略, cellular=兜底手动策略, "PHICOMM_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+香港场景=ssid, default=香港手动策略, cellular=香港手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+台湾场景=ssid, default=台湾手动策略, cellular=台湾手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+日本场景=ssid, default=日本手动策略, cellular=日本手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+韩国场景=ssid, default=韩国手动策略, cellular=韩国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+新国场景=ssid, default=新国手动策略, cellular=新国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+美国场景=ssid, default=美国手动策略, cellular=美国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+游戏场景=ssid, default=游戏手动策略, cellular=游戏手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+全球场景=ssid, default=全球手动策略, cellular=全球手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+兜底场景=ssid, default=兜底手动策略, cellular=兜底手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
 
 # 手动策略：不做自动切换，节点故障时由用户手动选择替代节点。
-香港手动策略=select, 香港节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾手动策略=select, 台湾节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本手动策略=select, 日本节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国手动策略=select, 韩国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国手动策略=select, 新国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国手动策略=select, 美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
-游戏手动策略=select, 游戏节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
-全球手动策略=select, 全球节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-兜底手动策略=select, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新国手动策略, 美国手动策略, 全球手动策略, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
+香港手动策略=select, 香港节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
+台湾手动策略=select, 台湾节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
+日本手动策略=select, 日本节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
+韩国手动策略=select, 韩国节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
+新国手动策略=select, 新国节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
+美国手动策略=select, 美国节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
+游戏手动策略=select, 游戏节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/GAME.png
+全球手动策略=select, 全球节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png
+兜底手动策略=select, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新国手动策略, 美国手动策略, 全球手动策略, DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Final.png
 
 [Rule]
+# 官方文档的规则优先级为：本地规则 > 插件规则 > 订阅规则，
+# 所以这里的防泄漏规则会盖过下方 BlockHttpDNS 与去广告订阅。
+
 # FakeIP/保留地址直接交给 Loon 内部处理。
 IP-CIDR, 198.18.0.0/15, DIRECT
 IP-CIDR6, fc00::/7, DIRECT
+
+# 阻断绕过 Loon 的加密 DNS。hijack-dns 只能接管 UDP/53，
+# 浏览器与部分 App 自带的 DoH(443)/DoT(853) 不经过 53 端口，必须在规则层拦掉。
+# 远程 BlockHttpDNS 订阅只收录了国内 HTTPDNS，不含下列浏览器 DoH 端点。
+# Loon 自身的 doh-server 用的是 IP 直连地址，不会被这些域名规则命中。
+#
+# Firefox canary：该域名解析失败时 Firefox 会自动关闭内置 DoH 并改用系统 DNS。
+DOMAIN, use-application-dns.net, REJECT
+DOMAIN-SUFFIX, cloudflare-dns.com, REJECT
+DOMAIN-SUFFIX, dns.google, REJECT
+DOMAIN, dns.google.com, REJECT
+DOMAIN-SUFFIX, nextdns.io, REJECT
+DOMAIN-SUFFIX, doh.opendns.com, REJECT
+DOMAIN-SUFFIX, dns.quad9.net, REJECT
+# DoT 固定使用 853 端口，Loon 自身走 DoH/443，可以整端口阻断。
+DEST-PORT, 853, REJECT
+# QUIC 会绕过 sni-sniffing 且可承载 DoH3。与上方 disable-udp-ports 互为兜底
+# （Loon 3.1.7 起官方推荐用协议/端口规则替代 disable-udp-ports）。
+# 若你的机场节点使用 Hysteria2/TUIC 等 QUIC 传输并出现异常，可注释掉下一行。
+PROTOCOL, QUIC, REJECT
+# 与上方 disable-stun 互为兜底，避免 WebRTC 暴露真实 IP。
+PROTOCOL, STUN, REJECT
+
 FINAL, 兜底场景
 
 [Remote Rule]
