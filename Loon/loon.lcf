@@ -69,26 +69,26 @@ hijack-dns=*:53
 
 [Proxy Group]
 # 场景策略：透明代理 Wi-Fi 直连，其他网络交给对应手动策略。
-香港场景=ssid, default=香港手动策略, cellular=香港手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
-台湾场景=ssid, default=台湾手动策略, cellular=台湾手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
-日本场景=ssid, default=日本手动策略, cellular=日本手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
-韩国场景=ssid, default=韩国手动策略, cellular=韩国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
-新国场景=ssid, default=新国手动策略, cellular=新国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
-美国场景=ssid, default=美国手动策略, cellular=美国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
-游戏场景=ssid, default=游戏手动策略, cellular=游戏手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
-全球场景=ssid, default=全球手动策略, cellular=全球手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
-兜底场景=ssid, default=兜底手动策略, cellular=兜底手动策略, "PHICOMM_5G"=DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+香港场景=ssid, default=香港手动策略, cellular=香港手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+台湾场景=ssid, default=台湾手动策略, cellular=台湾手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+日本场景=ssid, default=日本手动策略, cellular=日本手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+韩国场景=ssid, default=韩国手动策略, cellular=韩国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+新国场景=ssid, default=新国手动策略, cellular=新国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+美国场景=ssid, default=美国手动策略, cellular=美国手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+游戏场景=ssid, default=游戏手动策略, cellular=游戏手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+全球场景=ssid, default=全球手动策略, cellular=全球手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
+兜底场景=ssid, default=兜底手动策略, cellular=兜底手动策略, "PHICOMM_5G"=DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SSID.png
 
 # 手动策略：不做自动切换，节点故障时由用户手动选择替代节点。
-香港手动策略=select, 香港节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
-台湾手动策略=select, 台湾节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
-日本手动策略=select, 日本节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
-韩国手动策略=select, 韩国节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
-新国手动策略=select, 新国节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
-美国手动策略=select, 美国节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
-游戏手动策略=select, 游戏节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/GAME.png
-全球手动策略=select, 全球节点, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png
-兜底手动策略=select, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新国手动策略, 美国手动策略, 全球手动策略, DIRECT, img-url=https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Final.png
+香港手动策略=select, 香港节点, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
+台湾手动策略=select, 台湾节点, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
+日本手动策略=select, 日本节点, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
+韩国手动策略=select, 韩国节点, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
+新国手动策略=select, 新国节点, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
+美国手动策略=select, 美国节点, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
+游戏手动策略=select, 游戏节点, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/GAME.png
+全球手动策略=select, 全球节点, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png
+兜底手动策略=select, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新国手动策略, 美国手动策略, 全球手动策略, DIRECT, img-url=https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Final.png
 
 [Rule]
 # 官方文档的规则优先级为：本地规则 > 插件规则 > 订阅规则，

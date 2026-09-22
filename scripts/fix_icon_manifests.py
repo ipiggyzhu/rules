@@ -7,9 +7,9 @@ Fixes three problems found in the committed manifests:
 2. A few entries use the wrong capitalisation (for example `Youtube.png` when the
    file on disk is `youtube.png`). Raw GitHub and jsDelivr are case-sensitive, so
    those entries return 404.
-3. Icons are served from `raw.githubusercontent.com`, which is frequently
-   unreachable on mainland China mobile networks. The repo already uses
-   `testingcf.jsdelivr.net` elsewhere, so the manifests now use it too.
+3. Icons were served from `raw.githubusercontent.com`, which is frequently
+   unreachable on mainland China mobile networks, so the manifests now point at
+   the jsDelivr CDN instead.
 
 Run: python scripts/fix_icon_manifests.py
 """
@@ -25,7 +25,14 @@ MANIFEST_RELATIVE_PATHS = ["icons/loon.json", "icons/quantumultx.json"]
 
 # jsDelivr serves the repo contents from a CDN that stays reachable where
 # raw.githubusercontent.com often does not.
-ICON_URL_PREFIX = "https://testingcf.jsdelivr.net/gh/ipiggyzhu/rules@main/icons/images/"
+#
+# Use the canonical cdn.jsdelivr.net rather than a provider-specific hostname
+# such as testingcf.jsdelivr.net. The testingcf node was observed serving a
+# stale copy of this manifest for well over 15 minutes after two successful
+# cache purges, while every other node served the current file. The canonical
+# hostname load-balances across providers and avoids being pinned to one of
+# them.
+ICON_URL_PREFIX = "https://cdn.jsdelivr.net/gh/ipiggyzhu/rules@main/icons/images/"
 
 
 def build_case_insensitive_index(fileNames):

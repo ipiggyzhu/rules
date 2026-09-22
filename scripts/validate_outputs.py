@@ -40,7 +40,7 @@ REQUIRED_GENERAL_SETTINGS = {
     "ipv6-vif": "off",
 }
 
-EXPECTED_ICON_HOST = "testingcf.jsdelivr.net"
+EXPECTED_ICON_HOST = "cdn.jsdelivr.net"
 
 RULE_LIST_PATHS = [
     "Loon/ad-rules.list",
