@@ -26,13 +26,22 @@ MANIFEST_RELATIVE_PATHS = ["icons/loon.json", "icons/quantumultx.json"]
 # jsDelivr serves the repo contents from a CDN that stays reachable where
 # raw.githubusercontent.com often does not.
 #
-# Use the canonical cdn.jsdelivr.net rather than a provider-specific hostname
-# such as testingcf.jsdelivr.net. The testingcf node was observed serving a
-# stale copy of this manifest for well over 15 minutes after two successful
-# cache purges, while every other node served the current file. The canonical
-# hostname load-balances across providers and avoids being pinned to one of
-# them.
-ICON_URL_PREFIX = "https://cdn.jsdelivr.net/gh/ipiggyzhu/rules@main/icons/images/"
+# Two details matter here, both found by testing rather than assumption:
+#
+# 1. Point at the `icons` branch, not `main`. jsDelivr refuses to serve any
+#    uncached file once a package exceeds 50 MB, replying
+#    "Package size exceeded the configured limit of 50 MB". A package is one
+#    repo at one ref, and `main` is ~86 MB because the two ad-rules.list files
+#    alone are ~68 MB. That produced the confusing symptom of some icons
+#    loading and others returning 403. The `icons` branch is an orphan branch
+#    holding only this folder, so its package is ~15 MB and stays under the cap.
+#    Regenerate it with scripts/publish_icons_branch.py after changing icons.
+#
+# 2. Use the canonical cdn.jsdelivr.net rather than a provider-specific
+#    hostname such as testingcf.jsdelivr.net. The testingcf node served a stale
+#    copy of this manifest for over 15 minutes after two successful cache
+#    purges while every other node served the current file.
+ICON_URL_PREFIX = "https://cdn.jsdelivr.net/gh/ipiggyzhu/rules@icons/images/"
 
 
 def build_case_insensitive_index(fileNames):

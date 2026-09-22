@@ -40,7 +40,9 @@ REQUIRED_GENERAL_SETTINGS = {
     "ipv6-vif": "off",
 }
 
-EXPECTED_ICON_HOST = "cdn.jsdelivr.net"
+# Icons must be served from the dedicated `icons` branch: jsDelivr refuses
+# uncached files once a package passes 50 MB, and `main` is well past that.
+EXPECTED_ICON_URL_PREFIX = "https://cdn.jsdelivr.net/gh/ipiggyzhu/rules@icons/images/"
 
 RULE_LIST_PATHS = [
     "Loon/ad-rules.list",
@@ -150,12 +152,12 @@ def validate_icon_manifests(problems):
         manifestData = json.load(open(manifestPath, encoding="utf-8"))
         entries = manifestData.get("icons", [])
 
-        wrongHostCount = 0
+        wrongPrefixCount = 0
         missingFileCount = 0
         for entry in entries:
             url = entry.get("url", "")
-            if EXPECTED_ICON_HOST not in url:
-                wrongHostCount += 1
+            if not url.startswith(EXPECTED_ICON_URL_PREFIX):
+                wrongPrefixCount += 1
             fileName = urllib.parse.unquote(url.rsplit("/", 1)[-1])
             if fileName not in imagesOnDisk:
                 missingFileCount += 1
@@ -163,13 +165,14 @@ def validate_icon_manifests(problems):
                     f"{manifestRelativePath}: {entry.get('name')} -> {fileName} not on disk"
                 )
 
-        if wrongHostCount:
+        if wrongPrefixCount:
             problems.append(
-                f"{manifestRelativePath}: {wrongHostCount} urls not on {EXPECTED_ICON_HOST}"
+                f"{manifestRelativePath}: {wrongPrefixCount} urls do not start with "
+                f"{EXPECTED_ICON_URL_PREFIX}"
             )
 
-        print("%-22s: %d entries, %d wrong host, %d missing file" % (
-            manifestRelativePath, len(entries), wrongHostCount, missingFileCount))
+        print("%-22s: %d entries, %d wrong prefix, %d missing file" % (
+            manifestRelativePath, len(entries), wrongPrefixCount, missingFileCount))
 
 
 def validate_rule_lists(problems):
