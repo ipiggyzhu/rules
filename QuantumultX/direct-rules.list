@@ -1,7 +1,7 @@
 # Title: QuantumultX Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-09-21T03:59:01Z
-# Total: 119655
+# Updated: 2026-09-22T03:56:27Z
+# Total: 119665
 
 HOST,1-fss24-s0.streamhoster.com
 HOST,14033.live.streamtheworld.com
@@ -35102,6 +35102,7 @@ HOST-SUFFIX,fnnspa.com
 HOST-SUFFIX,fnos.net
 HOST-SUFFIX,fnrcw.com
 HOST-SUFFIX,fnrczp.com
+HOST-SUFFIX,fnrrc.com
 HOST-SUFFIX,fnsbqvz.com
 HOST-SUFFIX,fnscore.com
 HOST-SUFFIX,fnwlzz.com
@@ -38944,6 +38945,7 @@ HOST-SUFFIX,gongkongmall.com
 HOST-SUFFIX,gongkongsaas.com
 HOST-SUFFIX,gonglf.com
 HOST-SUFFIX,gonglve.net
+HOST-SUFFIX,gongniukaiguan.net
 HOST-SUFFIX,gongnou.com
 HOST-SUFFIX,gongpin.net
 HOST-SUFFIX,gongpingjia.com
@@ -64465,6 +64467,7 @@ HOST-SUFFIX,mdaehx.com
 HOST-SUFFIX,mdbchina.com
 HOST-SUFFIX,mdbimg.com
 HOST-SUFFIX,mdclub.org
+HOST-SUFFIX,mddclass.com
 HOST-SUFFIX,mdddg.com
 HOST-SUFFIX,mddj.com
 HOST-SUFFIX,mddlsa.com
@@ -75596,6 +75599,7 @@ HOST-SUFFIX,qudaiji.com
 HOST-SUFFIX,qudao168.com
 HOST-SUFFIX,qudaowuyou.com
 HOST-SUFFIX,qudayun.com
+HOST-SUFFIX,qudian.com
 HOST-SUFFIX,qudingshui.com
 HOST-SUFFIX,qudong.com
 HOST-SUFFIX,qudong51.net
@@ -91144,6 +91148,7 @@ HOST-SUFFIX,ubmsinoexpo.com
 HOST-SUFFIX,uboat100.com
 HOST-SUFFIX,uborn.net
 HOST-SUFFIX,uboxol.com
+HOST-SUFFIX,uboxs.com
 HOST-SUFFIX,ubs001.com
 HOST-SUFFIX,ubssdic.com
 HOST-SUFFIX,ubtrobot.com
@@ -93253,6 +93258,7 @@ HOST-SUFFIX,vwwmsd.com
 HOST-SUFFIX,vx.com
 HOST-SUFFIX,vx56.com
 HOST-SUFFIX,vxe.com
+HOST-SUFFIX,vxhcm.com
 HOST-SUFFIX,vxia.net
 HOST-SUFFIX,vxiaocheng.com
 HOST-SUFFIX,vxinyou.com
@@ -104385,6 +104391,7 @@ HOST-SUFFIX,youbangkeyi.com
 HOST-SUFFIX,youbangyun.com
 HOST-SUFFIX,youbbs.org
 HOST-SUFFIX,youbian.com
+HOST-SUFFIX,youbianku.com
 HOST-SUFFIX,youbibi.com
 HOST-SUFFIX,youbike.me
 HOST-SUFFIX,youbikecn.com
@@ -108495,6 +108502,7 @@ HOST-SUFFIX,zhongliangxny.com
 HOST-SUFFIX,zhonglianhuashu.com
 HOST-SUFFIX,zhonglianhuaxin.com
 HOST-SUFFIX,zhonglianyx.com
+HOST-SUFFIX,zhongliujie.com
 HOST-SUFFIX,zhongliusp.com
 HOST-SUFFIX,zhongliuyiyuan.com
 HOST-SUFFIX,zhonglue-consulting.com
@@ -110704,6 +110712,7 @@ HOST-SUFFIX,zuixiaoyao.com
 HOST-SUFFIX,zuixu.com
 HOST-SUFFIX,zuiyanke.com
 HOST-SUFFIX,zuiyou.com
+HOST-SUFFIX,zuiyou.tv
 HOST-SUFFIX,zuiyouxi.com
 HOST-SUFFIX,zuizhifu.com
 HOST-SUFFIX,zuji360.com
@@ -115041,6 +115050,7 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
+IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
 IP-CIDR,155.126.176.0/23,no-resolve
@@ -119505,7 +119515,7 @@ IP-CIDR,64.188.44.0/23,no-resolve
 IP-CIDR,64.235.227.160/29,no-resolve
 IP-CIDR,64.235.230.152/30,no-resolve
 IP-CIDR,64.71.138.0/25,no-resolve
-IP-CIDR,64.96.4.0/24,no-resolve
+IP-CIDR,64.96.4.0/23,no-resolve
 IP-CIDR,65.111.0.0/19,no-resolve
 IP-CIDR,65.55.60.184/30,no-resolve
 IP-CIDR,65.97.55.248/29,no-resolve
