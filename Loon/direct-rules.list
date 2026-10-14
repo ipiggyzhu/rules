@@ -1,7 +1,7 @@
 # Title: Loon Direct Rules
 # Description: Auto-generated. Do not edit manually.
-# Updated: 2026-10-13T05:59:59Z
-# Total: 12866
+# Updated: 2026-10-14T04:02:59Z
+# Total: 12872
 
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -4278,7 +4278,9 @@ IP-CIDR,168.160.0.0/16,no-resolve
 IP-CIDR,168.230.0.0/24,no-resolve
 IP-CIDR,17.127.128.0/23,no-resolve
 IP-CIDR,17.127.130.0/24,no-resolve
-IP-CIDR,17.188.211.0/24,no-resolve
+IP-CIDR,17.188.209.0/24,no-resolve
+IP-CIDR,17.188.210.0/23,no-resolve
+IP-CIDR,17.188.214.0/24,no-resolve
 IP-CIDR,17.235.160.0/20,no-resolve
 IP-CIDR,17.80.0.0/17,no-resolve
 IP-CIDR,17.80.128.0/18,no-resolve
@@ -7462,7 +7464,6 @@ IP-CIDR,38.102.232.0/24,no-resolve
 IP-CIDR,38.102.234.0/23,no-resolve
 IP-CIDR,38.103.64.26/32,no-resolve
 IP-CIDR,38.105.24.0/21,no-resolve
-IP-CIDR,38.12.255.0/24,no-resolve
 IP-CIDR,38.134.58.0/23,no-resolve
 IP-CIDR,38.181.0.0/19,no-resolve
 IP-CIDR,38.181.32.0/23,no-resolve
@@ -8152,6 +8153,7 @@ IP-CIDR,45.251.160.0/19,no-resolve
 IP-CIDR,45.251.192.0/19,no-resolve
 IP-CIDR,45.251.224.0/22,no-resolve
 IP-CIDR,45.251.240.0/22,no-resolve
+IP-CIDR,45.251.248.0/23,no-resolve
 IP-CIDR,45.251.52.0/22,no-resolve
 IP-CIDR,45.251.8.0/22,no-resolve
 IP-CIDR,45.251.84.0/22,no-resolve
@@ -9467,6 +9469,7 @@ IP-CIDR6,2402:7820::/32,no-resolve
 IP-CIDR6,2402:7d00::/32,no-resolve
 IP-CIDR6,2402:7d80::/32,no-resolve
 IP-CIDR6,2402:7da0::/32,no-resolve
+IP-CIDR6,2402:7e20::/32,no-resolve
 IP-CIDR6,2402:8180::/32,no-resolve
 IP-CIDR6,2402:8300::/32,no-resolve
 IP-CIDR6,2402:8380::/32,no-resolve
@@ -11207,7 +11210,10 @@ IP-CIDR6,240b:4002::/36,no-resolve
 IP-CIDR6,240b:4004::/31,no-resolve
 IP-CIDR6,240b:4006:1000::/43,no-resolve
 IP-CIDR6,240b:4006:1020::/44,no-resolve
+IP-CIDR6,240b:4006:1104::/46,no-resolve
 IP-CIDR6,240b:4006:110c::/46,no-resolve
+IP-CIDR6,240b:4006:1110::/45,no-resolve
+IP-CIDR6,240b:4006:1118::/46,no-resolve
 IP-CIDR6,240b:4006::/48,no-resolve
 IP-CIDR6,240b:4007::/32,no-resolve
 IP-CIDR6,240b:4009::/32,no-resolve
