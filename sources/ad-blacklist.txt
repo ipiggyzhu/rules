@@ -56,7 +56,6 @@ ad.12306.cn
 ad.cyapi.cn
 ad.hzyoka.com
 ad.lovefree.cc
-ad.mcloud.139.com
 ad.oceanengine.com
 ad.qq.com
 ad.shunchangzhixing.com
