@@ -10,6 +10,8 @@ youtube.com
 
 # 腾讯
 snowflake.qq.com
+# 微信长连接入口，被上游 oisd big 误收；拦截后微信会提示"网络不佳"
+szlong.weixin.qq.com
 
 # 个人域名
 66990000.xyz

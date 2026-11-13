@@ -695,6 +695,11 @@ if __name__ == "__main__":
     stats.set_dedup_stats("QX直连规则", len(qx_direct_combined), len(qx_direct_final))
     write_rules(QUANTUMULTX_DIRECT_OUTPUT, qx_direct_final, "QuantumultX Direct Rules")
 
+    # QX 广告表要等上面的直连表生成后才能消解冲突，所以放到这里写出。
+    qx_ad_final = resolve_cross_list_conflicts(qx_ad_final, qx_direct_final)
+    stats.set_dedup_stats("QX广告规则", len(qx_ad_combined), len(qx_ad_final))
+    write_rules(QUANTUMULTX_AD_OUTPUT, qx_ad_final, "QuantumultX Ad Rules")
+
     # 打印统计报告
     stats.print_report()
 
