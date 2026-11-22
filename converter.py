@@ -101,6 +101,7 @@ class Stats:
         self.before_dedup = {}  # {category: count}
         self.after_dedup = {}  # {category: count}
         self.final_counts = {}  # {output_file: count}
+        self.rules_changed = False
 
     def add_source(self, url, count, success=True):
         if success:
@@ -112,36 +113,40 @@ class Stats:
         self.before_dedup[category] = before
         self.after_dedup[category] = after
 
-    def set_final_count(self, output_file, count):
+    def set_final_count(self, output_file, count, changed):
         self.final_counts[output_file] = count
+        self.rules_changed |= changed
+
+    @staticmethod
+    def previous_stats():
+        try:
+            with open(STATS_FILE, encoding='utf-8') as f:
+                previous = json.load(f)
+            return previous if isinstance(previous, dict) else {}
+        except (FileNotFoundError, ValueError):
+            return {}
 
     def get_diff(self):
         """与上次运行对比"""
-        if not os.path.exists(STATS_FILE):
+        previous = self.previous_stats().get('final_counts', {})
+        if not previous:
             return None
-
-        try:
-            with open(STATS_FILE, 'r', encoding='utf-8') as f:
-                old_stats = json.load(f)
-
-            diff = {}
-            for key, new_count in self.final_counts.items():
-                old_count = old_stats.get('final_counts', {}).get(key, 0)
-                diff[key] = new_count - old_count
-            return diff
-        except:
-            return None
+        return {key: count - previous.get(key, 0) for key, count in self.final_counts.items()}
 
     def save(self):
-        """保存统计到文件"""
+        """规则和统计都未变化时，沿用上次更新时间。"""
+        previous = self.previous_stats()
         data = {
-            'timestamp': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            'timestamp': previous.get('timestamp'),
             'source_stats': self.source_stats,
             'failed_sources': self.failed_sources,
             'before_dedup': self.before_dedup,
             'after_dedup': self.after_dedup,
             'final_counts': self.final_counts
         }
+        if not self.rules_changed and data['timestamp'] and data == previous:
+            return
+        data['timestamp'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
         with open(STATS_FILE, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
@@ -280,6 +285,8 @@ def fetch_rules_from_urls(urls):
     """从多个URL获取规则"""
     rules = set()
     for url in urls:
+        if url in stats.failed_sources:
+            continue
         try:
             print(f"  📥 {url.split('/')[-1][:50]}")
             if url in FETCH_CACHE:
@@ -290,20 +297,25 @@ def fetch_rules_from_urls(urls):
                 continue
 
             response = fetch_with_retry(url)
+            body = response.text
+            if body.lstrip().startswith("<"):
+                raise ValueError("上游返回了标记文档，预期为规则列表")
             extracted_rule_set = set()
             count = 0
-            for line in response.text.splitlines():
+            for line in body.splitlines():
                 extracted_rules = extract_rules_from_line(line)
                 if extracted_rules:
                     extracted_rule_set.update(extracted_rules)
                     count += len(extracted_rules)
 
+            if not extracted_rule_set:
+                raise ValueError("上游未提供可识别的规则")
             FETCH_CACHE[url] = (extracted_rule_set, count)
             rules.update(extracted_rule_set)
             print(f"     ✅ 获取 {count} 条规则")
             stats.add_source(url, count, success=True)
-        except requests.RequestException as e:
-            print(f"     ❌ 失败: {e}")
+        except (requests.RequestException, ValueError) as e:
+            print(f"     ❌ {url}: {e}")
             stats.add_source(url, 0, success=False)
     return rules
 
@@ -350,20 +362,30 @@ def filter_by_whitelist(rules, whitelist):
     if not whitelist:
         return rules
 
+    whitelist = {clean_rule_value(host).lower().rstrip('.') for host in whitelist}
+    # 上游若添加父域名的后缀规则，也会覆盖已明确放行的主机。
+    covering_suffixes = set()
+    for host in whitelist:
+        labels = host.split('.')
+        covering_suffixes.update('.'.join(labels[i:]) for i in range(len(labels)))
+
     filtered = set()
     removed_count = 0
-
     for rule in rules:
         parts = rule.split(',')
         if len(parts) >= 2:
-            domain = parts[1].strip().lower()
-            # 检查域名是否在白名单中，或者是白名单域名的子域名
-            should_remove = False
-            for white_domain in whitelist:
-                if domain == white_domain or domain.endswith('.' + white_domain):
-                    should_remove = True
-                    break
-            if should_remove:
+            kind = parts[0].strip().upper()
+            value = clean_rule_value(parts[1].strip()).lower()
+            if kind in KEYWORD_RULE_TYPES:
+                conflicts = bool(value) and any(value in host for host in whitelist)
+            elif kind in SUFFIX_RULE_TYPES or kind in EXACT_RULE_TYPES:
+                value = value.rstrip('.')
+                conflicts = (kind in SUFFIX_RULE_TYPES and value in covering_suffixes) or any(
+                    value == host or value.endswith('.' + host) for host in whitelist
+                )
+            else:
+                conflicts = False
+            if conflicts:
                 removed_count += 1
                 continue
         filtered.add(rule)
@@ -605,20 +627,30 @@ def resolve_cross_list_conflicts(ad_rules, direct_rules):
 
 
 def write_rules(filepath, rules, title):
-    """写入规则文件"""
+    """只在规则内容或文件头变化时写入。"""
+    title_line = f"# Title: {title}\n"
+    description = "# Description: Auto-generated. Do not edit manually.\n"
+    total = f"# Total: {len(rules)}\n"
+    try:
+        with open(filepath, encoding='utf-8') as f:
+            same = (f.readline() == title_line and f.readline() == description
+                    and f.readline().startswith("# Updated: ") and f.readline() == total
+                    and f.readline() == "\n" and all(f.readline() == rule + "\n" for rule in rules)
+                    and f.read(1) == "")
+    except (FileNotFoundError, UnicodeDecodeError):
+        same = False
+
+    stats.set_final_count(filepath, len(rules), changed=not same)
+    if same:
+        print(f"  ✅ {filepath} ({len(rules)} 条规则，无变化)")
+        return
+
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     timestamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-
     with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(f"# Title: {title}\n")
-        f.write(f"# Description: Auto-generated. Do not edit manually.\n")
-        f.write(f"# Updated: {timestamp}\n")
-        f.write(f"# Total: {len(rules)}\n\n")
-        for rule in rules:
-            f.write(f"{rule}\n")
-
+        f.write(f"{title_line}{description}# Updated: {timestamp}\n{total}\n")
+        f.writelines(rule + "\n" for rule in rules)
     print(f"  ✅ {filepath} ({len(rules)} 条规则)")
-    stats.set_final_count(filepath, len(rules))
 
 
 def generate_summary():
@@ -657,12 +689,23 @@ if __name__ == "__main__":
     print(f"  白名单: {len(whitelist)} 条")
     print(f"  直连规则: {len(directlist)} 条")
 
+    # 四份订阅来自同一批输入。先检查全部上游，再覆盖已有产物。
+    print("\n📥 获取上游规则...")
+    loon_direct_upstream = fetch_rules_from_urls(LOON_DIRECT_RULES_URLS)
+    loon_ad_upstream = fetch_rules_from_urls(LOON_AD_RULES_URLS)
+    qx_ad_upstream = fetch_rules_from_urls(QUANTUMULTX_AD_RULES_URLS)
+    qx_direct_upstream = fetch_rules_from_urls(QUANTUMULTX_DIRECT_RULES_URLS)
+    with open("failed_sources.txt", "w", encoding="utf-8") as f:
+        for url in stats.failed_sources:
+            f.write(f"{url}\n")
+    if stats.failed_sources:
+        raise SystemExit(f"{len(stats.failed_sources)} 个上游源不可用，保留上次生成的订阅")
+
     # ========== 直连规则 ==========
     # 先生成直连表，广告表随后要用它来消解冲突。
 
     # 生成 Loon 直连规则
     print("\n🍎 生成 Loon 直连规则...")
-    loon_direct_upstream = fetch_rules_from_urls(LOON_DIRECT_RULES_URLS)
     loon_direct_combined = loon_direct_upstream | directlist
     loon_direct_final = format_for_loon(loon_direct_combined)
     stats.set_dedup_stats("Loon直连规则", len(loon_direct_combined), len(loon_direct_final))
@@ -672,7 +715,6 @@ if __name__ == "__main__":
 
     # 生成 Loon 广告规则
     print("\n🍎 生成 Loon 广告规则...")
-    loon_ad_upstream = fetch_rules_from_urls(LOON_AD_RULES_URLS)
     loon_ad_combined = loon_ad_upstream | blacklist
     loon_ad_filtered = filter_by_whitelist(loon_ad_combined, whitelist)
     loon_ad_final = format_for_loon(loon_ad_filtered)
@@ -682,14 +724,12 @@ if __name__ == "__main__":
 
     # 生成 Quantumult X 广告规则
     print("\n🔷 生成 Quantumult X 广告规则...")
-    qx_ad_upstream = fetch_rules_from_urls(QUANTUMULTX_AD_RULES_URLS)
     qx_ad_combined = qx_ad_upstream | blacklist
     qx_ad_filtered = filter_by_whitelist(qx_ad_combined, whitelist)
     qx_ad_final = format_for_quantumultx(qx_ad_filtered)
 
     # 生成 Quantumult X 直连规则
     print("\n🔷 生成 Quantumult X 直连规则...")
-    qx_direct_upstream = fetch_rules_from_urls(QUANTUMULTX_DIRECT_RULES_URLS)
     qx_direct_combined = qx_direct_upstream | directlist
     qx_direct_final = format_for_quantumultx(qx_direct_combined)
     stats.set_dedup_stats("QX直连规则", len(qx_direct_combined), len(qx_direct_final))
@@ -703,18 +743,10 @@ if __name__ == "__main__":
     # 打印统计报告
     stats.print_report()
 
-    # 保存统计数据
-    stats.save()
-
     # 输出摘要（供 GitHub Actions 使用）
     summary = generate_summary()
+    stats.save()
     print(f"\n📝 摘要: {summary}")
-
-    # 保存失效的上游源到文件供 Telegram 通知使用
-    if stats.failed_sources:
-        with open("failed_sources.txt", "w", encoding="utf-8") as f:
-            for url in stats.failed_sources:
-                f.write(f"{url}\n")
 
     # 写入环境变量文件（供 GitHub Actions 读取）
     github_output = os.environ.get('GITHUB_OUTPUT')

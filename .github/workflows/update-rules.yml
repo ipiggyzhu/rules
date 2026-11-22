@@ -2,8 +2,17 @@ name: Update Rules
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/*.txt'
+      - 'converter.py'
   schedule:
-    - cron: '0 0 * * *' # 每天上海时间早上八点 (UTC 时间 0 点) 运行
+    - cron: '23 0 * * 1,3,5' # 每周一、三、五北京时间 08:23
+
+concurrency:
+  group: update-rules-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   convert:
@@ -14,6 +23,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -22,8 +33,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
+          python -m pip install requests
+
+      - name: Check allowlist and source failure handling
+        run: python -m unittest discover -s scripts -p test_update_rules.py
 
       - name: Run converter script
         id: converter
@@ -34,15 +47,14 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
+          git add -- Loon/*.list QuantumultX/*.list stats.json failed_sources.txt
           if ! git diff --staged --quiet; then
             SUMMARY="${{ steps.converter.outputs.summary }}"
             if [ -z "$SUMMARY" ]; then
               SUMMARY="自动更新规则"
             fi
             git commit -m "feat(rules): $SUMMARY"
-            git pull --rebase origin main
-            git push origin HEAD:main
+            git push origin "HEAD:${GITHUB_REF_NAME}"
             echo "changes=true" >> $GITHUB_OUTPUT
             echo "Changes detected and pushed to the repository."
           else
@@ -61,8 +73,6 @@ jobs:
             LOON_DIRECT_COUNT="${{ steps.converter.outputs.loon_direct_count }}"
             QX_AD_COUNT="${{ steps.converter.outputs.qx_ad_count }}"
             QX_DIRECT_COUNT="${{ steps.converter.outputs.qx_direct_count }}"
-            HAS_FAILED="${{ steps.converter.outputs.has_failed }}"
-            FAILED_COUNT="${{ steps.converter.outputs.failed_count }}"
             DEDUP_COUNT="${{ steps.converter.outputs.dedup_count }}"
 
             MESSAGE="✅ 规则更新成功%0A%0A"
@@ -70,14 +80,6 @@ jobs:
             MESSAGE+="  • Loon 规则: ad-rules: ${LOON_AD_COUNT} 条    direct-rules: ${LOON_DIRECT_COUNT} 条%0A"
             MESSAGE+="  • QuantumultX 规则: ad-rules: ${QX_AD_COUNT} 条    direct-rules: ${QX_DIRECT_COUNT} 条%0A"
             MESSAGE+="🔄 去重: ${DEDUP_COUNT} 条"
-
-            if [ "$HAS_FAILED" = "true" ] && [ -f "failed_sources.txt" ]; then
-              MESSAGE+="%0A%0A⚠️ 警告: ${FAILED_COUNT} 个上游源获取失败%0A%0A"
-              MESSAGE+="失效的上游源:%0A"
-              while IFS= read -r url; do
-                MESSAGE+="  • ${url}%0A"
-              done < failed_sources.txt
-            fi
 
             curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
               -d chat_id="${TELEGRAM_CHAT_ID}" \

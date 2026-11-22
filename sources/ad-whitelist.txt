@@ -12,6 +12,8 @@ youtube.com
 snowflake.qq.com
 # 微信长连接入口，被上游 oisd big 误收；拦截后微信会提示"网络不佳"
 szlong.weixin.qq.com
+# 腾讯地图组件的密钥校验接口（腾讯云微搭地图组件依赖）
+apikey.map.qq.com
 
 # 个人域名
 66990000.xyz

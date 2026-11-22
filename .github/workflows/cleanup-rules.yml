@@ -21,12 +21,15 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install DNS resolver
+        run: python -m pip install 'dnspython>=2.7,<3'
+
+      - name: Test rule checker
+        run: python -m unittest discover -s scripts -p test_rule_checker.py
+
       - name: Run rule checker
         id: checker
-        run: |
-          python scripts/rule_checker.py --clean 2>&1 | tee checker.log
-          INVALID_COUNT=$(grep -oP '已移除 \K\d+' checker.log || echo "0")
-          echo "invalid_count=$INVALID_COUNT" >> $GITHUB_OUTPUT
+        run: python scripts/rule_checker.py --clean
 
       - name: Check for changes
         id: check
@@ -48,7 +51,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
+          git add -- sources/ad-blacklist.txt Loon/*.list QuantumultX/*.list stats.json failed_sources.txt
           INVALID_COUNT="${{ steps.checker.outputs.invalid_count }}"
           git commit -m "chore: 清理 ${INVALID_COUNT} 条无效域名规则"
           git push
